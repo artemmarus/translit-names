@@ -81,7 +81,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: ["20", "22", "24"]
+        node: ["22", "24"]  # dev tooling (vitest 5) needs Node 22+; the package itself runs on 18+
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -115,3 +115,30 @@ jobs:
           npm install "$GITHUB_WORKSPACE"/js/translit-names-*.tgz
           node --input-type=module -e 'import { transliterate } from "translit-names"; if (transliterate("Щербаков Юрий") !== "Shcherbakov Iurii") process.exit(1)'
           node -e 'const { similarity } = require("translit-names"); if (!(similarity("Магомед", "Mehmet") > 0.9)) process.exit(1)'
+      - uses: actions/upload-artifact@v4
+        if: matrix.node == '24'
+        with:
+          name: npm-package
+          path: js/translit-names-*.tgz
+
+  js-compat:
+    name: Built package / Node ${{ matrix.node }}
+    needs: js
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["18", "20"]
+    steps:
+      - uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: npm-package
+      - name: Install the tarball and use it (ESM + CommonJS)
+        run: |
+          npm init -y >/dev/null
+          npm install ./translit-names-*.tgz
+          node --input-type=module -e 'import { transliterate, mrzName } from "translit-names"; if (transliterate("Щербаков Юрий") !== "Shcherbakov Iurii" || !mrzName("Щербаков", "Юрий").startsWith("SHCHERBAKOV<<IURII")) process.exit(1)'
+          node -e 'const { variants, similarity } = require("translit-names"); if (variants("محمد", { limit: 1 })[0] !== "Muhammad" || !(similarity("Магомед", "Mehmet") > 0.9)) process.exit(1)'
