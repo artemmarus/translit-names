@@ -330,9 +330,6 @@ def name_key(name: str, language: Optional[str] = None) -> str:
     return " ".join(sorted(k for k in keys if k))
 
 
-_SPLIT_RE = re.compile(r"[\s,;/]+|(?<=\w)-(?=\w)")
-
-
 def split_name(name: str) -> List[str]:
     """Split a full name into parts on spaces, commas and hyphens.
 
@@ -352,17 +349,11 @@ def split_name(name: str) -> List[str]:
 
 
 def jaro_winkler(a: str, b: str, prefix_weight: float = 0.1) -> float:
-    """Jaro–Winkler similarity in [0, 1] (pure Python, rapidfuzz if installed)."""
+    """Jaro–Winkler similarity in [0, 1] (prefix bonus up to 4 characters)."""
     if a == b:
         return 1.0 if a else 0.0
     if not a or not b:
         return 0.0
-    try:  # pragma: no cover - optional speed-up
-        from rapidfuzz.distance import JaroWinkler  # type: ignore[import-not-found,unused-ignore]
-
-        return float(JaroWinkler.similarity(a, b, prefix_weight=prefix_weight))
-    except ImportError:
-        pass
     la, lb = len(a), len(b)
     window = max(0, max(la, lb) // 2 - 1)
     ma = [False] * la
@@ -510,7 +501,7 @@ def _part_score(a: _Part, b: _Part) -> Tuple[float, str]:
         # Both are known names but different ones (Hasan ≠ Husayn).
         score = min(score, 0.6)
         reason = "different-names"
-    return round(score, 4), reason
+    return score, reason
 
 
 def _merged(parts: List[_Part], language: Optional[str], use_lexicon: bool) -> List[List[_Part]]:
@@ -556,18 +547,19 @@ def compare(
     pb = _prepare(b, language_b, use_lexicon)
     if not pa or not pb:
         return MatchResult(0.0)
-    best = _compare_parts(pa, pb)
-    if len(pa) != len(pb) and best.score < 0.97:
+    best_raw, best = _compare_parts(pa, pb)
+    if len(pa) != len(pb) and best_raw < 0.97:
         longer_is_a = len(pa) > len(pb)
         lang = language_a if longer_is_a else language_b
         for alt in _merged(pa if longer_is_a else pb, lang, use_lexicon):
-            res = _compare_parts(alt, pb) if longer_is_a else _compare_parts(pa, alt)
-            if res.score > best.score:
-                best = res
+            raw, res = _compare_parts(alt, pb) if longer_is_a else _compare_parts(pa, alt)
+            if raw > best_raw:
+                best_raw, best = raw, res
     return best
 
 
-def _compare_parts(pa: List[_Part], pb: List[_Part]) -> MatchResult:
+def _compare_parts(pa: List[_Part], pb: List[_Part]) -> Tuple[float, MatchResult]:
+    """Best alignment of two part lists: (unrounded score, result)."""
     swap = len(pa) > len(pb)
     small, big = (pb, pa) if swap else (pa, pb)
     matrix = [[_part_score(x, y) for y in big] for x in small]
@@ -591,14 +583,14 @@ def _compare_parts(pa: List[_Part], pb: List[_Part]) -> MatchResult:
     for i, j in enumerate(best_perm):
         s, reason = matrix[i][j]
         left, right = (big[j], small[i]) if swap else (small[i], big[j])
-        pairs.append(PartMatch(left.raw, right.raw, s, reason))
+        pairs.append(PartMatch(left.raw, right.raw, round(s, 4), reason))
     extra = [big[j] for j in range(len(big)) if j not in best_perm]
     weights = [max(len(small[i].latin), 3) for i in range(len(small))]
     score = sum(matrix[i][j][0] * w for (i, j), w in zip(enumerate(best_perm), weights)) / sum(weights)
     # Each unmatched part (patronymic, second given name) costs 4%, capped at 15%.
     score *= 1 - min(0.15, 0.04 * len(extra))
     unmatched = tuple(p.raw for p in extra)
-    return MatchResult(
+    return score, MatchResult(
         score=round(score, 4),
         pairs=tuple(pairs),
         unmatched_left=unmatched if swap else (),

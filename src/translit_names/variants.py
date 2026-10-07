@@ -146,8 +146,9 @@ class _Pool:
             self.items[key] = (text, score, {source})
 
     def ranked(self) -> List[Variant]:
+        """Candidates by decreasing score (unrounded), then alphabetically."""
         return sorted(
-            (Variant(t, round(s, 4), tuple(sorted(src))) for t, s, src in self.items.values()),
+            (Variant(t, s, tuple(sorted(src))) for t, s, src in self.items.values()),
             key=lambda v: (-v.score, v.text),
         )
 
@@ -313,7 +314,7 @@ def variants_detailed(
         text = re.sub(r"\s+", " ", text).strip()
         key = text.lower()
         if key and key not in seen:
-            seen[key] = Variant(text, round(score, 4), tuple(sorted(srcs)))
+            seen[key] = Variant(text, round(score, 4), tuple(sorted(srcs)))  # rounded for display only
         if len(seen) >= limit:
             break
     return list(seen.values())

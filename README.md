@@ -5,9 +5,9 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**Transliteration, spelling variants and cross-script matching of personal names from Slavic and Muslim-majority countries.**
+**Transliteration, spelling variants and cross-script matching of personal names from Slavic and Muslim-majority countries.** Available for **Python** and **TypeScript/JavaScript** — same data, identical results.
 
-[Русская версия →](README.ru.md)
+[Русская версия →](README.ru.md) · [TypeScript package →](js/README.md)
 
 One name has many legitimate Latin spellings. **Юрий** is `Iurii` in a Russian passport issued today, was `Yuriy` in one issued in 2005, is `Yuri` in the press, `Yury` on Wikipedia, `Jurij` in German records and `Iouri` in French ones. **محمد** is `Muhammad`, `Mohammed`, `Mohamed`, `Mohammad`, `Mehmet` or `Magomed` depending on the country. `translit-names` knows the official standards behind these spellings and the practice around them:
 
@@ -44,11 +44,23 @@ One name has many legitimate Latin spellings. **Юрий** is `Iurii` in a Russi
 
 ## Installation
 
+**Python** (3.9+):
+
 ```bash
 pip install git+https://github.com/artemmarus/translit-names.git
 ```
 
-Optional speed-up for matching: `pip install "translit-names[fast] @ git+https://github.com/artemmarus/translit-names.git"` (uses `rapidfuzz` if available).
+**TypeScript / JavaScript** (Node.js 18+, browsers) — see [js/README.md](js/README.md):
+
+```ts
+import { transliterate, variants, similarity, mrzName } from "translit-names";
+
+transliterate("Щербаков Юрий");               // "Shcherbakov Iurii"
+variants("محمد", { limit: 4 });               // ["Muhammad", "Mohammed", "Mohamed", "Mohammad"]
+similarity("Мухаммед Али", "Mohammed Ali");   // 0.985
+```
+
+The TypeScript package is a port of the Python one built from the same JSON data; CI checks that both give identical results on ~11,700 reference cases (`scripts/gen_parity_fixtures.py` → `js/test/parity.test.ts`).
 
 ## Usage
 

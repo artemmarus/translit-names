@@ -1,0 +1,83 @@
+{
+  "name": "translit-names",
+  "version": "0.1.0",
+  "description": "Transliteration, spelling variants and cross-script matching of Slavic and Muslim personal names (ICAO 9303, BGN/PCGN, ISO 9, GOST 7.79, ALA-LC, national standards). Zero dependencies.",
+  "keywords": [
+    "transliteration",
+    "romanization",
+    "names",
+    "name-matching",
+    "cyrillic",
+    "arabic",
+    "persian",
+    "urdu",
+    "russian",
+    "ukrainian",
+    "kazakh",
+    "uzbek",
+    "icao",
+    "mrz",
+    "passport",
+    "bgn-pcgn",
+    "iso9",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": "Artem Marus",
+  "homepage": "https://github.com/artemmarus/translit-names/tree/main/js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemmarus/translit-names.git",
+    "directory": "js"
+  },
+  "bugs": "https://github.com/artemmarus/translit-names/issues",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./core": {
+      "import": {
+        "types": "./dist/core.d.ts",
+        "default": "./dist/core.js"
+      },
+      "require": {
+        "types": "./dist/core.d.cts",
+        "default": "./dist/core.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "gen-data": "node scripts/gen-data.mjs",
+    "build": "npm run gen-data && tsup",
+    "typecheck": "npm run gen-data && tsc --noEmit",
+    "test": "npm run gen-data && vitest run",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

@@ -5,9 +5,9 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-**Транслитерация, варианты написания и сопоставление личных имён из славянских и мусульманских стран.**
+**Транслитерация, варианты написания и сопоставление личных имён из славянских и мусульманских стран.** Есть версии для **Python** и **TypeScript/JavaScript**: данные общие, результаты совпадают.
 
-[English version →](README.md)
+[English version →](README.md) · [TypeScript-пакет →](js/README.md)
 
 У одного имени много законных латинских написаний. **Юрий** — это `Iurii` в загранпаспорте, выданном сегодня, `Yuriy` в паспорте 2005 года, `Yuri` в прессе, `Yury` в Википедии, `Jurij` в немецких документах и `Iouri` во французских. **محمد** — это `Muhammad`, `Mohammed`, `Mohamed`, `Mohammad`, `Mehmet` или `Magomed` в зависимости от страны. `translit-names` знает официальные стандарты, стоящие за этими написаниями, и реальную практику вокруг них:
 
@@ -44,9 +44,23 @@
 
 ## Установка
 
+**Python** (3.9+):
+
 ```bash
 pip install git+https://github.com/artemmarus/translit-names.git
 ```
+
+**TypeScript / JavaScript** (Node.js 18+, браузеры) — подробности в [js/README.md](js/README.md):
+
+```ts
+import { transliterate, variants, similarity, mrzName } from "translit-names";
+
+transliterate("Щербаков Юрий");               // "Shcherbakov Iurii"
+variants("محمد", { limit: 4 });               // ["Muhammad", "Mohammed", "Mohamed", "Mohammad"]
+similarity("Мухаммед Али", "Mohammed Ali");   // 0.985
+```
+
+TypeScript-пакет — порт Python-версии, собранный из тех же JSON-данных. CI проверяет, что обе версии дают одинаковый результат на ~11 700 эталонных случаях (`scripts/gen_parity_fixtures.py` → `js/test/parity.test.ts`). Для браузера есть облегчённая точка входа `translit-names/core` без словаря имён (≈128 КБ gzip вместо ≈255 КБ).
 
 ## Использование
 

@@ -41,9 +41,6 @@ classifiers = [
 ]
 dependencies = []
 
-[project.optional-dependencies]
-fast = ["rapidfuzz>=3"]
-
 [project.scripts]
 translit-names = "translit_names.cli:main"
 

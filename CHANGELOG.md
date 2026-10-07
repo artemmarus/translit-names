@@ -8,6 +8,14 @@ All notable changes to this project are documented here. The format follows
 
 First public release.
 
+### TypeScript / JavaScript
+- `js/`: TypeScript port with the same API (camelCase), built from the same
+  JSON data; ESM + CommonJS + type declarations, zero dependencies,
+  Node.js 18+ and browsers. `translit-names/core` entry point without the
+  name lexicon.
+- Parity tests: `scripts/gen_parity_fixtures.py` records ~11,700 Python
+  results that the TypeScript tests must reproduce exactly.
+
 ### Added
 - Context-aware rule engine (word start/end, previous/next letter, classes,
   longest match, automatic case restoration, Arabic shadda gemination).

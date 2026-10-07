@@ -74,3 +74,44 @@ jobs:
         with:
           name: dist
           path: dist/
+
+  js:
+    name: TypeScript / Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["20", "22", "24"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - uses: actions/setup-node@v5
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+          cache-dependency-path: js/package-lock.json
+      - name: Parity fixtures are up to date with the Python implementation
+        run: |
+          python -m pip install -e .
+          python scripts/gen_parity_fixtures.py
+          git diff --exit-code js/test/fixtures/parity.json
+      - name: Install
+        working-directory: js
+        run: npm ci
+      - name: Typecheck
+        working-directory: js
+        run: npm run typecheck
+      - name: Test (incl. parity with Python)
+        working-directory: js
+        run: npm test
+      - name: Build and smoke-test the package
+        working-directory: js
+        run: |
+          npm run build
+          npm pack
+          mkdir -p /tmp/consumer && cd /tmp/consumer && npm init -y >/dev/null
+          npm install "$GITHUB_WORKSPACE"/js/translit-names-*.tgz
+          node --input-type=module -e 'import { transliterate } from "translit-names"; if (transliterate("Щербаков Юрий") !== "Shcherbakov Iurii") process.exit(1)'
+          node -e 'const { similarity } = require("translit-names"); if (!(similarity("Магомед", "Mehmet") > 0.9)) process.exit(1)'

@@ -1,0 +1,33 @@
+# Publishes the TypeScript package (js/) to npm when a GitHub Release is published.
+# Setup (one time): create the package on npmjs.com with `npm publish` from js/
+# (or add an NPM_TOKEN repository secret), then enable Trusted Publishing for
+# repository artemmarus/translit-names and workflow publish-npm.yml.
+name: Publish to npm
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: js
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+      - run: npm install -g npm@latest
+      - run: npm ci
+      - run: npm run typecheck && npm test && npm run build
+      - run: npm publish --access public --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

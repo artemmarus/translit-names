@@ -35,6 +35,19 @@ checks the structure.
 Open an issue with: the input, the scheme id, the output you got, the output
 you expected, and a link to the rule in the official source.
 
+## TypeScript port
+
+`js/` is a port of the Python package that uses the same data. After changing
+Python code or data, regenerate the reference results and run the TS tests:
+
+```bash
+python scripts/gen_parity_fixtures.py
+cd js && npm install && npm test
+```
+
+CI fails if the committed `js/test/fixtures/parity.json` is out of date or if
+the TypeScript results differ from Python.
+
 ## Code style
 
 `ruff check`, `ruff format`, `mypy` (strict). No runtime dependencies: the
