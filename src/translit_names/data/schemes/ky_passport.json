@@ -1,0 +1,50 @@
+{
+  "id": "ky_passport",
+  "extends": "ru_icao",
+  "title": "Kyrgyz — passport-style ASCII (observed practice)",
+  "language": "ky",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "year": null,
+  "ascii": true,
+  "authority": "No published table; Cabinet Resolution No. 651 of 29 Sept 2026 lets applicants choose their Latin spelling",
+  "description": "Kyrgyz Cyrillic names in the ASCII form common in Kyrgyz passports: Ң→N, Ө→O, Ү→U, Ж→ZH, Х→KH, initial and post-vowel Е→YE, Ю/Я→YU/YA, final Й→Y, Ь/Ъ dropped (Атамбаев → Atambayev, Жуманазарова → Zhumanazarova, Тыныбекова → Tynybekova).",
+  "sources": [
+    "https://economist.kg/pravo-znat/2026/10/02/pravila-oformleniya-pasportov/",
+    "https://kloop.kg/blog/2015/08/11/bektur-iskender-kak-izbezhat-idiotskogo-napisaniya-imeni-v-zagranpasporte/",
+    "https://24.kg/obschestvo/5051_grs_kyirgyizstantsyi_mogut_sami_proverit_napisanie_familii_i_imeni_v_zagranpasporte/",
+    "https://grs.gov.kg/ru/questions/21-Pravovaia-ghramotnost-napisaniie-familii-v-pasport/",
+    "https://en.wikipedia.org/wiki/Romanization_of_Kyrgyz",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf"
+  ],
+  "notes": [
+    "Resolution No. 651 (29 Sept 2026, in force 10 days after publication) lets a citizen state the desired Latin spelling of surname, name and patronymic, provided meaning and phonetics are kept. Passport spellings therefore vary by holder; this scheme is only the most common default.",
+    "Earlier reporting (2015) found ж, к, ң, ы, ө, ү typed in 3–4 arbitrary variants (Жумагулов → Dzhumagulov, Хамид → Khamid vs Hamid). No official table was found; status informal.",
+    "Ж→ZH matches athletes' passport names (Meerim Zhumanazarova, Akzhol Makhmudov); politicians' official English forms use J (Sadyr Japarov, Sooronbay Jeenbekov). Generate J, DZH, ZH; also Ң→NG, Ө→OE/U, Ү→UE/YU, Ы→I, Е→E, Ю/Я→IU/IA (strict ICAO).",
+    "Patronymic markers уулу / кызы come out as uulu / kyzy."
+  ],
+  "alphabet": "абвгдеёжзийклмнңоөпрстуүфхцчшщъыьэюя",
+  "classes": {
+    "V": "аеёиоөуүыэюя"
+  },
+  "rules": [
+    {"from": "е", "to": "ye", "after": "^{V}ъь"},
+    {"from": "й", "to": "y", "end": true}
+  ],
+  "map": {
+    "ё": "yo", "ъ": "", "ю": "yu", "я": "ya", "ң": "n", "ө": "o", "ү": "u"
+  },
+  "samples": [
+    ["Алмазбек Атамбаев", "Almazbek Atambayev"],
+    ["Курманбек Бакиев", "Kurmanbek Bakiyev"],
+    ["Роза Отунбаева", "Roza Otunbayeva"],
+    ["Мээрим Жуманазарова", "Meerim Zhumanazarova"],
+    ["Айсулуу Тыныбекова", "Aisuluu Tynybekova"],
+    ["Садыр Жапаров", "Sadyr Zhaparov"],
+    ["Сооронбай Жээнбеков", "Sooronbay Zheenbekov"],
+    ["Чыңгыз Айтматов", "Chyngyz Aitmatov"],
+    ["Асанбек уулу", "Asanbek uulu"],
+    ["ЖАПАРОВ САДЫР", "ZHAPAROV SADYR"]
+  ]
+}

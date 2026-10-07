@@ -1,0 +1,49 @@
+{
+  "id": "uk_scientific",
+  "title": "Ukrainian — scholarly (scientific) transliteration",
+  "language": "uk",
+  "script": "Cyrl",
+  "kind": "scholarly",
+  "status": "current",
+  "reversible": true,
+  "authority": "Scholarly convention (Slavic linguistics); no single issuing body",
+  "description": "International scholarly transliteration used in Slavic linguistics: Г→H, Ґ→G, Є→JE, Ж→Ž, И→Y, Ї→JI, Й→J, Х→X, Ц→C, Ч→Č, Ш→Š, Щ→ŠČ, Ю→JU, Я→JA, Ь→ʹ, apostrophe→ʼ.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scientific_transliteration_of_Cyrillic",
+    "https://en.wikipedia.org/wiki/Romanization_of_Ukrainian"
+  ],
+  "notes": [
+    "Ь is ʹ (U+02B9) as in the table of Scientific transliteration of Cyrillic; Wikipedia's Ukrainian comparison table shows ʼ instead.",
+    "The apostrophe is kept as ʼ (U+02BC); some authors omit it.",
+    "Х is x in modern usage (older works: ch)."
+  ],
+  "alphabet": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя",
+  "classes": {
+    "L": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "h", "ґ": "g", "д": "d", "е": "e", "є": "je",
+    "ж": "ž", "з": "z", "и": "y", "і": "i", "ї": "ji", "й": "j", "к": "k", "л": "l",
+    "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "x", "ц": "c", "ч": "č", "ш": "š", "щ": "šč", "ь": "ʹ", "ю": "ju",
+    "я": "ja"
+  },
+  "rules": [
+    {"from": "'", "to": "ʼ", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Київ", "Kyjiv"],
+    ["Харків", "Xarkiv"],
+    ["Щербухи", "Ščerbuxy"],
+    ["Ґалаґан", "Galagan"],
+    ["Знам'янка", "Znamʼjanka"],
+    ["Ярослав Рудницький", "Jaroslav Rudnycʹkyj"],
+    ["Анна-Яна", "Anna-Jana"],
+    ["ЇЖАКЕВИЧ ЄВГЕН", "JIŽAKEVYČ JEVHEN"],
+    ["Юрій Шевченко", "Jurij Ševčenko"],
+    ["Петро Федорів", "Petro Fedoriv"]
+  ]
+}

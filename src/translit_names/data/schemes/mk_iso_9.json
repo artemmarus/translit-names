@@ -1,0 +1,39 @@
+{
+  "id": "mk_iso_9",
+  "title": "Macedonian — ISO 9:1995",
+  "language": "mk",
+  "script": "Cyrl",
+  "kind": "library",
+  "status": "current",
+  "year": 1995,
+  "ascii": false,
+  "reversible": true,
+  "authority": "ISO 9:1995 (Information and documentation — Transliteration of Cyrillic characters into Latin characters)",
+  "description": "Language-independent one-to-one transliteration applied to Macedonian: Ѓ→ǵ, Ѕ→ẑ, Ј→ǰ, Љ→l\u0302, Њ→n\u0302, Ќ→ḱ, Џ→d\u0302, with č/š/ž. Reversible; rarely used outside documentation.",
+  "sources": [
+    "https://www.iso.org/standard/3589.html",
+    "https://en.wikipedia.org/wiki/Romanization_of_Macedonian",
+    "https://en.wikipedia.org/wiki/ISO_9"
+  ],
+  "notes": [
+    "l\u0302, n\u0302, d\u0302 and capital J\u030c have no precomposed code points: they are written as base letter + U+0302 COMBINING CIRCUMFLEX (U+030C CARON for J\u030c). Lower-case ǰ is precomposed U+01F0.",
+    "ISO 9:1968 (and the Macedonian Academy 1970 / BGN/PCGN 2013 system) uses ǵ ž dz j lj nj ḱ č dž š instead; see mk_bgn_pcgn."
+  ],
+  "alphabet": "абвгдѓежзѕијклљмнњопрстќуфхцчџш",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ѓ": "ǵ", "е": "e", "ж": "ž", "з": "z",
+    "ѕ": "ẑ", "и": "i", "ј": "ǰ", "к": "k", "л": "l", "љ": "l\u0302", "м": "m", "н": "n",
+    "њ": "n\u0302", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "ќ": "ḱ", "у": "u", "ф": "f",
+    "х": "h", "ц": "c", "ч": "č", "џ": "d\u0302", "ш": "š", "ѐ": "è", "ѝ": "ì"
+  },
+  "samples": [
+    ["Ѓорѓи Петров", "Ǵorǵi Petrov"],
+    ["Кочо Рацин", "Kočo Racin"],
+    ["Блаже Конески", "Blaže Koneski"],
+    ["Скопје", "Skopǰe"],
+    ["Ѕвездана Љубеновска", "Ẑvezdana L\u0302ubenovska"],
+    ["Ќирил Џеладиновски", "Ḱiril D\u0302eladinovski"],
+    ["Јована-Њагула Шопова", "J\u030covana-N\u0302agula Šopova"],
+    ["ЃОРЃИЕВСКИ НИКОЛА", "ǴORǴIEVSKI NIKOLA"]
+  ]
+}

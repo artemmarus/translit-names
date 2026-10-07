@@ -1,0 +1,61 @@
+{
+  "id": "az_ascii",
+  "title": "Azerbaijani — English/passport-style ASCII (Resolution 498 letter rules)",
+  "language": "az",
+  "script": "Latn",
+  "kind": "passport",
+  "status": "informal",
+  "year": 2020,
+  "ascii": true,
+  "authority": "Letter rules of Cabinet of Ministers Resolution No. 498 of 16 Dec 2020, Schedule 2 (Azerbaijani→English, geographic names); passport use inferred",
+  "description": "Azerbaijani Latin to the English spelling used for Azerbaijani names abroad: Ə→A, X→KH, Q→G, Ğ→GH, C→J, Ç→CH, Ş→SH, J→ZH, Ö→O, Ü→U, I/ı→I (Məmmədov → Mammadov, Orxan → Orkhan, Ceyhun → Jeyhun). The letter values are the official ones for geographic names; the only passport evidence is a specimen reading HUSEYNLI ORKHAN.",
+  "sources": [
+    "https://nk.gov.az/uploads/doc/docs/old/85a9767d58be7d125611562803cd39c4.pdf",
+    "https://www.mondaq.com/knowledge-management/1048876/",
+    "https://www.consilium.europa.eu/prado/en/AZE-AO-02002/index.html",
+    "https://library.ict.az/elektron/2023/Principles_of_formation_of_transliteration_rules_for_the_azerbaijani_language_using_expert_systems.pdf",
+    "https://en.wikipedia.org/wiki/Azerbaijani_passport",
+    "https://sites.google.com/site/seesscm/azerbaijani-personal-names"
+  ],
+  "notes": [
+    "Resolution 498 Schedule 2 (official, geographic names): a e i o u unchanged; ı→i, ö→o, ü→u; c→j; ç ğ x j ş → ch gh kh zh sh; g and q → g; ə→e in the words Azər, bəy, bəyim, dərə, dəhnə, ət, kənd, köhnə, pəyə, təpə, təzə, otherwise ə→a. Only the exceptions that occur in personal names (Azər, bəy/bəyim) are implemented; traditional exceptions (Bakı→Baku, Azərbaycan→Azerbaijan) are not.",
+    "Passport evidence is thin: one PRADO specimen (AZE-AO-02002) seen only as a search snippet shows HUSEYNLI ORKHAN (Ü→U, X→KH). No State Migration Service / MIA transliteration table was found, so Q→G, Ç→CH, Ş→SH, C→J and Ə→A in the MRZ are unverified, though they match the official English forms of public figures (Aliyev, Jeyhun Bayramov, Gurbanov, Shahin Mustafayev).",
+    "Alternatives to generate for matching: Ə→E next to l, m, n, r, y (ICT Baku 2023 rule: Azer, Adigozel), Ə→Ä (PCGN substitute, also accepted as input here); Q→Q or K; Ğ→G; X→X or H; J→J; strict ICAO folding (Ç→C, Ş→S, Ğ→G, X and Q kept); Russified forms (Mamedov, Guliyev, Gasanov, Dzhafarov).",
+    "Patronymic particles oğlu / qızı become oghlu / gizi here; Russian-document forms are ogly / kyzy.",
+    "Cyrillic ә (U+04D9) typed instead of Latin ə (U+0259) is accepted."
+  ],
+  "alphabet": "abcçdeəfgğhxıijkqlmnoöprsştuüvyz",
+  "fallback": "ascii",
+  "aliases": {
+    "ә": "ə"
+  },
+  "rules": [
+    {"from": "azər", "to": "azer", "start": true, "note": "Resolution 498 §2.4.1: Azər → Azer"},
+    {"from": "bəy", "to": "bey", "note": "Resolution 498 §2.4.1: bəy, bəyim → bey, beyim (Ağabəyli → Aghabeyli)"}
+  ],
+  "map": {
+    "a": "a", "b": "b", "c": "j", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i",
+    "j": "zh", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "g", "r": "r",
+    "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "kh", "y": "y", "z": "z", "ç": "ch",
+    "ə": "a", "ğ": "gh", "ı": "i", "ö": "o", "ş": "sh", "ü": "u", "ä": "a", "\u0307": ""
+  },
+  "samples": [
+    ["İlham Əliyev", "Ilham Aliyev"],
+    ["Heydər Əliyev", "Heydar Aliyev"],
+    ["Məhəmməd Hüseynli", "Mahammad Huseynli"],
+    ["HÜSEYNLİ ORXAN", "HUSEYNLI ORKHAN"],
+    ["Ceyhun Bayramov", "Jeyhun Bayramov"],
+    ["Qurban Qurbanov", "Gurban Gurbanov"],
+    ["Toğrul Əsgərov", "Toghrul Asgarov"],
+    ["Rəşad Sadıqov", "Rashad Sadigov"],
+    ["Elçin Əfəndiyev", "Elchin Afandiyev"],
+    ["Azər Məmmədov", "Azer Mammadov"],
+    ["Xədicə Ağabəyli", "Khadija Aghabeyli"],
+    ["Qaraməmmədli", "Garamammadli"],
+    ["Xıdırlı", "Khidirli"],
+    ["Hacıalılar", "Hajialilar"],
+    ["Şəfəqli", "Shafagli"],
+    ["Güllücə", "Gulluja"],
+    ["Muğanlı", "Mughanli"]
+  ]
+}

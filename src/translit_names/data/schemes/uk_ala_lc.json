@@ -1,0 +1,64 @@
+{
+  "id": "uk_ala_lc",
+  "title": "Ukrainian — ALA-LC (Library of Congress)",
+  "language": "uk",
+  "script": "Cyrl",
+  "kind": "library",
+  "status": "current",
+  "year": 2011,
+  "authority": "Library of Congress / American Library Association, Ukrainian romanization table (2011)",
+  "description": "Library of Congress romanization of Ukrainian used in library catalogues, with ligature ties: Г→H, Ґ→G, Є→I͡E, Ж→Z͡H, И→Y, Ї→Ï, Й→Ĭ, Ц→T͡S, Ю→I͡U, Я→I͡A, Ь→ʹ.",
+  "sources": [
+    "https://www.loc.gov/catdir/cpso/romanization/ukrainia.pdf",
+    "https://en.wikipedia.org/wiki/Romanization_of_Ukrainian",
+    "https://github.com/interscript/maps/blob/main/maps/alalc-ukr-Cyrl-Latn-1997.isc"
+  ],
+  "notes": [
+    "Ties (U+0361) distinguish ж (z͡h) from зг (zh) and ц (t͡s) from тс (ts). Both tied letters are capitalized for a capital Cyrillic letter (I͡Aroslav), as in LC catalogue practice; done with post rules.",
+    "The apostrophe has no row in the LoC table. This scheme renders it ʺ (U+02BA), following LC cataloguing practice (e.g. obʺi͡ednanni͡a); other users drop it or keep ’. Uncertain.",
+    "'Modified LC' used in English texts drops ties, diacritics and ʹ, writes initial Ye-/Y-/Yu-/Ya- and -yi/-ii → -y (Yaroslav Rudnytsky); not encoded here."
+  ],
+  "alphabet": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя",
+  "classes": {
+    "L": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "h", "ґ": "g", "д": "d", "е": "e", "є": "i͡e",
+    "ж": "z͡h", "з": "z", "и": "y", "і": "i", "ї": "ï", "й": "ĭ", "к": "k", "л": "l",
+    "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "kh", "ц": "t͡s", "ч": "ch", "ш": "sh", "щ": "shch", "ь": "ʹ", "ю": "i͡u",
+    "я": "i͡a"
+  },
+  "rules": [
+    {"from": "'", "to": "ʺ", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "post": [
+    {"pattern": "I͡e", "replace": "I͡E"},
+    {"pattern": "Z͡h", "replace": "Z͡H"},
+    {"pattern": "T͡s", "replace": "T͡S"},
+    {"pattern": "I͡u", "replace": "I͡U"},
+    {"pattern": "I͡a", "replace": "I͡A"}
+  ],
+  "samples": [
+    ["Висунь", "Vysunʹ"],
+    ["Долинське", "Dolynsʹke"],
+    ["Кожанка", "Koz͡hanka"],
+    ["Краснянка", "Krasni͡anka"],
+    ["Мокіївці", "Mokiïvt͡si"],
+    ["Одеська область", "Odesʹka oblastʹ"],
+    ["Згурський", "Zhursʹkyĭ"],
+    ["Ярослав Рудницький", "I͡Aroslav Rudnyt͡sʹkyĭ"],
+    ["Знам'янка", "Znamʺi͡anka"],
+    ["Анна-Яна", "Anna-I͡Ana"],
+    ["ЄВГЕН ЖУК", "I͡EVHEN Z͡HUK"],
+    ["Юхим Шевченко", "I͡Ukhym Shevchenko"],
+    ["Ґанна Пилипчук-Щербак", "Ganna Pylypchuk-Shcherbak"],
+    ["Федір", "Fedir"],
+    ["Єнакієве", "I͡Enakii͡eve"],
+    ["Житомир", "Z͡Hytomyr"],
+    ["Біла Церква", "Bila T͡Serkva"]
+  ]
+}

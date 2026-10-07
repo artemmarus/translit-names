@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "translit-names"
+dynamic = ["version"]
+description = "Transliteration, spelling variants and cross-script matching of Slavic and Muslim personal names (ICAO 9303, BGN/PCGN, ISO 9, GOST 7.79, ALA-LC, national standards)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Artem Marus" }]
+keywords = [
+    "transliteration", "romanization", "names", "cyrillic", "arabic", "persian", "urdu",
+    "russian", "ukrainian", "kazakh", "uzbek", "icao", "mrz", "passport", "name-matching", "bgn-pcgn", "iso9",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Natural Language :: Russian",
+    "Natural Language :: Ukrainian",
+    "Natural Language :: Arabic",
+    "Natural Language :: Persian",
+    "Natural Language :: Urdu",
+    "Natural Language :: Turkish",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+fast = ["rapidfuzz>=3"]
+
+[project.scripts]
+translit-names = "translit_names.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/artemmarus/translit-names"
+Documentation = "https://github.com/artemmarus/translit-names#readme"
+Issues = "https://github.com/artemmarus/translit-names/issues"
+Changelog = "https://github.com/artemmarus/translit-names/blob/main/CHANGELOG.md"
+
+[tool.hatch.version]
+path = "src/translit_names/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/translit_names"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "docs", "scripts", "README.md", "README.ru.md", "CHANGELOG.md", "LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
+ignore = ["RUF001", "RUF002", "RUF003", "E501", "UP006", "UP007", "UP035", "UP045", "SIM108"]
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+files = ["src/translit_names"]

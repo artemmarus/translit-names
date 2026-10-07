@@ -1,0 +1,88 @@
+{
+  "id": "uk_national_1996",
+  "title": "Ukrainian — Legal Terminology Commission 1996",
+  "language": "uk",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "superseded",
+  "year": 1996,
+  "authority": "Ukrainian Legal Terminology Commission, Decision No. 9 of 19.04.1996",
+  "description": "Official Ukrainian–English system of Decision No. 9 of the Ukrainian Legal Terminology Commission (19.04.1996), binding for names in legislative and official acts until the 2010 resolution: like KMU 2010 but Щ→SCH and Ь→’.",
+  "sources": [
+    "https://web.archive.org/web/20080926111427/http://www.rada.gov.ua/translit",
+    "https://en.wikipedia.org/wiki/Romanization_of_Ukrainian",
+    "https://github.com/interscript/maps/blob/main/maps/ua-ukr-Cyrl-Latn-1996.isc"
+  ],
+  "notes": [
+    "Samples are the examples of the 1996 table (two misprints in the source, Ніжин → 'Nizhin' and Крюківка → 'Krukivka', are left out).",
+    "The table gives ‘ for Ь (examples Rus’, L’viv, rendered here as ’ U+2019) and “ for the apostrophe, but its own example Знам’янка → Znamianka omits the apostrophe and the commentary allows omitting both marks; this scheme omits the apostrophe and keeps ’ for Ь. Wikipedia lists ʼ for Ь and ˮ for the apostrophe.",
+    "The commentary also allows simplifying doubled letters (Zaporizhzhia → Zaporizhia); not applied.",
+    "The 2004 passport practice listed on Wikipedia (variants g/h, zh/j, v/w, k/c; Ь → ʹ) is too ambiguous to encode as a separate scheme."
+  ],
+  "alphabet": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя",
+  "classes": {
+    "L": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "h", "ґ": "g", "д": "d", "е": "e", "є": "ie",
+    "ж": "zh", "з": "z", "и": "y", "і": "i", "ї": "i", "й": "i", "к": "k", "л": "l",
+    "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "kh", "ц": "ts", "ч": "ch", "ш": "sh", "щ": "sch", "ь": "’", "ю": "iu",
+    "я": "ia"
+  },
+  "rules": [
+    {"from": "зг", "to": "zgh"},
+    {"from": "є", "to": "ye", "start": true},
+    {"from": "ї", "to": "yi", "start": true},
+    {"from": "й", "to": "y", "start": true},
+    {"from": "ю", "to": "yu", "start": true},
+    {"from": "я", "to": "ya", "start": true},
+    {"from": "'", "to": "", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Алушта", "Alushta"],
+    ["Борщагівка", "Borschahivka"],
+    ["Вишгород", "Vyshhorod"],
+    ["Гадяч", "Hadiach"],
+    ["Згорани", "Zghorany"],
+    ["Ґалаґан", "Galagan"],
+    ["Дон", "Don"],
+    ["Рівне", "Rivne"],
+    ["Єнакієве", "Yenakiieve"],
+    ["Наєнко", "Naienko"],
+    ["Житомир", "Zhytomyr"],
+    ["Закарпаття", "Zakarpattia"],
+    ["Медвин", "Medvyn"],
+    ["Іршава", "Irshava"],
+    ["Їжакевич", "Yizhakevych"],
+    ["Кадіївка", "Kadiivka"],
+    ["Йосипівка", "Yosypivka"],
+    ["Стрий", "Stryi"],
+    ["Київ", "Kyiv"],
+    ["Лебедин", "Lebedyn"],
+    ["Миколаїв", "Mykolaiv"],
+    ["Одеса", "Odesa"],
+    ["Полтава", "Poltava"],
+    ["Ромни", "Romny"],
+    ["Суми", "Sumy"],
+    ["Тетерів", "Teteriv"],
+    ["Ужгород", "Uzhhorod"],
+    ["Фастів", "Fastiv"],
+    ["Харків", "Kharkiv"],
+    ["Біла Церква", "Bila Tserkva"],
+    ["Чернівці", "Chernivtsi"],
+    ["Шостка", "Shostka"],
+    ["Гоща", "Hoscha"],
+    ["Русь", "Rus’"],
+    ["Львів", "L’viv"],
+    ["Юрій", "Yurii"],
+    ["Яготин", "Yahotyn"],
+    ["Ічня", "Ichnia"],
+    ["Знам’янка", "Znamianka"],
+    ["Анна-Яна", "Anna-Yana"],
+    ["ЗГУРСЬКИЙ ЄВГЕН", "ZGHURS’KYI YEVHEN"]
+  ]
+}

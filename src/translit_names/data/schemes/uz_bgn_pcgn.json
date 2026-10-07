@@ -1,0 +1,51 @@
+{
+  "id": "uz_bgn_pcgn",
+  "title": "Uzbek — BGN/PCGN 2000",
+  "language": "uz",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 2000,
+  "authority": "BGN/PCGN 2000 Agreement (table checked Nov 2022); supersedes BGN/PCGN 1979",
+  "description": "BGN/PCGN table of correspondences from former Uzbek Cyrillic to the 1995 Uzbek Latin alphabet, for geographic names. Ў→o‘, Ғ→g‘, Ъ and Ь→’, Ц→ts, Е→ye initially and after vowels, й, ъ, ь.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/636cda6dd3bf7f16466f478f/TABLE_OF_CORRESPONDENCES_FOR_UZBEK_2022_final.pdf",
+    "https://en.wikipedia.org/wiki/Uzbek_alphabet"
+  ],
+  "notes": [
+    "PCGN prints the modifier as U+2018 (o‘, g‘) and the apostrophe as U+2019; the Uzbek standard prescribes U+02BB and U+02BC (see uz_latin).",
+    "Note 1: ye is used initially, after а е ё и о у э ю я ў, and after й, ъ, ь (Судочье → Sudoch’ye).",
+    "PCGN says the table should continue to be used despite discussions on altering the official alphabet (the 2026 reform law was unsigned as of 7 Oct 2026)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшъьэюяўқғҳ",
+  "classes": {
+    "V": "аеёиоуэюяў"
+  },
+  "rules": [
+    {"from": "е", "to": "ye", "after": "^{V}йъь"}
+  ],
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "j", "з": "z",
+    "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o", "п": "p", "р": "r",
+    "с": "s", "т": "t", "у": "u", "ф": "f", "х": "x", "ц": "ts", "ч": "ch", "ш": "sh", "ъ": "’",
+    "ь": "’", "э": "e", "ю": "yu", "я": "ya", "ў": "o‘", "қ": "q", "ғ": "g‘", "ҳ": "h"
+  },
+  "samples": [
+    ["Ажириқти", "Ajiriqti"],
+    ["Бешбулоқ", "Beshbuloq"],
+    ["Етимоғ", "Yetimog‘"],
+    ["Ёшлик", "Yoshlik"],
+    ["Жўш", "Jo‘sh"],
+    ["Комбайн", "Kombayn"],
+    ["Нурмахон", "Nurmaxon"],
+    ["Шўрсув", "Sho‘rsuv"],
+    ["Съезд", "S’yezd"],
+    ["Судочье", "Sudoch’ye"],
+    ["Эшқудуқ", "Eshquduq"],
+    ["Ғозғон", "G‘ozg‘on"],
+    ["Ҳива", "Hiva"],
+    ["Шавкат Мирзиёев", "Shavkat Mirziyoyev"],
+    ["Ўткир Ҳошимов", "O‘tkir Hoshimov"],
+    ["ҒОЗҒОН", "G‘OZG‘ON"]
+  ]
+}

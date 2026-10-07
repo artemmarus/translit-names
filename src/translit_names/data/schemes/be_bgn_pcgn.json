@@ -1,0 +1,78 @@
+{
+  "id": "be_bgn_pcgn",
+  "title": "Belarusian — BGN/PCGN 1979",
+  "language": "be",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 1979,
+  "authority": "US Board on Geographic Names / Permanent Committee on Geographical Names for British Official Use, 1979",
+  "description": "US/UK geographic-names romanization of Belarusian: Г→H, Е→YE, Ё→YO, Ю→YU, Я→YA in all positions, Й→Y, Ў→W, Х→KH, Ц→TS, Ь→’, apostrophe→”.",
+  "sources": [
+    "https://geonames.nga.mil/geonames/GNSSearch/GNSDocs/romanization/ROMANIZATION_OF_BELARUSIAN.pdf",
+    "https://github.com/interscript/maps/blob/main/maps/bgnpcgn-bel-Cyrl-Latn-1979.isc",
+    "https://en.wikipedia.org/wiki/Romanization_of_Belarusian"
+  ],
+  "notes": [
+    "Samples are examples of the BGN/PCGN document (as transcribed by interscript) without the optional midpoints.",
+    "Optional midpoints for зг, кг, сг, тс, цг (z·h, k·h, s·h, t·s, ts·h) are not applied (Гезгалы → Hyezhaly, not Hyez·haly).",
+    "Е Ё Ю Я are iotated in every position (Менск → Myensk); there is no positional rule."
+  ],
+  "alphabet": "абвгдеёжзійклмнопрстуўфхцчшыьэюя",
+  "classes": {
+    "L": "абвгдеёжзійклмнопрстуўфхцчшыьэюя"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "h", "д": "d", "е": "ye", "ё": "yo", "ж": "zh",
+    "з": "z", "і": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ў": "w", "ф": "f", "х": "kh",
+    "ц": "ts", "ч": "ch", "ш": "sh", "ы": "y", "ь": "’", "э": "e", "ю": "yu", "я": "ya"
+  },
+  "rules": [
+    {"from": "'", "to": "”", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Вілейка", "Vilyeyka"],
+    ["Брэст", "Brest"],
+    ["Віцебск", "Vitsyebsk"],
+    ["Гродна", "Hrodna"],
+    ["Гомель", "Homyel’"],
+    ["Ёдкавічы", "Yodkavichy"],
+    ["Нёман", "Nyoman"],
+    ["Жлобін", "Zhlobin"],
+    ["Зоя", "Zoya"],
+    ["князь", "knyaz’"],
+    ["Ігнат", "Ihnat"],
+    ["Йосель", "Yosyel’"],
+    ["Койданава", "Koydanava"],
+    ["Крапіўна", "Krapiwna"],
+    ["Менск", "Myensk"],
+    ["Лёсік", "Lyosik"],
+    ["Міхал", "Mikhal"],
+    ["Вільня", "Vil’nya"],
+    ["Магілёў", "Mahilyow"],
+    ["Уладзімір", "Uladzimir"],
+    ["Бабруйск", "Babruysk"],
+    ["Іўе", "Iwye"],
+    ["Хатынь", "Khatyn’"],
+    ["цьмяны", "ts’myany"],
+    ["Прыпяць", "Prypyats’"],
+    ["Чэрыкаў", "Cherykaw"],
+    ["Шчара", "Shchara"],
+    ["Ыттык-Кёль", "Yttyk-Kyol’"],
+    ["Эйсманты", "Eysmanty"],
+    ["Юры", "Yury"],
+    ["Язэп", "Yazep"],
+    ["Івянец", "Ivyanyets"],
+    ["з’езд", "z”yezd"],
+    ["Дзям’янаўцы", "Dzyam”yanawtsy"],
+    ["Задвор’е", "Zadvor”ye"],
+    ["Дар'я Аляксееўна", "Dar”ya Alyaksyeyewna"],
+    ["ЯЎГЕН ЛУКАШЭНКА", "YAWHYEN LUKASHENKA"],
+    ["Фолюш", "Folyush"],
+    ["фортка", "fortka"]
+  ]
+}

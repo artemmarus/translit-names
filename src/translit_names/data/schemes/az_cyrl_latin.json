@@ -1,0 +1,52 @@
+{
+  "id": "az_cyrl_latin",
+  "title": "Azerbaijani — Cyrillic (1958–1991) to official Latin alphabet",
+  "language": "az",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "current",
+  "year": 1992,
+  "reversible": true,
+  "authority": "Law on the restoration of the Latin-based Azerbaijani alphabet (25 Dec 1991), alphabet revised 1992; letter correspondence as in BGN/PCGN 1993",
+  "description": "Converts legacy Soviet Azerbaijani Cyrillic (superseded in 1991/1992) to today's official Latin alphabet: Ә→Ə, Г→Q, Ҝ→G, Ғ→Ğ, Ј→Y, Ҹ→C, Ч→Ç, Ж→J, Х→X, Һ→H, Ы→I/ı, И→İ/i, Ө→Ö, Ү→Ü, Ш→Ş.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/6329af69d3bf7f75cce70557/TABLE_OF_CORRESPONDENCES_FOR_AZERBAIJANI_-_with_examples.pdf",
+    "https://en.wikipedia.org/wiki/Azerbaijani_alphabet",
+    "https://sites.google.com/site/seesscm/azerbaijani-personal-names"
+  ],
+  "notes": [
+    "The source script is superseded (Cyrillic was used 1939–1991); the target alphabet is the current official one, so this scheme is the standard way to bring Soviet-era records into today's spelling.",
+    "Ј is U+0408/U+0458 (it looks like Latin J but means y). Г is the voiced uvular q, К is k, Ҝ is the palatal g.",
+    "Obsolete pre-1958 letters й, э, ю, я are rendered y, e, yu, ya (PCGN uses ẏ, ė, yu, ya).",
+    "Russian-form spellings in Soviet documents (Алиев, Мамедов, Гусейнов) are Russian, not Azerbaijani Cyrillic; this table turns them into Aliev, Mamedov, Quseynov. Use a Russian scheme for such names.",
+    "Python upper-cases i to I, but Azerbaijani capital i is İ (U+0130) and I is the capital of ı. И is therefore emitted as a placeholder (U+0269/U+0196) that a post rule turns into i/İ, so Имишли → İmişli and ИЛҺАМ → İLHAM."
+  ],
+  "alphabet": "абвгғдеәжзиыјкҝлмноөпрстуүфхһчҹш",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "q", "ғ": "ğ", "д": "d", "е": "e", "ә": "ə", "ж": "j",
+    "з": "z", "и": "ɩ", "ы": "ı", "ј": "y", "к": "k", "ҝ": "g", "л": "l", "м": "m", "н": "n",
+    "о": "o", "ө": "ö", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ү": "ü", "ф": "f",
+    "х": "x", "һ": "h", "ч": "ç", "ҹ": "c", "ш": "ş", "й": "y", "э": "e", "ю": "yu", "я": "ya"
+  },
+  "post": [
+    {"pattern": "ɩ", "replace": "i"},
+    {"pattern": "Ɩ", "replace": "İ"}
+  ],
+  "samples": [
+    ["Һејдәр Әлијев", "Heydər Əliyev"],
+    ["Ҹәфәр Ҹаббарлы", "Cəfər Cabbarlı"],
+    ["Үзејир Һаҹыбәјов", "Üzeyir Hacıbəyov"],
+    ["Мәммәд Әмин Рәсулзадә", "Məmməd Əmin Rəsulzadə"],
+    ["Ҝәнҹә", "Gəncə"],
+    ["Имишли", "İmişli"],
+    ["Бакы", "Bakı"],
+    ["Нахчыван", "Naxçıvan"],
+    ["Јевлах", "Yevlax"],
+    ["Ҝөјчај", "Göyçay"],
+    ["Гах", "Qax"],
+    ["Жиј", "Jiy"],
+    ["ҺАҸЫБӘЈОВ ҮЗЕЈИР", "HACIBƏYOV ÜZEYİR"],
+    ["Шаһбуз", "Şahbuz"],
+    ["Уҹар", "Ucar"]
+  ]
+}

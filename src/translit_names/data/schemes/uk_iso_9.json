@@ -1,0 +1,53 @@
+{
+  "id": "uk_iso_9",
+  "title": "Ukrainian — ISO 9:1995 (GOST 7.79-2000 System A)",
+  "language": "uk",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "current",
+  "year": 1995,
+  "reversible": true,
+  "authority": "ISO 9:1995; GOST 7.79-2000 System A (interstate standard)",
+  "description": "Reversible one-to-one transliteration with diacritics (ISO 9:1995 = GOST 7.79-2000 System A) applied to Ukrainian: Г→G, Ґ→G̀, Є→Ê, И→I, І→Ì, Ї→Ï, Й→J, Х→H, Щ→Ŝ, Ю→Û, Я→Â, Ь→ʹ, apostrophe→ʼ.",
+  "sources": [
+    "https://www.iso.org/standard/3589.html",
+    "https://en.wikipedia.org/wiki/Romanization_of_Ukrainian",
+    "https://en.wikipedia.org/wiki/ISO_9"
+  ],
+  "notes": [
+    "Ґ is g + combining grave (U+0300), which has no precomposed form.",
+    "The apostrophe is kept as ʼ (U+02BC); input apostrophe variants are folded first."
+  ],
+  "alphabet": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя",
+  "classes": {
+    "L": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "ґ": "g̀", "д": "d", "е": "e", "є": "ê",
+    "ж": "ž", "з": "z", "и": "i", "і": "ì", "ї": "ï", "й": "j", "к": "k", "л": "l",
+    "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "h", "ц": "c", "ч": "č", "ш": "š", "щ": "ŝ", "ь": "ʹ", "ю": "û",
+    "я": "â"
+  },
+  "rules": [
+    {"from": "'", "to": "ʼ", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Київ", "Kiïv"],
+    ["Харків", "Harkìv"],
+    ["Щербухи", "Ŝerbuhi"],
+    ["Ґалаґан", "G̀alag̀an"],
+    ["Знам'янка", "Znamʼânka"],
+    ["Їжакевич", "Ïžakevič"],
+    ["Біла Церква", "Bìla Cerkva"],
+    ["Олексій Ковальчук", "Oleksìj Kovalʹčuk"],
+    ["Анна-Яна", "Anna-Âna"],
+    ["ЄНАКІЄВЕ", "ÊNAKÌÊVE"],
+    ["Петро Гнатюк", "Petro Gnatûk"],
+    ["Юрій Шевченко", "Ûrìj Ševčenko"],
+    ["Дмитро Федорів", "Dmitro Fedorìv"]
+  ]
+}

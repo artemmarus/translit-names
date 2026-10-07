@@ -1,0 +1,46 @@
+{
+  "id": "sr_icao",
+  "title": "Serbian / Montenegrin — ICAO Doc 9303 MRZ (Gaj's Latin without diacritics)",
+  "language": "sr",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "current",
+  "year": 2008,
+  "ascii": true,
+  "reversible": false,
+  "authority": "ICAO Doc 9303 Part 3 (8th ed., 2021) §6.A applied to Gaj's Latin; Montenegro, Pravilnik o sadržaju mašinski čitljivog zapisa (2008), Art. 5(4)",
+  "description": "Machine-readable-zone style ASCII for Serbian and Montenegrin names: write in Gaj's Latin, then drop diacritics per ICAO §6.A (Đ→D, Ć/Č→C, Š→S, Ž→Z, Dž→DZ, Lj/Nj kept). Ђоковић → Dokovic.",
+  "sources": [
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://wapi.gov.me/download/389da702-a26d-455c-a4e5-15fe4975d37a?version=1.0",
+    "https://en.wikipedia.org/wiki/Serbian_identity_card",
+    "https://www.danas.rs/drustvo/komplikovano-slovo-dj-u-pasosu/",
+    "https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet"
+  ],
+  "notes": [
+    "Open question: Đ→D or DJ in Serbian MRZs. No Serbian primary source was found. ICAO §6.A gives Đ→D; Montenegro's 2008 MRZ regulation, Art. 5(4), says 'Đ kao D, Ž kao Z, Ć kao C, Č kao C i Š kao S'; a BiH 2002 ID-card rulebook reportedly says the same (unverified); Serbian ID-card MRZs strip diacritics. D is used here; generate DJ (sr_ascii) too when matching.",
+    "ICAO §6.B lists Serbian Г as H. This is an error copied from the Belarusian/Ukrainian rule and is NOT applied: Г→G (Гордана → Gordana).",
+    "ICAO §6.B row '0402' is printed with the Ћ glyph and Ћ (U+040B) itself is missing; this scheme follows Gaj's Latin (Ђ→Đ→D, Ћ→Ć→C). The other ICAO Serbian exceptions (Ж→Z, Ч→C, Ш→S, Х→H, Ц→C, Џ→DZ) agree.",
+    "The visual zone of Serbian passports uses Gaj's Latin with diacritics (sr_gaj). Case is restored from the source; upper-casing and MRZ punctuation/filler rules belong to the MRZ formatter.",
+    "Montenegrin С\u0301/З\u0301 → S/Z (ICAO Ś→S, Ź→Z); combining stress marks are dropped."
+  ],
+  "alphabet": "абвгдђежзијклљмнњопрстћуфхцчџшс\u0301з\u0301",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ђ": "d", "е": "e", "ж": "z", "з": "z",
+    "и": "i", "ј": "j", "к": "k", "л": "l", "љ": "lj", "м": "m", "н": "n", "њ": "nj", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "ћ": "c", "у": "u", "ф": "f", "х": "h", "ц": "c",
+    "ч": "c", "џ": "dz", "ш": "s", "с\u0301": "s", "з\u0301": "z", "ѐ": "e", "ѝ": "i", "\u0301": "",
+    "\u0300": ""
+  },
+  "samples": [
+    ["Новак Ђоковић", "Novak Dokovic"],
+    ["ЂОКОВИЋ НОВАК", "DOKOVIC NOVAK"],
+    ["Ђорђе Ђорђевић", "Dorde Dordevic"],
+    ["Гордана Шћекић", "Gordana Scekic"],
+    ["Љубица Њежић", "Ljubica Njezic"],
+    ["Џевад Џаџић", "Dzevad Dzadzic"],
+    ["Жарко Чубриловић", "Zarko Cubrilovic"],
+    ["Јелена-Ана Хаџић", "Jelena-Ana Hadzic"],
+    ["С\u0301ековић З\u0301ана", "Sekovic Zana"]
+  ]
+}

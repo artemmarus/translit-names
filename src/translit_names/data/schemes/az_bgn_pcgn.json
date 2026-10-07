@@ -1,0 +1,59 @@
+{
+  "id": "az_bgn_pcgn",
+  "title": "Azerbaijani Cyrillic — BGN/PCGN 1993",
+  "language": "az",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 1993,
+  "authority": "BGN/PCGN 1993 Agreement (table checked Sept 2022)",
+  "description": "BGN/PCGN table of correspondences from the former Azerbaijani Cyrillic alphabet to the current Azerbaijani Latin alphabet, for geographic names; obsolete й, э, ю, я → ẏ, ė, yu, ya.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/6329af69d3bf7f75cce70557/TABLE_OF_CORRESPONDENCES_FOR_AZERBAIJANI_-_with_examples.pdf"
+  ],
+  "notes": [
+    "Schwa must be U+018F/U+0259 in Latin (U+04D8/U+04D9 in Cyrillic); where it cannot be reproduced PCGN allows Ä ä.",
+    "PCGN is unsure whether an uppercase Cyrillic Ј exists; U+0408 is assumed.",
+    "The PCGN apostrophe (U+2019) is passed through unchanged.",
+    "Python upper-cases i to I, but Azerbaijani capital i is İ (U+0130) and I is the capital of ı. И is therefore emitted as a placeholder (U+0269/U+0196) that a post rule turns into i/İ, so Имишли → İmişli and ИЛҺАМ → İLHAM."
+  ],
+  "alphabet": "абвгғдеәжзиыјкҝлмноөпрстуүфхһчҹш",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "q", "ғ": "ğ", "д": "d", "е": "e", "ә": "ə", "ж": "j",
+    "з": "z", "и": "ɩ", "ы": "ı", "ј": "y", "к": "k", "ҝ": "g", "л": "l", "м": "m", "н": "n",
+    "о": "o", "ө": "ö", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ү": "ü", "ф": "f",
+    "х": "x", "һ": "h", "ч": "ç", "ҹ": "c", "ш": "ş", "й": "ẏ", "э": "ė", "ю": "yu", "я": "ya"
+  },
+  "post": [
+    {"pattern": "ɩ", "replace": "i"},
+    {"pattern": "Ɩ", "replace": "İ"}
+  ],
+  "samples": [
+    ["Һејдәр Әлијев", "Heydər Əliyev"],
+    ["Ҹәфәр Ҹаббарлы", "Cəfər Cabbarlı"],
+    ["Үзејир Һаҹыбәјов", "Üzeyir Hacıbəyov"],
+    ["Мәммәд Әмин Рәсулзадә", "Məmməd Əmin Rəsulzadə"],
+    ["Ҝәнҹә", "Gəncə"],
+    ["Имишли", "İmişli"],
+    ["Бакы", "Bakı"],
+    ["Нахчыван", "Naxçıvan"],
+    ["Јевлах", "Yevlax"],
+    ["Ҝөјчај", "Göyçay"],
+    ["Гах", "Qax"],
+    ["Жиј", "Jiy"],
+    ["ҺАҸЫБӘЈОВ ҮЗЕЈИР", "HACIBƏYOV ÜZEYİR"],
+    ["Астара", "Astara"],
+    ["Балакән", "Balakən"],
+    ["Ағдаш", "Ağdaş"],
+    ["Дашкәсән", "Daşkəsən"],
+    ["Кәлбәҹәр", "Kəlbəcər"],
+    ["Минҝәчевир", "Mingəçevir"],
+    ["Күрдәмир", "Kürdəmir"],
+    ["Хырдалан", "Xırdalan"],
+    ["Шаһбуз", "Şahbuz"],
+    ["Хачмаз", "Xaçmaz"],
+    ["Уҹар", "Ucar"],
+    ["Шәки", "Şəki"],
+    ["Гусар", "Qusar"]
+  ]
+}

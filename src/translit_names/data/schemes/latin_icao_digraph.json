@@ -1,0 +1,31 @@
+{
+  "id": "latin_icao_digraph",
+  "title": "Latin-script names — ICAO Doc 9303 §6.A folding with digraph options (Ä→AE, Å→AA, Ö→OE, Ü→UE)",
+  "kind": "passport",
+  "status": "current",
+  "description": "Same as latin_icao but with ICAO's two-letter options for umlauts and ring: Ä→AE, Å→AA, Ö→OE, Ü→UE (Ñ stays N). This is the German-speaking and Nordic convention (Müller → MUELLER, Gößmann → GOESSMANN).",
+  "sources": [
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://en.wikipedia.org/wiki/Machine-readable_passport",
+    "https://cs.wikipedia.org/wiki/Strojov%C4%9B_%C4%8Diteln%C3%A1_oblast_doklad%C5%AF"
+  ],
+  "notes": [
+    "ICAO §6.A rows: Ä 'AE or A', Å 'AA or A', Ö 'OE or O', Ü 'UE or UXX or U', Ñ 'N or NXX'. The first option is taken for Ä/Å/Ö/Ü; Ñ keeps N (NXX, App. B §B.4.1, is not produced).",
+    "Which issuers use the digraph options is not documented by ICAO; German, Austrian, Swiss and Nordic practice is the usual reference. Slovak ä, Turkish/Azerbaijani ö/ü and Estonian ä/ö/ü are normally folded to one letter (latin_icao).",
+    "All other letters, aliases and the ASCII fallback are inherited from latin_icao."
+  ],
+  "extends": "latin_icao",
+  "map": {
+    "ä": "ae", "å": "aa", "ö": "oe", "ü": "ue"
+  },
+  "samples": [
+    ["Jürgen Gößmann", "Juergen Goessmann"],
+    ["MÜLLER-LÜDENSCHEIDT Hans", "MUELLER-LUEDENSCHEIDT Hans"],
+    ["Björk Guðmundsdóttir", "Bjoerk Gudmundsdottir"],
+    ["Anders Ångström", "Anders Aangstroem"],
+    ["Äbersold", "Aebersold"],
+    ["Térèsa CAÑON", "Teresa CANON"],
+    ["Søren Kierkegaard", "Soeren Kierkegaard"],
+    ["Lech Wałęsa", "Lech Walesa"]
+  ]
+}

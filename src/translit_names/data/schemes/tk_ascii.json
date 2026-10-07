@@ -1,0 +1,40 @@
+{
+  "id": "tk_ascii",
+  "title": "Turkmen — ICAO Doc 9303 ASCII (passport MRZ)",
+  "language": "tk",
+  "script": "Latn",
+  "kind": "passport",
+  "status": "informal",
+  "ascii": true,
+  "authority": "ICAO Doc 9303 Part 3 (8th ed., 2021), §6.A applied to the Turkmen Latin alphabet (1993/1999)",
+  "description": "Turkmen Latin names folded to the ICAO MRZ alphabet: Ä→A, Ç→C, Ň→N, Ö→O, Ş→S, Ü→U, Ý→Y, Ž→Z; W and J are kept (Nyýazow → Nyyazow, Berdimuhamedow unchanged).",
+  "sources": [
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://assets.publishing.service.gov.uk/media/6329b1638fa8f53cb45763b4/TABLE_OF_CORRESPONDENCES_FOR_TURKMEN_with_examples.pdf",
+    "https://en.wikipedia.org/wiki/Turkmen_alphabet"
+  ],
+  "notes": [
+    "No source was found on Turkmen passport MRZ practice; this is the mechanical ICAO §6.A fold (single-letter options, not AE/OE/UE). Treat as a best guess.",
+    "English-phonetic alternatives to generate: Ç→CH, Ş→SH, Ž→ZH, Ň→NG, J→DZH, W→V, -ow→-ov (Niyazov, Berdymukhamedov); Russian-form ICAO via Cyrillic: Ниязов → NIIAZOV.",
+    "Legacy 1993–1999 letters: ÿ→ý and ñ→ň are accepted. The currency-sign letters ($ ¢ £ ¥) and ſ are not mapped (aliasing ſ would also capture capital S)."
+  ],
+  "alphabet": "abçdeäfghijžklmnňoöprsştuüwyýz",
+  "fallback": "ascii",
+  "map": {
+    "a": "a", "b": "b", "c": "c", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "q", "r": "r",
+    "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "x", "y": "y", "z": "z", "ä": "a",
+    "ç": "c", "ž": "z", "ň": "n", "ö": "o", "ş": "s", "ü": "u", "ý": "y", "ÿ": "y", "ñ": "n"
+  },
+  "samples": [
+    ["Gurbanguly Berdimuhamedow", "Gurbanguly Berdimuhamedow"],
+    ["Serdar Berdimuhamedow", "Serdar Berdimuhamedow"],
+    ["Saparmyrat Nyýazow", "Saparmyrat Nyyazow"],
+    ["Raşit Meredow", "Rasit Meredow"],
+    ["Gülşat Mämmedowa", "Gulsat Mammedowa"],
+    ["Akja Nurberdiýewa", "Akja Nurberdiyewa"],
+    ["NYÝAZOW SAPARMYRAT", "NYYAZOW SAPARMYRAT"],
+    ["Çarşaňňy", "Carsanny"],
+    ["Ýolöten", "Yoloten"]
+  ]
+}

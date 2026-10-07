@@ -1,0 +1,58 @@
+{
+  "id": "ar_buckwalter",
+  "title": "Arabic — Buckwalter transliteration (ASCII, reversible)",
+  "language": "ar",
+  "script": "Arab",
+  "kind": "ascii",
+  "status": "current",
+  "year": 1988,
+  "reversible": true,
+  "authority": "Tim Buckwalter (ALPNET 1988, Xerox); used by the Penn Arabic Treebank, BAMA/SAMA and CAMeL Tools",
+  "description": "Strict one-to-one ASCII transliteration of Arabic letters and diacritics, used in computational linguistics; case-sensitive (H = ح, h = ه), harakat and shadda kept as a, u, i, o, ~, tanwīn as F, N, K. No vocalisation is added: the input is transliterated literally.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Buckwalter_transliteration",
+    "https://camel-tools.readthedocs.io/en/latest/reference/encoding_schemes.html",
+    "https://itftennis.atlassian.net/wiki/download/attachments/1272938619/Passport%20Standards.pdf?api=v2"
+  ],
+  "notes": [
+    "Shadda (~) is written right after its consonant, before the vowel mark (muHam~ad), as in the Penn Arabic Treebank.",
+    "Extended letters پ P, چ J, ڤ V, گ G as in CAMeL Tools. Persian/Urdu letter shapes (ی ک ہ ھ ے ۃ) are folded to their Arabic counterparts before transliteration; other non-Arabic letters are kept unchanged, so the output is ASCII only for Arabic text.",
+    "XML-safe variants (Safe-BW, XML-BW) are not provided."
+  ],
+  "alphabet": "ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيٱپچڤگ",
+  "hook": "arabic",
+  "options": {"lexicon": false},
+  "geminate": "\u0651",
+  "titlecase": false,
+  "case": "preserve",
+  "aliases": {"ی": "ي", "ک": "ك", "ڪ": "ك", "ہ": "ه", "ھ": "ه", "ۀ": "ه", "ە": "ه", "ۃ": "ة", "ې": "ي", "ے": "ي"},
+  "map": {
+    "ء": "'", "آ": "|", "أ": ">", "ؤ": "&", "إ": "<", "ئ": "}", "ا": "A", "ب": "b", "ة": "p", "ت": "t",
+    "ث": "v", "ج": "j", "ح": "H", "خ": "x", "د": "d", "ذ": "*", "ر": "r", "ز": "z", "س": "s", "ش": "$",
+    "ص": "S", "ض": "D", "ط": "T", "ظ": "Z", "ع": "E", "غ": "g", "ـ": "_", "ف": "f", "ق": "q", "ك": "k",
+    "ل": "l", "م": "m", "ن": "n", "ه": "h", "و": "w", "ى": "Y", "ي": "y", "\u064b": "F", "\u064c": "N",
+    "\u064d": "K", "\u064e": "a", "\u064f": "u", "\u0650": "i", "\u0651": "~", "\u0652": "o",
+    "\u0670": "`", "ٱ": "{", "پ": "P", "چ": "J", "ڤ": "V", "گ": "G", "ء\u0651": "'~", "آ\u0651": "|~",
+    "أ\u0651": ">~", "ؤ\u0651": "&~", "إ\u0651": "<~", "ئ\u0651": "}~", "ا\u0651": "A~", "ب\u0651": "b~",
+    "ة\u0651": "p~", "ت\u0651": "t~", "ث\u0651": "v~", "ج\u0651": "j~", "ح\u0651": "H~", "خ\u0651": "x~",
+    "د\u0651": "d~", "ذ\u0651": "*~", "ر\u0651": "r~", "ز\u0651": "z~", "س\u0651": "s~", "ش\u0651": "$~",
+    "ص\u0651": "S~", "ض\u0651": "D~", "ط\u0651": "T~", "ظ\u0651": "Z~", "ع\u0651": "E~", "غ\u0651": "g~",
+    "ف\u0651": "f~", "ق\u0651": "q~", "ك\u0651": "k~", "ل\u0651": "l~", "م\u0651": "m~", "ن\u0651": "n~",
+    "ه\u0651": "h~", "و\u0651": "w~", "ى\u0651": "Y~", "ي\u0651": "y~", "ٱ\u0651": "{~", "پ\u0651": "P~",
+    "چ\u0651": "J~", "ڤ\u0651": "V~", "گ\u0651": "G~"
+  },
+  "samples": [
+    ["مُحَمَّد", "muHam~ad"],
+    ["محمد", "mHmd"],
+    ["مُحَمَّدٌ", "muHam~adN"],
+    ["اللُّغَةُ العَرَبِيَّةُ", "All~ugapu AlEarabiy~apu"],
+    ["عَبْدُ اللّٰهِ", "Eabodu All~`hi"],
+    ["إِبْرَاهِيم", "<iboraAhiym"],
+    ["مُصْطَفَى", "muSoTafaY"],
+    ["فَاطِمَة", "faATimap"],
+    ["ذِئْب", "*i}ob"],
+    ["سُؤَال", "su&aAl"],
+    ["شَيْء", "$ayo'"],
+    ["ٱلْقُرْآن", "{loquro|n"]
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "be_iso_9",
+  "title": "Belarusian — ISO 9:1995 (GOST 7.79-2000 System A)",
+  "language": "be",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "current",
+  "year": 1995,
+  "reversible": true,
+  "authority": "ISO 9:1995; GOST 7.79-2000 System A (interstate standard, also used in Belarus)",
+  "description": "Reversible one-to-one transliteration with diacritics (ISO 9:1995 = GOST 7.79-2000 System A) applied to Belarusian: Г→G, Ё→Ë, Ж→Ž, І→Ì, Й→J, Ў→Ǔ, Х→H, Ц→C, Ч→Č, Ш→Š, Э→È, Ю→Û, Я→Â, Ь→ʹ, apostrophe→ʼ.",
+  "sources": [
+    "https://www.iso.org/standard/3589.html",
+    "https://en.wikipedia.org/wiki/Romanization_of_Belarusian",
+    "https://en.wikipedia.org/wiki/ISO_9"
+  ],
+  "notes": [
+    "The apostrophe is kept as ʼ (U+02BC); input apostrophe variants are folded first.",
+    "Russian-only letters are included for Russian-form names: И→i, Щ→ŝ, Ъ→ʺ."
+  ],
+  "alphabet": "абвгдеёжзійклмнопрстуўфхцчшыьэюя",
+  "classes": {
+    "L": "абвгдеёжзійклмнопрстуўфхцчшыьэюяищъ"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "ë", "ж": "ž",
+    "з": "z", "і": "ì", "й": "j", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ў": "ǔ", "ф": "f", "х": "h",
+    "ц": "c", "ч": "č", "ш": "š", "ы": "y", "ь": "ʹ", "э": "è", "ю": "û", "я": "â",
+    "и": "i", "щ": "ŝ", "ъ": "ʺ"
+  },
+  "rules": [
+    {"from": "'", "to": "ʼ", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Беларусь", "Belarusʹ"],
+    ["Магілёў", "Magìlëǔ"],
+    ["Лукашэнка", "Lukašènka"],
+    ["сям’я", "sâmʼâ"],
+    ["Ціханоўская", "Cìhanoǔskaâ"],
+    ["Ганна-Марыя", "Ganna-Maryâ"],
+    ["ЮРЫЙ ЖУК", "ÛRYJ ŽUK"],
+    ["Віктар Фёдаравіч Дзятлаў", "Vìktar Fëdaravìč Dzâtlaǔ"],
+    ["Пятрусь Шэлег", "Pâtrusʹ Šèleg"]
+  ]
+}

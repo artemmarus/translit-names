@@ -1,0 +1,81 @@
+{
+  "id": "ce_bgn_pcgn",
+  "title": "Chechen — BGN/PCGN 2008",
+  "language": "ce",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 2008,
+  "authority": "BGN/PCGN 2008 Agreement (table checked Jan 2024)",
+  "description": "BGN/PCGN romanization of Chechen Cyrillic with its digraphs: ГӀ→ġ, Кх→q, Къ→q\u0307, КӀ→kh, ПӀ→ph, ТӀ→th, Хь→ẋ, ХӀ→h, ЦӀ→ċ, ЧӀ→ç\u0307, Аь Оь Уь Юь Яь → ä ö ü yü yä, Ж→z\u0335, Х→x, Ц→c, Ч→ç, Ш→ş, lone Ӏ→j.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/65b78e360c75e30012d8019c/TABLE_OF_CORRESPONDENCES_FOR_CHECHEN.pdf",
+    "https://en.wikipedia.org/wiki/Palochka"
+  ],
+  "notes": [
+    "Not applied because they cannot be detected from spelling: ə for short а (note 1) and ŋ for н before a nasalized vowel (note 5).",
+    "Е→ye word- and syllable-initially (note 2), approximated as: word-initially and after a vowel, ъ or ь.",
+    "Ё, Щ, Ъ, Ы occur only in loans (note 3): yo, şç, ’, i.",
+    "Palochka: U+04C0 and U+04CF are both accepted (U+04CF is folded to U+04C0 so that all-caps names stay all-caps); Cyrillic І/і is aliased to it. Latin look-alikes I, l, 1, |, Ⅰ and ǀ are treated as palochka only directly after г к п т х ц ч (the digraph positions); they are not aliased globally, so Latin text is untouched.",
+    "Case workaround: a lone palochka in mid-word (дӀа → dja) is output as j, and a post rule lower-cases the J the engine would otherwise produce from the upper-case code point U+04C0.",
+    "Outputs with combining marks follow the PCGN inventory: q\u0307 = q+U+0307, ç\u0307 = ç+U+0307, z\u0335 = z+U+0335; ġ, ẋ, ċ are stored NFC-composed."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ",
+  "aliases": {
+    "ӏ": "Ӏ", "і": "Ӏ", "І": "Ӏ"
+  },
+  "classes": {
+    "V": "аеёиоуыэюя"
+  },
+  "rules": [
+    {"from": "ккх", "to": "qq", "note": "note 4"},
+    {"from": "ккъ", "to": "q\u0307q\u0307", "note": "note 4"},
+    {"from": "г", "to": "ġ", "before": "ӏliǀ", "note": "гӀ (letter split so that case follows the consonant)"},
+    {"from": ["г1", "г|", "гⅰ"], "to": "ġ", "note": "гӀ typed with a non-letter look-alike"},
+    {"from": "к", "to": "kh", "before": "ӏliǀ", "note": "кӀ (letter split so that case follows the consonant)"},
+    {"from": ["к1", "к|", "кⅰ"], "to": "kh", "note": "кӀ typed with a non-letter look-alike"},
+    {"from": "п", "to": "ph", "before": "ӏliǀ", "note": "пӀ (letter split so that case follows the consonant)"},
+    {"from": ["п1", "п|", "пⅰ"], "to": "ph", "note": "пӀ typed with a non-letter look-alike"},
+    {"from": "т", "to": "th", "before": "ӏliǀ", "note": "тӀ (letter split so that case follows the consonant)"},
+    {"from": ["т1", "т|", "тⅰ"], "to": "th", "note": "тӀ typed with a non-letter look-alike"},
+    {"from": "х", "to": "h", "before": "ӏliǀ", "note": "хӀ (letter split so that case follows the consonant)"},
+    {"from": ["х1", "х|", "хⅰ"], "to": "h", "note": "хӀ typed with a non-letter look-alike"},
+    {"from": "ц", "to": "ċ", "before": "ӏliǀ", "note": "цӀ (letter split so that case follows the consonant)"},
+    {"from": ["ц1", "ц|", "цⅰ"], "to": "ċ", "note": "цӀ typed with a non-letter look-alike"},
+    {"from": "ч", "to": "ç\u0307", "before": "ӏliǀ", "note": "чӀ (letter split so that case follows the consonant)"},
+    {"from": ["ч1", "ч|", "чⅰ"], "to": "ç\u0307", "note": "чӀ typed with a non-letter look-alike"},
+    {"from": ["ӏ", "l", "i", "ǀ"], "to": "", "after": "гкптхцч", "note": "palochka (or look-alike) already rendered by the consonant"},
+    {"from": "е", "to": "ye", "after": "^{V}ъь", "note": "note 2: word- and syllable-initial"}
+  ],
+  "map": {
+    "аь": "ä", "оь": "ö", "уь": "ü", "юь": "yü", "яь": "yä", "кх": "q", "къ": "q\u0307", "хь": "ẋ", "а": "a",
+    "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "z\u0335", "з": "z", "и": "i",
+    "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s",
+    "т": "t", "у": "u", "ф": "f", "х": "x", "ц": "c", "ч": "ç", "ш": "ş", "щ": "şç", "ъ": "’",
+    "ы": "i", "ь": "", "э": "e", "ю": "yu", "я": "ya", "ӏ": "j"
+  },
+  "post": [
+    {"pattern": "(?<=[a-zäöüçşġẋċ\u0335\u0307])J", "replace": "j"},
+    {"pattern": "(?<=[A-ZÄÖÜÇŞĠẊĊ])J(?=[a-zäöüçşġẋċ])", "replace": "j"}
+  ],
+  "samples": [
+    ["Рамзан Кадыров", "Ramzan Kadirov"],
+    ["ХӀасан", "Hasan"],
+    ["Хlасан", "Hasan"],
+    ["Х1асан", "Hasan"],
+    ["Хамзат", "Xamzat"],
+    ["Хьава", "Ẋava"],
+    ["Зелимхан Яндарбиев", "Zelimxan Yandarbiyev"],
+    ["Нохчийчоь", "Noxçiyçö"],
+    ["Соьлжа-ГӀала", "Sölz\u0335a-Ġala"],
+    ["КӀант", "Khant"],
+    ["ЦӀе", "Ċe"],
+    ["ЧӀара", "Ç\u0307ara"],
+    ["Къилба", "Q\u0307ilba"],
+    ["Кхаж", "Qaz\u0335"],
+    ["ДӀа", "Dja"],
+    ["дӀа", "dja"],
+    ["КӀАНТ", "KHANT"],
+    ["КАДЫРОВ РАМЗАН", "KADIROV RAMZAN"]
+  ]
+}

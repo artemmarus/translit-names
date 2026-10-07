@@ -1,0 +1,50 @@
+{
+  "id": "ce_icao",
+  "extends": "ru_icao",
+  "title": "Chechen/Ingush — Russian passport (ICAO/MVD), palochka dropped",
+  "language": "ce",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "authority": "MVD Russia Order No. 996 (2019) / ICAO Doc 9303 for the Russian letters; palochka handling by fallback",
+  "description": "Russian international-passport transliteration (ICAO Doc 9303 / MVD) for Chechen, Ingush and Dagestani names: Russian-form names romanize exactly as in ru_icao (Рамзан Кадыров → Ramzan Kadyrov), and the palochka Ӏ of native spellings and its look-alikes is dropped (ХӀасан, Хlасан → Khasan).",
+  "sources": [
+    "https://www.consultant.ru/document/cons_doc_LAW_346719/413ce7cde653ee8a7c578654112520bdd971d99d/",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://assets.publishing.service.gov.uk/media/65b78e360c75e30012d8019c/TABLE_OF_CORRESPONDENCES_FOR_CHECHEN.pdf",
+    "https://en.wikipedia.org/wiki/Palochka"
+  ],
+  "notes": [
+    "Bearers hold Russian passports with Russian-form names (Рамзан, Ахмат, Хамзат, Магомед), which contain no palochka; the MVD table has no rule for it, so dropping it reproduces the Russian form in the common cases (ХӀасан → Хасан → KHASAN).",
+    "Palochka: U+04C0 and U+04CF are both accepted (U+04CF is folded to U+04C0 so that all-caps names stay all-caps); Cyrillic І/і is aliased to it. Latin look-alikes I, l, 1, |, Ⅰ and ǀ are treated as palochka only directly after г к п т х ц ч (the digraph positions); they are not aliased globally, so Latin text is untouched.",
+    "The native digraph къ is reduced to K (ъ dropped after к) instead of ICAO's KIE. Other native digraphs keep their letter-by-letter ICAO values (кх → KKH, хь → KH, аь → A).",
+    "The Ingush and Avar alphabets use the same palochka; this scheme serves them too."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюяӏ",
+  "aliases": {
+    "ӏ": "Ӏ", "і": "Ӏ", "І": "Ӏ"
+  },
+  "rules": [
+    {"from": ["l", "i", "1", "|", "ⅰ", "ǀ"], "to": "", "after": "гкптхцч", "note": "palochka look-alikes after г к п т х ц ч"},
+    {"from": "ъ", "to": "", "after": "к", "note": "native къ"}
+  ],
+  "map": {
+    "ӏ": ""
+  },
+  "samples": [
+    ["Рамзан Кадыров", "Ramzan Kadyrov"],
+    ["Ахмат Кадыров", "Akhmat Kadyrov"],
+    ["Хамзат Чимаев", "Khamzat Chimaev"],
+    ["Магомед Даудов", "Magomed Daudov"],
+    ["Юнус-Бек Евкуров", "Iunus-Bek Evkurov"],
+    ["Зелимхан Яндарбиев", "Zelimkhan Iandarbiev"],
+    ["Хадижат", "Khadizhat"],
+    ["ХӀасан", "Khasan"],
+    ["Хӏасан", "Khasan"],
+    ["Хlасан", "Khasan"],
+    ["Х1асан", "Khasan"],
+    ["ХӀАСАН", "KHASAN"],
+    ["ХIАСАН", "KHASAN"],
+    ["КАДЫРОВ РАМЗАН АХМАТОВИЧ", "KADYROV RAMZAN AKHMATOVICH"]
+  ]
+}

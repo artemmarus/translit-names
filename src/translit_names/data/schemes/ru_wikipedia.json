@@ -1,0 +1,64 @@
+{
+  "id": "ru_wikipedia",
+  "title": "Russian — English Wikipedia (WP:RUS)",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "practical",
+  "status": "informal",
+  "year": 2005,
+  "ascii": true,
+  "authority": "English Wikipedia guideline WP:RUS (Wikipedia:Romanization of Russian)",
+  "description": "Practical English romanization of the English Wikipedia (a modification of BGN/PCGN without diacritics or apostrophes): Е→YE word-initially and after vowels, Ъ, Ь (but E after Й); Ё→YO; -ИЙ/-ЫЙ→-Y; Ъ/Ь→Y before А И О У Ы Э, otherwise omitted.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wikipedia:Romanization_of_Russian",
+    "https://iuliia.ru/wikipedia/",
+    "https://github.com/nalgeon/iuliia/blob/master/wikipedia.json"
+  ],
+  "notes": [
+    "Implements the WP:RUS text, including Е → YE after every vowel (Ерофеев → Yerofeyev); iuliia's JSON omits Е after Е, Ё, Ы (Yerofeev). The special provision '-ые endings → -ye' (Набережные → Naberezhnye) overrides it at word end; inside a word ЫЕ gives yye.",
+    "-ИЙ → -Y is the rule for personal names and adjectives of Russian origin; WP:RUS uses -IY for nouns and non-Russian words (Рыркайпий → Ryrkaypiy), which cannot be decided by letters alone.",
+    "Ё is always YO by this guideline; English Wikipedia article titles nevertheless keep established spellings (Gorbachev, Khrushchev, Tchaikovsky)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "classes": {
+    "V": "аеёиоуыэюя"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "zh",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "shch", "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu",
+    "я": "ya"
+  },
+  "rules": [
+    {"from": ["ий", "ый"], "to": "y", "end": true, "note": "-ий/-ый endings → -y"},
+    {"from": "ые", "to": "ye", "end": true, "note": "-ые endings → -ye"},
+    {"from": "е", "to": "ye", "after": "^{V}ъь", "note": "word start, after vowels, Ъ, Ь; e after consonants and Й"},
+    {"from": ["ъ", "ь"], "to": "y", "before": "аиоуыэ", "note": "before non-iotated vowels; omitted otherwise"}
+  ],
+  "samples": [
+    ["Ельцин", "Yeltsin"],
+    ["Раздольное", "Razdolnoye"],
+    ["Юрьев", "Yuryev"],
+    ["Подъездной", "Podyezdnoy"],
+    ["Майер", "Mayer"],
+    ["Ёлкино", "Yolkino"],
+    ["Озёрск", "Ozyorsk"],
+    ["Бийск", "Biysk"],
+    ["Подъярский", "Podyarsky"],
+    ["Мусийкъонгийкоте", "Musiykyongiykote"],
+    ["Ытык-Кюёль", "Ytyk-Kyuyol"],
+    ["Усолье", "Usolye"],
+    ["Выхухоль", "Vykhukhol"],
+    ["Дальнегорск", "Dalnegorsk"],
+    ["Ильинский", "Ilyinsky"],
+    ["Красный", "Krasny"],
+    ["Великий", "Veliky"],
+    ["Набережные Челны", "Naberezhnye Chelny"],
+    ["Ерофеев", "Yerofeyev"],
+    ["Фёдор Достоевский", "Fyodor Dostoyevsky"],
+    ["Анна-Мария Ильина", "Anna-Mariya Ilyina"],
+    ["ЕВГЕНИЙ ЕВТУШЕНКО", "YEVGENY YEVTUSHENKO"],
+    ["Щукин Эдуард", "Shchukin Eduard"]
+  ]
+}

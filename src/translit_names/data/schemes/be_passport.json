@@ -1,0 +1,58 @@
+{
+  "id": "be_passport",
+  "title": "Belarusian — passport practice (ICAO 9303 with Belarusian exceptions)",
+  "language": "be",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "ascii": true,
+  "authority": "ICAO Doc 9303 Part 3 §6.B (Belarusian exceptions); MVD practice under Instruction No. 200 of 28.06.2010 (text not retrieved)",
+  "description": "Spelling observed in Belarusian passports: ICAO Doc 9303 letter-by-letter table with the Belarusian exceptions Г→H, Ё→IO, Ў→U (Й→I, Х→KH, Ц→TS, Ю→IU, Я→IA, Ь and apostrophe omitted), e.g. Марыя Рудзь → Maryia Rudz.",
+  "sources": [
+    "https://itftennis.atlassian.net/wiki/download/attachments/1272938619/Passport%20Standards.pdf?api=v2",
+    "https://ex-press.live/rubrics/obshhestvo/2019/08/23/prosto-maria-legko-li-belorusam-izmenit-transliteraciyu-imeni-i-familii",
+    "https://www.belnovosti.by/obshchestvo/belorusy-prosyat-mvd-pomenyat-pravila-transliteracii-imen-i-familiy",
+    "https://france.mfa.gov.by/be/consular_issues/passport/trans/",
+    "https://24glo.com/ru/by/translit.html",
+    "https://github.com/interscript/maps/blob/main/maps/mvd-bel-Cyrl-Latn-2010.isc"
+  ],
+  "notes": [
+    "Evidence quality: no primary MVD regulation describing this table was found. The model rests on ICAO Doc 9303 (Г→H, Ё→IO, Ў→U for Belarusian), a 2019 press report ('Maryia Rudz', Г recorded as H, no diacritics under MVD Instruction No. 200 of 2010) and a commercial table (24glo.com). Samples Бабрыковіч Аляксандр, Міховіч Марыя, СВЯТЛАНА, Ігар, МІХАІЛ, Палто Алена, Мікалай are the test vectors of interscript's MVD-2010/ICAO-be maps; the others are computed.",
+    "The MFA still cites MVD Instruction No. 288 (be_mvd_288) for passports; a citizen may state a Latin spelling once, and the name may be transliterated from its Russian form instead (use a ru_ scheme for that).",
+    "Russian-only letters are included for Russian-form names: И→I, Щ→SHCH, Ъ→IE (ICAO)."
+  ],
+  "alphabet": "абвгдеёжзійклмнопрстуўфхцчшыьэюя",
+  "classes": {
+    "L": "абвгдеёжзійклмнопрстуўфхцчшыьэюяищъ"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "h", "д": "d", "е": "e", "ё": "io", "ж": "zh",
+    "з": "z", "і": "i", "й": "i", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ў": "u", "ф": "f", "х": "kh",
+    "ц": "ts", "ч": "ch", "ш": "sh", "ы": "y", "ь": "", "э": "e", "ю": "iu", "я": "ia",
+    "и": "i", "щ": "shch", "ъ": "ie"
+  },
+  "rules": [
+    {"from": "'", "to": "", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Марыя Рудзь", "Maryia Rudz"],
+    ["Бабрыковіч Аляксандр", "Babrykovich Aliaksandr"],
+    ["Міховіч Марыя", "Mikhovich Maryia"],
+    ["Ігар", "Ihar"],
+    ["Мікалай", "Mikalai"],
+    ["Палто Алена", "Palto Alena"],
+    ["Ціханоўская Святлана", "Tsikhanouskaia Sviatlana"],
+    ["Арцём Магілёў", "Artsiom Mahiliou"],
+    ["Дар'я", "Daria"],
+    ["Яўген Юрый", "Iauhen Iuryi"],
+    ["Ганна-Марыя", "Hanna-Maryia"],
+    ["СВЯТЛАНА", "SVIATLANA"],
+    ["МІХАІЛ", "MIKHAIL"],
+    ["Фёдар Шушкевіч", "Fiodar Shushkevich"],
+    ["Эльвіра Жук", "Elvira Zhuk"]
+  ]
+}

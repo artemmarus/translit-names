@@ -1,0 +1,53 @@
+{
+  "id": "kk_passport",
+  "extends": "ru_icao",
+  "title": "Kazakh — passport-style ASCII (observed practice)",
+  "language": "kk",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "year": null,
+  "ascii": true,
+  "authority": "No published table; modelled on observed English/passport spellings, Russian ICAO letters as the base",
+  "description": "Kazakh Cyrillic names in the ASCII form seen in Kazakhstani passports and English usage: Kazakh letters folded (Ә→A, Ғ→G, Қ→K, Ң→N, Ө→O, Ұ/Ү→U, Һ→H, І→I), Ж→ZH, Х→KH, initial and post-vowel Е→YE, Ю/Я→YU/YA, final Й→Y (Назарбаев → Nazarbayev, Әлімханұлы → Alimkhanuly, Геннадий → Gennadiy).",
+  "sources": [
+    "https://www.behindthename.com/submit/names/usage/kazakh",
+    "https://en.wikipedia.org/wiki/Kazakhstani_passport",
+    "https://adilet.zan.kz/rus/docs/P000001063_",
+    "https://dogovor24.kz/questions/sushchestvuyut-li-ustanovlennye-trebovaniyapravila-napisaniya-kazahskih-familii-imen-i-otchestv-sotrudnikov-naprimer-v-prikazah-2997.html",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://en.wikipedia.org/wiki/Kalmukhanbet_Kassymov"
+  ],
+  "notes": [
+    "No Kazakhstan MIA transliteration table was found; status informal. The rules reproduce common passport/English spellings of public figures and athletes: Nazarbayev, Tokayev, Yeldos, Zhanibek Alimkhanuly, Ilyas Suleimenov, Dimash Kudaibergen, Kairat, Gennadiy Golovkin, Aliya.",
+    "Й is I (Kairat, Suleimenov, Kudaibergen, Abai) except in word-final -ий/-ей of Russian names, which give -iy/-ey (Gennadiy, Dmitriy, Sergey); Ь and Ъ are dropped. Final -ай/-ой also occurs as -ay/-oy (Abay).",
+    "Variants to generate: intervocalic С→SS (Kassym, Assel, Massimov, Yeleussinov) — frequent but not systematic (Asanali, Yesimov); initial Е→E (Erlan Karin); strict Russian ICAO (IU/IA, final II: Aliia, Gennadii); Ж→J (Kassym-Jomart); Қ→Q; Ғ→GH; Ң→NG; Ы→I (Sagintayev).",
+    "Applicants may ask for a specific English spelling backed by documents (foreign passport, marriage certificate), so any single scheme only approximates real passports.",
+    "ICAO §6.B lists Һ as C, apparently an error; Һ→H is used."
+  ],
+  "alphabet": "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя",
+  "classes": {
+    "V": "аәеёиоөуұүыіэюя"
+  },
+  "rules": [
+    {"from": "е", "to": "ye", "after": "^{V}ъь"},
+    {"from": "й", "to": "y", "end": true, "after": "ие", "note": "final -ий/-ей of Russian names: Gennadiy, Sergey"}
+  ],
+  "map": {
+    "ё": "yo", "ъ": "", "ю": "yu", "я": "ya", "ә": "a", "ғ": "g", "қ": "k", "ң": "n", "ө": "o",
+    "ұ": "u", "ү": "u", "һ": "h", "і": "i"
+  },
+  "samples": [
+    ["Нұрсұлтан Назарбаев", "Nursultan Nazarbayev"],
+    ["Қасым-Жомарт Тоқаев", "Kasym-Zhomart Tokayev"],
+    ["Жәнібек Әлімханұлы", "Zhanibek Alimkhanuly"],
+    ["Елдос Сметов", "Yeldos Smetov"],
+    ["Ильяс Сулейменов", "Ilyas Suleimenov"],
+    ["Димаш Құдайберген", "Dimash Kudaibergen"],
+    ["Қайрат Келімбетов", "Kairat Kelimbetov"],
+    ["Абай Құнанбайұлы", "Abai Kunanbaiuly"],
+    ["Геннадий Головкин", "Gennadiy Golovkin"],
+    ["Әлия", "Aliya"],
+    ["НАЗАРБАЕВ НҰРСҰЛТАН", "NAZARBAYEV NURSULTAN"]
+  ]
+}

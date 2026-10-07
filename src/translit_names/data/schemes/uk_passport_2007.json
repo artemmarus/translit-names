@@ -1,0 +1,52 @@
+{
+  "id": "uk_passport_2007",
+  "title": "Ukrainian — passport practice 2007–2010",
+  "language": "uk",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "superseded",
+  "year": 2007,
+  "ascii": true,
+  "authority": "Attributed to Cabinet of Ministers Resolution No. 858 of 26.06.2007 (technical description of passport forms)",
+  "description": "Russian-style passport transliteration reported for Ukrainian passports issued 2007–2010: Г→G, Є→IE, Ї→I, Й→I, Ю→IU, Я→IA in every position, И→Y; Ь and apostrophe omitted.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Romanization_of_Ukrainian",
+    "https://zakon.rada.gov.ua/laws/show/858-2007-%D0%BF"
+  ],
+  "notes": [
+    "Low-confidence source: the table comes from the 'Passport 2007' column of Wikipedia's Romanization of Ukrainian, which is tagged 'failed verification' (the cited resolution contains no transliteration table). The interscript project's ua-ukr-2007 map instead reproduces the KMU 2010 behaviour.",
+    "Samples are computed from the table, not official examples. Spellings of this type (Sergii, Ievgen, Iuliia, Galyna) are attested in documents of the period; use the scheme for matching older passports rather than for producing new spellings."
+  ],
+  "alphabet": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя",
+  "classes": {
+    "L": "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "ґ": "g", "д": "d", "е": "e", "є": "ie",
+    "ж": "zh", "з": "z", "и": "y", "і": "i", "ї": "i", "й": "i", "к": "k", "л": "l",
+    "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u",
+    "ф": "f", "х": "kh", "ц": "ts", "ч": "ch", "ш": "sh", "щ": "shch", "ь": "", "ю": "iu",
+    "я": "ia"
+  },
+  "rules": [
+    {"from": "'", "to": "", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Сергій", "Sergii"],
+    ["Юлія", "Iuliia"],
+    ["Євген", "Ievgen"],
+    ["Галина Їжакевич", "Galyna Izhakevych"],
+    ["Знам'янка", "Znamianka"],
+    ["Згурський", "Zgurskyi"],
+    ["Ярослав Щербак", "Iaroslav Shcherbak"],
+    ["Анна-Яна", "Anna-Iana"],
+    ["ЮРІЙ ГНАТЮК", "IURII GNATIUK"],
+    ["Ґалаґан", "Galagan"],
+    ["Дмитро Шевченко", "Dmytro Shevchenko"],
+    ["Пилип Харченко", "Pylyp Kharchenko"],
+    ["Федір Стеценко", "Fedir Stetsenko"]
+  ]
+}

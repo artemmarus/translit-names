@@ -1,0 +1,49 @@
+{
+  "id": "ru_mosmetro",
+  "title": "Russian — Moscow Metro",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "practical",
+  "status": "informal",
+  "year": 2013,
+  "ascii": true,
+  "authority": "Moscow Metro / Art. Lebedev Studio map (per iuliia.ru/mosmetro)",
+  "description": "Practical scheme used by the Moscow Metro since 2013 (designed by Art. Lebedev Studio, not officially published): Щ→SCH, Ё→E (YO after Ь/Ъ), Ь/Ъ→Y before vowels, ТЦ→TS, -ИЙ/-ЫЙ→-Y; no apostrophes.",
+  "sources": [
+    "https://iuliia.ru/mosmetro/",
+    "https://www.artlebedev.ru/metro/map4/",
+    "https://github.com/nalgeon/iuliia/blob/master/mosmetro.json"
+  ],
+  "notes": [
+    "Table and rules as encoded by iuliia (derived from the station names on the official map)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "zh",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "sch", "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu",
+    "я": "ya"
+  },
+  "rules": [
+    {"from": ["ий", "ый"], "to": "y", "end": true},
+    {"from": "ц", "to": "s", "after": "т", "note": "ТЦ → TS"},
+    {"from": "ё", "to": "o", "after": "ьъ", "note": "ЬЁ/ЪЁ → YO"},
+    {"from": ["ь", "ъ"], "to": "y", "before": "аеёиоуэ"}
+  ],
+  "samples": [
+    ["Битцевский парк", "Bitsevsky park"],
+    ["Верхние Лихоборы", "Verkhnie Likhobory"],
+    ["Воробьёвы горы", "Vorobyovy gory"],
+    ["Марьина Роща", "Maryina Roscha"],
+    ["Молодёжная", "Molodezhnaya"],
+    ["Октябрьская", "Oktyabrskaya"],
+    ["Площадь Ильича", "Ploschad Ilyicha"],
+    ["Саларьево", "Salaryevo"],
+    ["Тёплый стан", "Teply stan"],
+    ["Третьяковская", "Tretyakovskaya"],
+    ["Юго-Западная", "Yugo-Zapadnaya"],
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Yuliya, syesh esche etikh myagkikh frantsuzskikh bulok iz Yoshkar-Oly, da vypey altayskogo chayu"],
+    ["ЩЁЛКОВСКАЯ", "SCHELKOVSKAYA"]
+  ]
+}

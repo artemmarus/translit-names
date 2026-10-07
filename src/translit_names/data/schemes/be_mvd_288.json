@@ -1,0 +1,72 @@
+{
+  "id": "be_mvd_288",
+  "title": "Belarusian — MVD Instruction No. 288 (2008), population register",
+  "language": "be",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "superseded",
+  "year": 2008,
+  "authority": "MVD of Belarus, Resolution No. 288 of 09.10.2008 (reg. 8/19678), Instruction on transliteration of surnames and given names in the population register",
+  "description": "Instruction of the Belarus MVD (Resolution No. 288 of 09.10.2008) for names in the population register: Г→G, Й→J, Х→KH, Ц→TS, Ў→W; Е Ё Ю Я → JE JO JU JA word-initially, after vowels, Ў, apostrophe or separating Ь/Ъ and IE IO IU IA after consonants; softening Ь shown as an acute (ź ĺ ń ś ć).",
+  "sources": [
+    "https://pravo.by/document/?guid=3961&p0=W20819678",
+    "http://pravo.levonevsky.org/bazaby11/republic13/text623.htm",
+    "https://france.mfa.gov.by/be/consular_issues/passport/trans/",
+    "https://github.com/interscript/maps/blob/main/maps/mvd-bel-Cyrl-Latn-2008.isc"
+  ],
+  "notes": [
+    "Official examples of the table are the samples, except Лябецкая → 'Liabetskaja', which contradicts the table's own rule (Е after a consonant → IE gives Liabietskaja).",
+    "The context rules apply to Belarusian spellings. For names transliterated from the Russian form (allowed by p. 2) the table gives Е→E, Ё→E, Ю→IU, Я→IA in all positions and Ъ → J with the following vowel; this scheme always applies the Belarusian rules.",
+    "P. 5 prescribes an acute for the softening Ь (дзь dź, зь ź, ль ĺ, нь ń, сь ś, ць ć); the official example Васільева → Vasiljeva shows no acute for a separating Ь, so the acute is only written when Ь is not followed by a vowel. MVD Instruction No. 200 (2010) later banned diacritics in passports, giving e.g. Rudz instead of Rudź.",
+    "Status superseded/uncertain: the MFA still publishes this table for passports, but observed passport spellings follow ICAO (be_passport)."
+  ],
+  "alphabet": "абвгдеёжзійклмнопрстуўфхцчшыьэюя",
+  "classes": {
+    "V": "аеёіоуыэюяи", "L": "абвгдеёжзійклмнопрстуўфхцчшыьэюяищъ"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "ie", "ё": "io", "ж": "zh",
+    "з": "z", "і": "i", "й": "j", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ў": "w", "ф": "f", "х": "kh",
+    "ц": "ts", "ч": "ch", "ш": "sh", "ы": "y", "ь": "", "э": "e", "ю": "iu", "я": "ia",
+    "и": "i", "щ": "shch", "ъ": ""
+  },
+  "rules": [
+    {"from": "е", "to": "je", "after": "^{V}ўьъ'"},
+    {"from": "ё", "to": "jo", "after": "^{V}ўьъ'"},
+    {"from": "ю", "to": "ju", "after": "^{V}ўьъ'"},
+    {"from": "я", "to": "ja", "after": "^{V}ўьъ'"},
+    {"from": "зь", "to": "ź", "not_before": "{V}", "note": "p. 5: softening Ь → acute"},
+    {"from": "ль", "to": "ĺ", "not_before": "{V}", "note": "p. 5: softening Ь → acute"},
+    {"from": "нь", "to": "ń", "not_before": "{V}", "note": "p. 5: softening Ь → acute"},
+    {"from": "сь", "to": "ś", "not_before": "{V}", "note": "p. 5: softening Ь → acute"},
+    {"from": "ць", "to": "ć", "not_before": "{V}", "note": "p. 5: softening Ь → acute"},
+    {"from": "і", "to": "ji", "after": "'", "note": "apostrophe: J with the following vowel"},
+    {"from": "'", "to": "", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "samples": [
+    ["Ева", "Jeva"],
+    ["Васільева", "Vasiljeva"],
+    ["Васілёнак", "Vasilionak"],
+    ["Ёрш", "Jorsh"],
+    ["Вераб’ёў", "Vierabjow"],
+    ["Салаўёва", "Salawjova"],
+    ["Любоў", "Liubow"],
+    ["В’юноў", "Vjunow"],
+    ["Чарняк", "Charniak"],
+    ["Адъютантов", "Adjutantov"],
+    ["Дар’я", "Darja"],
+    ["Марыя Рудзь", "Maryja Rudź"],
+    ["Мікалай Шушкевіч", "Mikalaj Shushkievich"],
+    ["Ганна-Марыя", "Ganna-Maryja"],
+    ["ЯЎГЕН ЦІХАНОЎСКІ", "JAWGIEN TSIKHANOWSKI"],
+    ["Кастусь Каліноўскі", "Kastuś Kalinowski"],
+    ["Вольга Кузьміч", "Voĺga Kuźmich"],
+    ["Янька Друць", "Jańka Druć"],
+    ["Мар’іна", "Marjina"],
+    ["Эльвіра Фёдараўна Пашкевіч-Жук", "Eĺvira Fiodarawna Pashkievich-Zhuk"]
+  ]
+}

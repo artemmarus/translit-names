@@ -1,0 +1,47 @@
+{
+  "id": "ru_mvd_310",
+  "title": "Russian — MVD Order No. 310 (Russian passports 1997–2010)",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "superseded",
+  "year": 1997,
+  "ascii": true,
+  "authority": "MVD Russia Order No. 310 of 26.05.1997 (Instruction on passports for travel abroad); MVD Order No. 1047 of 31.12.2003",
+  "description": "Diacritic-free, English-oriented system of the MVD passport instruction (Order No. 310 of 26 May 1997, re-issued by Order No. 1047 of 2003), used in Russian international passports until 2010: Й→Y, Ю→YU, Я→YA, ЬЕ/ЬЁ→YE, Ъ→\", Ь→'.",
+  "sources": [
+    "https://iuliia.ru/mvd-310/",
+    "http://docs.cntd.ru/document/9044512",
+    "https://github.com/nalgeon/iuliia/blob/master/mvd_310.json",
+    "https://en.wikipedia.org/wiki/Romanization_of_Russian",
+    "https://web.archive.org/web/20110925234657/http://www.rg.ru/2004/01/22/pasport-doc.html"
+  ],
+  "notes": [
+    "The primary text of Order No. 310 could not be retrieved; the table follows iuliia (which cites docs.cntd.ru) and Wikipedia.",
+    "Documented rules: ЬЕ and ЬЁ → YE (Васильева → Vasilyeva); ЪЕ → YE is taken from iuliia. iuliia's JSON implements only ЬЕ/ЪЕ, so for ЬЁ it gives Solov'ev where this scheme gives Solovyev.",
+    "Endings: ИЙ is either IY or Y and ЫЙ either YY or Y; this scheme uses the letter-by-letter IY/YY (Dmitriy, Vidnyy). Alternatives: Dmitry, Vidny.",
+    "ЕЙ may be EY or YEY; this scheme uses EY (Sergey, as in the Order No. 1047 example Сергей/Sergey).",
+    "Е is E at word start (Evgeniy, Ekaterina); iuliia lists 'ye,e' for Е/Ё but documents YE only after Ь.",
+    "Ъ/Ь: iuliia gives \" and '; Wikipedia's comparison table gives ʺ for Ъ and omits Ь. Apostrophes were typically not printed in practice (and are never allowed in the MRZ)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "zh",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "shch", "ъ": "\"", "ы": "y", "ь": "'", "э": "e", "ю": "yu",
+    "я": "ya", "ье": "ye", "ьё": "ye", "ъе": "ye"
+  },
+  "samples": [
+    ["Юлия Щеглова", "Yuliya Shcheglova"],
+    ["Гайа Васильева", "Gaya Vasilyeva"],
+    ["Андрей Видный", "Andrey Vidnyy"],
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Yuliya, syesh' eshche etikh myagkikh frantsuzskikh bulok iz Yoshkar-Oly, da vypey altayskogo chayu"],
+    ["Морозов Сергей", "Morozov Sergey"],
+    ["Соловьёв Дмитрий", "Solovyev Dmitriy"],
+    ["Евгений Ельцин", "Evgeniy El'tsin"],
+    ["Анна-Мария Подъячева", "Anna-Mariya Pod\"yacheva"],
+    ["ВАСИЛЬЕВА ЮЛИЯ", "VASILYEVA YULIYA"],
+    ["Жуков", "Zhukov"]
+  ]
+}

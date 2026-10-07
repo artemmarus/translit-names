@@ -1,0 +1,51 @@
+{
+  "id": "uz_latn_ascii",
+  "title": "Uzbek Latin — ASCII passport style (X→KH)",
+  "language": "uz",
+  "script": "Latn",
+  "kind": "passport",
+  "status": "informal",
+  "ascii": true,
+  "description": "Official Uzbek Latin (1995 alphabet) reduced to ASCII the way Uzbek names usually appear in English and passport contexts: oʻ→o, gʻ→g, x→kh, tutuq ʼ dropped, sh/ch/ng and q kept (Xoʻjayev → Khojayev). Accepts every apostrophe variant for ʻ and ʼ and the 2026 reform letters Ö Ğ Ş Ç.",
+  "sources": [
+    "https://kun.uz/uz/news/2022/04/01/xato-ism-familiyalar-buni-bartaraf-etishni-istaganlarga-soddalashtirilgan-tizim-va-jarayon-kerak",
+    "https://en.wikipedia.org/wiki/Uzbek_alphabet",
+    "https://lex.uz/docs/-1625271",
+    "https://en.wikipedia.org/wiki/Uzbekistan_passport",
+    "https://www.babelstreet.com/blog/challenges-of-name-matching-in-uzbek",
+    "https://www.gazeta.uz/en/2026/09/10/uzb-alphabet/"
+  ],
+  "notes": [
+    "No official Uzbek passport transliteration table was found. X→KH follows the Kun.uz (2022) account of English/passport forms (Xoʻjayev → Khojayev); whether the MRZ keeps X is unverified.",
+    "Alternatives to generate: X→X or H; Gʻ→GH (Kun.uz: Ghaffarova); Oʻ→U (Soviet-legacy Urinov); Q→K (Kasimov); J→DJ/DZH; the plain strip of the national spelling (XOJAYEV).",
+    "All apostrophe-like characters (U+02BB, U+02BC, U+2018, U+2019, U+0027, U+0060, U+00B4, U+02B9, U+02BD, U+055A, U+FF07) are treated alike; in ASCII output both oʻ/gʻ marks and the tutuq disappear (Maʼruf → Maruf, Isʼhoq → Ishoq).",
+    "2026 reform (Oʻ→Ö, Gʻ→Ğ, Sh→Ş, Ch→Ç) passed the Senate on 10 Sept 2026; presidential signature unconfirmed as of 7 Oct 2026. The new letters, and proposal forms Ŏ Ō Ó Õ / Ǵ Ḡ, are accepted on input."
+  ],
+  "alphabet": "abdefghijklmnopqrstuvxyzʼ",
+  "fallback": "ascii",
+  "aliases": {
+    "'": "ʻ", "‘": "ʻ", "’": "ʻ", "`": "ʻ", "´": "ʻ", "ʹ": "ʻ",
+    "ʽ": "ʻ", "ʼ": "ʻ", "՚": "ʻ", "＇": "ʻ"
+  },
+  "map": {
+    "a": "a", "b": "b", "c": "c", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "q", "r": "r",
+    "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "kh", "y": "y", "z": "z", "oʻ": "o",
+    "gʻ": "g", "ʻ": "", "ʼ": "", "ö": "o", "ğ": "g", "ş": "sh", "ç": "ch", "ŏ": "o", "ō": "o",
+    "ó": "o", "õ": "o", "ǵ": "g", "ḡ": "g"
+  },
+  "samples": [
+    ["Shavkat Mirziyoyev", "Shavkat Mirziyoyev"],
+    ["Xoʻjayev", "Khojayev"],
+    ["Oʻtkir Hoshimov", "Otkir Hoshimov"],
+    ["Gʻafur Gʻulom", "Gafur Gulom"],
+    ["Maʼruf", "Maruf"],
+    ["Isʼhoq", "Ishoq"],
+    ["G'ulomov O'tkir", "Gulomov Otkir"],
+    ["G‘afforova", "Gafforova"],
+    ["Shohjahon Qodirov Olimjon oʻgʻli", "Shohjahon Qodirov Olimjon ogli"],
+    ["Islom Karimov", "Islom Karimov"],
+    ["XOʻJAYEV XURSHID", "KHOJAYEV KHURSHID"],
+    ["Ğafur Ğulom", "Gafur Gulom"]
+  ]
+}

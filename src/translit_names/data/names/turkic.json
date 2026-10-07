@@ -1,0 +1,4301 @@
+{
+  "description": "Turkic-origin given names of Turkey, Azerbaijan, Central Asia, the Volga-Ural region and the Caucasus, plus patronymic and surname elements (oglu/uly/uulu, qizi/kyzy, -ov/-ova, -bek, -bay, -jon).",
+  "sources": [
+    "https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf",
+    "https://en.wikipedia.org/wiki/Kazakh_alphabets",
+    "https://en.wikipedia.org/wiki/Uzbek_alphabet",
+    "https://assets.publishing.service.gov.uk/media/621caa11e90e0710c30a4706/ROMANIZATION_KYRGYZ_Feb22_9_.pdf",
+    "https://assets.publishing.service.gov.uk/media/5d6f828ce5274a097c07b95c/TABLE_OF_CORRESPONDENCES_FOR_TATAR.pdf",
+    "https://assets.publishing.service.gov.uk/media/6329af69d3bf7f75cce70557/TABLE_OF_CORRESPONDENCES_FOR_AZERBAIJANI_-_with_examples.pdf",
+    "https://www.babelstreet.com/blog/challenges-of-name-matching-in-uzbek",
+    "https://en.wikipedia.org/wiki/Turkish_name"
+  ],
+  "names": [
+    {
+      "id": "timur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Timur",
+      "native": {
+        "fa": [
+          "تیمور"
+        ],
+        "ur": [
+          "تیمور"
+        ],
+        "ps": [
+          "تیمور"
+        ],
+        "ru": [
+          "Тимур",
+          "Темур"
+        ],
+        "kk": [
+          "Темір"
+        ],
+        "ky": [
+          "Темир"
+        ],
+        "tg": [
+          "Темур"
+        ],
+        "tt": [
+          "Тимер"
+        ],
+        "ba": [
+          "Тимер"
+        ],
+        "tr": [
+          "Timur"
+        ],
+        "az": [
+          "Teymur"
+        ],
+        "uz": [
+          "Temur"
+        ]
+      },
+      "vocalized": "تَیْمُور",
+      "latin": {
+        "fa": [
+          "Teymour",
+          "Teymur"
+        ],
+        "ur": [
+          "Taimur",
+          "Taimoor",
+          "Timur"
+        ],
+        "ps": [
+          "Timur"
+        ],
+        "kk": [
+          "Temir"
+        ],
+        "tg": [
+          "Temur"
+        ],
+        "tt": [
+          "Timer"
+        ],
+        "ru": [
+          "Timur",
+          "Temur"
+        ],
+        "ky": [
+          "Temir"
+        ],
+        "uz": [
+          "Temur"
+        ],
+        "az": [
+          "Teymur"
+        ],
+        "tr": [
+          "Timur"
+        ]
+      },
+      "variants": [
+        "Teimur",
+        "Timour",
+        "Taymur"
+      ],
+      "related": [
+        "temirlan"
+      ]
+    },
+    {
+      "id": "temirlan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Temirlan",
+      "native": {
+        "ru": [
+          "Темирлан",
+          "Тамерлан",
+          "Тимурлан"
+        ],
+        "kk": [
+          "Темірлан"
+        ],
+        "ky": [
+          "Темирлан"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Temirlan"
+        ],
+        "ky": [
+          "Temirlan"
+        ],
+        "ru": [
+          "Temirlan",
+          "Tamerlan",
+          "Timurlan"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "timur"
+      ]
+    },
+    {
+      "id": "ruslan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ruslan",
+      "native": {
+        "ru": [
+          "Руслан"
+        ],
+        "kk": [
+          "Руслан"
+        ],
+        "ky": [
+          "Руслан"
+        ],
+        "tt": [
+          "Руслан"
+        ],
+        "ba": [
+          "Руслан"
+        ],
+        "tr": [
+          "Ruslan"
+        ],
+        "az": [
+          "Ruslan"
+        ],
+        "uz": [
+          "Ruslan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Ruslan"
+        ],
+        "kk": [
+          "Ruslan"
+        ],
+        "ky": [
+          "Ruslan"
+        ],
+        "uz": [
+          "Ruslan"
+        ],
+        "az": [
+          "Ruslan"
+        ],
+        "tr": [
+          "Ruslan"
+        ]
+      },
+      "variants": [
+        "Rouslan"
+      ],
+      "related": [
+        "arslan"
+      ]
+    },
+    {
+      "id": "arslan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Arslan",
+      "native": {
+        "fa": [
+          "ارسلان"
+        ],
+        "ur": [
+          "ارسلان"
+        ],
+        "ps": [
+          "ارسلان"
+        ],
+        "ru": [
+          "Арслан",
+          "Аслан"
+        ],
+        "kk": [
+          "Арыстан"
+        ],
+        "ky": [
+          "Арстан"
+        ],
+        "tt": [
+          "Арслан"
+        ],
+        "ba": [
+          "Арыҫлан"
+        ],
+        "tr": [
+          "Arslan",
+          "Aslan"
+        ],
+        "az": [
+          "Arslan",
+          "Aslan"
+        ],
+        "uz": [
+          "Arslon"
+        ]
+      },
+      "vocalized": "اَرْسَلَان",
+      "latin": {
+        "fa": [
+          "Arsalan",
+          "Arslan"
+        ],
+        "ur": [
+          "Arsalan",
+          "Arslan"
+        ],
+        "ps": [
+          "Arsalan"
+        ],
+        "kk": [
+          "Arystan"
+        ],
+        "tt": [
+          "Arslan"
+        ],
+        "ru": [
+          "Arslan",
+          "Aslan"
+        ],
+        "ky": [
+          "Arstan"
+        ],
+        "uz": [
+          "Arslon"
+        ],
+        "az": [
+          "Arslan",
+          "Aslan"
+        ],
+        "tr": [
+          "Arslan",
+          "Aslan"
+        ]
+      },
+      "variants": [
+        "Arsalaan"
+      ],
+      "related": [
+        "ruslan"
+      ]
+    },
+    {
+      "id": "aidar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Aidar",
+      "native": {
+        "ru": [
+          "Айдар"
+        ],
+        "kk": [
+          "Айдар"
+        ],
+        "ky": [
+          "Айдар"
+        ],
+        "tt": [
+          "Айдар"
+        ],
+        "ba": [
+          "Айдар"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Aidar",
+          "Aydar"
+        ],
+        "tt": [
+          "Aidar",
+          "Aydar"
+        ],
+        "ru": [
+          "Aidar",
+          "Aydar"
+        ],
+        "ky": [
+          "Aidar"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "haydar"
+      ]
+    },
+    {
+      "id": "nursultan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "arabic",
+      "english": "Nursultan",
+      "native": {
+        "ru": [
+          "Нурсултан"
+        ],
+        "kk": [
+          "Нұрсұлтан"
+        ],
+        "ky": [
+          "Нурсултан"
+        ],
+        "uz": [
+          "Nursulton"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Nursultan"
+        ],
+        "ru": [
+          "Nursultan"
+        ],
+        "ky": [
+          "Nursultan"
+        ],
+        "uz": [
+          "Nursulton"
+        ]
+      },
+      "variants": [
+        "Nur-Sultan"
+      ],
+      "related": [
+        "nur",
+        "sultan"
+      ]
+    },
+    {
+      "id": "kanat",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Kanat",
+      "native": {
+        "ru": [
+          "Канат"
+        ],
+        "kk": [
+          "Қанат"
+        ],
+        "ky": [
+          "Канат"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Kanat",
+          "Qanat"
+        ],
+        "ky": [
+          "Kanat"
+        ],
+        "ru": [
+          "Kanat"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "bolat",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Bolat",
+      "native": {
+        "fa": [
+          "پولاد"
+        ],
+        "ru": [
+          "Болат",
+          "Булат",
+          "Пулат"
+        ],
+        "kk": [
+          "Болат"
+        ],
+        "ky": [
+          "Болот"
+        ],
+        "tg": [
+          "Пӯлод"
+        ],
+        "tt": [
+          "Булат"
+        ],
+        "ba": [
+          "Булат"
+        ],
+        "tr": [
+          "Polat"
+        ],
+        "az": [
+          "Polad"
+        ],
+        "uz": [
+          "Poʻlat"
+        ]
+      },
+      "vocalized": "پُولَاد",
+      "latin": {
+        "fa": [
+          "Pulad",
+          "Poulad",
+          "Polad"
+        ],
+        "kk": [
+          "Bolat"
+        ],
+        "ky": [
+          "Bolot"
+        ],
+        "tt": [
+          "Bulat"
+        ],
+        "tg": [
+          "Pulod"
+        ],
+        "tr": [
+          "Polat"
+        ],
+        "az": [
+          "Polad"
+        ],
+        "ru": [
+          "Bolat",
+          "Bulat",
+          "Pulat"
+        ],
+        "uz": [
+          "Polat",
+          "Poʻlat"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "askar",
+      "kind": "given",
+      "gender": "m",
+      "english": "Askar",
+      "native": {
+        "ru": [
+          "Аскар"
+        ],
+        "kk": [
+          "Асқар"
+        ],
+        "ky": [
+          "Аскар"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Askar",
+          "Asqar"
+        ],
+        "ky": [
+          "Askar"
+        ],
+        "ru": [
+          "Askar"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aibek",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Aibek",
+      "native": {
+        "ru": [
+          "Айбек",
+          "Ойбек"
+        ],
+        "kk": [
+          "Айбек"
+        ],
+        "ky": [
+          "Айбек"
+        ],
+        "uz": [
+          "Oybek"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Aibek",
+          "Aybek"
+        ],
+        "ky": [
+          "Aibek",
+          "Aybek"
+        ],
+        "uz": [
+          "Oybek"
+        ],
+        "ru": [
+          "Aibek",
+          "Oibek",
+          "Aybek",
+          "Oybek"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "bek"
+      ]
+    },
+    {
+      "id": "aigul",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aigul",
+      "native": {
+        "ru": [
+          "Айгуль",
+          "Айгул"
+        ],
+        "kk": [
+          "Айгүл"
+        ],
+        "ky": [
+          "Айгүл"
+        ],
+        "tt": [
+          "Айгөл"
+        ],
+        "ba": [
+          "Айгөл"
+        ],
+        "tr": [
+          "Aygül"
+        ],
+        "az": [
+          "Aygül"
+        ],
+        "uz": [
+          "Oygul"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Aigul",
+          "Aygul"
+        ],
+        "ky": [
+          "Aigul"
+        ],
+        "tt": [
+          "Aigul",
+          "Aygul"
+        ],
+        "tr": [
+          "Aygül"
+        ],
+        "ru": [
+          "Aigul",
+          "Aygul"
+        ],
+        "uz": [
+          "Oygul"
+        ],
+        "az": [
+          "Aygul",
+          "Aygül"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "gul"
+      ]
+    },
+    {
+      "id": "aisulu",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aisulu",
+      "native": {
+        "ru": [
+          "Айсулу"
+        ],
+        "kk": [
+          "Айсұлу"
+        ],
+        "ky": [
+          "Айсулуу"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Aisulu",
+          "Aysulu"
+        ],
+        "ky": [
+          "Aisuluu",
+          "Aisulu"
+        ],
+        "ru": [
+          "Aisulu",
+          "Aysulu"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aiganym",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aiganym",
+      "native": {
+        "ru": [
+          "Айганым"
+        ],
+        "kk": [
+          "Айғаным"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Aiganym",
+          "Ayganym"
+        ],
+        "ru": [
+          "Aiganym",
+          "Ayganym"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aizhan",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aizhan",
+      "native": {
+        "ru": [
+          "Айжан"
+        ],
+        "kk": [
+          "Айжан"
+        ],
+        "ky": [
+          "Айжан"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Aizhan",
+          "Ayzhan"
+        ],
+        "ky": [
+          "Aizhan",
+          "Aijan"
+        ],
+        "ru": [
+          "Aizhan",
+          "Ayzhan"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "jan"
+      ]
+    },
+    {
+      "id": "aynur",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Aynur",
+      "native": {
+        "ru": [
+          "Айнур",
+          "Айнура"
+        ],
+        "kk": [
+          "Айнұр"
+        ],
+        "ky": [
+          "Айнура"
+        ],
+        "tt": [
+          "Айнур"
+        ],
+        "ba": [
+          "Айнур"
+        ],
+        "tr": [
+          "Aynur"
+        ],
+        "az": [
+          "Aynur"
+        ],
+        "uz": [
+          "Oynur"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Ainur",
+          "Aynur"
+        ],
+        "ky": [
+          "Ainura"
+        ],
+        "tt": [
+          "Ainur"
+        ],
+        "tr": [
+          "Aynur"
+        ],
+        "ru": [
+          "Ainur",
+          "Ainura",
+          "Aynur",
+          "Aynura"
+        ],
+        "uz": [
+          "Oynur"
+        ],
+        "az": [
+          "Aynur"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "nur"
+      ]
+    },
+    {
+      "id": "aysel",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aysel",
+      "native": {
+        "ru": [
+          "Айсель",
+          "Айсел"
+        ],
+        "tr": [
+          "Aysel"
+        ],
+        "az": [
+          "Aysel"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Aisel",
+          "Aysel"
+        ],
+        "az": [
+          "Aysel"
+        ],
+        "tr": [
+          "Aysel"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aytac",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Aytac",
+      "native": {
+        "ru": [
+          "Айтач"
+        ],
+        "tr": [
+          "Aytaç"
+        ],
+        "az": [
+          "Aytac"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Aytaj",
+          "Aytac"
+        ],
+        "ru": [
+          "Aitach",
+          "Aytach"
+        ],
+        "tr": [
+          "Aytaç"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aydin",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Aydin",
+      "native": {
+        "fa": [
+          "آیدین"
+        ],
+        "ru": [
+          "Айдын",
+          "Айдин"
+        ],
+        "kk": [
+          "Айдын"
+        ],
+        "tr": [
+          "Aydın"
+        ],
+        "az": [
+          "Aydın"
+        ]
+      },
+      "vocalized": "آیْدِین",
+      "latin": {
+        "fa": [
+          "Aidin",
+          "Aydin"
+        ],
+        "tr": [
+          "Aydın"
+        ],
+        "ru": [
+          "Aidyn",
+          "Aidin",
+          "Aydyn",
+          "Aydin"
+        ],
+        "kk": [
+          "Aidyn"
+        ],
+        "az": [
+          "Aydin",
+          "Aydın"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ayhan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ayhan",
+      "native": {
+        "ru": [
+          "Айхан"
+        ],
+        "tr": [
+          "Ayhan"
+        ],
+        "az": [
+          "Ayxan"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Aykhan",
+          "Ayxan"
+        ],
+        "ru": [
+          "Aikhan",
+          "Aykhan"
+        ],
+        "tr": [
+          "Ayhan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aygun",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aygun",
+      "native": {
+        "ru": [
+          "Айгюн"
+        ],
+        "tr": [
+          "Aygün"
+        ],
+        "az": [
+          "Aygün"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Aigiun",
+          "Aygyun"
+        ],
+        "az": [
+          "Aygun",
+          "Aygün"
+        ],
+        "tr": [
+          "Aygün"
+        ]
+      },
+      "variants": [
+        "Aigun"
+      ]
+    },
+    {
+      "id": "gunay",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Gunay",
+      "native": {
+        "ru": [
+          "Гюнай"
+        ],
+        "tr": [
+          "Günay"
+        ],
+        "az": [
+          "Günay"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Giunai",
+          "Gyunay"
+        ],
+        "az": [
+          "Gunay",
+          "Günay"
+        ],
+        "tr": [
+          "Günay"
+        ]
+      },
+      "variants": [
+        "Gunai"
+      ]
+    },
+    {
+      "id": "turkan",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Turkan",
+      "native": {
+        "ru": [
+          "Туркан"
+        ],
+        "tr": [
+          "Türkan"
+        ],
+        "az": [
+          "Türkan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Turkan"
+        ],
+        "az": [
+          "Turkan",
+          "Türkan"
+        ],
+        "tr": [
+          "Türkan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "tural",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Tural",
+      "native": {
+        "ru": [
+          "Турал"
+        ],
+        "az": [
+          "Tural"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Tural"
+        ],
+        "az": [
+          "Tural"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "elnur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Elnur",
+      "native": {
+        "ru": [
+          "Эльнур",
+          "Элнур"
+        ],
+        "kk": [
+          "Елнұр"
+        ],
+        "az": [
+          "Elnur"
+        ],
+        "tr": [
+          "Elnur"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Yelnur",
+          "Elnur"
+        ],
+        "ru": [
+          "Elnur"
+        ],
+        "az": [
+          "Elnur"
+        ],
+        "tr": [
+          "Elnur"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "nur",
+        "ilnur"
+      ]
+    },
+    {
+      "id": "elchin",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Elchin",
+      "native": {
+        "ru": [
+          "Эльчин"
+        ],
+        "az": [
+          "Elçin"
+        ],
+        "tr": [
+          "Elçin"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Elchin"
+        ],
+        "az": [
+          "Elchin",
+          "Elçin"
+        ],
+        "tr": [
+          "Elçin"
+        ]
+      },
+      "variants": [
+        "Elcin"
+      ]
+    },
+    {
+      "id": "eldar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Eldar",
+      "native": {
+        "ru": [
+          "Эльдар"
+        ],
+        "kk": [
+          "Елдар"
+        ],
+        "az": [
+          "Eldar"
+        ],
+        "tr": [
+          "Eldar"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Yeldar",
+          "Eldar"
+        ],
+        "ru": [
+          "Eldar"
+        ],
+        "az": [
+          "Eldar"
+        ],
+        "tr": [
+          "Eldar"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "ildar"
+      ]
+    },
+    {
+      "id": "sevinj",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Sevinj",
+      "native": {
+        "ru": [
+          "Севиндж",
+          "Севинч"
+        ],
+        "az": [
+          "Sevinc"
+        ],
+        "tr": [
+          "Sevinç"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Sevindzh",
+          "Sevinch"
+        ],
+        "az": [
+          "Sevinj",
+          "Sevinc"
+        ],
+        "tr": [
+          "Sevinç"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ildar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ildar",
+      "native": {
+        "ru": [
+          "Ильдар"
+        ],
+        "tt": [
+          "Илдар"
+        ],
+        "ba": [
+          "Илдар"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Ildar"
+        ],
+        "ru": [
+          "Ildar"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "eldar"
+      ]
+    },
+    {
+      "id": "ilnur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ilnur",
+      "native": {
+        "ru": [
+          "Ильнур"
+        ],
+        "tt": [
+          "Илнур"
+        ],
+        "ba": [
+          "Илнур"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Ilnur"
+        ],
+        "ru": [
+          "Ilnur"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "elnur",
+        "nur"
+      ]
+    },
+    {
+      "id": "almaz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Almaz",
+      "native": {
+        "ru": [
+          "Алмаз"
+        ],
+        "tt": [
+          "Алмаз"
+        ],
+        "ba": [
+          "Алмаз"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Almaz"
+        ],
+        "ru": [
+          "Almaz"
+        ]
+      },
+      "variants": [
+        "Almas"
+      ]
+    },
+    {
+      "id": "chingiz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "mongolic",
+      "english": "Chingiz",
+      "native": {
+        "fa": [
+          "چنگیز"
+        ],
+        "ur": [
+          "چنگیز"
+        ],
+        "ru": [
+          "Чингиз",
+          "Чингис"
+        ],
+        "kk": [
+          "Шыңғыс"
+        ],
+        "ky": [
+          "Чыңгыз"
+        ],
+        "tt": [
+          "Чыңгыз"
+        ],
+        "tr": [
+          "Cengiz"
+        ],
+        "az": [
+          "Çingiz"
+        ],
+        "uz": [
+          "Chingiz"
+        ]
+      },
+      "vocalized": "چَنْگِیز",
+      "latin": {
+        "fa": [
+          "Changiz"
+        ],
+        "ur": [
+          "Changez",
+          "Chengiz"
+        ],
+        "kk": [
+          "Shyngys"
+        ],
+        "ky": [
+          "Chyngyz"
+        ],
+        "tr": [
+          "Cengiz"
+        ],
+        "ru": [
+          "Chingiz",
+          "Chingis"
+        ],
+        "uz": [
+          "Chingiz"
+        ],
+        "az": [
+          "Chingiz",
+          "Çingiz"
+        ]
+      },
+      "variants": [
+        "Genghis",
+        "Chinggis"
+      ]
+    },
+    {
+      "id": "batyr",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Batyr",
+      "native": {
+        "ru": [
+          "Батыр",
+          "Ботир"
+        ],
+        "kk": [
+          "Батыр"
+        ],
+        "ky": [
+          "Баатыр"
+        ],
+        "tt": [
+          "Батыр"
+        ],
+        "ba": [
+          "Батыр"
+        ],
+        "uz": [
+          "Botir"
+        ],
+        "tk": [
+          "Batyr"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Batyr"
+        ],
+        "ky": [
+          "Baatyr"
+        ],
+        "uz": [
+          "Botir"
+        ],
+        "ru": [
+          "Batyr",
+          "Botir"
+        ]
+      },
+      "variants": [
+        "Batir"
+      ],
+      "related": [
+        "bahadur"
+      ]
+    },
+    {
+      "id": "erlan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Yerlan",
+      "native": {
+        "ru": [
+          "Ерлан",
+          "Эрлан"
+        ],
+        "kk": [
+          "Ерлан"
+        ],
+        "ky": [
+          "Эрлан"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Yerlan",
+          "Erlan"
+        ],
+        "ky": [
+          "Erlan"
+        ],
+        "ru": [
+          "Erlan",
+          "Yerlan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "serik",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Serik",
+      "native": {
+        "ru": [
+          "Серик"
+        ],
+        "kk": [
+          "Серік"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Serik"
+        ],
+        "ru": [
+          "Serik"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "dauren",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Dauren",
+      "native": {
+        "ru": [
+          "Даурен",
+          "Даврон"
+        ],
+        "kk": [
+          "Дәурен"
+        ],
+        "tg": [
+          "Даврон"
+        ],
+        "uz": [
+          "Davron"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Dauren",
+          "Dawren"
+        ],
+        "tg": [
+          "Davron"
+        ],
+        "ru": [
+          "Dauren",
+          "Davron"
+        ],
+        "uz": [
+          "Davron"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "askhat",
+      "kind": "given",
+      "gender": "m",
+      "english": "Askhat",
+      "native": {
+        "ru": [
+          "Асхат"
+        ],
+        "kk": [
+          "Асхат"
+        ],
+        "tt": [
+          "Әсхәт"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Askhat",
+          "Askat"
+        ],
+        "tt": [
+          "Askhat"
+        ],
+        "ru": [
+          "Askhat"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "kuanysh",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Kuanysh",
+      "native": {
+        "ru": [
+          "Куаныш"
+        ],
+        "kk": [
+          "Қуаныш"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Kuanysh",
+          "Quanysh"
+        ],
+        "ru": [
+          "Kuanysh"
+        ]
+      },
+      "variants": [
+        "Kuanish"
+      ]
+    },
+    {
+      "id": "baurzhan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Baurzhan",
+      "native": {
+        "ru": [
+          "Бауыржан",
+          "Бауржан"
+        ],
+        "kk": [
+          "Бауыржан"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Baurzhan",
+          "Bauyrzhan"
+        ],
+        "ru": [
+          "Bauyrzhan",
+          "Baurzhan"
+        ]
+      },
+      "variants": [
+        "Baurjan"
+      ],
+      "related": [
+        "jan"
+      ]
+    },
+    {
+      "id": "bekzat",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Bekzat",
+      "native": {
+        "ru": [
+          "Бекзат"
+        ],
+        "kk": [
+          "Бекзат"
+        ],
+        "ky": [
+          "Бекзат"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Bekzat"
+        ],
+        "ky": [
+          "Bekzat"
+        ],
+        "ru": [
+          "Bekzat"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "bek"
+      ]
+    },
+    {
+      "id": "nurlan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Nurlan",
+      "native": {
+        "ru": [
+          "Нурлан"
+        ],
+        "kk": [
+          "Нұрлан"
+        ],
+        "ky": [
+          "Нурлан"
+        ],
+        "tt": [
+          "Нурлан"
+        ],
+        "az": [
+          "Nurlan"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Nurlan"
+        ],
+        "ru": [
+          "Nurlan"
+        ],
+        "ky": [
+          "Nurlan"
+        ],
+        "az": [
+          "Nurlan"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "nur"
+      ]
+    },
+    {
+      "id": "nurzhan",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Nurzhan",
+      "native": {
+        "ru": [
+          "Нуржан"
+        ],
+        "kk": [
+          "Нұржан"
+        ],
+        "ky": [
+          "Нуржан"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Nurzhan",
+          "Nurjan"
+        ],
+        "ru": [
+          "Nurzhan"
+        ],
+        "ky": [
+          "Nurzhan"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "nur",
+        "jan"
+      ]
+    },
+    {
+      "id": "olzhas",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Olzhas",
+      "native": {
+        "ru": [
+          "Олжас"
+        ],
+        "kk": [
+          "Олжас"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Olzhas",
+          "Oljas"
+        ],
+        "ru": [
+          "Olzhas"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "sanjar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Sanjar",
+      "native": {
+        "fa": [
+          "سنجر"
+        ],
+        "ru": [
+          "Санжар",
+          "Санджар"
+        ],
+        "kk": [
+          "Санжар"
+        ],
+        "ky": [
+          "Санжар"
+        ],
+        "tg": [
+          "Санҷар"
+        ],
+        "tr": [
+          "Sencer"
+        ],
+        "az": [
+          "Səncər"
+        ],
+        "uz": [
+          "Sanjar"
+        ]
+      },
+      "vocalized": "سَنْجَر",
+      "latin": {
+        "fa": [
+          "Sanjar"
+        ],
+        "kk": [
+          "Sanzhar"
+        ],
+        "ky": [
+          "Sanzhar"
+        ],
+        "tg": [
+          "Sanjar"
+        ],
+        "ru": [
+          "Sanzhar",
+          "Sandzhar"
+        ],
+        "uz": [
+          "Sanjar"
+        ],
+        "az": [
+          "Sanjar",
+          "Səncər"
+        ],
+        "tr": [
+          "Sencer"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "saule",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Saule",
+      "native": {
+        "ru": [
+          "Сауле"
+        ],
+        "kk": [
+          "Сәуле"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Saule"
+        ],
+        "ru": [
+          "Saule"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "yerbol",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Yerbol",
+      "native": {
+        "ru": [
+          "Ербол"
+        ],
+        "kk": [
+          "Ербол"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Yerbol",
+          "Erbol"
+        ],
+        "ru": [
+          "Erbol",
+          "Yerbol"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "zhanar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Zhanar",
+      "native": {
+        "ru": [
+          "Жанар"
+        ],
+        "kk": [
+          "Жанар"
+        ],
+        "ky": [
+          "Жанар"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Zhanar",
+          "Janar"
+        ],
+        "ru": [
+          "Zhanar"
+        ],
+        "ky": [
+          "Zhanar"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "altynai",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Altynai",
+      "native": {
+        "ru": [
+          "Алтынай"
+        ],
+        "kk": [
+          "Алтынай"
+        ],
+        "ky": [
+          "Алтынай"
+        ]
+      },
+      "latin": {
+        "ky": [
+          "Altynai",
+          "Altynay"
+        ],
+        "ru": [
+          "Altynai",
+          "Altynay"
+        ],
+        "kk": [
+          "Altynai"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "aizada",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aizada",
+      "native": {
+        "ru": [
+          "Айзада"
+        ],
+        "kk": [
+          "Айзада"
+        ],
+        "ky": [
+          "Айзада"
+        ]
+      },
+      "latin": {
+        "ky": [
+          "Aizada",
+          "Ayzada"
+        ],
+        "ru": [
+          "Aizada",
+          "Ayzada"
+        ],
+        "kk": [
+          "Aizada"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "jyldyz",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Zhyldyz",
+      "native": {
+        "ru": [
+          "Жылдыз",
+          "Жулдыз"
+        ],
+        "kk": [
+          "Жұлдыз"
+        ],
+        "ky": [
+          "Жылдыз"
+        ],
+        "tt": [
+          "Йолдыз"
+        ],
+        "ba": [
+          "Йондоҙ"
+        ],
+        "tr": [
+          "Yıldız"
+        ],
+        "az": [
+          "Yıldız"
+        ],
+        "uz": [
+          "Yulduz"
+        ]
+      },
+      "latin": {
+        "ky": [
+          "Jyldyz",
+          "Zhyldyz"
+        ],
+        "kk": [
+          "Zhuldyz"
+        ],
+        "tt": [
+          "Yulduz"
+        ],
+        "uz": [
+          "Yulduz"
+        ],
+        "ru": [
+          "Zhyldyz",
+          "Zhuldyz"
+        ],
+        "az": [
+          "Yildiz",
+          "Yıldız"
+        ],
+        "tr": [
+          "Yıldız"
+        ]
+      },
+      "variants": [
+        "Juldyz"
+      ]
+    },
+    {
+      "id": "cholpon",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Cholpon",
+      "native": {
+        "ru": [
+          "Чолпон",
+          "Шолпан",
+          "Чулпан"
+        ],
+        "kk": [
+          "Шолпан"
+        ],
+        "ky": [
+          "Чолпон"
+        ],
+        "tt": [
+          "Чулпан"
+        ],
+        "ba": [
+          "Сулпан"
+        ],
+        "uz": [
+          "Choʻlpon"
+        ],
+        "tr": [
+          "Çolpan"
+        ]
+      },
+      "latin": {
+        "ky": [
+          "Cholpon"
+        ],
+        "kk": [
+          "Sholpan"
+        ],
+        "tt": [
+          "Chulpan"
+        ],
+        "ba": [
+          "Sulpan"
+        ],
+        "uz": [
+          "Cholpon"
+        ],
+        "ru": [
+          "Cholpon",
+          "Sholpan",
+          "Chulpan"
+        ],
+        "tr": [
+          "Çolpan"
+        ]
+      },
+      "variants": [
+        "Cholpan",
+        "Colpan"
+      ]
+    },
+    {
+      "id": "alsu",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Alsu",
+      "native": {
+        "ru": [
+          "Алсу"
+        ],
+        "tt": [
+          "Алсу"
+        ],
+        "ba": [
+          "Алһыу"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Alsu"
+        ],
+        "ru": [
+          "Alsu"
+        ]
+      },
+      "variants": [
+        "Alsou"
+      ]
+    },
+    {
+      "id": "guzel",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Guzel",
+      "native": {
+        "ru": [
+          "Гузель",
+          "Гюзель"
+        ],
+        "tt": [
+          "Гүзәл"
+        ],
+        "ba": [
+          "Гүзәл"
+        ],
+        "tr": [
+          "Güzel"
+        ],
+        "az": [
+          "Gözəl"
+        ],
+        "uz": [
+          "Goʻzal"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Guzel",
+          "Gyuzel"
+        ],
+        "uz": [
+          "Gozal"
+        ],
+        "ru": [
+          "Guzel",
+          "Giuzel",
+          "Gyuzel"
+        ],
+        "az": [
+          "Gozal",
+          "Gözəl"
+        ],
+        "tr": [
+          "Güzel"
+        ]
+      },
+      "variants": [
+        "Guzal"
+      ]
+    },
+    {
+      "id": "ulugbek",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ulugbek",
+      "native": {
+        "ru": [
+          "Улугбек",
+          "Улукбек"
+        ],
+        "kk": [
+          "Ұлықбек"
+        ],
+        "ky": [
+          "Улукбек"
+        ],
+        "tg": [
+          "Улуғбек"
+        ],
+        "uz": [
+          "Ulugʻbek"
+        ]
+      },
+      "latin": {
+        "uz": [
+          "Ulugbek",
+          "Ulughbek"
+        ],
+        "kk": [
+          "Ulykbek"
+        ],
+        "ky": [
+          "Ulukbek"
+        ],
+        "ru": [
+          "Ulugbek",
+          "Ulukbek"
+        ],
+        "tg": [
+          "Ulughbek"
+        ]
+      },
+      "variants": [
+        "Ulug'bek"
+      ],
+      "related": [
+        "bek"
+      ]
+    },
+    {
+      "id": "otabek",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Otabek",
+      "native": {
+        "ru": [
+          "Отабек",
+          "Атабек"
+        ],
+        "uz": [
+          "Otabek"
+        ],
+        "tg": [
+          "Отабек"
+        ]
+      },
+      "latin": {
+        "uz": [
+          "Otabek"
+        ],
+        "ru": [
+          "Otabek",
+          "Atabek"
+        ],
+        "tg": [
+          "Otabek"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "bek"
+      ]
+    },
+    {
+      "id": "marat",
+      "kind": "given",
+      "gender": "m",
+      "origin": "french",
+      "english": "Marat",
+      "native": {
+        "ru": [
+          "Марат"
+        ],
+        "kk": [
+          "Марат"
+        ],
+        "ky": [
+          "Марат"
+        ],
+        "tt": [
+          "Марат"
+        ],
+        "ba": [
+          "Марат"
+        ],
+        "az": [
+          "Marat"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Marat"
+        ],
+        "tt": [
+          "Marat"
+        ],
+        "ru": [
+          "Marat"
+        ],
+        "ky": [
+          "Marat"
+        ],
+        "az": [
+          "Marat"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "rinat",
+      "kind": "given",
+      "gender": "m",
+      "origin": "latin",
+      "english": "Rinat",
+      "native": {
+        "ru": [
+          "Ринат"
+        ],
+        "kk": [
+          "Ринат"
+        ],
+        "tt": [
+          "Ринат"
+        ],
+        "ba": [
+          "Ринат"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Rinat"
+        ],
+        "ru": [
+          "Rinat"
+        ],
+        "kk": [
+          "Rinat"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ravil",
+      "kind": "given",
+      "gender": "m",
+      "english": "Ravil",
+      "native": {
+        "ru": [
+          "Равиль",
+          "Равил"
+        ],
+        "tt": [
+          "Равил"
+        ],
+        "ba": [
+          "Равил"
+        ]
+      },
+      "latin": {
+        "tt": [
+          "Ravil"
+        ],
+        "ru": [
+          "Ravil"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "zarema",
+      "kind": "given",
+      "gender": "f",
+      "english": "Zarema",
+      "native": {
+        "ru": [
+          "Зарема"
+        ],
+        "ce": [
+          "Зарема"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Zarema"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "zelimkhan",
+      "kind": "given",
+      "gender": "m",
+      "english": "Zelimkhan",
+      "native": {
+        "ru": [
+          "Зелимхан"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Zelimkhan"
+        ]
+      },
+      "variants": [
+        "Zelim Khan"
+      ]
+    },
+    {
+      "id": "zaur",
+      "kind": "given",
+      "gender": "m",
+      "english": "Zaur",
+      "native": {
+        "ru": [
+          "Заур"
+        ],
+        "az": [
+          "Zaur"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Zaur"
+        ],
+        "az": [
+          "Zaur"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "darkhan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "mongolic",
+      "english": "Darkhan",
+      "native": {
+        "ru": [
+          "Дархан"
+        ],
+        "kk": [
+          "Дархан"
+        ],
+        "ky": [
+          "Дархан"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Darkhan",
+          "Darhan"
+        ],
+        "ru": [
+          "Darkhan"
+        ],
+        "ky": [
+          "Darkhan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "dastan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Dastan",
+      "native": {
+        "ru": [
+          "Дастан",
+          "Достон"
+        ],
+        "kk": [
+          "Дастан"
+        ],
+        "ky": [
+          "Дастан"
+        ],
+        "tg": [
+          "Достон"
+        ],
+        "uz": [
+          "Doston"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "Dastan"
+        ],
+        "tg": [
+          "Doston"
+        ],
+        "ru": [
+          "Dastan",
+          "Doston"
+        ],
+        "ky": [
+          "Dastan"
+        ],
+        "uz": [
+          "Doston"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "gokhan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Gokhan",
+      "native": {
+        "ru": [
+          "Гёкхан",
+          "Гекхан"
+        ],
+        "tr": [
+          "Gökhan"
+        ],
+        "az": [
+          "Göyxan"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Goykhan"
+        ],
+        "ru": [
+          "Gekkhan",
+          "Gyokkhan"
+        ],
+        "tr": [
+          "Gökhan"
+        ]
+      },
+      "variants": [
+        "Goekhan"
+      ]
+    },
+    {
+      "id": "emre",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Emre",
+      "native": {
+        "ru": [
+          "Эмре"
+        ],
+        "tr": [
+          "Emre"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Emre"
+        ],
+        "tr": [
+          "Emre"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "burak",
+      "kind": "given",
+      "gender": "m",
+      "origin": "arabic",
+      "english": "Burak",
+      "native": {
+        "ru": [
+          "Бурак"
+        ],
+        "tr": [
+          "Burak"
+        ],
+        "az": [
+          "Burak"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Burak"
+        ],
+        "az": [
+          "Burak"
+        ],
+        "tr": [
+          "Burak"
+        ]
+      },
+      "variants": [
+        "Buraq"
+      ]
+    },
+    {
+      "id": "ozan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ozan",
+      "native": {
+        "ru": [
+          "Озан"
+        ],
+        "tr": [
+          "Ozan"
+        ],
+        "az": [
+          "Ozan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Ozan"
+        ],
+        "az": [
+          "Ozan"
+        ],
+        "tr": [
+          "Ozan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "tolga",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Tolga",
+      "native": {
+        "ru": [
+          "Толга"
+        ],
+        "tr": [
+          "Tolga"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Tolga"
+        ],
+        "tr": [
+          "Tolga"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "oguz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Oguz",
+      "native": {
+        "ru": [
+          "Огуз"
+        ],
+        "tr": [
+          "Oğuz"
+        ],
+        "az": [
+          "Oğuz"
+        ],
+        "tk": [
+          "Oguz"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Oghuz"
+        ],
+        "ru": [
+          "Oguz"
+        ],
+        "tr": [
+          "Oğuz"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "kaan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Kaan",
+      "native": {
+        "ru": [
+          "Каан"
+        ],
+        "tr": [
+          "Kaan",
+          "Kağan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Kaan"
+        ],
+        "tr": [
+          "Kaan",
+          "Kağan"
+        ]
+      },
+      "variants": [
+        "Kagan"
+      ],
+      "equivalents": [
+        "Khagan"
+      ],
+      "related": [
+        "hakan"
+      ]
+    },
+    {
+      "id": "ertugrul",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ertugrul",
+      "native": {
+        "ru": [
+          "Эртугрул",
+          "Эртогрул"
+        ],
+        "tr": [
+          "Ertuğrul"
+        ],
+        "az": [
+          "Ərtoğrul"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Artoghrul"
+        ],
+        "ru": [
+          "Ertugrul",
+          "Ertogrul"
+        ],
+        "tr": [
+          "Ertuğrul"
+        ]
+      },
+      "variants": [
+        "Ertoghrul",
+        "Ertughrul"
+      ]
+    },
+    {
+      "id": "orhan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Orhan",
+      "native": {
+        "ru": [
+          "Орхан"
+        ],
+        "tr": [
+          "Orhan"
+        ],
+        "az": [
+          "Orxan"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Orkhan",
+          "Orxan"
+        ],
+        "ru": [
+          "Orkhan"
+        ],
+        "tr": [
+          "Orhan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "hakan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Hakan",
+      "native": {
+        "ru": [
+          "Хакан"
+        ],
+        "tr": [
+          "Hakan"
+        ],
+        "az": [
+          "Xaqan"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Khagan"
+        ],
+        "ru": [
+          "Khakan"
+        ],
+        "tr": [
+          "Hakan"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "kaan"
+      ]
+    },
+    {
+      "id": "serkan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Serkan",
+      "native": {
+        "ru": [
+          "Серкан"
+        ],
+        "tr": [
+          "Serkan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Serkan"
+        ],
+        "tr": [
+          "Serkan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "erkan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Erkan",
+      "native": {
+        "ru": [
+          "Эркан"
+        ],
+        "tr": [
+          "Erkan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Erkan"
+        ],
+        "tr": [
+          "Erkan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "erdem",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Erdem",
+      "native": {
+        "ru": [
+          "Эрдем"
+        ],
+        "tr": [
+          "Erdem"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Erdem"
+        ],
+        "tr": [
+          "Erdem"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "engin",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Engin",
+      "native": {
+        "ru": [
+          "Энгин"
+        ],
+        "tr": [
+          "Engin"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Engin"
+        ],
+        "tr": [
+          "Engin"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ugur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Ugur",
+      "native": {
+        "ru": [
+          "Угур"
+        ],
+        "tr": [
+          "Uğur"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Ugur"
+        ],
+        "tr": [
+          "Uğur"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "umut",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Umut",
+      "native": {
+        "ru": [
+          "Умут"
+        ],
+        "tr": [
+          "Umut"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Umut"
+        ],
+        "tr": [
+          "Umut"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "omid"
+      ]
+    },
+    {
+      "id": "yavuz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Yavuz",
+      "native": {
+        "ru": [
+          "Явуз"
+        ],
+        "tr": [
+          "Yavuz"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Iavuz",
+          "Yavuz"
+        ],
+        "tr": [
+          "Yavuz"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "yigit",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Yigit",
+      "native": {
+        "ru": [
+          "Йигит"
+        ],
+        "tr": [
+          "Yiğit"
+        ],
+        "az": [
+          "İgid"
+        ],
+        "uz": [
+          "Yigit"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Igid"
+        ],
+        "ru": [
+          "Iigit",
+          "Yigit"
+        ],
+        "uz": [
+          "Yigit"
+        ],
+        "tr": [
+          "Yiğit"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "arda",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Arda",
+      "native": {
+        "ru": [
+          "Арда"
+        ],
+        "tr": [
+          "Arda"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Arda"
+        ],
+        "tr": [
+          "Arda"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "berk",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Berk",
+      "native": {
+        "ru": [
+          "Берк"
+        ],
+        "tr": [
+          "Berk"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Berk"
+        ],
+        "tr": [
+          "Berk"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "efe",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Efe",
+      "native": {
+        "ru": [
+          "Эфе"
+        ],
+        "tr": [
+          "Efe"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Efe"
+        ],
+        "tr": [
+          "Efe"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "eren",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Eren",
+      "native": {
+        "ru": [
+          "Эрен"
+        ],
+        "tr": [
+          "Eren"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Eren"
+        ],
+        "tr": [
+          "Eren"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "alper",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Alper",
+      "native": {
+        "ru": [
+          "Альпер"
+        ],
+        "tr": [
+          "Alper"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Alper"
+        ],
+        "tr": [
+          "Alper"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "mert",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Mert",
+      "native": {
+        "ru": [
+          "Мерт"
+        ],
+        "tr": [
+          "Mert"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Mert"
+        ],
+        "tr": [
+          "Mert"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "tarkan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Tarkan",
+      "native": {
+        "ru": [
+          "Таркан"
+        ],
+        "tr": [
+          "Tarkan"
+        ],
+        "az": [
+          "Tarxan"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Tarkhan"
+        ],
+        "ru": [
+          "Tarkan"
+        ],
+        "tr": [
+          "Tarkan"
+        ]
+      },
+      "variants": [
+        "Tarxan"
+      ]
+    },
+    {
+      "id": "batuhan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Batuhan",
+      "native": {
+        "ru": [
+          "Батухан"
+        ],
+        "tr": [
+          "Batuhan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Batukhan"
+        ],
+        "tr": [
+          "Batuhan"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "khan"
+      ]
+    },
+    {
+      "id": "turgut",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Turgut",
+      "native": {
+        "ru": [
+          "Тургут"
+        ],
+        "tr": [
+          "Turgut"
+        ],
+        "az": [
+          "Turqut"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Turgut"
+        ],
+        "ru": [
+          "Turgut"
+        ],
+        "tr": [
+          "Turgut"
+        ]
+      },
+      "variants": [],
+      "equivalents": [
+        "Dragut"
+      ]
+    },
+    {
+      "id": "altan",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Altan",
+      "native": {
+        "ru": [
+          "Алтан"
+        ],
+        "tr": [
+          "Altan"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Altan"
+        ],
+        "tr": [
+          "Altan"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "bulent",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Bulent",
+      "native": {
+        "ru": [
+          "Бюлент"
+        ],
+        "tr": [
+          "Bülent"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Biulent",
+          "Byulent"
+        ],
+        "tr": [
+          "Bülent"
+        ]
+      },
+      "variants": [
+        "Buelent"
+      ]
+    },
+    {
+      "id": "ozlem",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Ozlem",
+      "native": {
+        "ru": [
+          "Озлем"
+        ],
+        "tr": [
+          "Özlem"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Ozlem"
+        ],
+        "tr": [
+          "Özlem"
+        ]
+      },
+      "variants": [
+        "Oezlem"
+      ]
+    },
+    {
+      "id": "hulya",
+      "kind": "given",
+      "gender": "f",
+      "origin": "arabic",
+      "english": "Hulya",
+      "native": {
+        "ru": [
+          "Хюлья"
+        ],
+        "tr": [
+          "Hülya"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Khiulia",
+          "Khyulya"
+        ],
+        "tr": [
+          "Hülya"
+        ]
+      },
+      "variants": [
+        "Huelya"
+      ]
+    },
+    {
+      "id": "deniz",
+      "kind": "given",
+      "gender": "u",
+      "origin": "turkic",
+      "english": "Deniz",
+      "native": {
+        "ru": [
+          "Дениз"
+        ],
+        "tr": [
+          "Deniz"
+        ],
+        "az": [
+          "Dəniz"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Deniz"
+        ],
+        "az": [
+          "Daniz",
+          "Dəniz"
+        ],
+        "tr": [
+          "Deniz"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "sevgi",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Sevgi",
+      "native": {
+        "ru": [
+          "Севги"
+        ],
+        "tr": [
+          "Sevgi"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Sevgi"
+        ],
+        "tr": [
+          "Sevgi"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "dilek",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Dilek",
+      "native": {
+        "ru": [
+          "Дилек"
+        ],
+        "tr": [
+          "Dilek"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Dilek"
+        ],
+        "tr": [
+          "Dilek"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "gokce",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Gokce",
+      "native": {
+        "ru": [
+          "Гёкче"
+        ],
+        "tr": [
+          "Gökçe"
+        ],
+        "az": [
+          "Göyçə"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Goycha"
+        ],
+        "ru": [
+          "Gekche",
+          "Gyokche"
+        ],
+        "tr": [
+          "Gökçe"
+        ]
+      },
+      "variants": [
+        "Goekce"
+      ]
+    },
+    {
+      "id": "pinar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Pinar",
+      "native": {
+        "ru": [
+          "Пынар"
+        ],
+        "tr": [
+          "Pınar"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Pynar"
+        ],
+        "tr": [
+          "Pınar"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "burcu",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Burcu",
+      "native": {
+        "ru": [
+          "Бурджу"
+        ],
+        "tr": [
+          "Burcu"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Burdzhu"
+        ],
+        "tr": [
+          "Burcu"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ceren",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Ceren",
+      "native": {
+        "ru": [
+          "Джерен"
+        ],
+        "tr": [
+          "Ceren"
+        ],
+        "az": [
+          "Ceyran"
+        ],
+        "tk": [
+          "Jeren"
+        ]
+      },
+      "latin": {
+        "az": [
+          "Jeyran"
+        ],
+        "ru": [
+          "Dzheren"
+        ],
+        "tr": [
+          "Ceren"
+        ]
+      },
+      "variants": [
+        "Jeren"
+      ]
+    },
+    {
+      "id": "ece",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Ece",
+      "native": {
+        "ru": [
+          "Эдже"
+        ],
+        "tr": [
+          "Ece"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Edzhe"
+        ],
+        "tr": [
+          "Ece"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "elif",
+      "kind": "given",
+      "gender": "f",
+      "origin": "arabic",
+      "english": "Elif",
+      "native": {
+        "ru": [
+          "Элиф"
+        ],
+        "tr": [
+          "Elif"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Elif"
+        ],
+        "tr": [
+          "Elif"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ayse_gul",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Aysegul",
+      "native": {
+        "ru": [
+          "Айшегюль"
+        ],
+        "tr": [
+          "Ayşegül"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Aishegiul",
+          "Ayshegyul"
+        ],
+        "tr": [
+          "Ayşegül"
+        ]
+      },
+      "variants": [
+        "Ayshegul"
+      ],
+      "related": [
+        "aisha",
+        "gul"
+      ]
+    },
+    {
+      "id": "songul",
+      "kind": "given",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Songul",
+      "native": {
+        "ru": [
+          "Сонгюль"
+        ],
+        "tr": [
+          "Songül"
+        ]
+      },
+      "latin": {
+        "ru": [
+          "Songiul",
+          "Songyul"
+        ],
+        "tr": [
+          "Songül"
+        ]
+      },
+      "variants": [
+        "Songuel"
+      ],
+      "related": [
+        "gul"
+      ]
+    },
+    {
+      "id": "khanim",
+      "kind": "element",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Khanum",
+      "native": {
+        "fa": [
+          "خانم"
+        ],
+        "ur": [
+          "خانم"
+        ],
+        "ps": [
+          "خانم"
+        ],
+        "ru": [
+          "Ханум",
+          "Ханым"
+        ],
+        "kk": [
+          "Ханым"
+        ],
+        "tt": [
+          "Ханым"
+        ],
+        "tr": [
+          "Hanım"
+        ],
+        "az": [
+          "Xanım"
+        ],
+        "uz": [
+          "Xonim"
+        ]
+      },
+      "vocalized": "خَانُم",
+      "latin": {
+        "fa": [
+          "Khanom",
+          "Khanum"
+        ],
+        "ur": [
+          "Khanum",
+          "Khanam"
+        ],
+        "ps": [
+          "Khanum"
+        ],
+        "az": [
+          "Khanim",
+          "Xanim"
+        ],
+        "tr": [
+          "Hanım"
+        ],
+        "uz": [
+          "Khonim"
+        ],
+        "ru": [
+          "Khanum",
+          "Khanym"
+        ],
+        "kk": [
+          "Khanym"
+        ]
+      },
+      "variants": [
+        "Hanim",
+        "Xonim",
+        "Hanum"
+      ],
+      "related": [
+        "khan",
+        "begum"
+      ]
+    },
+    {
+      "id": "begum",
+      "kind": "element",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "Begum",
+      "native": {
+        "fa": [
+          "بیگم"
+        ],
+        "ur": [
+          "بیگم"
+        ],
+        "ps": [
+          "بېگم",
+          "بیگم"
+        ],
+        "ru": [
+          "Бегим",
+          "Бегум"
+        ],
+        "tr": [
+          "Begüm"
+        ],
+        "az": [
+          "Bəyim"
+        ],
+        "uz": [
+          "Begim"
+        ]
+      },
+      "vocalized": "بَیْگُم",
+      "latin": {
+        "fa": [
+          "Begum",
+          "Beygom"
+        ],
+        "ur": [
+          "Begum"
+        ],
+        "ps": [
+          "Begum"
+        ],
+        "bn": [
+          "Begum",
+          "Begam"
+        ],
+        "tr": [
+          "Begüm"
+        ],
+        "az": [
+          "Bayim",
+          "Beyim"
+        ],
+        "uz": [
+          "Begim"
+        ],
+        "ru": [
+          "Begim",
+          "Begum"
+        ]
+      },
+      "variants": [
+        "Beghum"
+      ],
+      "related": [
+        "bek",
+        "khanim"
+      ]
+    },
+    {
+      "id": "oglu",
+      "kind": "element",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "oglu",
+      "native": {
+        "tr": [
+          "oğlu"
+        ],
+        "az": [
+          "oğlu"
+        ],
+        "uz": [
+          "oʻgʻli"
+        ],
+        "ru": [
+          "оглы",
+          "углы",
+          "угли",
+          "улы",
+          "уулу"
+        ],
+        "kk": [
+          "ұлы"
+        ],
+        "ky": [
+          "уулу"
+        ],
+        "tt": [
+          "улы"
+        ],
+        "ba": [
+          "улы"
+        ],
+        "tk": [
+          "ogly"
+        ]
+      },
+      "latin": {
+        "az": [
+          "oglu",
+          "ogly"
+        ],
+        "tr": [
+          "oğlu"
+        ],
+        "uz": [
+          "ugli",
+          "ogli",
+          "o'g'li"
+        ],
+        "kk": [
+          "uly"
+        ],
+        "ky": [
+          "uulu"
+        ],
+        "tt": [
+          "uly"
+        ],
+        "tk": [
+          "ogly"
+        ],
+        "ru": [
+          "ogly",
+          "ugly",
+          "ugli",
+          "uly",
+          "uulu"
+        ]
+      },
+      "variants": [
+        "ulu",
+        "oghlu",
+        "ogl"
+      ],
+      "related": [
+        "qizi",
+        "bin"
+      ]
+    },
+    {
+      "id": "qizi",
+      "kind": "element",
+      "gender": "f",
+      "origin": "turkic",
+      "english": "qizi",
+      "native": {
+        "tr": [
+          "kızı"
+        ],
+        "az": [
+          "qızı"
+        ],
+        "uz": [
+          "qizi"
+        ],
+        "ru": [
+          "кызы",
+          "кизи",
+          "гызы"
+        ],
+        "kk": [
+          "қызы"
+        ],
+        "ky": [
+          "кызы"
+        ],
+        "tt": [
+          "кызы"
+        ],
+        "ba": [
+          "ҡыҙы"
+        ],
+        "tk": [
+          "gyzy"
+        ]
+      },
+      "latin": {
+        "az": [
+          "qizi",
+          "gizi",
+          "kyzy"
+        ],
+        "tr": [
+          "kızı"
+        ],
+        "uz": [
+          "qizi",
+          "kizi"
+        ],
+        "kk": [
+          "kyzy",
+          "qyzy"
+        ],
+        "ky": [
+          "kyzy"
+        ],
+        "tt": [
+          "kyzy"
+        ],
+        "tk": [
+          "gyzy"
+        ],
+        "ru": [
+          "kyzy",
+          "kizi",
+          "gyzy"
+        ]
+      },
+      "variants": [
+        "kyzi"
+      ],
+      "related": [
+        "oglu",
+        "bint"
+      ]
+    },
+    {
+      "id": "ov",
+      "kind": "element",
+      "gender": "u",
+      "origin": "slavic",
+      "english": "-ov",
+      "native": {
+        "ru": [
+          "-ов",
+          "-ев",
+          "-ова",
+          "-ева",
+          "-ёв"
+        ],
+        "tk": [
+          "-ow",
+          "-owa"
+        ],
+        "uz": [
+          "-ov",
+          "-ova",
+          "-yev",
+          "-yeva"
+        ],
+        "az": [
+          "-ov",
+          "-ova",
+          "-yev",
+          "-yeva"
+        ]
+      },
+      "latin": {
+        "tk": [
+          "-ow",
+          "-owa"
+        ],
+        "uz": [
+          "-ov",
+          "-ova",
+          "-yev",
+          "-yeva"
+        ],
+        "az": [
+          "-ov",
+          "-ova",
+          "-yev",
+          "-yeva"
+        ],
+        "ru": [
+          "-ov",
+          "-ev",
+          "-ova",
+          "-eva",
+          "-yev",
+          "-yeva",
+          "-yov"
+        ]
+      },
+      "variants": [
+        "-iev",
+        "-ieva",
+        "-off"
+      ],
+      "related": [
+        "zadeh",
+        "oglu"
+      ]
+    },
+    {
+      "id": "bek",
+      "kind": "element",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Bek",
+      "native": {
+        "fa": [
+          "بیگ"
+        ],
+        "ur": [
+          "بیگ"
+        ],
+        "ps": [
+          "بېګ",
+          "بیگ"
+        ],
+        "ru": [
+          "бек",
+          "бей"
+        ],
+        "kk": [
+          "бек"
+        ],
+        "ky": [
+          "бек"
+        ],
+        "tg": [
+          "бек"
+        ],
+        "tt": [
+          "бәк"
+        ],
+        "ba": [
+          "бәк"
+        ],
+        "uz": [
+          "bek"
+        ],
+        "az": [
+          "bəy"
+        ],
+        "tr": [
+          "bey"
+        ]
+      },
+      "vocalized": "بَیْگ",
+      "latin": {
+        "fa": [
+          "Beyg",
+          "Beig",
+          "Beg"
+        ],
+        "ur": [
+          "Baig",
+          "Beg"
+        ],
+        "ps": [
+          "Baig",
+          "Beg"
+        ],
+        "kk": [
+          "bek"
+        ],
+        "ky": [
+          "bek"
+        ],
+        "tg": [
+          "bek"
+        ],
+        "uz": [
+          "bek"
+        ],
+        "az": [
+          "bey"
+        ],
+        "tr": [
+          "Bey"
+        ],
+        "ru": [
+          "bek",
+          "bei",
+          "bey"
+        ]
+      },
+      "variants": [
+        "Begh",
+        "Baigh"
+      ],
+      "related": [
+        "begum",
+        "aibek",
+        "ulugbek"
+      ]
+    },
+    {
+      "id": "bay",
+      "kind": "element",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Bay",
+      "native": {
+        "ru": [
+          "бай",
+          "бой"
+        ],
+        "kk": [
+          "бай"
+        ],
+        "ky": [
+          "бай"
+        ],
+        "tt": [
+          "бай"
+        ],
+        "ba": [
+          "бай"
+        ],
+        "uz": [
+          "boy"
+        ],
+        "tk": [
+          "baý"
+        ]
+      },
+      "latin": {
+        "kk": [
+          "bay",
+          "bai"
+        ],
+        "ky": [
+          "bai",
+          "bay"
+        ],
+        "uz": [
+          "boy",
+          "bay"
+        ],
+        "tk": [
+          "bay"
+        ],
+        "ru": [
+          "bai",
+          "boi",
+          "bay",
+          "boy"
+        ]
+      },
+      "variants": [
+        "Bai",
+        "Boy",
+        "baj"
+      ],
+      "related": [
+        "bek"
+      ]
+    },
+    {
+      "id": "zadeh",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Zadeh",
+      "native": {
+        "ru": [
+          "заде",
+          "зода",
+          "зада"
+        ],
+        "tg": [
+          "зода",
+          "зод"
+        ],
+        "uz": [
+          "zoda",
+          "zod"
+        ],
+        "az": [
+          "zadə"
+        ],
+        "tr": [
+          "zade"
+        ]
+      },
+      "latin": {
+        "tg": [
+          "zoda",
+          "zod"
+        ],
+        "uz": [
+          "zoda"
+        ],
+        "az": [
+          "zade",
+          "zadeh"
+        ],
+        "tr": [
+          "zade"
+        ],
+        "ru": [
+          "zade",
+          "zoda",
+          "zada"
+        ]
+      },
+      "variants": [
+        "Zoda",
+        "Zade"
+      ],
+      "related": [
+        "oglu",
+        "ov"
+      ]
+    },
+    {
+      "id": "jan",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Jan",
+      "native": {
+        "ru": [
+          "джан",
+          "жан",
+          "жон",
+          "джон"
+        ],
+        "kk": [
+          "жан"
+        ],
+        "ky": [
+          "жан"
+        ],
+        "tg": [
+          "ҷон"
+        ],
+        "tt": [
+          "җан"
+        ],
+        "uz": [
+          "jon"
+        ],
+        "az": [
+          "can"
+        ],
+        "tr": [
+          "can"
+        ]
+      },
+      "latin": {
+        "uz": [
+          "jon"
+        ],
+        "kk": [
+          "zhan",
+          "jan"
+        ],
+        "ky": [
+          "zhan",
+          "jan"
+        ],
+        "tg": [
+          "jon",
+          "dzhon"
+        ],
+        "az": [
+          "jan"
+        ],
+        "tr": [
+          "can"
+        ],
+        "ru": [
+          "dzhan",
+          "zhan",
+          "zhon",
+          "dzhon"
+        ]
+      },
+      "variants": [
+        "djon",
+        "djan",
+        "Jon",
+        "Can"
+      ]
+    }
+  ]
+}

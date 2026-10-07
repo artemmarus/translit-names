@@ -1,0 +1,47 @@
+{
+  "id": "mk_bgn_pcgn",
+  "title": "Macedonian — BGN/PCGN 2013",
+  "language": "mk",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 2013,
+  "ascii": false,
+  "reversible": false,
+  "authority": "US Board on Geographic Names and UK Permanent Committee on Geographical Names, 2013 Agreement (checked for validity November 2023); replaces the BGN/PCGN 1981 agreement",
+  "description": "Geographic-names romanization following the Macedonian Latin orthography: Ѓ→ǵ, Ж→ž, Ѕ→dz, Ќ→ḱ, Ч→č, Џ→dž, Ш→š, Љ→lj, Њ→nj. Also the Macedonian Academy (1970) and ALA-LC values.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/636cd3738fa8f53587ffb1d6/ROMANIZATION_OF_MACEDONIAN_2022_final.pdf",
+    "https://en.wikipedia.org/wiki/Romanization_of_Macedonian"
+  ],
+  "notes": [
+    "dz, lj, nj and dž are written as two letters; the agreement allows the digraph code points ǳ/ǉ/ǌ/ǆ (U+01F3/01C9/01CC/01C6) or individual letters.",
+    "The modifier apostrophe ʼ (U+02BC) before syllabic р is romanized ’ (U+2019): ʼРжаново → ’Ržanovo.",
+    "The BGN/PCGN 1981 agreement (and the UN system) used g/k before е, и and đ/ć elsewhere for Ѓ/Ќ; not encoded here.",
+    "Accented ѐ/ѝ are not in the table; mapped to e/i."
+  ],
+  "alphabet": "абвгдѓежзѕијклљмнњопрстќуфхцчџш",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ѓ": "ǵ", "е": "e", "ж": "ž", "з": "z",
+    "ѕ": "dz", "и": "i", "ј": "j", "к": "k", "л": "l", "љ": "lj", "м": "m", "н": "n", "њ": "nj",
+    "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "ќ": "ḱ", "у": "u", "ф": "f", "х": "h",
+    "ц": "c", "ч": "č", "џ": "dž", "ш": "š", "ʼ": "’", "ѐ": "e", "ѝ": "i"
+  },
+  "samples": [
+    ["Арачиново", "Aračinovo"],
+    ["Боговиње", "Bogovinje"],
+    ["Ѓавато", "Ǵavato"],
+    ["Желино", "Želino"],
+    ["Ѕвегор", "Dzvegor"],
+    ["Јегуновце", "Jegunovce"],
+    ["Љубаништа", "Ljubaništa"],
+    ["Ќафасан", "Ḱafasan"],
+    ["Чешиново", "Češinovo"],
+    ["Џепчиште", "Džepčište"],
+    ["Шуто Оризари", "Šuto Orizari"],
+    ["ʼРжаново", "’Ržanovo"],
+    ["Ѓорѓи Петров", "Ǵorǵi Petrov"],
+    ["Ана-Марија Хаџи-Ристова", "Ana-Marija Hadži-Ristova"],
+    ["ЃОРЃИЕВСКИ НИКОЛА", "ǴORǴIEVSKI NIKOLA"]
+  ]
+}

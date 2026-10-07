@@ -1,0 +1,75 @@
+{
+  "id": "tt_bgn_pcgn",
+  "title": "Tatar — BGN/PCGN 2007 (yaꞑalif-2)",
+  "language": "tt",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 2007,
+  "authority": "BGN/PCGN 2007 Agreement (table checked Aug 2019)",
+  "description": "BGN/PCGN romanization of Tatar Cyrillic in the yaꞑalif-2 letter set: Ә→ə, Ө→ɵ, Ң→ꞑ, Җ→c, Ж→j, Ч→ç, Ш→ş, Х→x, Г→ğ/g and К→q/k by vowel harmony, У/Ү→w after vowels, И→i (capital İ), Ы→ı, Ь→’.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/5d6f828ce5274a097c07b95c/TABLE_OF_CORRESPONDENCES_FOR_TATAR.pdf",
+    "https://en.wikipedia.org/wiki/Tatar_alphabets"
+  ],
+  "notes": [
+    "Vowel harmony (note 3) is approximated letter by letter: Г/К become ğ/q before а о у ы ъ or after а о у ы when no vowel follows, and g/k before ә ө ү е и э ь or by default. Whole-word harmony, the loanword exception, and the back/front choice for Е (yı/ye), Ю (yu/yü) and Я (ya/yä, a/ä) are not modelled: Е gives ye, Ю yu, Я ya by default.",
+    "В is w, but v in loanwords (note 2). Only Russian surname endings are detected: word-final -в, -ва, -вич, -вна give v (Шәймиев → Şəymiev). Russian given names such as Владимир come out with w.",
+    "Ь is ’ in the table, but the official example Гыйльмиев → Ğilmiev drops it before a consonant; this scheme drops Ь before consonants and keeps ’ elsewhere.",
+    "Note 6: after ğ/q, ый is i (Гыйльмиев → Ğilmiev). Note 7: Э after a vowel is ’. Note 8: after и, Ю is ü and Я is a. Ыy for loanwords (note 2) is not detected.",
+    "Ё is not in the PCGN table; yo is used.",
+    "Zamanalif variant (ä, ñ, ö instead of ə, ꞑ, ɵ) must be used as a complete set; it is not produced here.",
+    "Casing workaround: И must capitalise to İ (PCGN inventory) while Ы gives ı/I. И is emitted as a placeholder (U+0269/U+0196) that post rules turn into i/İ."
+  ],
+  "alphabet": "аәбвгдеёжҗзийклмнңоөпрстуүфхһцчшщъыьэюя",
+  "classes": {
+    "B": "аоуы", "F": "әөүеиэ", "C": "бвгджзйклмнпрстфхцчшщһҗң", "V": "аәеёиоөуүыэюя"
+  },
+  "rules": [
+    {"from": "гый", "to": "ği", "note": "note 6"},
+    {"from": "кый", "to": "qi", "note": "note 6"},
+    {"from": "вич", "to": "viç", "end": true, "note": "Russian patronymic (loan)"},
+    {"from": "вна", "to": "vna", "end": true, "note": "Russian patronymic (loan)"},
+    {"from": "ва", "to": "va", "end": true, "note": "Russian surname ending -ова/-ева (loan)"},
+    {"from": "г", "to": "ğ", "before": "{B}ъ"},
+    {"from": "г", "to": "g", "before": "{F}ь"},
+    {"from": "г", "to": "ğ", "after": "{B}"},
+    {"from": "к", "to": "q", "before": "{B}ъ"},
+    {"from": "к", "to": "k", "before": "{F}ь"},
+    {"from": "к", "to": "q", "after": "{B}"},
+    {"from": "е", "to": "ye", "after": "^аәеёоөуүыэяъь", "note": "note 4: after a vowel except и, ю; after ъ, ь; word-initially"},
+    {"from": "в", "to": "v", "end": true, "note": "Russian surname ending -ов/-ев (loan)"},
+    {"from": "у", "to": "w", "after": "{V}", "note": "note 5"},
+    {"from": "ү", "to": "w", "after": "{V}", "note": "note 5"},
+    {"from": "ь", "to": "", "before": "{C}", "note": "Гыйльмиев → Ğilmiev"},
+    {"from": "э", "to": "’", "after": "{V}", "note": "note 7"},
+    {"from": "ю", "to": "ü", "after": "и", "note": "note 8"},
+    {"from": "я", "to": "a", "after": "и", "note": "note 8"}
+  ],
+  "map": {
+    "а": "a", "ә": "ə", "б": "b", "в": "w", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "j",
+    "җ": "c", "з": "z", "и": "ɩ", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "ң": "ꞑ",
+    "о": "o", "ө": "ɵ", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ү": "ü", "ф": "f",
+    "х": "x", "һ": "h", "ц": "ts", "ч": "ç", "ш": "ş", "щ": "şç", "ъ": "", "ы": "ı", "ь": "’",
+    "э": "e", "ю": "yu", "я": "ya"
+  },
+  "post": [
+    {"pattern": "ɩ", "replace": "i"},
+    {"pattern": "Ɩ", "replace": "İ"}
+  ],
+  "samples": [
+    ["Гыйльмиев", "Ğilmiev"],
+    ["Минтимер Шәймиев", "Mintimer Şəymiev"],
+    ["Габдулла Тукай", "Ğabdulla Tuqay"],
+    ["Муса Җәлил", "Musa Cəlil"],
+    ["Рөстәм Миңнеханов", "Rɵstəm Miꞑnexanov"],
+    ["Салих Сәйдәшев", "Salix Səydəşev"],
+    ["Гөлшат", "Gɵlşat"],
+    ["Кәрим", "Kərim"],
+    ["Казан", "Qazan"],
+    ["Түбән Кама", "Tübən Qama"],
+    ["Яр Чаллы", "Yar Çallı"],
+    ["Әлмәт", "Əlmət"],
+    ["ШӘЙМИЕВ МИНТИМЕР", "ŞƏYMİEV MİNTİMER"]
+  ]
+}

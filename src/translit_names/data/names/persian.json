@@ -1,0 +1,7452 @@
+{
+  "description": "Persian-origin given names and Persian name elements (Iran, Afghanistan, Tajikistan, Central Asia, Azerbaijan, South Asia).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Persian_name",
+    "https://en.wikipedia.org/wiki/Romanization_of_Persian",
+    "https://www.eki.ee/wgrs/rom1_fa.pdf",
+    "https://assets.publishing.service.gov.uk/media/5e1eeaafe5274a4f0f57553a/ROMANIZATION_OF_PERSIAN.pdf",
+    "https://assets.publishing.service.gov.uk/media/634e72918fa8f534627a6e60/ROMANIZATION_OF_TAJIK-2022.pdf",
+    "https://en.wikipedia.org/wiki/Afghan_name"
+  ],
+  "names": [
+    {
+      "id": "rustam",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Rustam",
+      "native": {
+        "fa": [
+          "رستم"
+        ],
+        "ar": [
+          "رستم"
+        ],
+        "ur": [
+          "رستم"
+        ],
+        "ps": [
+          "رستم"
+        ],
+        "ru": [
+          "Рустам",
+          "Рустем"
+        ],
+        "kk": [
+          "Рүстем",
+          "Рустем"
+        ],
+        "ky": [
+          "Рустам"
+        ],
+        "tg": [
+          "Рустам"
+        ],
+        "tt": [
+          "Рөстәм"
+        ],
+        "ba": [
+          "Рөстәм"
+        ],
+        "tr": [
+          "Rüstem"
+        ],
+        "az": [
+          "Rüstəm"
+        ],
+        "uz": [
+          "Rustam"
+        ]
+      },
+      "vocalized": "رُسْتَم",
+      "latin": {
+        "fa": [
+          "Rostam",
+          "Rustam"
+        ],
+        "ar": [
+          "Rustum",
+          "Rostom"
+        ],
+        "ur": [
+          "Rustam"
+        ],
+        "ps": [
+          "Rustam"
+        ],
+        "kk": [
+          "Rustem"
+        ],
+        "tr": [
+          "Rüstem"
+        ],
+        "ru": [
+          "Rustam",
+          "Rustem"
+        ],
+        "ky": [
+          "Rustam"
+        ],
+        "tg": [
+          "Rustam"
+        ],
+        "uz": [
+          "Rustam"
+        ],
+        "az": [
+          "Rustam",
+          "Rüstəm"
+        ]
+      },
+      "variants": [
+        "Roustam",
+        "Roustem"
+      ]
+    },
+    {
+      "id": "bahram",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Bahram",
+      "native": {
+        "fa": [
+          "بهرام"
+        ],
+        "ar": [
+          "بهرام"
+        ],
+        "ur": [
+          "بہرام"
+        ],
+        "ps": [
+          "بهرام"
+        ],
+        "ru": [
+          "Бахрам",
+          "Бахром"
+        ],
+        "tg": [
+          "Баҳром"
+        ],
+        "tr": [
+          "Behram"
+        ],
+        "az": [
+          "Bəhram"
+        ],
+        "uz": [
+          "Bahrom"
+        ]
+      },
+      "vocalized": "بَهْرَام",
+      "latin": {
+        "fa": [
+          "Bahram"
+        ],
+        "ur": [
+          "Bahram"
+        ],
+        "ps": [
+          "Bahram"
+        ],
+        "tr": [
+          "Behram"
+        ],
+        "ru": [
+          "Bakhram",
+          "Bakhrom"
+        ],
+        "tg": [
+          "Bahrom"
+        ],
+        "uz": [
+          "Bahrom"
+        ],
+        "az": [
+          "Bahram",
+          "Bəhram"
+        ]
+      },
+      "variants": [
+        "Vahram"
+      ]
+    },
+    {
+      "id": "kurush",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Kourosh",
+      "native": {
+        "fa": [
+          "کوروش",
+          "کورش"
+        ],
+        "ru": [
+          "Куруш",
+          "Курош"
+        ],
+        "tg": [
+          "Куруш"
+        ]
+      },
+      "vocalized": "کُورُش",
+      "latin": {
+        "fa": [
+          "Kourosh",
+          "Kurosh",
+          "Koorosh"
+        ],
+        "ru": [
+          "Kurush",
+          "Kurosh"
+        ],
+        "tg": [
+          "Kurush"
+        ]
+      },
+      "variants": [
+        "Korosh"
+      ],
+      "equivalents": [
+        "Cyrus"
+      ]
+    },
+    {
+      "id": "dariush",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Dariush",
+      "native": {
+        "fa": [
+          "داریوش"
+        ],
+        "ru": [
+          "Дариуш"
+        ]
+      },
+      "vocalized": "دَارْیُوش",
+      "latin": {
+        "fa": [
+          "Dariush",
+          "Daryoush",
+          "Dariyush"
+        ],
+        "ru": [
+          "Dariush"
+        ]
+      },
+      "variants": [
+        "Dariyoush",
+        "Dariusz",
+        "Daryush"
+      ],
+      "equivalents": [
+        "Darius"
+      ]
+    },
+    {
+      "id": "jamshid",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Jamshid",
+      "native": {
+        "fa": [
+          "جمشید"
+        ],
+        "ur": [
+          "جمشید"
+        ],
+        "ps": [
+          "جمشید"
+        ],
+        "ru": [
+          "Джамшид",
+          "Джамшед",
+          "Жамшид"
+        ],
+        "kk": [
+          "Жәмшит"
+        ],
+        "tg": [
+          "Ҷамшед",
+          "Ҷамшид"
+        ],
+        "tr": [
+          "Cemşit",
+          "Cemşid"
+        ],
+        "az": [
+          "Cəmşid"
+        ],
+        "uz": [
+          "Jamshid"
+        ]
+      },
+      "vocalized": "جَمْشِید",
+      "latin": {
+        "fa": [
+          "Jamshid"
+        ],
+        "ur": [
+          "Jamshed",
+          "Jamshaid"
+        ],
+        "ps": [
+          "Jamshid"
+        ],
+        "tg": [
+          "Jamshed",
+          "Dzhamshed"
+        ],
+        "ru": [
+          "Dzhamshid",
+          "Dzhamshed",
+          "Zhamshid"
+        ],
+        "kk": [
+          "Zhamshit"
+        ],
+        "uz": [
+          "Jamshid"
+        ],
+        "az": [
+          "Jamshid",
+          "Cəmşid"
+        ],
+        "tr": [
+          "Cemşit",
+          "Cemşid"
+        ]
+      },
+      "variants": [
+        "Jamsheed",
+        "Djamshid",
+        "Cemsit",
+        "Cemsid"
+      ]
+    },
+    {
+      "id": "farhad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Farhad",
+      "native": {
+        "fa": [
+          "فرهاد"
+        ],
+        "ar": [
+          "فرهاد"
+        ],
+        "ur": [
+          "فرہاد"
+        ],
+        "ps": [
+          "فرهاد"
+        ],
+        "ru": [
+          "Фархад",
+          "Фарход"
+        ],
+        "tg": [
+          "Фарҳод"
+        ],
+        "tt": [
+          "Фәрхад"
+        ],
+        "tr": [
+          "Ferhat",
+          "Ferhad"
+        ],
+        "az": [
+          "Fərhad"
+        ],
+        "uz": [
+          "Farhod"
+        ]
+      },
+      "vocalized": "فَرْهَاد",
+      "latin": {
+        "fa": [
+          "Farhad"
+        ],
+        "ur": [
+          "Farhad"
+        ],
+        "ps": [
+          "Farhad"
+        ],
+        "bn": [
+          "Farhad"
+        ],
+        "ru": [
+          "Farkhad",
+          "Farkhod"
+        ],
+        "tg": [
+          "Farhod"
+        ],
+        "uz": [
+          "Farhod"
+        ],
+        "az": [
+          "Farhad",
+          "Fərhad"
+        ],
+        "tr": [
+          "Ferhat",
+          "Ferhad"
+        ]
+      },
+      "variants": [
+        "Farhaad"
+      ],
+      "related": [
+        "farhat"
+      ]
+    },
+    {
+      "id": "firuz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Firouz",
+      "native": {
+        "fa": [
+          "فیروز"
+        ],
+        "ur": [
+          "فیروز"
+        ],
+        "ps": [
+          "فیروز"
+        ],
+        "ru": [
+          "Фируз",
+          "Фироз"
+        ],
+        "tg": [
+          "Фирӯз"
+        ],
+        "tr": [
+          "Firuz"
+        ],
+        "az": [
+          "Firuz"
+        ],
+        "uz": [
+          "Feruz",
+          "Firuz"
+        ]
+      },
+      "vocalized": "فِیرُوز",
+      "latin": {
+        "fa": [
+          "Firouz",
+          "Firooz",
+          "Firuz"
+        ],
+        "ur": [
+          "Feroz",
+          "Firoz",
+          "Firoze"
+        ],
+        "ps": [
+          "Feroz"
+        ],
+        "bn": [
+          "Firoz",
+          "Feroz"
+        ],
+        "tg": [
+          "Firuz"
+        ],
+        "ru": [
+          "Firuz",
+          "Firoz"
+        ],
+        "uz": [
+          "Feruz",
+          "Firuz"
+        ],
+        "az": [
+          "Firuz"
+        ],
+        "tr": [
+          "Firuz"
+        ]
+      },
+      "variants": [
+        "Feroze"
+      ],
+      "related": [
+        "firuza"
+      ]
+    },
+    {
+      "id": "shahram",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shahram",
+      "native": {
+        "fa": [
+          "شهرام"
+        ],
+        "ru": [
+          "Шахрам"
+        ],
+        "tg": [
+          "Шаҳром"
+        ],
+        "az": [
+          "Şəhram"
+        ],
+        "uz": [
+          "Shahrom"
+        ]
+      },
+      "vocalized": "شَهْرَام",
+      "latin": {
+        "fa": [
+          "Shahram"
+        ],
+        "ru": [
+          "Shakhram"
+        ],
+        "tg": [
+          "Shahrom"
+        ],
+        "uz": [
+          "Shahrom"
+        ],
+        "az": [
+          "Shahram",
+          "Şəhram"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "babak",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Babak",
+      "native": {
+        "fa": [
+          "بابک"
+        ],
+        "ru": [
+          "Бабек",
+          "Бабак"
+        ],
+        "tg": [
+          "Бобак"
+        ],
+        "tr": [
+          "Babek"
+        ],
+        "az": [
+          "Babək"
+        ]
+      },
+      "vocalized": "بَابَک",
+      "latin": {
+        "fa": [
+          "Babak"
+        ],
+        "ru": [
+          "Babek",
+          "Babak"
+        ],
+        "tg": [
+          "Bobak"
+        ],
+        "az": [
+          "Babak",
+          "Babək"
+        ],
+        "tr": [
+          "Babek"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "behzad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Behzad",
+      "native": {
+        "fa": [
+          "بهزاد"
+        ],
+        "ur": [
+          "بہزاد"
+        ],
+        "ps": [
+          "بهزاد"
+        ],
+        "ru": [
+          "Бехзод",
+          "Бекзод",
+          "Бехзад"
+        ],
+        "tg": [
+          "Беҳзод"
+        ],
+        "az": [
+          "Behzad"
+        ],
+        "uz": [
+          "Bekzod",
+          "Behzod"
+        ]
+      },
+      "vocalized": "بِهْزَاد",
+      "latin": {
+        "fa": [
+          "Behzad"
+        ],
+        "ur": [
+          "Behzad"
+        ],
+        "ps": [
+          "Behzad"
+        ],
+        "tg": [
+          "Behzod",
+          "Bekhzod"
+        ],
+        "uz": [
+          "Bekzod",
+          "Behzod"
+        ],
+        "ru": [
+          "Bekhzod",
+          "Bekzod",
+          "Bekhzad"
+        ],
+        "az": [
+          "Behzad"
+        ]
+      },
+      "variants": [
+        "Bihzad"
+      ],
+      "related": [
+        "bekzat"
+      ]
+    },
+    {
+      "id": "navid",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Navid",
+      "native": {
+        "fa": [
+          "نوید"
+        ],
+        "ur": [
+          "نوید"
+        ],
+        "ps": [
+          "نوید"
+        ],
+        "ru": [
+          "Навид"
+        ],
+        "tg": [
+          "Навид"
+        ],
+        "uz": [
+          "Navid"
+        ]
+      },
+      "vocalized": "نَوِید",
+      "latin": {
+        "fa": [
+          "Navid"
+        ],
+        "ur": [
+          "Naveed",
+          "Navid"
+        ],
+        "ps": [
+          "Navid"
+        ],
+        "bn": [
+          "Navid",
+          "Nabid"
+        ],
+        "ru": [
+          "Navid"
+        ],
+        "tg": [
+          "Navid"
+        ],
+        "uz": [
+          "Navid"
+        ]
+      },
+      "variants": [
+        "Nawid",
+        "Nevid"
+      ]
+    },
+    {
+      "id": "omid",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Omid",
+      "native": {
+        "fa": [
+          "امید"
+        ],
+        "ur": [
+          "امید"
+        ],
+        "ps": [
+          "امید"
+        ],
+        "ru": [
+          "Омид",
+          "Умид",
+          "Умед"
+        ],
+        "tg": [
+          "Умед"
+        ],
+        "tr": [
+          "Ümit",
+          "Ümid"
+        ],
+        "az": [
+          "Ümid"
+        ],
+        "uz": [
+          "Umid"
+        ]
+      },
+      "vocalized": "اُمِید",
+      "latin": {
+        "fa": [
+          "Omid"
+        ],
+        "ur": [
+          "Umeed",
+          "Ummeed"
+        ],
+        "ps": [
+          "Omid",
+          "Umid"
+        ],
+        "tg": [
+          "Umed",
+          "Umid"
+        ],
+        "tr": [
+          "Ümit"
+        ],
+        "ru": [
+          "Omid",
+          "Umid",
+          "Umed"
+        ],
+        "uz": [
+          "Umid"
+        ],
+        "az": [
+          "Umid",
+          "Ümid"
+        ]
+      },
+      "variants": [
+        "Omeed",
+        "Umit"
+      ]
+    },
+    {
+      "id": "parviz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Parviz",
+      "native": {
+        "fa": [
+          "پرویز"
+        ],
+        "ur": [
+          "پرویز"
+        ],
+        "ps": [
+          "پرویز"
+        ],
+        "ru": [
+          "Парвиз",
+          "Первиз"
+        ],
+        "tg": [
+          "Парвиз"
+        ],
+        "tr": [
+          "Perviz"
+        ],
+        "az": [
+          "Pərviz"
+        ],
+        "uz": [
+          "Parviz"
+        ]
+      },
+      "vocalized": "پَرْوِیز",
+      "latin": {
+        "fa": [
+          "Parviz",
+          "Parvis"
+        ],
+        "ur": [
+          "Pervez",
+          "Parvez",
+          "Parvaiz"
+        ],
+        "ps": [
+          "Parwiz",
+          "Parviz"
+        ],
+        "bn": [
+          "Parvez",
+          "Pervez"
+        ],
+        "tr": [
+          "Perviz"
+        ],
+        "ru": [
+          "Parviz",
+          "Perviz"
+        ],
+        "tg": [
+          "Parviz"
+        ],
+        "uz": [
+          "Parviz"
+        ],
+        "az": [
+          "Parviz",
+          "Pərviz"
+        ]
+      },
+      "variants": [
+        "Perwez"
+      ]
+    },
+    {
+      "id": "siavash",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Siavash",
+      "native": {
+        "fa": [
+          "سیاوش"
+        ],
+        "ru": [
+          "Сиявуш",
+          "Сияваш"
+        ],
+        "tg": [
+          "Сиёвуш"
+        ],
+        "tr": [
+          "Siyavuş"
+        ],
+        "az": [
+          "Siyavuş"
+        ],
+        "uz": [
+          "Siyovush"
+        ]
+      },
+      "vocalized": "سِیَاوَش",
+      "latin": {
+        "fa": [
+          "Siavash",
+          "Siyavash",
+          "Siavosh"
+        ],
+        "az": [
+          "Siyavush"
+        ],
+        "ru": [
+          "Siiavush",
+          "Siiavash",
+          "Siyavush",
+          "Siyavash"
+        ],
+        "tg": [
+          "Siyovush"
+        ],
+        "uz": [
+          "Siyovush"
+        ],
+        "tr": [
+          "Siyavuş"
+        ]
+      },
+      "variants": [
+        "Siyavus",
+        "Syavash",
+        "Siavush"
+      ]
+    },
+    {
+      "id": "shirin",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Shirin",
+      "native": {
+        "fa": [
+          "شیرین"
+        ],
+        "ar": [
+          "شيرين"
+        ],
+        "ur": [
+          "شیریں",
+          "شیرین"
+        ],
+        "ps": [
+          "شیرین"
+        ],
+        "ru": [
+          "Ширин"
+        ],
+        "kk": [
+          "Шырын"
+        ],
+        "tg": [
+          "Ширин"
+        ],
+        "tt": [
+          "Ширин"
+        ],
+        "tr": [
+          "Şirin"
+        ],
+        "az": [
+          "Şirin"
+        ],
+        "uz": [
+          "Shirin"
+        ]
+      },
+      "vocalized": "شِیرِین",
+      "latin": {
+        "fa": [
+          "Shirin",
+          "Shireen"
+        ],
+        "ar": [
+          "Shirin",
+          "Sherine"
+        ],
+        "ur": [
+          "Shireen",
+          "Shirin"
+        ],
+        "ps": [
+          "Shirin"
+        ],
+        "bn": [
+          "Shirin",
+          "Shireen"
+        ],
+        "ms": [
+          "Shirin"
+        ],
+        "kk": [
+          "Shyryn"
+        ],
+        "ru": [
+          "Shirin"
+        ],
+        "tg": [
+          "Shirin"
+        ],
+        "uz": [
+          "Shirin"
+        ],
+        "az": [
+          "Shirin",
+          "Şirin"
+        ],
+        "tr": [
+          "Şirin"
+        ]
+      },
+      "variants": [
+        "Shereen",
+        "Chirine",
+        "Sirin",
+        "Shirina"
+      ]
+    },
+    {
+      "id": "parisa",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Parisa",
+      "native": {
+        "fa": [
+          "پریسا"
+        ],
+        "ru": [
+          "Париса"
+        ],
+        "tg": [
+          "Париса"
+        ],
+        "az": [
+          "Parisa"
+        ]
+      },
+      "vocalized": "پَرِیسَا",
+      "latin": {
+        "fa": [
+          "Parisa"
+        ],
+        "ru": [
+          "Parisa"
+        ],
+        "tg": [
+          "Parisa"
+        ],
+        "az": [
+          "Parisa"
+        ]
+      },
+      "variants": [
+        "Parissa"
+      ]
+    },
+    {
+      "id": "nasrin",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Nasrin",
+      "native": {
+        "fa": [
+          "نسرین"
+        ],
+        "ar": [
+          "نسرين"
+        ],
+        "ur": [
+          "نسرین"
+        ],
+        "ps": [
+          "نسرین"
+        ],
+        "ru": [
+          "Насрин"
+        ],
+        "tg": [
+          "Насрин"
+        ],
+        "tr": [
+          "Nesrin"
+        ],
+        "az": [
+          "Nəsrin"
+        ],
+        "uz": [
+          "Nasrin"
+        ]
+      },
+      "vocalized": "نَسْرِین",
+      "latin": {
+        "fa": [
+          "Nasrin",
+          "Nasreen"
+        ],
+        "ar": [
+          "Nisrine",
+          "Nesrine",
+          "Nisreen"
+        ],
+        "ur": [
+          "Nasreen"
+        ],
+        "bn": [
+          "Nasrin",
+          "Nasreen"
+        ],
+        "ms": [
+          "Nasrin"
+        ],
+        "tr": [
+          "Nesrin"
+        ],
+        "ru": [
+          "Nasrin"
+        ],
+        "tg": [
+          "Nasrin"
+        ],
+        "uz": [
+          "Nasrin"
+        ],
+        "az": [
+          "Nasrin",
+          "Nəsrin"
+        ]
+      },
+      "variants": [
+        "Nesreen"
+      ]
+    },
+    {
+      "id": "laleh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Laleh",
+      "native": {
+        "fa": [
+          "لاله"
+        ],
+        "ur": [
+          "لالہ"
+        ],
+        "ps": [
+          "لاله"
+        ],
+        "ru": [
+          "Лола",
+          "Лале"
+        ],
+        "tg": [
+          "Лола"
+        ],
+        "tr": [
+          "Lale"
+        ],
+        "az": [
+          "Lalə"
+        ],
+        "uz": [
+          "Lola"
+        ]
+      },
+      "vocalized": "لَالِه",
+      "latin": {
+        "fa": [
+          "Laleh",
+          "Lale"
+        ],
+        "tr": [
+          "Lale"
+        ],
+        "tg": [
+          "Lola"
+        ],
+        "ru": [
+          "Lola",
+          "Lale"
+        ],
+        "uz": [
+          "Lola"
+        ],
+        "az": [
+          "Lala",
+          "Lalə"
+        ]
+      },
+      "variants": [
+        "Lalah",
+        "Lalé"
+      ]
+    },
+    {
+      "id": "gulnara",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Gulnara",
+      "native": {
+        "fa": [
+          "گلنار"
+        ],
+        "ru": [
+          "Гульнара",
+          "Гульнар"
+        ],
+        "kk": [
+          "Гүлнар",
+          "Гүлнара"
+        ],
+        "ky": [
+          "Гүлнара"
+        ],
+        "tg": [
+          "Гулнора"
+        ],
+        "tt": [
+          "Гөлнара"
+        ],
+        "ba": [
+          "Гөлнара"
+        ],
+        "az": [
+          "Gülnarə",
+          "Gülnar"
+        ],
+        "uz": [
+          "Gulnora",
+          "Gulnara"
+        ]
+      },
+      "vocalized": "گُلْنَار",
+      "latin": {
+        "fa": [
+          "Golnar"
+        ],
+        "kk": [
+          "Gulnar",
+          "Gulnara"
+        ],
+        "tt": [
+          "Gulnara"
+        ],
+        "az": [
+          "Gulnara",
+          "Gulnar"
+        ],
+        "ru": [
+          "Gulnara",
+          "Gulnar"
+        ],
+        "ky": [
+          "Gulnara"
+        ],
+        "tg": [
+          "Gulnora"
+        ],
+        "uz": [
+          "Gulnora",
+          "Gulnara"
+        ]
+      },
+      "variants": [
+        "Gulnare",
+        "Gülnar"
+      ],
+      "related": [
+        "gul"
+      ]
+    },
+    {
+      "id": "dilnoza",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Dilnoza",
+      "native": {
+        "ru": [
+          "Дильноза",
+          "Дилноза"
+        ],
+        "tg": [
+          "Дилноза"
+        ],
+        "uz": [
+          "Dilnoza"
+        ]
+      },
+      "latin": {
+        "uz": [
+          "Dilnoza"
+        ],
+        "tg": [
+          "Dilnoza"
+        ],
+        "ru": [
+          "Dilnoza"
+        ]
+      },
+      "variants": [
+        "Dilnaza"
+      ]
+    },
+    {
+      "id": "firuza",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Firuza",
+      "native": {
+        "fa": [
+          "فیروزه"
+        ],
+        "ur": [
+          "فیروزہ"
+        ],
+        "ru": [
+          "Фируза",
+          "Феруза"
+        ],
+        "kk": [
+          "Феруза"
+        ],
+        "tg": [
+          "Фирӯза"
+        ],
+        "tt": [
+          "Фирүзә"
+        ],
+        "tr": [
+          "Firuze"
+        ],
+        "az": [
+          "Firuzə"
+        ],
+        "uz": [
+          "Feruza"
+        ]
+      },
+      "vocalized": "فِیرُوزِه",
+      "latin": {
+        "fa": [
+          "Firouzeh",
+          "Firoozeh",
+          "Firuzeh"
+        ],
+        "ur": [
+          "Feroza",
+          "Firoza"
+        ],
+        "tg": [
+          "Firuza"
+        ],
+        "tr": [
+          "Firuze"
+        ],
+        "ru": [
+          "Firuza",
+          "Feruza"
+        ],
+        "kk": [
+          "Feruza"
+        ],
+        "uz": [
+          "Feruza"
+        ],
+        "az": [
+          "Firuza",
+          "Firuzə"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "firuz"
+      ]
+    },
+    {
+      "id": "yasmin",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Yasmin",
+      "native": {
+        "fa": [
+          "یاسمین",
+          "یاسمن"
+        ],
+        "ar": [
+          "ياسمين"
+        ],
+        "ur": [
+          "یاسمین"
+        ],
+        "ps": [
+          "یاسمین"
+        ],
+        "ru": [
+          "Ясмин",
+          "Ясмина",
+          "Ясемин"
+        ],
+        "tg": [
+          "Ёсуман",
+          "Ясмина"
+        ],
+        "tt": [
+          "Ясминә"
+        ],
+        "tr": [
+          "Yasemin"
+        ],
+        "az": [
+          "Yasəmən"
+        ],
+        "uz": [
+          "Yosuman",
+          "Yasmina"
+        ]
+      },
+      "vocalized": "یَاسْمِین",
+      "latin": {
+        "fa": [
+          "Yasmin",
+          "Yasaman"
+        ],
+        "ar": [
+          "Yasmine",
+          "Yasmin",
+          "Yasmeen"
+        ],
+        "ur": [
+          "Yasmeen",
+          "Yasmin"
+        ],
+        "bn": [
+          "Yasmin",
+          "Yeasmin",
+          "Jasmin"
+        ],
+        "ms": [
+          "Yasmin"
+        ],
+        "id": [
+          "Yasmin"
+        ],
+        "tr": [
+          "Yasemin"
+        ],
+        "az": [
+          "Yasaman"
+        ],
+        "ru": [
+          "Iasmin",
+          "Iasmina",
+          "Iasemin",
+          "Yasmin",
+          "Yasmina",
+          "Yasemin"
+        ],
+        "tg": [
+          "Yosuman",
+          "Yasmina"
+        ],
+        "uz": [
+          "Yosuman",
+          "Yasmina"
+        ]
+      },
+      "variants": [
+        "Yasamin",
+        "Yazmin"
+      ]
+    },
+    {
+      "id": "roxana",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Roxana",
+      "native": {
+        "fa": [
+          "رکسانا"
+        ],
+        "ru": [
+          "Роксана"
+        ],
+        "az": [
+          "Roksana"
+        ],
+        "uz": [
+          "Roksana"
+        ]
+      },
+      "vocalized": "رُکْسَانَا",
+      "latin": {
+        "fa": [
+          "Roxana",
+          "Roksana"
+        ],
+        "ru": [
+          "Roksana"
+        ],
+        "uz": [
+          "Roksana"
+        ],
+        "az": [
+          "Roksana"
+        ]
+      },
+      "variants": [
+        "Roxanne",
+        "Roxane"
+      ],
+      "related": [
+        "roshanak"
+      ]
+    },
+    {
+      "id": "roshanak",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Roshanak",
+      "native": {
+        "fa": [
+          "روشنک"
+        ],
+        "ru": [
+          "Рошанак"
+        ]
+      },
+      "vocalized": "رُوشَنَک",
+      "latin": {
+        "fa": [
+          "Roshanak"
+        ],
+        "ru": [
+          "Roshanak"
+        ]
+      },
+      "variants": [
+        "Rowshanak"
+      ],
+      "related": [
+        "roxana",
+        "rowshan"
+      ]
+    },
+    {
+      "id": "nargis",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Nargis",
+      "native": {
+        "fa": [
+          "نرگس"
+        ],
+        "ar": [
+          "نرجس"
+        ],
+        "ur": [
+          "نرگس"
+        ],
+        "ps": [
+          "نرگس"
+        ],
+        "ru": [
+          "Наргиз",
+          "Наргиза",
+          "Наргис"
+        ],
+        "kk": [
+          "Наргиз"
+        ],
+        "tg": [
+          "Наргис"
+        ],
+        "tt": [
+          "Нәркис"
+        ],
+        "tr": [
+          "Nergis"
+        ],
+        "az": [
+          "Nərgiz"
+        ],
+        "uz": [
+          "Nargiza",
+          "Nargis"
+        ]
+      },
+      "vocalized": "نَرْگِس",
+      "latin": {
+        "fa": [
+          "Narges",
+          "Nargess"
+        ],
+        "ar": [
+          "Narjis",
+          "Narjes"
+        ],
+        "ur": [
+          "Nargis"
+        ],
+        "ps": [
+          "Nargis"
+        ],
+        "bn": [
+          "Nargis"
+        ],
+        "tr": [
+          "Nergis"
+        ],
+        "az": [
+          "Nargiz"
+        ],
+        "ru": [
+          "Nargiz",
+          "Nargiza",
+          "Nargis"
+        ],
+        "kk": [
+          "Nargiz"
+        ],
+        "tg": [
+          "Nargis"
+        ],
+        "uz": [
+          "Nargiza",
+          "Nargis"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "zarina",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Zarina",
+      "native": {
+        "fa": [
+          "زرینه"
+        ],
+        "ur": [
+          "زرینہ"
+        ],
+        "ru": [
+          "Зарина"
+        ],
+        "kk": [
+          "Зарина"
+        ],
+        "tg": [
+          "Зарина"
+        ],
+        "tt": [
+          "Зәринә"
+        ],
+        "az": [
+          "Zərinə"
+        ],
+        "uz": [
+          "Zarina"
+        ]
+      },
+      "vocalized": "زَرِّینِه",
+      "latin": {
+        "fa": [
+          "Zarrineh",
+          "Zarineh"
+        ],
+        "ur": [
+          "Zarina",
+          "Zareena"
+        ],
+        "ps": [
+          "Zarina",
+          "Zareena"
+        ],
+        "tg": [
+          "Zarina"
+        ],
+        "ru": [
+          "Zarina"
+        ],
+        "kk": [
+          "Zarina"
+        ],
+        "uz": [
+          "Zarina"
+        ],
+        "az": [
+          "Zarina",
+          "Zərinə"
+        ]
+      },
+      "variants": [
+        "Zarine"
+      ]
+    },
+    {
+      "id": "anahita",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Anahita",
+      "native": {
+        "fa": [
+          "آناهیتا"
+        ],
+        "ru": [
+          "Анахита"
+        ],
+        "tg": [
+          "Анаҳита"
+        ]
+      },
+      "vocalized": "آنَاهِیتَا",
+      "latin": {
+        "fa": [
+          "Anahita"
+        ],
+        "ru": [
+          "Anakhita"
+        ],
+        "tg": [
+          "Anahita"
+        ]
+      },
+      "variants": [
+        "Anaheeta",
+        "Anahid"
+      ],
+      "related": [
+        "nahid"
+      ]
+    },
+    {
+      "id": "mahnaz",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Mahnaz",
+      "native": {
+        "fa": [
+          "مهناز"
+        ],
+        "ur": [
+          "مہناز"
+        ],
+        "ru": [
+          "Махназ"
+        ],
+        "tg": [
+          "Маҳназ"
+        ],
+        "az": [
+          "Mahnaz"
+        ],
+        "uz": [
+          "Mahnoz"
+        ]
+      },
+      "vocalized": "مَهْنَاز",
+      "latin": {
+        "fa": [
+          "Mahnaz"
+        ],
+        "ur": [
+          "Mahnaz"
+        ],
+        "az": [
+          "Mahnaz"
+        ],
+        "ru": [
+          "Makhnaz"
+        ],
+        "tg": [
+          "Mahnaz"
+        ],
+        "uz": [
+          "Mahnoz"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "mitra",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Mitra",
+      "native": {
+        "fa": [
+          "میترا"
+        ],
+        "ru": [
+          "Митра"
+        ]
+      },
+      "vocalized": "مِیتْرَا",
+      "latin": {
+        "fa": [
+          "Mitra"
+        ],
+        "ru": [
+          "Mitra"
+        ]
+      },
+      "variants": [
+        "Mithra"
+      ]
+    },
+    {
+      "id": "jahangir",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Jahangir",
+      "native": {
+        "fa": [
+          "جهانگیر"
+        ],
+        "ur": [
+          "جہانگیر"
+        ],
+        "ps": [
+          "جهانګیر",
+          "جهانگیر"
+        ],
+        "ru": [
+          "Джахангир",
+          "Жахангир",
+          "Джахонгир"
+        ],
+        "tg": [
+          "Ҷаҳонгир"
+        ],
+        "tr": [
+          "Cihangir"
+        ],
+        "az": [
+          "Cahangir"
+        ],
+        "uz": [
+          "Jahongir"
+        ]
+      },
+      "vocalized": "جَهَانْگِیر",
+      "latin": {
+        "fa": [
+          "Jahangir"
+        ],
+        "ur": [
+          "Jahangir"
+        ],
+        "ps": [
+          "Jahangir"
+        ],
+        "bn": [
+          "Jahangir"
+        ],
+        "tg": [
+          "Jahongir",
+          "Dzhakhongir"
+        ],
+        "ru": [
+          "Dzhakhangir",
+          "Zhakhangir",
+          "Dzhakhongir"
+        ],
+        "uz": [
+          "Jahongir"
+        ],
+        "az": [
+          "Jahangir",
+          "Cahangir"
+        ],
+        "tr": [
+          "Cihangir"
+        ]
+      },
+      "variants": [
+        "Jahangeer"
+      ]
+    },
+    {
+      "id": "shahzad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shahzad",
+      "native": {
+        "fa": [
+          "شهزاد"
+        ],
+        "ur": [
+          "شہزاد"
+        ],
+        "ps": [
+          "شهزاد"
+        ],
+        "ru": [
+          "Шахзод",
+          "Шахзад"
+        ],
+        "tg": [
+          "Шаҳзод"
+        ],
+        "az": [
+          "Şahzad"
+        ],
+        "uz": [
+          "Shahzod"
+        ]
+      },
+      "vocalized": "شَهْزَاد",
+      "latin": {
+        "fa": [
+          "Shahzad"
+        ],
+        "ur": [
+          "Shahzad"
+        ],
+        "ps": [
+          "Shahzad"
+        ],
+        "bn": [
+          "Shahzad",
+          "Shahjada"
+        ],
+        "ru": [
+          "Shakhzod",
+          "Shakhzad"
+        ],
+        "tg": [
+          "Shahzod"
+        ],
+        "uz": [
+          "Shahzod"
+        ],
+        "az": [
+          "Shahzad",
+          "Şahzad"
+        ]
+      },
+      "variants": [
+        "Shehzad"
+      ]
+    },
+    {
+      "id": "sher",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Sher",
+      "native": {
+        "fa": [
+          "شیر"
+        ],
+        "ur": [
+          "شیر"
+        ],
+        "ps": [
+          "شېر",
+          "شیر"
+        ],
+        "ru": [
+          "Шер",
+          "Шир"
+        ],
+        "tg": [
+          "Шер"
+        ],
+        "uz": [
+          "Sher"
+        ]
+      },
+      "vocalized": "شِیر",
+      "latin": {
+        "fa": [
+          "Shir"
+        ],
+        "ur": [
+          "Sher"
+        ],
+        "ps": [
+          "Sher"
+        ],
+        "tg": [
+          "Sher"
+        ],
+        "ru": [
+          "Sher",
+          "Shir"
+        ],
+        "uz": [
+          "Sher"
+        ]
+      },
+      "variants": [
+        "Shere"
+      ]
+    },
+    {
+      "id": "bakht",
+      "kind": "given",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Bakht",
+      "native": {
+        "fa": [
+          "بخت"
+        ],
+        "ur": [
+          "بخت"
+        ],
+        "ps": [
+          "بخت"
+        ],
+        "ru": [
+          "Бахт",
+          "Бакыт",
+          "Бахыт"
+        ],
+        "kk": [
+          "Бақыт"
+        ],
+        "ky": [
+          "Бакыт"
+        ],
+        "tg": [
+          "Бахт"
+        ],
+        "uz": [
+          "Baxt"
+        ]
+      },
+      "vocalized": "بَخْت",
+      "latin": {
+        "fa": [
+          "Bakht"
+        ],
+        "ur": [
+          "Bakht"
+        ],
+        "ps": [
+          "Bakht"
+        ],
+        "kk": [
+          "Bakhyt",
+          "Bakyt"
+        ],
+        "ky": [
+          "Bakyt",
+          "Bakhyt"
+        ],
+        "ru": [
+          "Bakht",
+          "Bakyt",
+          "Bakhyt"
+        ],
+        "tg": [
+          "Bakht"
+        ],
+        "uz": [
+          "Bakht",
+          "Baxt"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "khurshid",
+      "kind": "given",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Khurshid",
+      "native": {
+        "fa": [
+          "خورشید"
+        ],
+        "ur": [
+          "خورشید"
+        ],
+        "ps": [
+          "خورشید"
+        ],
+        "ru": [
+          "Хуршид",
+          "Хуршед"
+        ],
+        "tg": [
+          "Хуршед",
+          "Хуршид"
+        ],
+        "tr": [
+          "Hurşit",
+          "Hurşid"
+        ],
+        "az": [
+          "Xurşid"
+        ],
+        "uz": [
+          "Xurshid"
+        ]
+      },
+      "vocalized": "خُورْشِید",
+      "latin": {
+        "fa": [
+          "Khorshid",
+          "Khurshid"
+        ],
+        "ur": [
+          "Khursheed",
+          "Khurshid"
+        ],
+        "ps": [
+          "Khurshid"
+        ],
+        "bn": [
+          "Khurshid",
+          "Khorshed"
+        ],
+        "tg": [
+          "Khurshed",
+          "Khurshid"
+        ],
+        "ru": [
+          "Khurshid",
+          "Khurshed"
+        ],
+        "uz": [
+          "Khurshid",
+          "Xurshid"
+        ],
+        "az": [
+          "Khurshid",
+          "Xurşid"
+        ],
+        "tr": [
+          "Hurşit",
+          "Hurşid"
+        ]
+      },
+      "variants": [
+        "Hurshid",
+        "Hursit",
+        "Hursid"
+      ]
+    },
+    {
+      "id": "farrukh",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Farrukh",
+      "native": {
+        "fa": [
+          "فرخ"
+        ],
+        "ur": [
+          "فرخ"
+        ],
+        "ru": [
+          "Фаррух",
+          "Фарух"
+        ],
+        "tg": [
+          "Фаррух"
+        ],
+        "tr": [
+          "Ferruh"
+        ],
+        "az": [
+          "Fərrux"
+        ],
+        "uz": [
+          "Farrux"
+        ]
+      },
+      "vocalized": "فَرُّخ",
+      "latin": {
+        "fa": [
+          "Farrokh",
+          "Farokh"
+        ],
+        "ur": [
+          "Farrukh",
+          "Farukh"
+        ],
+        "tg": [
+          "Farrukh",
+          "Farukh"
+        ],
+        "tr": [
+          "Ferruh"
+        ],
+        "ru": [
+          "Farrukh",
+          "Farukh"
+        ],
+        "uz": [
+          "Farrukh",
+          "Farrux"
+        ],
+        "az": [
+          "Farrukh",
+          "Fərrux"
+        ]
+      },
+      "variants": [
+        "Farrouk"
+      ]
+    },
+    {
+      "id": "dilshod",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Dilshod",
+      "native": {
+        "fa": [
+          "دلشاد"
+        ],
+        "ur": [
+          "دلشاد"
+        ],
+        "ru": [
+          "Дилшод",
+          "Дильшод",
+          "Дилшат"
+        ],
+        "kk": [
+          "Ділшат"
+        ],
+        "tg": [
+          "Дилшод"
+        ],
+        "tt": [
+          "Дилшат"
+        ],
+        "tr": [
+          "Dilşad"
+        ],
+        "az": [
+          "Dilşad"
+        ],
+        "uz": [
+          "Dilshod"
+        ]
+      },
+      "vocalized": "دِلْشَاد",
+      "latin": {
+        "fa": [
+          "Delshad",
+          "Dilshad"
+        ],
+        "ur": [
+          "Dilshad"
+        ],
+        "bn": [
+          "Dilshad"
+        ],
+        "tg": [
+          "Dilshod"
+        ],
+        "kk": [
+          "Dilshat"
+        ],
+        "ru": [
+          "Dilshod",
+          "Dilshat"
+        ],
+        "uz": [
+          "Dilshod"
+        ],
+        "az": [
+          "Dilshad",
+          "Dilşad"
+        ],
+        "tr": [
+          "Dilşad"
+        ]
+      },
+      "variants": [
+        "Dilsad",
+        "Dilchod"
+      ]
+    },
+    {
+      "id": "bahadur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Bahadur",
+      "native": {
+        "fa": [
+          "بهادر"
+        ],
+        "ur": [
+          "بہادر"
+        ],
+        "ps": [
+          "بهادر"
+        ],
+        "ru": [
+          "Баходир",
+          "Бахадыр",
+          "Бахадур",
+          "Багадур"
+        ],
+        "tg": [
+          "Баҳодур"
+        ],
+        "tr": [
+          "Bahadır"
+        ],
+        "az": [
+          "Bahadur"
+        ],
+        "uz": [
+          "Bahodir"
+        ]
+      },
+      "vocalized": "بَهَادُر",
+      "latin": {
+        "fa": [
+          "Bahador",
+          "Bahadur"
+        ],
+        "ur": [
+          "Bahadur"
+        ],
+        "ps": [
+          "Bahadur"
+        ],
+        "bn": [
+          "Bahadur"
+        ],
+        "tg": [
+          "Bahodur"
+        ],
+        "tr": [
+          "Bahadır"
+        ],
+        "ru": [
+          "Bakhodir",
+          "Bakhadyr",
+          "Bakhadur",
+          "Bagadur"
+        ],
+        "uz": [
+          "Bahodir"
+        ],
+        "az": [
+          "Bahadur"
+        ]
+      },
+      "variants": [
+        "Bahadir"
+      ],
+      "related": [
+        "batyr"
+      ]
+    },
+    {
+      "id": "ardashir",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Ardeshir",
+      "native": {
+        "fa": [
+          "اردشیر"
+        ],
+        "ru": [
+          "Ардашир",
+          "Ардешир"
+        ],
+        "tg": [
+          "Ардашер"
+        ]
+      },
+      "vocalized": "اَرْدَشِیر",
+      "latin": {
+        "fa": [
+          "Ardeshir",
+          "Ardashir"
+        ],
+        "ur": [
+          "Ardeshir"
+        ],
+        "ru": [
+          "Ardashir",
+          "Ardeshir"
+        ],
+        "tg": [
+          "Ardasher"
+        ]
+      },
+      "variants": [
+        "Ardshir"
+      ]
+    },
+    {
+      "id": "arash",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Arash",
+      "native": {
+        "fa": [
+          "آرش"
+        ],
+        "ru": [
+          "Араш"
+        ]
+      },
+      "vocalized": "آرَش",
+      "latin": {
+        "fa": [
+          "Arash"
+        ],
+        "ru": [
+          "Arash"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "afshin",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Afshin",
+      "native": {
+        "fa": [
+          "افشین"
+        ],
+        "ru": [
+          "Афшин"
+        ],
+        "tg": [
+          "Афшин"
+        ],
+        "tr": [
+          "Afşin"
+        ],
+        "az": [
+          "Əfşin"
+        ]
+      },
+      "vocalized": "اَفْشِین",
+      "latin": {
+        "fa": [
+          "Afshin"
+        ],
+        "ru": [
+          "Afshin"
+        ],
+        "tg": [
+          "Afshin"
+        ],
+        "az": [
+          "Afshin",
+          "Əfşin"
+        ],
+        "tr": [
+          "Afşin"
+        ]
+      },
+      "variants": [
+        "Afsheen",
+        "Afchine",
+        "Afsin"
+      ]
+    },
+    {
+      "id": "azadeh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Azadeh",
+      "native": {
+        "fa": [
+          "آزاده"
+        ],
+        "ru": [
+          "Азаде",
+          "Озода"
+        ],
+        "tg": [
+          "Озода"
+        ],
+        "az": [
+          "Azadə"
+        ],
+        "uz": [
+          "Ozoda"
+        ]
+      },
+      "vocalized": "آزَادِه",
+      "latin": {
+        "fa": [
+          "Azadeh",
+          "Azade"
+        ],
+        "uz": [
+          "Ozoda"
+        ],
+        "tg": [
+          "Ozoda"
+        ],
+        "ru": [
+          "Azade",
+          "Ozoda"
+        ],
+        "az": [
+          "Azada",
+          "Azadə"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "azad"
+      ]
+    },
+    {
+      "id": "bahar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Bahar",
+      "native": {
+        "fa": [
+          "بهار"
+        ],
+        "ur": [
+          "بہار"
+        ],
+        "ps": [
+          "بهار"
+        ],
+        "ru": [
+          "Бахар",
+          "Бахор"
+        ],
+        "tg": [
+          "Баҳор"
+        ],
+        "tr": [
+          "Bahar"
+        ],
+        "az": [
+          "Bahar"
+        ],
+        "uz": [
+          "Bahor"
+        ]
+      },
+      "vocalized": "بَهَار",
+      "latin": {
+        "fa": [
+          "Bahar"
+        ],
+        "ur": [
+          "Bahar"
+        ],
+        "ps": [
+          "Bahar"
+        ],
+        "bn": [
+          "Bahar"
+        ],
+        "ru": [
+          "Bakhar",
+          "Bakhor"
+        ],
+        "tg": [
+          "Bahor"
+        ],
+        "uz": [
+          "Bahor"
+        ],
+        "az": [
+          "Bahar"
+        ],
+        "tr": [
+          "Bahar"
+        ]
+      },
+      "variants": [
+        "Baharr"
+      ],
+      "related": [
+        "gulbahor"
+      ]
+    },
+    {
+      "id": "bijan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Bijan",
+      "native": {
+        "fa": [
+          "بیژن"
+        ],
+        "ru": [
+          "Бижан",
+          "Бижен"
+        ],
+        "tg": [
+          "Бежан"
+        ],
+        "az": [
+          "Bijan"
+        ]
+      },
+      "vocalized": "بِیژَن",
+      "latin": {
+        "fa": [
+          "Bijan",
+          "Bizhan",
+          "Bejan"
+        ],
+        "ru": [
+          "Bizhan",
+          "Bizhen"
+        ],
+        "tg": [
+          "Bezhan"
+        ],
+        "az": [
+          "Bijan"
+        ]
+      },
+      "variants": [
+        "Bijhan",
+        "Beejan"
+      ]
+    },
+    {
+      "id": "esfandiar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Esfandiar",
+      "native": {
+        "fa": [
+          "اسفندیار"
+        ],
+        "ru": [
+          "Исфандияр",
+          "Исфандиёр",
+          "Эсфандиар"
+        ],
+        "tg": [
+          "Исфандиёр"
+        ],
+        "az": [
+          "İsfəndiyar"
+        ],
+        "uz": [
+          "Isfandiyor"
+        ]
+      },
+      "vocalized": "اِسْفَنْدِیَار",
+      "latin": {
+        "fa": [
+          "Esfandiar",
+          "Esfandiyar"
+        ],
+        "tg": [
+          "Isfandiyor"
+        ],
+        "ru": [
+          "Isfandiiar",
+          "Isfandier",
+          "Esfandiar",
+          "Isfandiyar",
+          "Isfandiyor"
+        ],
+        "uz": [
+          "Isfandiyor"
+        ],
+        "az": [
+          "Isfandiyar",
+          "İsfəndiyar"
+        ]
+      },
+      "variants": [
+        "Esfendiyar",
+        "Isfandiar"
+      ]
+    },
+    {
+      "id": "fariba",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Fariba",
+      "native": {
+        "fa": [
+          "فریبا"
+        ],
+        "ru": [
+          "Фариба"
+        ],
+        "tg": [
+          "Фариба"
+        ],
+        "az": [
+          "Fəribə"
+        ]
+      },
+      "vocalized": "فَرِیبَا",
+      "latin": {
+        "fa": [
+          "Fariba"
+        ],
+        "ru": [
+          "Fariba"
+        ],
+        "tg": [
+          "Fariba"
+        ],
+        "az": [
+          "Fariba",
+          "Fəribə"
+        ]
+      },
+      "variants": [
+        "Fereba",
+        "Fareeba"
+      ]
+    },
+    {
+      "id": "farzaneh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Farzaneh",
+      "native": {
+        "fa": [
+          "فرزانه"
+        ],
+        "ur": [
+          "فرزانہ"
+        ],
+        "ru": [
+          "Фарзана",
+          "Фарзона"
+        ],
+        "tg": [
+          "Фарзона"
+        ],
+        "az": [
+          "Fərzanə"
+        ],
+        "uz": [
+          "Farzona"
+        ]
+      },
+      "vocalized": "فَرْزَانِه",
+      "latin": {
+        "fa": [
+          "Farzaneh",
+          "Farzane"
+        ],
+        "ur": [
+          "Farzana"
+        ],
+        "bn": [
+          "Farzana"
+        ],
+        "tg": [
+          "Farzona"
+        ],
+        "ru": [
+          "Farzana",
+          "Farzona"
+        ],
+        "uz": [
+          "Farzona"
+        ],
+        "az": [
+          "Farzana",
+          "Fərzanə"
+        ]
+      },
+      "variants": [
+        "Farzanah"
+      ]
+    },
+    {
+      "id": "fereshteh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Fereshteh",
+      "native": {
+        "fa": [
+          "فرشته"
+        ],
+        "ur": [
+          "فرشتہ"
+        ],
+        "ps": [
+          "فرښته",
+          "فرشته"
+        ],
+        "ru": [
+          "Фаришта",
+          "Фереште"
+        ],
+        "tg": [
+          "Фаришта"
+        ],
+        "uz": [
+          "Farishta"
+        ]
+      },
+      "vocalized": "فِرِشْتِه",
+      "latin": {
+        "fa": [
+          "Fereshteh",
+          "Fereshte"
+        ],
+        "ur": [
+          "Farishta"
+        ],
+        "ps": [
+          "Freshta",
+          "Fereshta"
+        ],
+        "tg": [
+          "Farishta"
+        ],
+        "ru": [
+          "Farishta",
+          "Fereshte"
+        ],
+        "uz": [
+          "Farishta"
+        ]
+      },
+      "variants": [
+        "Ferishta"
+      ]
+    },
+    {
+      "id": "golnaz",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Golnaz",
+      "native": {
+        "fa": [
+          "گلناز"
+        ],
+        "ur": [
+          "گلناز"
+        ],
+        "ru": [
+          "Гульназ",
+          "Гульназа"
+        ],
+        "kk": [
+          "Гүлназ"
+        ],
+        "tg": [
+          "Гулноз"
+        ],
+        "tt": [
+          "Гөлназ"
+        ],
+        "ba": [
+          "Гөлназ"
+        ],
+        "tr": [
+          "Gülnaz"
+        ],
+        "az": [
+          "Gülnaz"
+        ],
+        "uz": [
+          "Gulnoz",
+          "Gulnoza"
+        ]
+      },
+      "vocalized": "گُلْنَاز",
+      "latin": {
+        "fa": [
+          "Golnaz"
+        ],
+        "ur": [
+          "Gulnaz"
+        ],
+        "tg": [
+          "Gulnoz"
+        ],
+        "tt": [
+          "Gulnaz"
+        ],
+        "tr": [
+          "Gülnaz"
+        ],
+        "ru": [
+          "Gulnaz",
+          "Gulnaza"
+        ],
+        "kk": [
+          "Gulnaz"
+        ],
+        "uz": [
+          "Gulnoz",
+          "Gulnoza"
+        ],
+        "az": [
+          "Gulnaz",
+          "Gülnaz"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "gul",
+        "gulnara"
+      ]
+    },
+    {
+      "id": "houshang",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Houshang",
+      "native": {
+        "fa": [
+          "هوشنگ"
+        ],
+        "ur": [
+          "ہوشنگ"
+        ],
+        "ru": [
+          "Хушанг",
+          "Хушенг"
+        ],
+        "tg": [
+          "Ҳушанг"
+        ],
+        "az": [
+          "Huşəng"
+        ],
+        "uz": [
+          "Hushang"
+        ]
+      },
+      "vocalized": "هُوشَنْگ",
+      "latin": {
+        "fa": [
+          "Houshang",
+          "Hushang",
+          "Hooshang"
+        ],
+        "ur": [
+          "Hoshang"
+        ],
+        "tg": [
+          "Hushang"
+        ],
+        "ru": [
+          "Khushang",
+          "Khusheng"
+        ],
+        "uz": [
+          "Hushang"
+        ],
+        "az": [
+          "Hushang",
+          "Huşəng"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "iraj",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Iraj",
+      "native": {
+        "fa": [
+          "ایرج"
+        ],
+        "ru": [
+          "Ирадж"
+        ],
+        "az": [
+          "İrəc"
+        ]
+      },
+      "vocalized": "اِیرَج",
+      "latin": {
+        "fa": [
+          "Iraj",
+          "Eraj"
+        ],
+        "ru": [
+          "Iradzh"
+        ],
+        "az": [
+          "Iraj",
+          "İrəc"
+        ]
+      },
+      "variants": [
+        "Iradj"
+      ]
+    },
+    {
+      "id": "kaveh",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Kaveh",
+      "native": {
+        "fa": [
+          "کاوه"
+        ],
+        "ru": [
+          "Каве",
+          "Кова"
+        ],
+        "tg": [
+          "Кова"
+        ],
+        "az": [
+          "Kavə"
+        ],
+        "uz": [
+          "Kova"
+        ]
+      },
+      "vocalized": "کَاوِه",
+      "latin": {
+        "fa": [
+          "Kaveh",
+          "Kave"
+        ],
+        "tg": [
+          "Kova"
+        ],
+        "ru": [
+          "Kave",
+          "Kova"
+        ],
+        "uz": [
+          "Kova"
+        ],
+        "az": [
+          "Kava",
+          "Kavə"
+        ]
+      },
+      "variants": [
+        "Kawa"
+      ]
+    },
+    {
+      "id": "keyvan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Keyvan",
+      "native": {
+        "fa": [
+          "کیوان"
+        ],
+        "ru": [
+          "Кейван",
+          "Кайвон"
+        ],
+        "tg": [
+          "Кайвон"
+        ],
+        "az": [
+          "Keyvan"
+        ],
+        "uz": [
+          "Kayvon"
+        ]
+      },
+      "vocalized": "کَیْوَان",
+      "latin": {
+        "fa": [
+          "Keyvan",
+          "Kayvan",
+          "Keivan"
+        ],
+        "tg": [
+          "Kayvon"
+        ],
+        "ru": [
+          "Keivan",
+          "Kaivon",
+          "Keyvan",
+          "Kayvon"
+        ],
+        "uz": [
+          "Kayvon"
+        ],
+        "az": [
+          "Keyvan"
+        ]
+      },
+      "variants": [
+        "Kaivan"
+      ]
+    },
+    {
+      "id": "khosrow",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Khosrow",
+      "native": {
+        "fa": [
+          "خسرو"
+        ],
+        "ur": [
+          "خسرو"
+        ],
+        "ps": [
+          "خسرو"
+        ],
+        "ru": [
+          "Хосров",
+          "Хусрав",
+          "Хосрав",
+          "Хусроу"
+        ],
+        "tg": [
+          "Хусрав"
+        ],
+        "tr": [
+          "Hüsrev"
+        ],
+        "az": [
+          "Xosrov"
+        ],
+        "uz": [
+          "Xusrav"
+        ]
+      },
+      "vocalized": "خُسْرُو",
+      "latin": {
+        "fa": [
+          "Khosrow",
+          "Khosro",
+          "Khosrau"
+        ],
+        "ur": [
+          "Khusro",
+          "Khusrau"
+        ],
+        "ps": [
+          "Khusraw"
+        ],
+        "tg": [
+          "Khusrav",
+          "Khusraw"
+        ],
+        "tr": [
+          "Hüsrev"
+        ],
+        "ru": [
+          "Khosrov",
+          "Khusrav",
+          "Khosrav",
+          "Khusrou"
+        ],
+        "uz": [
+          "Khusrav",
+          "Xusrav"
+        ],
+        "az": [
+          "Khosrov",
+          "Xosrov"
+        ]
+      },
+      "variants": [
+        "Husrev"
+      ],
+      "equivalents": [
+        "Chosroes"
+      ]
+    },
+    {
+      "id": "kamran",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Kamran",
+      "native": {
+        "fa": [
+          "کامران"
+        ],
+        "ur": [
+          "کامران"
+        ],
+        "ps": [
+          "کامران"
+        ],
+        "ru": [
+          "Камран",
+          "Комрон"
+        ],
+        "tg": [
+          "Комрон"
+        ],
+        "tr": [
+          "Kamran"
+        ],
+        "az": [
+          "Kamran"
+        ],
+        "uz": [
+          "Komron"
+        ]
+      },
+      "vocalized": "کَامْرَان",
+      "latin": {
+        "fa": [
+          "Kamran"
+        ],
+        "ur": [
+          "Kamran"
+        ],
+        "ps": [
+          "Kamran"
+        ],
+        "bn": [
+          "Kamran"
+        ],
+        "tg": [
+          "Komron"
+        ],
+        "ru": [
+          "Kamran",
+          "Komron"
+        ],
+        "uz": [
+          "Komron"
+        ],
+        "az": [
+          "Kamran"
+        ],
+        "tr": [
+          "Kamran"
+        ]
+      },
+      "variants": [
+        "Kamron"
+      ]
+    },
+    {
+      "id": "manuchehr",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Manouchehr",
+      "native": {
+        "fa": [
+          "منوچهر"
+        ],
+        "ru": [
+          "Манучехр",
+          "Манучер",
+          "Манучихр"
+        ],
+        "tg": [
+          "Манучеҳр"
+        ],
+        "az": [
+          "Mənuçehr"
+        ],
+        "uz": [
+          "Manuchehr"
+        ]
+      },
+      "vocalized": "مَنُوچِهْر",
+      "latin": {
+        "fa": [
+          "Manouchehr",
+          "Manuchehr",
+          "Manoochehr"
+        ],
+        "tg": [
+          "Manuchehr"
+        ],
+        "ru": [
+          "Manuchekhr",
+          "Manucher",
+          "Manuchikhr"
+        ],
+        "uz": [
+          "Manuchehr"
+        ],
+        "az": [
+          "Manuchehr",
+          "Mənuçehr"
+        ]
+      },
+      "variants": [
+        "Manuchihr"
+      ]
+    },
+    {
+      "id": "mehran",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Mehran",
+      "native": {
+        "fa": [
+          "مهران"
+        ],
+        "ur": [
+          "مہران"
+        ],
+        "ru": [
+          "Мехран",
+          "Мехрон"
+        ],
+        "tg": [
+          "Меҳрон"
+        ],
+        "az": [
+          "Mehran"
+        ],
+        "uz": [
+          "Mehron"
+        ]
+      },
+      "vocalized": "مِهْرَان",
+      "latin": {
+        "fa": [
+          "Mehran"
+        ],
+        "ur": [
+          "Mehran"
+        ],
+        "tg": [
+          "Mehron"
+        ],
+        "ru": [
+          "Mekhran",
+          "Mekhron"
+        ],
+        "uz": [
+          "Mehron"
+        ],
+        "az": [
+          "Mehran"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "mehrdad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Mehrdad",
+      "native": {
+        "fa": [
+          "مهرداد"
+        ],
+        "ru": [
+          "Мехрдад",
+          "Мехрдод"
+        ],
+        "tg": [
+          "Меҳрдод"
+        ],
+        "az": [
+          "Mehrdad"
+        ]
+      },
+      "vocalized": "مِهْرْدَاد",
+      "latin": {
+        "fa": [
+          "Mehrdad"
+        ],
+        "tg": [
+          "Mehrdod"
+        ],
+        "ru": [
+          "Mekhrdad",
+          "Mekhrdod"
+        ],
+        "az": [
+          "Mehrdad"
+        ]
+      },
+      "variants": [
+        "Mihrdad"
+      ]
+    },
+    {
+      "id": "mahsa",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Mahsa",
+      "native": {
+        "fa": [
+          "مهسا"
+        ],
+        "ru": [
+          "Махса"
+        ],
+        "tg": [
+          "Маҳсо"
+        ]
+      },
+      "vocalized": "مَهْسَا",
+      "latin": {
+        "fa": [
+          "Mahsa"
+        ],
+        "ru": [
+          "Makhsa"
+        ],
+        "tg": [
+          "Mahso"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "mina",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Mina",
+      "native": {
+        "fa": [
+          "مینا"
+        ],
+        "ur": [
+          "مینا"
+        ],
+        "ru": [
+          "Мина"
+        ],
+        "tg": [
+          "Мино"
+        ],
+        "az": [
+          "Minə"
+        ],
+        "uz": [
+          "Mino"
+        ]
+      },
+      "vocalized": "مِینَا",
+      "latin": {
+        "fa": [
+          "Mina"
+        ],
+        "ur": [
+          "Mina",
+          "Meena"
+        ],
+        "bn": [
+          "Mina"
+        ],
+        "tg": [
+          "Mino"
+        ],
+        "ru": [
+          "Mina"
+        ],
+        "uz": [
+          "Mino"
+        ],
+        "az": [
+          "Mina",
+          "Minə"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "mojgan",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Mojgan",
+      "native": {
+        "fa": [
+          "مژگان"
+        ],
+        "tr": [
+          "Müjgan"
+        ],
+        "az": [
+          "Müjgan"
+        ]
+      },
+      "vocalized": "مُژْگَان",
+      "latin": {
+        "fa": [
+          "Mojgan",
+          "Mozhgan"
+        ],
+        "az": [
+          "Mujgan",
+          "Müjgan"
+        ],
+        "tr": [
+          "Müjgan"
+        ]
+      },
+      "variants": [
+        "Mozhgon"
+      ]
+    },
+    {
+      "id": "nima",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Nima",
+      "native": {
+        "fa": [
+          "نیما"
+        ],
+        "ru": [
+          "Нима"
+        ]
+      },
+      "vocalized": "نِیمَا",
+      "latin": {
+        "fa": [
+          "Nima"
+        ],
+        "ru": [
+          "Nima"
+        ]
+      },
+      "variants": [
+        "Neema"
+      ]
+    },
+    {
+      "id": "pari",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Pari",
+      "native": {
+        "fa": [
+          "پری"
+        ],
+        "ur": [
+          "پری"
+        ],
+        "ps": [
+          "پري",
+          "پری"
+        ],
+        "ru": [
+          "Пари"
+        ],
+        "tg": [
+          "Парӣ"
+        ],
+        "tr": [
+          "Peri"
+        ],
+        "az": [
+          "Pəri"
+        ],
+        "uz": [
+          "Pari"
+        ]
+      },
+      "vocalized": "پَرِی",
+      "latin": {
+        "fa": [
+          "Pari"
+        ],
+        "ur": [
+          "Pari"
+        ],
+        "ps": [
+          "Pari"
+        ],
+        "tr": [
+          "Peri"
+        ],
+        "ru": [
+          "Pari"
+        ],
+        "tg": [
+          "Pari"
+        ],
+        "uz": [
+          "Pari"
+        ],
+        "az": [
+          "Pari",
+          "Pəri"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "payam",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Payam",
+      "native": {
+        "fa": [
+          "پیام"
+        ],
+        "ur": [
+          "پیام"
+        ],
+        "ru": [
+          "Паям",
+          "Паём"
+        ],
+        "tg": [
+          "Паём"
+        ],
+        "az": [
+          "Peyam"
+        ],
+        "uz": [
+          "Payom"
+        ]
+      },
+      "vocalized": "پَیَام",
+      "latin": {
+        "fa": [
+          "Payam",
+          "Peyam"
+        ],
+        "ur": [
+          "Payam"
+        ],
+        "tg": [
+          "Payom"
+        ],
+        "ru": [
+          "Paiam",
+          "Paem",
+          "Payam",
+          "Payom"
+        ],
+        "uz": [
+          "Payom"
+        ],
+        "az": [
+          "Peyam"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "parvaneh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Parvaneh",
+      "native": {
+        "fa": [
+          "پروانه"
+        ],
+        "ur": [
+          "پروانہ"
+        ],
+        "ru": [
+          "Парвона",
+          "Парване"
+        ],
+        "tg": [
+          "Парвона"
+        ],
+        "az": [
+          "Pərvanə"
+        ],
+        "uz": [
+          "Parvona"
+        ]
+      },
+      "vocalized": "پَرْوَانِه",
+      "latin": {
+        "fa": [
+          "Parvaneh",
+          "Parvane"
+        ],
+        "ur": [
+          "Parwana",
+          "Parvana"
+        ],
+        "ps": [
+          "Parwana"
+        ],
+        "tg": [
+          "Parvona"
+        ],
+        "ru": [
+          "Parvona",
+          "Parvane"
+        ],
+        "uz": [
+          "Parvona"
+        ],
+        "az": [
+          "Parvana",
+          "Pərvanə"
+        ]
+      },
+      "variants": [
+        "Pervane"
+      ]
+    },
+    {
+      "id": "pouya",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Pouya",
+      "native": {
+        "fa": [
+          "پویا"
+        ],
+        "ru": [
+          "Пуя"
+        ]
+      },
+      "vocalized": "پُویَا",
+      "latin": {
+        "fa": [
+          "Pouya",
+          "Puya",
+          "Pooya"
+        ],
+        "ru": [
+          "Puia",
+          "Puya"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ramin",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Ramin",
+      "native": {
+        "fa": [
+          "رامین"
+        ],
+        "ru": [
+          "Рамин"
+        ],
+        "tg": [
+          "Рамин"
+        ],
+        "az": [
+          "Ramin"
+        ]
+      },
+      "vocalized": "رَامِین",
+      "latin": {
+        "fa": [
+          "Ramin"
+        ],
+        "ru": [
+          "Ramin"
+        ],
+        "tg": [
+          "Ramin"
+        ],
+        "az": [
+          "Ramin"
+        ]
+      },
+      "variants": [
+        "Rameen"
+      ]
+    },
+    {
+      "id": "roya",
+      "kind": "given",
+      "gender": "f",
+      "origin": "arabic",
+      "english": "Roya",
+      "native": {
+        "fa": [
+          "رویا",
+          "رؤیا"
+        ],
+        "ar": [
+          "رؤيا"
+        ],
+        "ur": [
+          "رویا"
+        ],
+        "ps": [
+          "رویا"
+        ],
+        "ru": [
+          "Роя"
+        ],
+        "tr": [
+          "Rüya"
+        ],
+        "az": [
+          "Röya"
+        ],
+        "uz": [
+          "Royo"
+        ]
+      },
+      "vocalized": "رُؤْیَا",
+      "latin": {
+        "fa": [
+          "Roya"
+        ],
+        "ar": [
+          "Roya",
+          "Ruya"
+        ],
+        "ur": [
+          "Roya"
+        ],
+        "ps": [
+          "Roya"
+        ],
+        "tr": [
+          "Rüya"
+        ],
+        "az": [
+          "Roya"
+        ],
+        "ru": [
+          "Roia",
+          "Roya"
+        ],
+        "uz": [
+          "Royo"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "sepideh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Sepideh",
+      "native": {
+        "fa": [
+          "سپیده"
+        ],
+        "ru": [
+          "Сепиде"
+        ],
+        "az": [
+          "Sepidə"
+        ]
+      },
+      "vocalized": "سِپِیدِه",
+      "latin": {
+        "fa": [
+          "Sepideh",
+          "Sepide"
+        ],
+        "ru": [
+          "Sepide"
+        ],
+        "az": [
+          "Sepida",
+          "Sepidə"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "shabnam",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Shabnam",
+      "native": {
+        "fa": [
+          "شبنم"
+        ],
+        "ur": [
+          "شبنم"
+        ],
+        "ps": [
+          "شبنم"
+        ],
+        "ru": [
+          "Шабнам"
+        ],
+        "tg": [
+          "Шабнам"
+        ],
+        "tr": [
+          "Şebnem"
+        ],
+        "az": [
+          "Şəbnəm"
+        ],
+        "uz": [
+          "Shabnam"
+        ]
+      },
+      "vocalized": "شَبْنَم",
+      "latin": {
+        "fa": [
+          "Shabnam"
+        ],
+        "ur": [
+          "Shabnam"
+        ],
+        "ps": [
+          "Shabnam"
+        ],
+        "bn": [
+          "Shabnam",
+          "Shobnom"
+        ],
+        "tr": [
+          "Şebnem"
+        ],
+        "ru": [
+          "Shabnam"
+        ],
+        "tg": [
+          "Shabnam"
+        ],
+        "uz": [
+          "Shabnam"
+        ],
+        "az": [
+          "Shabnam",
+          "Şəbnəm"
+        ]
+      },
+      "variants": [
+        "Shebnem",
+        "Sebnem"
+      ]
+    },
+    {
+      "id": "shahin",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shahin",
+      "native": {
+        "fa": [
+          "شاهین"
+        ],
+        "ur": [
+          "شاہین"
+        ],
+        "ps": [
+          "شاهین"
+        ],
+        "ru": [
+          "Шахин",
+          "Шагин"
+        ],
+        "tg": [
+          "Шоҳин"
+        ],
+        "tr": [
+          "Şahin"
+        ],
+        "az": [
+          "Şahin"
+        ],
+        "uz": [
+          "Shohin"
+        ]
+      },
+      "vocalized": "شَاهِین",
+      "latin": {
+        "fa": [
+          "Shahin",
+          "Shaheen"
+        ],
+        "ur": [
+          "Shaheen"
+        ],
+        "ps": [
+          "Shaheen",
+          "Shahin"
+        ],
+        "bn": [
+          "Shahin",
+          "Shaheen"
+        ],
+        "ms": [
+          "Shahin"
+        ],
+        "tr": [
+          "Şahin"
+        ],
+        "ru": [
+          "Shakhin",
+          "Shagin"
+        ],
+        "tg": [
+          "Shohin"
+        ],
+        "uz": [
+          "Shohin"
+        ],
+        "az": [
+          "Shahin",
+          "Şahin"
+        ]
+      },
+      "variants": [
+        "Sahin",
+        "Chahine"
+      ]
+    },
+    {
+      "id": "shahnaz",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Shahnaz",
+      "native": {
+        "fa": [
+          "شهناز"
+        ],
+        "ur": [
+          "شہناز"
+        ],
+        "ps": [
+          "شهناز"
+        ],
+        "ru": [
+          "Шахназ",
+          "Шахноза"
+        ],
+        "tg": [
+          "Шаҳноза"
+        ],
+        "tr": [
+          "Şehnaz"
+        ],
+        "az": [
+          "Şahnaz"
+        ],
+        "uz": [
+          "Shahnoza"
+        ]
+      },
+      "vocalized": "شَهْنَاز",
+      "latin": {
+        "fa": [
+          "Shahnaz"
+        ],
+        "ur": [
+          "Shahnaz"
+        ],
+        "ps": [
+          "Shahnaz"
+        ],
+        "bn": [
+          "Shahnaz",
+          "Shahanaz"
+        ],
+        "tg": [
+          "Shahnoza"
+        ],
+        "uz": [
+          "Shahnoza",
+          "Shakhnoza"
+        ],
+        "ru": [
+          "Shakhnaz",
+          "Shakhnoza"
+        ],
+        "az": [
+          "Shahnaz",
+          "Şahnaz"
+        ],
+        "tr": [
+          "Şehnaz"
+        ]
+      },
+      "variants": [
+        "Sehnaz",
+        "Shehnaz",
+        "Shahnaaz"
+      ],
+      "related": [
+        "dilnoza"
+      ]
+    },
+    {
+      "id": "shahriar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shahriar",
+      "native": {
+        "fa": [
+          "شهریار"
+        ],
+        "ur": [
+          "شہریار"
+        ],
+        "ru": [
+          "Шахрияр",
+          "Шахриёр"
+        ],
+        "tg": [
+          "Шаҳриёр"
+        ],
+        "tr": [
+          "Şehriyar"
+        ],
+        "az": [
+          "Şəhriyar"
+        ],
+        "uz": [
+          "Shahriyor"
+        ]
+      },
+      "vocalized": "شَهْرِیَار",
+      "latin": {
+        "fa": [
+          "Shahriar",
+          "Shahriyar"
+        ],
+        "ur": [
+          "Shahryar",
+          "Shahriyar"
+        ],
+        "bn": [
+          "Shahriar",
+          "Shariar"
+        ],
+        "tg": [
+          "Shahriyor"
+        ],
+        "ru": [
+          "Shakhriiar",
+          "Shakhrier",
+          "Shakhriyar",
+          "Shakhriyor"
+        ],
+        "uz": [
+          "Shahriyor"
+        ],
+        "az": [
+          "Shahriyar",
+          "Şəhriyar"
+        ],
+        "tr": [
+          "Şehriyar"
+        ]
+      },
+      "variants": [
+        "Sehriyar"
+      ]
+    },
+    {
+      "id": "shapur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shapour",
+      "native": {
+        "fa": [
+          "شاپور"
+        ],
+        "ur": [
+          "شاپور"
+        ],
+        "ps": [
+          "شاپور"
+        ],
+        "ru": [
+          "Шапур",
+          "Шахпур"
+        ],
+        "tg": [
+          "Шопур"
+        ],
+        "az": [
+          "Şapur"
+        ]
+      },
+      "vocalized": "شَاپُور",
+      "latin": {
+        "fa": [
+          "Shapour",
+          "Shapur"
+        ],
+        "ps": [
+          "Shahpur"
+        ],
+        "ur": [
+          "Shahpur"
+        ],
+        "ru": [
+          "Shapur",
+          "Shakhpur"
+        ],
+        "tg": [
+          "Shopur"
+        ],
+        "az": [
+          "Shapur",
+          "Şapur"
+        ]
+      },
+      "variants": [
+        "Shahpour"
+      ],
+      "equivalents": [
+        "Sapor"
+      ]
+    },
+    {
+      "id": "simin",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Simin",
+      "native": {
+        "fa": [
+          "سیمین"
+        ],
+        "ru": [
+          "Симин"
+        ],
+        "tg": [
+          "Симин"
+        ],
+        "az": [
+          "Simin"
+        ]
+      },
+      "vocalized": "سِیمِین",
+      "latin": {
+        "fa": [
+          "Simin"
+        ],
+        "ru": [
+          "Simin"
+        ],
+        "tg": [
+          "Simin"
+        ],
+        "az": [
+          "Simin"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "sohrab",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Sohrab",
+      "native": {
+        "fa": [
+          "سهراب"
+        ],
+        "ur": [
+          "سہراب"
+        ],
+        "ps": [
+          "سهراب"
+        ],
+        "ru": [
+          "Сохраб",
+          "Сухроб"
+        ],
+        "tg": [
+          "Суҳроб"
+        ],
+        "tr": [
+          "Sührap"
+        ],
+        "az": [
+          "Söhrab"
+        ],
+        "uz": [
+          "Suhrob"
+        ]
+      },
+      "vocalized": "سُهْرَاب",
+      "latin": {
+        "fa": [
+          "Sohrab"
+        ],
+        "ur": [
+          "Sohrab"
+        ],
+        "ps": [
+          "Sohrab"
+        ],
+        "bn": [
+          "Sohrab"
+        ],
+        "tg": [
+          "Suhrob"
+        ],
+        "ru": [
+          "Sokhrab",
+          "Sukhrob"
+        ],
+        "uz": [
+          "Suhrob"
+        ],
+        "az": [
+          "Sohrab",
+          "Söhrab"
+        ],
+        "tr": [
+          "Sührap"
+        ]
+      },
+      "variants": [
+        "Sohrap",
+        "Suhrap"
+      ]
+    },
+    {
+      "id": "tahmineh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Tahmineh",
+      "native": {
+        "fa": [
+          "تهمینه"
+        ],
+        "ur": [
+          "تہمینہ"
+        ],
+        "ru": [
+          "Тахмина"
+        ],
+        "tg": [
+          "Таҳмина"
+        ],
+        "az": [
+          "Təhminə"
+        ],
+        "uz": [
+          "Tahmina"
+        ]
+      },
+      "vocalized": "تَهْمِینِه",
+      "latin": {
+        "fa": [
+          "Tahmineh",
+          "Tahmine"
+        ],
+        "ur": [
+          "Tahmina"
+        ],
+        "bn": [
+          "Tahmina"
+        ],
+        "tg": [
+          "Tahmina"
+        ],
+        "ru": [
+          "Takhmina"
+        ],
+        "uz": [
+          "Tahmina"
+        ],
+        "az": [
+          "Tahmina",
+          "Təhminə"
+        ]
+      },
+      "variants": [
+        "Tehmina"
+      ]
+    },
+    {
+      "id": "taraneh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Taraneh",
+      "native": {
+        "fa": [
+          "ترانه"
+        ],
+        "ur": [
+          "ترانہ"
+        ],
+        "ru": [
+          "Тарона"
+        ],
+        "tg": [
+          "Тарона"
+        ],
+        "uz": [
+          "Tarona"
+        ]
+      },
+      "vocalized": "تَرَانِه",
+      "latin": {
+        "fa": [
+          "Taraneh",
+          "Tarane"
+        ],
+        "ur": [
+          "Tarana"
+        ],
+        "tg": [
+          "Tarona"
+        ],
+        "ru": [
+          "Tarona"
+        ],
+        "uz": [
+          "Tarona"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "zhaleh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Zhaleh",
+      "native": {
+        "fa": [
+          "ژاله"
+        ],
+        "ru": [
+          "Жале",
+          "Жалэ"
+        ],
+        "az": [
+          "Jalə"
+        ]
+      },
+      "vocalized": "ژَالِه",
+      "latin": {
+        "fa": [
+          "Zhaleh",
+          "Jaleh",
+          "Zhale"
+        ],
+        "ru": [
+          "Zhale"
+        ],
+        "az": [
+          "Jala",
+          "Jalə"
+        ]
+      },
+      "variants": [
+        "Jale"
+      ]
+    },
+    {
+      "id": "ziba",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Ziba",
+      "native": {
+        "fa": [
+          "زیبا"
+        ],
+        "ur": [
+          "زیبا"
+        ],
+        "ps": [
+          "زیبا"
+        ],
+        "ru": [
+          "Зиба",
+          "Зебо"
+        ],
+        "tg": [
+          "Зебо"
+        ],
+        "az": [
+          "Ziba"
+        ],
+        "uz": [
+          "Zebo"
+        ]
+      },
+      "vocalized": "زِیبَا",
+      "latin": {
+        "fa": [
+          "Ziba"
+        ],
+        "ur": [
+          "Zeba",
+          "Ziba"
+        ],
+        "ps": [
+          "Zeba"
+        ],
+        "tg": [
+          "Zebo"
+        ],
+        "ru": [
+          "Ziba",
+          "Zebo"
+        ],
+        "uz": [
+          "Zebo"
+        ],
+        "az": [
+          "Ziba"
+        ]
+      },
+      "variants": [
+        "Zeeba"
+      ]
+    },
+    {
+      "id": "nilufar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Nilufar",
+      "native": {
+        "fa": [
+          "نیلوفر"
+        ],
+        "ur": [
+          "نیلوفر"
+        ],
+        "ps": [
+          "نیلوفر"
+        ],
+        "ru": [
+          "Нилуфар",
+          "Нилюфар"
+        ],
+        "tg": [
+          "Нилуфар"
+        ],
+        "tr": [
+          "Nilüfer"
+        ],
+        "az": [
+          "Nilufər"
+        ],
+        "uz": [
+          "Nilufar"
+        ]
+      },
+      "vocalized": "نِیلُوفَر",
+      "latin": {
+        "fa": [
+          "Niloufar",
+          "Nilufar",
+          "Niloofar"
+        ],
+        "ur": [
+          "Nilofar",
+          "Nilofer"
+        ],
+        "ps": [
+          "Nilofar"
+        ],
+        "tg": [
+          "Nilufar"
+        ],
+        "tr": [
+          "Nilüfer"
+        ],
+        "ru": [
+          "Nilufar",
+          "Niliufar",
+          "Nilyufar"
+        ],
+        "uz": [
+          "Nilufar"
+        ],
+        "az": [
+          "Nilufar",
+          "Nilufər"
+        ]
+      },
+      "variants": [
+        "Nilufer"
+      ]
+    },
+    {
+      "id": "dilara",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Dilara",
+      "native": {
+        "fa": [
+          "دلآرا"
+        ],
+        "ru": [
+          "Дилара",
+          "Диляра"
+        ],
+        "tg": [
+          "Дилоро"
+        ],
+        "tt": [
+          "Диләрә"
+        ],
+        "ba": [
+          "Диләрә"
+        ],
+        "tr": [
+          "Dilara"
+        ],
+        "az": [
+          "Dilarə"
+        ],
+        "uz": [
+          "Diloro",
+          "Dilora"
+        ]
+      },
+      "vocalized": "دِلْآرَا",
+      "latin": {
+        "fa": [
+          "Delara",
+          "Dilara"
+        ],
+        "tg": [
+          "Diloro"
+        ],
+        "tt": [
+          "Dilyara",
+          "Dilara"
+        ],
+        "ru": [
+          "Dilara",
+          "Diliara",
+          "Dilyara"
+        ],
+        "uz": [
+          "Diloro",
+          "Dilora"
+        ],
+        "az": [
+          "Dilara",
+          "Dilarə"
+        ],
+        "tr": [
+          "Dilara"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "gulshan",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Gulshan",
+      "native": {
+        "fa": [
+          "گلشن"
+        ],
+        "ur": [
+          "گلشن"
+        ],
+        "ru": [
+          "Гульшан",
+          "Гулшан"
+        ],
+        "tg": [
+          "Гулшан"
+        ],
+        "tr": [
+          "Gülşen"
+        ],
+        "az": [
+          "Gülşən"
+        ],
+        "uz": [
+          "Gulshan"
+        ]
+      },
+      "vocalized": "گُلْشَن",
+      "latin": {
+        "fa": [
+          "Golshan"
+        ],
+        "ur": [
+          "Gulshan"
+        ],
+        "bn": [
+          "Gulshan"
+        ],
+        "tg": [
+          "Gulshan"
+        ],
+        "tr": [
+          "Gülşen"
+        ],
+        "ru": [
+          "Gulshan"
+        ],
+        "uz": [
+          "Gulshan"
+        ],
+        "az": [
+          "Gulshan",
+          "Gülşən"
+        ]
+      },
+      "variants": [
+        "Gulshen",
+        "Gulsen"
+      ],
+      "related": [
+        "gul"
+      ]
+    },
+    {
+      "id": "gulbahor",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Gulbahor",
+      "native": {
+        "fa": [
+          "گلبهار"
+        ],
+        "ru": [
+          "Гульбахор",
+          "Гульбахар"
+        ],
+        "tg": [
+          "Гулбаҳор"
+        ],
+        "tr": [
+          "Gülbahar"
+        ],
+        "az": [
+          "Gülbahar"
+        ],
+        "uz": [
+          "Gulbahor"
+        ]
+      },
+      "vocalized": "گُلْبَهَار",
+      "latin": {
+        "fa": [
+          "Golbahar"
+        ],
+        "tg": [
+          "Gulbahor"
+        ],
+        "tr": [
+          "Gülbahar"
+        ],
+        "ru": [
+          "Gulbakhor",
+          "Gulbakhar"
+        ],
+        "uz": [
+          "Gulbahor"
+        ],
+        "az": [
+          "Gulbahar",
+          "Gülbahar"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "gul",
+        "bahar"
+      ]
+    },
+    {
+      "id": "gulchehra",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Gulchehra",
+      "native": {
+        "fa": [
+          "گلچهره"
+        ],
+        "ru": [
+          "Гульчехра"
+        ],
+        "tg": [
+          "Гулчеҳра"
+        ],
+        "tr": [
+          "Gülçehre"
+        ],
+        "az": [
+          "Gülçöhrə"
+        ],
+        "uz": [
+          "Gulchehra"
+        ]
+      },
+      "vocalized": "گُلْچِهْرَه",
+      "latin": {
+        "fa": [
+          "Golchehreh"
+        ],
+        "tg": [
+          "Gulchehra"
+        ],
+        "uz": [
+          "Gulchehra"
+        ],
+        "ru": [
+          "Gulchekhra"
+        ],
+        "az": [
+          "Gulchohra",
+          "Gülçöhrə"
+        ],
+        "tr": [
+          "Gülçehre"
+        ]
+      },
+      "variants": [
+        "Gulcehre"
+      ],
+      "related": [
+        "gul"
+      ]
+    },
+    {
+      "id": "negar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Negar",
+      "native": {
+        "fa": [
+          "نگار"
+        ],
+        "ur": [
+          "نگار"
+        ],
+        "ps": [
+          "نګار",
+          "نگار"
+        ],
+        "ru": [
+          "Нигора",
+          "Нигяр",
+          "Нигар"
+        ],
+        "kk": [
+          "Нигара"
+        ],
+        "tg": [
+          "Нигора"
+        ],
+        "tr": [
+          "Nigar"
+        ],
+        "az": [
+          "Nigar"
+        ],
+        "uz": [
+          "Nigora"
+        ]
+      },
+      "vocalized": "نِگَار",
+      "latin": {
+        "fa": [
+          "Negar",
+          "Nigar"
+        ],
+        "ur": [
+          "Nigar"
+        ],
+        "ps": [
+          "Nigar"
+        ],
+        "tg": [
+          "Nigora"
+        ],
+        "az": [
+          "Nigar"
+        ],
+        "ru": [
+          "Nigora",
+          "Nigiar",
+          "Nigar",
+          "Nigyar"
+        ],
+        "kk": [
+          "Nigara"
+        ],
+        "uz": [
+          "Nigora"
+        ],
+        "tr": [
+          "Nigar"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "setareh",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Setareh",
+      "native": {
+        "fa": [
+          "ستاره"
+        ],
+        "ur": [
+          "ستارہ"
+        ],
+        "ps": [
+          "ستاره"
+        ],
+        "ru": [
+          "Ситора",
+          "Ситара"
+        ],
+        "tg": [
+          "Ситора"
+        ],
+        "az": [
+          "Sitarə"
+        ],
+        "uz": [
+          "Sitora"
+        ]
+      },
+      "vocalized": "سِتَارِه",
+      "latin": {
+        "fa": [
+          "Setareh",
+          "Setare"
+        ],
+        "ur": [
+          "Sitara"
+        ],
+        "ps": [
+          "Setara"
+        ],
+        "bn": [
+          "Sitara"
+        ],
+        "tg": [
+          "Sitora"
+        ],
+        "ru": [
+          "Sitora",
+          "Sitara"
+        ],
+        "uz": [
+          "Sitora"
+        ],
+        "az": [
+          "Sitara",
+          "Sitarə"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "bakhtiyar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Bakhtiyar",
+      "native": {
+        "fa": [
+          "بختیار"
+        ],
+        "ur": [
+          "بختیار"
+        ],
+        "ps": [
+          "بختیار"
+        ],
+        "ru": [
+          "Бахтияр",
+          "Бахтиёр"
+        ],
+        "kk": [
+          "Бақтияр"
+        ],
+        "tg": [
+          "Бахтиёр"
+        ],
+        "tr": [
+          "Bahtiyar"
+        ],
+        "az": [
+          "Bəxtiyar"
+        ],
+        "uz": [
+          "Baxtiyor"
+        ]
+      },
+      "vocalized": "بَخْتِیَار",
+      "latin": {
+        "fa": [
+          "Bakhtiar",
+          "Bakhtiyar"
+        ],
+        "ur": [
+          "Bakhtiar",
+          "Bakhtiyar"
+        ],
+        "ps": [
+          "Bakhtiar"
+        ],
+        "bn": [
+          "Bakhtiar",
+          "Bokhtiar"
+        ],
+        "tg": [
+          "Bakhtiyor"
+        ],
+        "tr": [
+          "Bahtiyar"
+        ],
+        "ru": [
+          "Bakhtiiar",
+          "Bakhtier",
+          "Bakhtiyar",
+          "Bakhtiyor"
+        ],
+        "kk": [
+          "Baktiyar"
+        ],
+        "uz": [
+          "Bakhtiyor",
+          "Baxtiyor"
+        ],
+        "az": [
+          "Bakhtiyar",
+          "Bəxtiyar"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "bakht"
+      ]
+    },
+    {
+      "id": "shahrukh",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shahrukh",
+      "native": {
+        "fa": [
+          "شاهرخ"
+        ],
+        "ur": [
+          "شاہرخ"
+        ],
+        "ru": [
+          "Шахрух",
+          "Шохрух"
+        ],
+        "tg": [
+          "Шоҳрух"
+        ],
+        "tr": [
+          "Şahruh"
+        ],
+        "az": [
+          "Şahrux"
+        ],
+        "uz": [
+          "Shohrux"
+        ]
+      },
+      "vocalized": "شَاهْرُخ",
+      "latin": {
+        "fa": [
+          "Shahrokh",
+          "Shahrukh"
+        ],
+        "ur": [
+          "Shahrukh",
+          "Shah Rukh"
+        ],
+        "bn": [
+          "Shahrukh"
+        ],
+        "tg": [
+          "Shohrukh"
+        ],
+        "ru": [
+          "Shakhrukh",
+          "Shokhrukh"
+        ],
+        "uz": [
+          "Shohrukh",
+          "Shohrux"
+        ],
+        "az": [
+          "Shahrukh",
+          "Şahrux"
+        ],
+        "tr": [
+          "Şahruh"
+        ]
+      },
+      "variants": [
+        "Sahruh"
+      ],
+      "related": [
+        "shah"
+      ]
+    },
+    {
+      "id": "sherzad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Sherzod",
+      "native": {
+        "fa": [
+          "شیرزاد"
+        ],
+        "ur": [
+          "شیرزاد"
+        ],
+        "ps": [
+          "شېرزاد",
+          "شیرزاد"
+        ],
+        "ru": [
+          "Шерзод",
+          "Шерзад"
+        ],
+        "tg": [
+          "Шерзод"
+        ],
+        "az": [
+          "Şirzad"
+        ],
+        "uz": [
+          "Sherzod"
+        ]
+      },
+      "vocalized": "شِیرْزَاد",
+      "latin": {
+        "fa": [
+          "Shirzad"
+        ],
+        "ur": [
+          "Sherzad"
+        ],
+        "ps": [
+          "Sherzad"
+        ],
+        "tg": [
+          "Sherzod"
+        ],
+        "uz": [
+          "Sherzod"
+        ],
+        "ru": [
+          "Sherzod",
+          "Sherzad"
+        ],
+        "az": [
+          "Shirzad",
+          "Şirzad"
+        ]
+      },
+      "variants": [
+        "Sherzat"
+      ],
+      "related": [
+        "sher"
+      ]
+    },
+    {
+      "id": "behruz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Behrouz",
+      "native": {
+        "fa": [
+          "بهروز"
+        ],
+        "ur": [
+          "بہروز"
+        ],
+        "ru": [
+          "Бехруз",
+          "Бехрузи"
+        ],
+        "tg": [
+          "Беҳрӯз"
+        ],
+        "az": [
+          "Behruz"
+        ],
+        "uz": [
+          "Behruz"
+        ]
+      },
+      "vocalized": "بِهْرُوز",
+      "latin": {
+        "fa": [
+          "Behrouz",
+          "Behruz",
+          "Behrooz"
+        ],
+        "ur": [
+          "Behroz"
+        ],
+        "tg": [
+          "Behruz",
+          "Bekhruz"
+        ],
+        "ru": [
+          "Bekhruz",
+          "Bekhruzi"
+        ],
+        "uz": [
+          "Behruz"
+        ],
+        "az": [
+          "Behruz"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "nowruz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Nowruz",
+      "native": {
+        "fa": [
+          "نوروز"
+        ],
+        "ur": [
+          "نوروز"
+        ],
+        "ps": [
+          "نوروز"
+        ],
+        "ru": [
+          "Навруз",
+          "Наурыз",
+          "Новруз"
+        ],
+        "kk": [
+          "Наурыз"
+        ],
+        "tg": [
+          "Наврӯз"
+        ],
+        "tr": [
+          "Nevruz"
+        ],
+        "az": [
+          "Novruz"
+        ],
+        "uz": [
+          "Navruz"
+        ]
+      },
+      "vocalized": "نُورُوز",
+      "latin": {
+        "fa": [
+          "Nowruz",
+          "Norouz",
+          "Nourooz"
+        ],
+        "ur": [
+          "Nauroz",
+          "Nowroz"
+        ],
+        "ps": [
+          "Nawroz",
+          "Nauroz"
+        ],
+        "tg": [
+          "Navruz"
+        ],
+        "tr": [
+          "Nevruz"
+        ],
+        "ru": [
+          "Navruz",
+          "Nauryz",
+          "Novruz"
+        ],
+        "kk": [
+          "Nauryz"
+        ],
+        "uz": [
+          "Navruz"
+        ],
+        "az": [
+          "Novruz"
+        ]
+      },
+      "variants": [
+        "Navroz"
+      ]
+    },
+    {
+      "id": "azad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Azad",
+      "native": {
+        "fa": [
+          "آزاد"
+        ],
+        "ur": [
+          "آزاد"
+        ],
+        "ps": [
+          "آزاد"
+        ],
+        "ru": [
+          "Азат",
+          "Азад",
+          "Озод"
+        ],
+        "kk": [
+          "Азат"
+        ],
+        "tg": [
+          "Озод"
+        ],
+        "tt": [
+          "Азат"
+        ],
+        "ba": [
+          "Азат"
+        ],
+        "tr": [
+          "Azat",
+          "Azad"
+        ],
+        "az": [
+          "Azad"
+        ],
+        "uz": [
+          "Ozod"
+        ]
+      },
+      "vocalized": "آزَاد",
+      "latin": {
+        "fa": [
+          "Azad"
+        ],
+        "ur": [
+          "Azad"
+        ],
+        "ps": [
+          "Azad"
+        ],
+        "bn": [
+          "Azad"
+        ],
+        "tg": [
+          "Ozod"
+        ],
+        "tt": [
+          "Azat"
+        ],
+        "ru": [
+          "Azat",
+          "Azad",
+          "Ozod"
+        ],
+        "kk": [
+          "Azat"
+        ],
+        "uz": [
+          "Ozod"
+        ],
+        "az": [
+          "Azad"
+        ],
+        "tr": [
+          "Azat",
+          "Azad"
+        ]
+      },
+      "variants": [
+        "Aazad"
+      ],
+      "related": [
+        "azadeh"
+      ]
+    },
+    {
+      "id": "sardar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Sardar",
+      "native": {
+        "fa": [
+          "سردار"
+        ],
+        "ur": [
+          "سردار"
+        ],
+        "ps": [
+          "سردار"
+        ],
+        "ru": [
+          "Сардор",
+          "Сердар",
+          "Сардар"
+        ],
+        "tg": [
+          "Сардор"
+        ],
+        "tr": [
+          "Serdar"
+        ],
+        "az": [
+          "Sərdar"
+        ],
+        "uz": [
+          "Sardor"
+        ]
+      },
+      "vocalized": "سَرْدَار",
+      "latin": {
+        "fa": [
+          "Sardar"
+        ],
+        "ur": [
+          "Sardar"
+        ],
+        "ps": [
+          "Sardar"
+        ],
+        "bn": [
+          "Sardar",
+          "Sarder"
+        ],
+        "tg": [
+          "Sardor"
+        ],
+        "tr": [
+          "Serdar"
+        ],
+        "ru": [
+          "Sardor",
+          "Serdar",
+          "Sardar"
+        ],
+        "uz": [
+          "Sardor"
+        ],
+        "az": [
+          "Sardar",
+          "Sərdar"
+        ]
+      },
+      "variants": [
+        "Sirdar"
+      ]
+    },
+    {
+      "id": "farzad",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Farzad",
+      "native": {
+        "fa": [
+          "فرزاد"
+        ],
+        "ur": [
+          "فرزاد"
+        ],
+        "ru": [
+          "Фарзад",
+          "Фарзод"
+        ],
+        "tg": [
+          "Фарзод"
+        ],
+        "az": [
+          "Fərzad"
+        ],
+        "uz": [
+          "Farzod"
+        ]
+      },
+      "vocalized": "فَرْزَاد",
+      "latin": {
+        "fa": [
+          "Farzad"
+        ],
+        "ur": [
+          "Farzad"
+        ],
+        "tg": [
+          "Farzod"
+        ],
+        "ru": [
+          "Farzad",
+          "Farzod"
+        ],
+        "uz": [
+          "Farzod"
+        ],
+        "az": [
+          "Farzad",
+          "Fərzad"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "kambiz",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Kambiz",
+      "native": {
+        "fa": [
+          "کامبیز"
+        ],
+        "ru": [
+          "Камбиз"
+        ],
+        "tg": [
+          "Камбиз"
+        ],
+        "az": [
+          "Kambiz"
+        ]
+      },
+      "vocalized": "کَامْبِیز",
+      "latin": {
+        "fa": [
+          "Kambiz",
+          "Kambis"
+        ],
+        "ru": [
+          "Kambiz"
+        ],
+        "tg": [
+          "Kambiz"
+        ],
+        "az": [
+          "Kambiz"
+        ]
+      },
+      "variants": [
+        "Kambeez",
+        "Cambyses"
+      ]
+    },
+    {
+      "id": "shahla",
+      "kind": "given",
+      "gender": "f",
+      "origin": "arabic",
+      "english": "Shahla",
+      "native": {
+        "fa": [
+          "شهلا"
+        ],
+        "ur": [
+          "شہلا"
+        ],
+        "ru": [
+          "Шахла",
+          "Шахло"
+        ],
+        "tg": [
+          "Шаҳло"
+        ],
+        "tr": [
+          "Şehla"
+        ],
+        "az": [
+          "Şəhla"
+        ],
+        "uz": [
+          "Shahlo"
+        ]
+      },
+      "vocalized": "شَهْلَا",
+      "latin": {
+        "fa": [
+          "Shahla"
+        ],
+        "ur": [
+          "Shahla"
+        ],
+        "bn": [
+          "Shahla"
+        ],
+        "tg": [
+          "Shahlo"
+        ],
+        "ru": [
+          "Shakhla",
+          "Shakhlo"
+        ],
+        "uz": [
+          "Shahlo"
+        ],
+        "az": [
+          "Shahla",
+          "Şəhla"
+        ],
+        "tr": [
+          "Şehla"
+        ]
+      },
+      "variants": [
+        "Sehla"
+      ]
+    },
+    {
+      "id": "nazanin",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Nazanin",
+      "native": {
+        "fa": [
+          "نازنین"
+        ],
+        "ur": [
+          "نازنین"
+        ],
+        "ps": [
+          "نازنین"
+        ],
+        "ru": [
+          "Назанин",
+          "Нозанин"
+        ],
+        "tg": [
+          "Нозанин"
+        ],
+        "tr": [
+          "Nazenin"
+        ],
+        "az": [
+          "Nazənin"
+        ],
+        "uz": [
+          "Nozanin"
+        ]
+      },
+      "vocalized": "نَازَنِین",
+      "latin": {
+        "fa": [
+          "Nazanin"
+        ],
+        "ur": [
+          "Nazneen",
+          "Nazanin"
+        ],
+        "ps": [
+          "Nazanin"
+        ],
+        "bn": [
+          "Nazneen",
+          "Naznin"
+        ],
+        "tg": [
+          "Nozanin"
+        ],
+        "ru": [
+          "Nazanin",
+          "Nozanin"
+        ],
+        "uz": [
+          "Nozanin"
+        ],
+        "az": [
+          "Nazanin",
+          "Nazənin"
+        ],
+        "tr": [
+          "Nazenin"
+        ]
+      },
+      "variants": [
+        "Nasanin"
+      ]
+    },
+    {
+      "id": "mahin",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Mahin",
+      "native": {
+        "fa": [
+          "مهین"
+        ],
+        "ru": [
+          "Махин"
+        ],
+        "tg": [
+          "Маҳин"
+        ],
+        "az": [
+          "Mahin"
+        ]
+      },
+      "vocalized": "مَهِین",
+      "latin": {
+        "fa": [
+          "Mahin"
+        ],
+        "ru": [
+          "Makhin"
+        ],
+        "tg": [
+          "Mahin"
+        ],
+        "az": [
+          "Mahin"
+        ]
+      },
+      "variants": [
+        "Maheen"
+      ]
+    },
+    {
+      "id": "kiumars",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Kiumars",
+      "native": {
+        "fa": [
+          "کیومرث"
+        ],
+        "ru": [
+          "Каюмарс",
+          "Киумарс"
+        ],
+        "tg": [
+          "Каюмарс"
+        ]
+      },
+      "vocalized": "کِیُومَرْث",
+      "latin": {
+        "fa": [
+          "Kiumars",
+          "Kioumars",
+          "Kayumars"
+        ],
+        "tg": [
+          "Kayumars"
+        ],
+        "ru": [
+          "Kaiumars",
+          "Kiumars",
+          "Kayumars"
+        ]
+      },
+      "variants": [
+        "Keyumars",
+        "Kiomars"
+      ]
+    },
+    {
+      "id": "ashkan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Ashkan",
+      "native": {
+        "fa": [
+          "اشکان"
+        ],
+        "ru": [
+          "Ашкан"
+        ],
+        "tg": [
+          "Ашкон"
+        ]
+      },
+      "vocalized": "اَشْکَان",
+      "latin": {
+        "fa": [
+          "Ashkan"
+        ],
+        "ru": [
+          "Ashkan"
+        ],
+        "tg": [
+          "Ashkon"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "arman",
+      "kind": "given",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Arman",
+      "native": {
+        "fa": [
+          "آرمان"
+        ],
+        "ur": [
+          "ارمان"
+        ],
+        "ps": [
+          "ارمان"
+        ],
+        "ru": [
+          "Арман",
+          "Армон"
+        ],
+        "kk": [
+          "Арман"
+        ],
+        "ky": [
+          "Арман"
+        ],
+        "tg": [
+          "Армон"
+        ],
+        "uz": [
+          "Armon"
+        ]
+      },
+      "vocalized": "آرْمَان",
+      "latin": {
+        "fa": [
+          "Arman"
+        ],
+        "ur": [
+          "Arman"
+        ],
+        "ps": [
+          "Arman"
+        ],
+        "kk": [
+          "Arman"
+        ],
+        "tg": [
+          "Armon"
+        ],
+        "ru": [
+          "Arman",
+          "Armon"
+        ],
+        "ky": [
+          "Arman"
+        ],
+        "uz": [
+          "Armon"
+        ]
+      },
+      "variants": [
+        "Armaan"
+      ]
+    },
+    {
+      "id": "dilbar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Dilbar",
+      "native": {
+        "fa": [
+          "دلبر"
+        ],
+        "ur": [
+          "دلبر"
+        ],
+        "ru": [
+          "Дильбар",
+          "Дилбар"
+        ],
+        "kk": [
+          "Ділбар"
+        ],
+        "tg": [
+          "Дилбар"
+        ],
+        "tt": [
+          "Дилбәр"
+        ],
+        "tr": [
+          "Dilber"
+        ],
+        "az": [
+          "Dilbər"
+        ],
+        "uz": [
+          "Dilbar"
+        ]
+      },
+      "vocalized": "دِلْبَر",
+      "latin": {
+        "fa": [
+          "Delbar",
+          "Dilbar"
+        ],
+        "ur": [
+          "Dilbar"
+        ],
+        "tg": [
+          "Dilbar"
+        ],
+        "tr": [
+          "Dilber"
+        ],
+        "ru": [
+          "Dilbar"
+        ],
+        "kk": [
+          "Dilbar"
+        ],
+        "uz": [
+          "Dilbar"
+        ],
+        "az": [
+          "Dilbar",
+          "Dilbər"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "nahid",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Nahid",
+      "native": {
+        "fa": [
+          "ناهید"
+        ],
+        "ur": [
+          "ناہید"
+        ],
+        "ps": [
+          "ناهید"
+        ],
+        "ru": [
+          "Нахид",
+          "Нохид"
+        ],
+        "tg": [
+          "Ноҳид"
+        ],
+        "az": [
+          "Nahid"
+        ],
+        "uz": [
+          "Nohida"
+        ]
+      },
+      "vocalized": "نَاهِید",
+      "latin": {
+        "fa": [
+          "Nahid"
+        ],
+        "ur": [
+          "Naheed",
+          "Nahid"
+        ],
+        "ps": [
+          "Nahid"
+        ],
+        "bn": [
+          "Nahid"
+        ],
+        "tg": [
+          "Nohid"
+        ],
+        "ru": [
+          "Nakhid",
+          "Nokhid"
+        ],
+        "uz": [
+          "Nohida"
+        ],
+        "az": [
+          "Nahid"
+        ]
+      },
+      "variants": [
+        "Nahide"
+      ],
+      "related": [
+        "anahita"
+      ]
+    },
+    {
+      "id": "daniyar",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Daniyar",
+      "native": {
+        "fa": [
+          "دانیار"
+        ],
+        "ru": [
+          "Данияр",
+          "Дониёр"
+        ],
+        "kk": [
+          "Данияр"
+        ],
+        "ky": [
+          "Данияр"
+        ],
+        "tg": [
+          "Дониёр"
+        ],
+        "uz": [
+          "Doniyor"
+        ]
+      },
+      "vocalized": "دَانْیَار",
+      "latin": {
+        "fa": [
+          "Daniyar",
+          "Danyar"
+        ],
+        "kk": [
+          "Daniyar",
+          "Daniiar"
+        ],
+        "tg": [
+          "Doniyor"
+        ],
+        "ru": [
+          "Daniiar",
+          "Donier",
+          "Daniyar",
+          "Doniyor"
+        ],
+        "ky": [
+          "Daniyar"
+        ],
+        "uz": [
+          "Doniyor"
+        ]
+      },
+      "variants": [
+        "Daniar"
+      ]
+    },
+    {
+      "id": "babur",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Babur",
+      "native": {
+        "fa": [
+          "بابر"
+        ],
+        "ur": [
+          "بابر"
+        ],
+        "ps": [
+          "بابر"
+        ],
+        "ru": [
+          "Бабур",
+          "Бобур"
+        ],
+        "tg": [
+          "Бобур"
+        ],
+        "tr": [
+          "Babür"
+        ],
+        "az": [
+          "Babur"
+        ],
+        "uz": [
+          "Bobur"
+        ]
+      },
+      "vocalized": "بَابُر",
+      "latin": {
+        "fa": [
+          "Babur",
+          "Baber"
+        ],
+        "ur": [
+          "Babar",
+          "Babur"
+        ],
+        "ps": [
+          "Babur"
+        ],
+        "bn": [
+          "Babar",
+          "Babur"
+        ],
+        "tg": [
+          "Bobur"
+        ],
+        "ru": [
+          "Babur",
+          "Bobur"
+        ],
+        "uz": [
+          "Bobur"
+        ],
+        "az": [
+          "Babur"
+        ],
+        "tr": [
+          "Babür"
+        ]
+      },
+      "variants": [
+        "Babir",
+        "Babour"
+      ]
+    },
+    {
+      "id": "rowshan",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Rowshan",
+      "native": {
+        "fa": [
+          "روشن"
+        ],
+        "ur": [
+          "روشن"
+        ],
+        "ru": [
+          "Равшан",
+          "Ровшан",
+          "Рошан"
+        ],
+        "tg": [
+          "Равшан"
+        ],
+        "az": [
+          "Rövşən"
+        ],
+        "uz": [
+          "Ravshan"
+        ]
+      },
+      "vocalized": "رُوشَن",
+      "latin": {
+        "fa": [
+          "Rowshan",
+          "Roshan"
+        ],
+        "ur": [
+          "Roshan"
+        ],
+        "bn": [
+          "Roshan",
+          "Rowshan"
+        ],
+        "tg": [
+          "Ravshan"
+        ],
+        "az": [
+          "Rovshan"
+        ],
+        "ru": [
+          "Ravshan",
+          "Rovshan",
+          "Roshan"
+        ],
+        "uz": [
+          "Ravshan"
+        ]
+      },
+      "variants": [
+        "Rawshan"
+      ],
+      "related": [
+        "roshanak"
+      ]
+    },
+    {
+      "id": "gowhar",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Gowhar",
+      "native": {
+        "fa": [
+          "گوهر"
+        ],
+        "ur": [
+          "گوہر"
+        ],
+        "ps": [
+          "ګوهر",
+          "گوهر"
+        ],
+        "ru": [
+          "Гавхар",
+          "Гаухар",
+          "Гевхер"
+        ],
+        "kk": [
+          "Гауһар"
+        ],
+        "tg": [
+          "Гавҳар"
+        ],
+        "tr": [
+          "Gevher"
+        ],
+        "az": [
+          "Gövhər"
+        ],
+        "uz": [
+          "Gavhar"
+        ]
+      },
+      "vocalized": "گَوْهَر",
+      "latin": {
+        "fa": [
+          "Gohar",
+          "Gowhar"
+        ],
+        "ur": [
+          "Gohar",
+          "Gauhar"
+        ],
+        "ps": [
+          "Gawhar"
+        ],
+        "kk": [
+          "Gaukhar",
+          "Gauhar"
+        ],
+        "tg": [
+          "Gavhar"
+        ],
+        "tr": [
+          "Gevher"
+        ],
+        "ru": [
+          "Gavkhar",
+          "Gaukhar",
+          "Gevkher"
+        ],
+        "uz": [
+          "Gavhar"
+        ],
+        "az": [
+          "Govhar",
+          "Gövhər"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "jawhar"
+      ]
+    },
+    {
+      "id": "javid",
+      "kind": "given",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Javid",
+      "native": {
+        "fa": [
+          "جاوید"
+        ],
+        "ur": [
+          "جاوید"
+        ],
+        "ps": [
+          "جاوید"
+        ],
+        "ru": [
+          "Джавид",
+          "Джавед",
+          "Жавид"
+        ],
+        "tg": [
+          "Ҷовид"
+        ],
+        "tr": [
+          "Cavit",
+          "Cavid"
+        ],
+        "az": [
+          "Cavid"
+        ],
+        "uz": [
+          "Jovid"
+        ]
+      },
+      "vocalized": "جَاوِید",
+      "latin": {
+        "fa": [
+          "Javid"
+        ],
+        "ur": [
+          "Javed",
+          "Javaid"
+        ],
+        "ps": [
+          "Javid",
+          "Jawid"
+        ],
+        "bn": [
+          "Javed"
+        ],
+        "tg": [
+          "Jovid"
+        ],
+        "tr": [
+          "Cavit"
+        ],
+        "az": [
+          "Javid"
+        ],
+        "ru": [
+          "Dzhavid",
+          "Dzhaved",
+          "Zhavid"
+        ],
+        "uz": [
+          "Jovid"
+        ]
+      },
+      "variants": [
+        "Javeed"
+      ]
+    },
+    {
+      "id": "anar",
+      "kind": "given",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Anar",
+      "native": {
+        "fa": [
+          "انار"
+        ],
+        "ru": [
+          "Анар"
+        ],
+        "kk": [
+          "Анар"
+        ],
+        "tg": [
+          "Анор"
+        ],
+        "az": [
+          "Anar"
+        ],
+        "uz": [
+          "Anor"
+        ]
+      },
+      "vocalized": "اَنَار",
+      "latin": {
+        "fa": [
+          "Anar"
+        ],
+        "az": [
+          "Anar"
+        ],
+        "kk": [
+          "Anar"
+        ],
+        "tg": [
+          "Anor"
+        ],
+        "ru": [
+          "Anar"
+        ],
+        "uz": [
+          "Anor"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "zulfiya",
+      "kind": "given",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Zulfiya",
+      "native": {
+        "ru": [
+          "Зульфия",
+          "Зулфия"
+        ],
+        "kk": [
+          "Зұлфия"
+        ],
+        "tg": [
+          "Зулфия"
+        ],
+        "tt": [
+          "Зөлфия"
+        ],
+        "ba": [
+          "Зөлфиә"
+        ],
+        "az": [
+          "Zülfiyyə"
+        ],
+        "uz": [
+          "Zulfiya"
+        ]
+      },
+      "latin": {
+        "uz": [
+          "Zulfiya",
+          "Zulfia"
+        ],
+        "tt": [
+          "Zulfiya",
+          "Zulfia"
+        ],
+        "tg": [
+          "Zulfiya"
+        ],
+        "ru": [
+          "Zulfiia",
+          "Zulfiya"
+        ],
+        "kk": [
+          "Zulfiya"
+        ],
+        "az": [
+          "Zulfiyya",
+          "Zülfiyyə"
+        ]
+      },
+      "variants": [
+        "Zulfiye"
+      ]
+    },
+    {
+      "id": "zadeh",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Zadeh",
+      "native": {
+        "fa": [
+          "زاده"
+        ],
+        "ur": [
+          "زادہ"
+        ],
+        "ps": [
+          "زاده"
+        ]
+      },
+      "vocalized": "زَادِه",
+      "latin": {
+        "fa": [
+          "zadeh",
+          "zade"
+        ],
+        "ur": [
+          "zada",
+          "zadah"
+        ],
+        "ps": [
+          "zada",
+          "zadah"
+        ]
+      },
+      "variants": [
+        "zaade"
+      ],
+      "related": [
+        "pour",
+        "nejad"
+      ]
+    },
+    {
+      "id": "pour",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Pour",
+      "native": {
+        "fa": [
+          "پور"
+        ],
+        "ru": [
+          "пур"
+        ],
+        "tg": [
+          "пур"
+        ]
+      },
+      "vocalized": "پُور",
+      "latin": {
+        "fa": [
+          "pour",
+          "pur",
+          "poor"
+        ],
+        "tg": [
+          "pur"
+        ],
+        "ru": [
+          "pur"
+        ]
+      },
+      "variants": [
+        "Pur"
+      ],
+      "related": [
+        "zadeh"
+      ]
+    },
+    {
+      "id": "nejad",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Nejad",
+      "native": {
+        "fa": [
+          "نژاد"
+        ],
+        "ru": [
+          "неджад",
+          "нежад"
+        ],
+        "tg": [
+          "нажод"
+        ]
+      },
+      "vocalized": "نِژَاد",
+      "latin": {
+        "fa": [
+          "nejad",
+          "nezhad",
+          "nejhad"
+        ],
+        "tg": [
+          "nazhod"
+        ],
+        "ru": [
+          "nedzhad",
+          "nezhad"
+        ]
+      },
+      "variants": [
+        "nijad",
+        "Nezhad"
+      ],
+      "related": [
+        "zadeh"
+      ]
+    },
+    {
+      "id": "jan",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Jan",
+      "native": {
+        "fa": [
+          "جان"
+        ],
+        "ur": [
+          "جان"
+        ],
+        "ps": [
+          "جان"
+        ]
+      },
+      "vocalized": "جَان",
+      "latin": {
+        "fa": [
+          "jan"
+        ],
+        "ur": [
+          "jan"
+        ],
+        "ps": [
+          "jan"
+        ]
+      },
+      "variants": [
+        "jaan"
+      ]
+    },
+    {
+      "id": "khan",
+      "kind": "element",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Khan",
+      "native": {
+        "fa": [
+          "خان"
+        ],
+        "ur": [
+          "خان"
+        ],
+        "ps": [
+          "خان"
+        ],
+        "ru": [
+          "хан",
+          "Хан"
+        ],
+        "kk": [
+          "хан"
+        ],
+        "ky": [
+          "хан"
+        ],
+        "tg": [
+          "хон"
+        ],
+        "tt": [
+          "хан"
+        ],
+        "uz": [
+          "xon"
+        ],
+        "az": [
+          "xan"
+        ],
+        "tr": [
+          "han"
+        ]
+      },
+      "vocalized": "خَان",
+      "latin": {
+        "fa": [
+          "Khan"
+        ],
+        "ur": [
+          "Khan"
+        ],
+        "ps": [
+          "Khan"
+        ],
+        "bn": [
+          "Khan"
+        ],
+        "ru": [
+          "khan",
+          "Khan"
+        ],
+        "kk": [
+          "khan"
+        ],
+        "tg": [
+          "khon"
+        ],
+        "uz": [
+          "khon",
+          "xon"
+        ],
+        "az": [
+          "khan",
+          "xan"
+        ],
+        "tr": [
+          "han"
+        ],
+        "ky": [
+          "khan"
+        ]
+      },
+      "variants": [
+        "Xan",
+        "Khon",
+        "Xon",
+        "Han"
+      ],
+      "related": [
+        "khanim"
+      ]
+    },
+    {
+      "id": "gul",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Gul",
+      "native": {
+        "fa": [
+          "گل"
+        ],
+        "ur": [
+          "گل"
+        ],
+        "ps": [
+          "ګل",
+          "گل"
+        ],
+        "ru": [
+          "Гуль",
+          "Гул"
+        ],
+        "kk": [
+          "Гүл"
+        ],
+        "ky": [
+          "Гүл"
+        ],
+        "tg": [
+          "Гул"
+        ],
+        "tt": [
+          "Гөл"
+        ],
+        "ba": [
+          "Гөл"
+        ],
+        "tr": [
+          "Gül"
+        ],
+        "az": [
+          "Gül"
+        ],
+        "uz": [
+          "Gul"
+        ]
+      },
+      "vocalized": "گُل",
+      "latin": {
+        "fa": [
+          "Gol",
+          "Gul"
+        ],
+        "ur": [
+          "Gul"
+        ],
+        "ps": [
+          "Gul"
+        ],
+        "bn": [
+          "Gul"
+        ],
+        "tg": [
+          "Gul"
+        ],
+        "tr": [
+          "Gül"
+        ],
+        "az": [
+          "Gul"
+        ],
+        "ru": [
+          "Gul"
+        ],
+        "kk": [
+          "Gul"
+        ],
+        "ky": [
+          "Gul"
+        ],
+        "uz": [
+          "Gul"
+        ]
+      },
+      "variants": [
+        "Gyul",
+        "Gool"
+      ],
+      "related": [
+        "gulnara",
+        "golnaz",
+        "gulshan"
+      ]
+    },
+    {
+      "id": "mirza",
+      "kind": "element",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Mirza",
+      "native": {
+        "fa": [
+          "میرزا"
+        ],
+        "ur": [
+          "مرزا"
+        ],
+        "ps": [
+          "میرزا"
+        ],
+        "ru": [
+          "Мирза",
+          "Мырза"
+        ],
+        "kk": [
+          "Мырза"
+        ],
+        "tg": [
+          "Мирзо"
+        ],
+        "tt": [
+          "Морза",
+          "Мирза"
+        ],
+        "tr": [
+          "Mirza"
+        ],
+        "az": [
+          "Mirzə"
+        ],
+        "uz": [
+          "Mirzo"
+        ]
+      },
+      "vocalized": "مِیرْزَا",
+      "latin": {
+        "fa": [
+          "Mirza"
+        ],
+        "ur": [
+          "Mirza"
+        ],
+        "ps": [
+          "Mirza"
+        ],
+        "bn": [
+          "Mirza"
+        ],
+        "tg": [
+          "Mirzo"
+        ],
+        "uz": [
+          "Mirzo"
+        ],
+        "az": [
+          "Mirza"
+        ],
+        "tr": [
+          "Mirza"
+        ],
+        "ru": [
+          "Mirza",
+          "Myrza"
+        ],
+        "kk": [
+          "Myrza"
+        ]
+      },
+      "variants": [
+        "Mirzaa",
+        "Murza"
+      ],
+      "related": [
+        "mir"
+      ]
+    },
+    {
+      "id": "khwaja",
+      "kind": "element",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Khwaja",
+      "native": {
+        "fa": [
+          "خواجه"
+        ],
+        "ur": [
+          "خواجہ"
+        ],
+        "ps": [
+          "خواجه"
+        ],
+        "ru": [
+          "Ходжа",
+          "Хожа"
+        ],
+        "kk": [
+          "Қожа"
+        ],
+        "ky": [
+          "Кожо"
+        ],
+        "tg": [
+          "Хоҷа"
+        ],
+        "tt": [
+          "Хуҗа"
+        ],
+        "tr": [
+          "Hoca"
+        ],
+        "az": [
+          "Xoca"
+        ],
+        "uz": [
+          "Xoʻja"
+        ]
+      },
+      "vocalized": "خَوَاجَه",
+      "latin": {
+        "fa": [
+          "Khajeh",
+          "Khaje",
+          "Khwajeh"
+        ],
+        "ur": [
+          "Khawaja",
+          "Khwaja"
+        ],
+        "ps": [
+          "Khwaja",
+          "Khoja"
+        ],
+        "bn": [
+          "Khaja",
+          "Khwaja"
+        ],
+        "tg": [
+          "Khoja"
+        ],
+        "uz": [
+          "Khoja",
+          "Khodja",
+          "Xoja"
+        ],
+        "kk": [
+          "Kozha",
+          "Khoja"
+        ],
+        "tr": [
+          "Hoca"
+        ],
+        "ru": [
+          "Khodzha",
+          "Khozha"
+        ],
+        "ky": [
+          "Kozho"
+        ],
+        "az": [
+          "Khoja",
+          "Xoca"
+        ]
+      },
+      "variants": [
+        "Hodja",
+        "Khwajah"
+      ]
+    },
+    {
+      "id": "agha",
+      "kind": "element",
+      "gender": "m",
+      "origin": "turkic",
+      "english": "Agha",
+      "native": {
+        "fa": [
+          "آقا",
+          "آغا"
+        ],
+        "ur": [
+          "آغا"
+        ],
+        "ps": [
+          "آغا"
+        ],
+        "ru": [
+          "Ага"
+        ],
+        "az": [
+          "Ağa"
+        ],
+        "tr": [
+          "Ağa"
+        ],
+        "uz": [
+          "Ogʻa"
+        ]
+      },
+      "vocalized": "آقَا",
+      "latin": {
+        "fa": [
+          "Agha",
+          "Aqa",
+          "Aga"
+        ],
+        "ur": [
+          "Agha"
+        ],
+        "ps": [
+          "Agha"
+        ],
+        "az": [
+          "Agha",
+          "Aga"
+        ],
+        "tr": [
+          "Ağa"
+        ],
+        "ru": [
+          "Aga"
+        ],
+        "uz": [
+          "Oga",
+          "Ogha",
+          "Ogʻa"
+        ]
+      },
+      "variants": [],
+      "related": [
+        "khan"
+      ]
+    },
+    {
+      "id": "mir",
+      "kind": "element",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Mir",
+      "native": {
+        "fa": [
+          "میر"
+        ],
+        "ur": [
+          "میر"
+        ],
+        "ps": [
+          "میر"
+        ],
+        "ru": [
+          "Мир"
+        ],
+        "tg": [
+          "Мир"
+        ],
+        "uz": [
+          "Mir"
+        ],
+        "az": [
+          "Mir"
+        ]
+      },
+      "vocalized": "مِیر",
+      "latin": {
+        "fa": [
+          "Mir"
+        ],
+        "ur": [
+          "Mir"
+        ],
+        "ps": [
+          "Mir"
+        ],
+        "bn": [
+          "Mir"
+        ],
+        "tg": [
+          "Mir"
+        ],
+        "ru": [
+          "Mir"
+        ],
+        "uz": [
+          "Mir"
+        ],
+        "az": [
+          "Mir"
+        ]
+      },
+      "variants": [
+        "Meer"
+      ],
+      "related": [
+        "amir",
+        "mirza"
+      ]
+    },
+    {
+      "id": "bakhsh",
+      "kind": "element",
+      "gender": "u",
+      "origin": "persian",
+      "english": "Bakhsh",
+      "native": {
+        "fa": [
+          "بخش"
+        ],
+        "ur": [
+          "بخش"
+        ],
+        "ps": [
+          "بخش"
+        ],
+        "ru": [
+          "бахш",
+          "бакш"
+        ],
+        "tg": [
+          "бахш"
+        ]
+      },
+      "vocalized": "بَخْش",
+      "latin": {
+        "fa": [
+          "bakhsh"
+        ],
+        "ur": [
+          "Bakhsh",
+          "Baksh",
+          "Bux"
+        ],
+        "ps": [
+          "Bakhsh"
+        ],
+        "tg": [
+          "bakhsh"
+        ],
+        "ru": [
+          "bakhsh",
+          "baksh"
+        ]
+      },
+      "variants": [
+        "Bakhsch",
+        "Bakhshi"
+      ]
+    },
+    {
+      "id": "shah",
+      "kind": "element",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Shah",
+      "native": {
+        "fa": [
+          "شاه"
+        ],
+        "ur": [
+          "شاہ"
+        ],
+        "ps": [
+          "شاه"
+        ],
+        "ru": [
+          "Шах",
+          "Шох"
+        ],
+        "kk": [
+          "Шах"
+        ],
+        "tg": [
+          "Шоҳ"
+        ],
+        "tr": [
+          "Şah"
+        ],
+        "az": [
+          "Şah"
+        ],
+        "uz": [
+          "Shoh"
+        ]
+      },
+      "vocalized": "شَاه",
+      "latin": {
+        "fa": [
+          "Shah"
+        ],
+        "ur": [
+          "Shah"
+        ],
+        "ps": [
+          "Shah"
+        ],
+        "bn": [
+          "Shah"
+        ],
+        "tg": [
+          "Shoh"
+        ],
+        "uz": [
+          "Shoh"
+        ],
+        "tr": [
+          "Şah"
+        ],
+        "ru": [
+          "Shakh",
+          "Shokh"
+        ],
+        "kk": [
+          "Shakh"
+        ],
+        "az": [
+          "Shah",
+          "Şah"
+        ]
+      },
+      "variants": [
+        "Sha",
+        "Schah",
+        "Chah",
+        "Sah"
+      ],
+      "related": [
+        "shahrukh"
+      ]
+    },
+    {
+      "id": "banu",
+      "kind": "element",
+      "gender": "f",
+      "origin": "persian",
+      "english": "Banu",
+      "native": {
+        "fa": [
+          "بانو"
+        ],
+        "ur": [
+          "بانو"
+        ],
+        "ps": [
+          "بانو"
+        ],
+        "ru": [
+          "Бану",
+          "Бону"
+        ],
+        "tg": [
+          "Бону"
+        ],
+        "tr": [
+          "Banu"
+        ],
+        "az": [
+          "Banu"
+        ],
+        "uz": [
+          "Bonu"
+        ]
+      },
+      "vocalized": "بَانُو",
+      "latin": {
+        "fa": [
+          "Banoo",
+          "Banu"
+        ],
+        "ur": [
+          "Bano",
+          "Banu"
+        ],
+        "bn": [
+          "Banu",
+          "Bano"
+        ],
+        "tg": [
+          "Bonu"
+        ],
+        "uz": [
+          "Bonu"
+        ],
+        "ru": [
+          "Banu",
+          "Bonu"
+        ],
+        "az": [
+          "Banu"
+        ],
+        "tr": [
+          "Banu"
+        ]
+      },
+      "variants": [
+        "Banou"
+      ]
+    },
+    {
+      "id": "akhund",
+      "kind": "element",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Akhund",
+      "native": {
+        "fa": [
+          "آخوند"
+        ],
+        "ur": [
+          "آخوند"
+        ],
+        "ps": [
+          "اخوند"
+        ],
+        "ru": [
+          "Ахунд",
+          "Ахун"
+        ],
+        "tt": [
+          "Ахун"
+        ],
+        "tr": [
+          "Ahund"
+        ],
+        "az": [
+          "Axund"
+        ],
+        "uz": [
+          "Oxund"
+        ]
+      },
+      "vocalized": "آخُونْد",
+      "latin": {
+        "fa": [
+          "Akhoond",
+          "Akhund"
+        ],
+        "ur": [
+          "Akhund"
+        ],
+        "ps": [
+          "Akhund",
+          "Akhond"
+        ],
+        "az": [
+          "Akhund"
+        ],
+        "ru": [
+          "Akhund",
+          "Akhun"
+        ],
+        "uz": [
+          "Okhund",
+          "Oxund"
+        ],
+        "tr": [
+          "Ahund"
+        ]
+      },
+      "variants": []
+    },
+    {
+      "id": "ustad",
+      "kind": "element",
+      "gender": "m",
+      "origin": "persian",
+      "english": "Ustad",
+      "native": {
+        "fa": [
+          "استاد"
+        ],
+        "ur": [
+          "استاد"
+        ],
+        "ps": [
+          "استاد"
+        ],
+        "ru": [
+          "Устад",
+          "Устод",
+          "Уста"
+        ],
+        "tg": [
+          "Устод"
+        ],
+        "uz": [
+          "Ustoz",
+          "Usta"
+        ],
+        "tr": [
+          "Usta"
+        ],
+        "az": [
+          "Usta"
+        ]
+      },
+      "vocalized": "اُسْتَاد",
+      "latin": {
+        "fa": [
+          "Ostad"
+        ],
+        "ur": [
+          "Ustad"
+        ],
+        "ps": [
+          "Ustad"
+        ],
+        "tg": [
+          "Ustod"
+        ],
+        "uz": [
+          "Ustoz"
+        ],
+        "ru": [
+          "Ustad",
+          "Ustod",
+          "Usta"
+        ],
+        "az": [
+          "Usta"
+        ],
+        "tr": [
+          "Usta"
+        ]
+      },
+      "variants": [
+        "Ustaad",
+        "Ustaz"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "kk_latn_ascii",
+  "title": "Kazakh Latin (2021) — ASCII",
+  "language": "kk",
+  "script": "Latn",
+  "kind": "ascii",
+  "status": "informal",
+  "year": 2021,
+  "ascii": true,
+  "description": "Kazakh text in the April 2021 Latin alphabet reduced to ASCII: Ä→a, Ğ→g, I ı and İ i→i, Ñ→n, Ö→o, Ş→sh, Ū→u, Ü→u; Q, J, H, Y are kept as written (Äbışūly → Abishuly, Şoqan → Shoqan).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kazakh_alphabets",
+    "https://astanatimes.com/2021/02/kazakhstan-presents-new-latin-alphabet-plans-gradual-transition-through-2031/",
+    "https://adilet.zan.kz/rus/docs/U1700000569"
+  ],
+  "notes": [
+    "A diacritic fold, not a passport system: Kazakh passports are produced from Cyrillic (see kk_passport, which gives K for Қ and ZH for Ж). Ş is folded to SH rather than ICAO's S because S already renders С.",
+    "In the 2021 alphabet I ı is the front vowel І and İ i is И/Й (unlike Turkish); both fold to i here.",
+    "The 2018 acute-accent letters (á ǵ ń ó ú) are also accepted; 2018 ý (=У) and the 2017 apostrophe spellings are not handled.",
+    "Russian-only letters are written tş (Ч), ts (Ц), ştş (Щ), io/iu/ia (Ё/Ю/Я) in 2021 Latin; they come out as tsh, ts, shtsh, io/iu/ia."
+  ],
+  "alphabet": "aäbdefgğhıijklmnñoöpqrsştuūüvyz",
+  "fallback": "ascii",
+  "map": {
+    "a": "a", "b": "b", "c": "c", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "q", "r": "r",
+    "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "x", "y": "y", "z": "z", "ä": "a",
+    "ğ": "g", "ı": "i", "ñ": "n", "ö": "o", "ş": "sh", "ū": "u", "ü": "u", "\u0307": "", "á": "a",
+    "ǵ": "g", "ń": "n", "ó": "o", "ú": "u"
+  },
+  "samples": [
+    ["Nūrsūltan Äbışūly Nazarbaev", "Nursultan Abishuly Nazarbaev"],
+    ["Qasym-Jomart Toqaev", "Qasym-Jomart Toqaev"],
+    ["Şoqan Uälihanov", "Shoqan Ualihanov"],
+    ["Dimaş Qūdaibergen", "Dimash Qudaibergen"],
+    ["Älihan Smaiylov", "Alihan Smaiylov"],
+    ["İmanğali Tasmağambetov", "Imangali Tasmagambetov"],
+    ["NAZARBAEV NŪRSŪLTAN", "NAZARBAEV NURSULTAN"],
+    ["Şyñğys", "Shyngys"]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bg_bds_1596",
+  "title": "Bulgarian — BDS 1596:1973 / UN 1977",
+  "language": "bg",
+  "script": "Cyrl",
+  "kind": "legacy",
+  "status": "superseded",
+  "year": 1973,
+  "ascii": false,
+  "reversible": false,
+  "authority": "Bulgarian State Standard BDS 1596:1973 'Transliteration of Bulgarian words with Latin characters' (effective 1 Jan 1975); Council of Orthography and Transcription of Geographical Names, Sofia (1972); UN resolution III/10 (1977)",
+  "description": "Slavic scientific-style system with diacritics (ž č š št, ǎ for Ъ, j for Й and Ь, ju/ja, c for Ц), the Bulgarian national standard and UN system for geographical names until the 2009 Transliteration Act. Useful for matching older documents (Jordan, Cvetan, Koljo).",
+  "sources": [
+    "https://arhiiv.eki.ee/wgrs/rom1_bg.htm",
+    "https://unstats.un.org/UNSD/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_12_Romanization%20System%20in%20Bulgaria.pdf",
+    "https://t13n.eki.ee/pdf/Bulgarian.pdf",
+    "https://store.fmi.uni-sofia.bg/fmi/logic/skordev/B1-Ivanov-Skordev-Dobrev.pdf",
+    "https://web.archive.org/web/20160303202554/http://www.bds-bg.org/bg/standard/?natstandard_document_id=10222",
+    "https://en.wikipedia.org/wiki/Romanization_of_Bulgarian"
+  ],
+  "notes": [
+    "The primary text of BDS 1596:1973 was not available. The letters follow the UN WGRS report for the 1972 Sofia system approved by the UN in 1977 (ž j c č š št ǎ j ju ja, х→h), which Wikipedia identifies with BDS 1596:1973 and ISO/R 9:1968.",
+    "Ъ is ǎ (U+01CE, a with caron) as printed by the UN WGRS; the scientific transliteration and some sources use ă (U+0103).",
+    "Ivanov, Skordev and Dobrev (2009) describe 'diacritics-free versions' of BDS 1596:1973 with й→j, ц→c, ь→j, ю→ju, я→ja; Bulgaria's 2012 UN paper says the 1999 ID-document table was BDS 1596:73 with only Й/Ю/Я changed, implying a digraph variant (zh, ch, sh, sht, ъ→a). That variant is not encoded here.",
+    "The interscript map un-bul-Cyrl-Latn-1977 uses yu/ya for ю/я; this contradicts the UN WGRS report (ju/ja), which is followed here.",
+    "ьо → jo and йо → jo follow from the letter table; there is no -ия exception (Мария → Marija)."
+  ],
+  "alphabet": "абвгдежзийклмнопрстуфхцчшщъьюя",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ж": "ž", "з": "z", "и": "i",
+    "й": "j", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o", "п": "p", "р": "r", "с": "s",
+    "т": "t", "у": "u", "ф": "f", "х": "h", "ц": "c", "ч": "č", "ш": "š", "щ": "št", "ъ": "ǎ",
+    "ь": "j", "ю": "ju", "я": "ja"
+  },
+  "samples": [
+    ["Република България", "Republika Bǎlgarija"],
+    ["Кърджали", "Kǎrdžali"],
+    ["Слънчев бряг", "Slǎnčev brjag"],
+    ["Оборище", "Oborište"],
+    ["Христо Ботев", "Hristo Botev"],
+    ["Йордан Йовков", "Jordan Jovkov"],
+    ["Щерю Цанков", "Šterju Cankov"],
+    ["Кольо Фичето", "Koljo Fičeto"],
+    ["Мария-Юлия", "Marija-Julija"],
+    ["ЖИВКОВА Людмила", "ŽIVKOVA Ljudmila"]
+  ]
+}

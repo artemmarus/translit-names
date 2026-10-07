@@ -1,0 +1,314 @@
+{
+  "id": "ar_icao",
+  "title": "Arabic script — ICAO Doc 9303 Part 3 recommended MRZ transliteration",
+  "language": "ar",
+  "script": "Arab",
+  "kind": "passport",
+  "status": "current",
+  "year": 2015,
+  "ascii": true,
+  "reversible": true,
+  "authority": "ICAO Doc 9303 Machine Readable Travel Documents, Part 3, Section 6 Table C and Appendix B (7th ed. 2015; 8th ed. 2021)",
+  "description": "Letter-for-letter, Buckwalter-based transliteration of Arabic-script names for the machine-readable zone, recommended by ICAO for search and matching. Letters without a plain Latin equivalent get an X escape (XKH, XTH, XSH, XH = ح); vowel marks are not encoded, shadda doubles the code, ة is XTA or XAH at the end of a name component. Covers the Persian, Urdu and Pashto letters of Table C.",
+  "sources": [
+    "https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf",
+    "https://itftennis.atlassian.net/wiki/download/attachments/1272938619/Passport%20Standards.pdf?api=v2",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf"
+  ],
+  "notes": [
+    "Few issuing states use this table; most print phonetic spellings (ABU<BAKR<MOHAMMED) in both VIZ and MRZ. It is useful as a lossless, stable matching key.",
+    "Output keeps spaces between name components; converting to MRZ filler characters (<, <<) is a separate step.",
+    "The name lexicon is disabled: the written letters are transliterated as they are, without vocalisation (ICAO App. B.1: vowels are not represented).",
+    "Sun-letter assimilation is not reflected; a shadda written on the sun letter after the article is ignored (ALRAZY, not ALRRAZY). Other shaddas double the code (عبّاس EBBAS).",
+    "ڜ ڢ ڧ ڨ are 'not encoded' in Table C and are dropped (fallback: drop).",
+    "App. B.5.5 says Farsi yeh could be Y or XAY, but Table C gives XYA, which is used here.",
+    "The interscript map icao-fas-Arab-Latn-9303 disagrees with the ICAO text (ة → P, harakat produce output); it was not used."
+  ],
+  "alphabet": "ءآأؤإئابةتثجحخدذرزسشصضطظعغفقكلمنهوىيپچژگکیٹڈڑںھہےۃټډړږښځڅڼېۍګ",
+  "hook": "arabic",
+  "options": {
+    "lexicon": false,
+    "variants": false
+  },
+  "geminate": "ّ",
+  "titlecase": false,
+  "case": "upper",
+  "fallback": "drop",
+  "classes": {
+    "C": "ءؤئبتثجحخدذرزسشصضطظعغفقكلمنهپچژگکڤڢڧڨڭڥۋڴٹڈڑںھہټډړږښځڅڼګ",
+    "V": "َُِ",
+    "M": "ًٌٍَُِّْٰٕٙٔٓ",
+    "L": "َُِاى"
+  },
+  "map": {
+    "ء": "xe",
+    "آ": "xaa",
+    "أ": "xae",
+    "ؤ": "u",
+    "إ": "i",
+    "ئ": "xi",
+    "ا": "a",
+    "ٱ": "xxa",
+    "ب": "b",
+    "ت": "t",
+    "ث": "xth",
+    "ج": "j",
+    "ح": "xh",
+    "خ": "xkh",
+    "د": "d",
+    "ذ": "xdh",
+    "ر": "r",
+    "ز": "z",
+    "س": "s",
+    "ش": "xsh",
+    "ص": "xss",
+    "ض": "xdz",
+    "ط": "xtt",
+    "ظ": "xzz",
+    "ع": "e",
+    "غ": "g",
+    "ف": "f",
+    "ق": "q",
+    "ك": "k",
+    "ل": "l",
+    "م": "m",
+    "ن": "n",
+    "ه": "h",
+    "و": "w",
+    "ي": "y",
+    "ى": "xay",
+    "ة": "xta",
+    "ٹ": "xxt",
+    "ټ": "xrt",
+    "پ": "p",
+    "ځ": "xke",
+    "څ": "xxh",
+    "چ": "xc",
+    "ڈ": "xxd",
+    "ډ": "xdr",
+    "ڑ": "xxr",
+    "ړ": "xrr",
+    "ږ": "xrx",
+    "ژ": "xj",
+    "ښ": "xxs",
+    "ک": "xkk",
+    "ګ": "xxk",
+    "ڭ": "xng",
+    "گ": "xgg",
+    "ں": "xnn",
+    "ڼ": "xxn",
+    "ھ": "xdo",
+    "ۀ": "xyh",
+    "ہ": "xxg",
+    "ۂ": "xge",
+    "ۃ": "xtg",
+    "ی": "xya",
+    "ۍ": "xxy",
+    "ې": "y",
+    "ے": "xyb",
+    "ۓ": "xbe",
+    "َ": "",
+    "ُ": "",
+    "ِ": "",
+    "ْ": "",
+    "ً": "",
+    "ٌ": "",
+    "ٍ": "",
+    "ٰ": "",
+    "ـ": "",
+    "ٙ": "",
+    "ٓ": "",
+    "ٔ": "",
+    "ٕ": "",
+    "‌": ""
+  },
+  "rules": [
+    {
+      "from": [
+        "ةَ",
+        "ةُ",
+        "ةِ",
+        "ةً",
+        "ةٌ",
+        "ةٍ",
+        "ةْ",
+        "ة"
+      ],
+      "to": "xah",
+      "end": true,
+      "note": "ة ending a name component"
+    },
+    {
+      "from": [
+        "التّ",
+        "الْتّ"
+      ],
+      "to": "alt",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الثّ",
+        "الْثّ"
+      ],
+      "to": "alxth",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الدّ",
+        "الْدّ"
+      ],
+      "to": "ald",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الذّ",
+        "الْذّ"
+      ],
+      "to": "alxdh",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الرّ",
+        "الْرّ"
+      ],
+      "to": "alr",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الزّ",
+        "الْزّ"
+      ],
+      "to": "alz",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "السّ",
+        "الْسّ"
+      ],
+      "to": "als",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الشّ",
+        "الْشّ"
+      ],
+      "to": "alxsh",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الصّ",
+        "الْصّ"
+      ],
+      "to": "alxss",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الضّ",
+        "الْضّ"
+      ],
+      "to": "alxdz",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الطّ",
+        "الْطّ"
+      ],
+      "to": "alxtt",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "الظّ",
+        "الْظّ"
+      ],
+      "to": "alxzz",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "اللّ",
+        "الْلّ"
+      ],
+      "to": "all",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    },
+    {
+      "from": [
+        "النّ",
+        "الْنّ"
+      ],
+      "to": "aln",
+      "start": true,
+      "note": "shadda of the sun letter after the article is not doubled (MRZ ignores assimilation)"
+    }
+  ],
+  "samples": [
+    [
+      "ابو بكر محمد بن زكريا الرازي",
+      "ABW BKR MXHMD BN ZKRYA ALRAZY"
+    ],
+    [
+      "عبّاس",
+      "EBBAS"
+    ],
+    [
+      "فاطمة",
+      "FAXTTMXAH"
+    ],
+    [
+      "مُحَمَّد",
+      "MXHMMD"
+    ],
+    [
+      "خالد",
+      "XKHALD"
+    ],
+    [
+      "عائشة",
+      "EAXIXSHXAH"
+    ],
+    [
+      "مصطفى",
+      "MXSSXTTFXAY"
+    ],
+    [
+      "الرَّشِيد",
+      "ALRXSHYD"
+    ],
+    [
+      "إبراهيم",
+      "IBRAHYM"
+    ],
+    [
+      "حسین",
+      "XHSXYAN"
+    ],
+    [
+      "عبد الرحمن",
+      "EBD ALRXHMN"
+    ]
+  ]
+}

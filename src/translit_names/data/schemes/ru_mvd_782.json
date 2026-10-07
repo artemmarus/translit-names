@@ -1,0 +1,53 @@
+{
+  "id": "ru_mvd_782",
+  "title": "Russian — MVD Order No. 782 (2000), driving licences",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "superseded",
+  "year": 2000,
+  "ascii": true,
+  "authority": "MVD Russia Order No. 782 of 2000 (instruction on driving licences), Appendix 5",
+  "description": "Transliteration table of the MVD instruction on driving licences (Order No. 782 of 2000): Ё→YO/YE/E by context, Е→YE after vowels and Ъ/Ь, И→YI after Ь, Ъ and Ь → apostrophe.",
+  "sources": [
+    "https://iuliia.ru/mvd-782/",
+    "http://docs.cntd.ru/document/901765985",
+    "https://github.com/nalgeon/iuliia/blob/master/mvd_782.json"
+  ],
+  "notes": [
+    "Rules follow iuliia.ru/mvd-782 and its JSON: Ъ/Ь are written as ' but dropped before Е, Ё and И (Васильева → Vasilyeva, Ильин → Ilyin).",
+    "Е at word start stays E (Erofeyev); Е after Й stays E (rule says 'after vowels and Ъ, Ь').",
+    "The rule text says Ё → YE 'after consonants'; this scheme counts Й as a consonant (iuliia's JSON does not list Й, giving YO there).",
+    "In iuliia's own examples Ё after consonants gives Artyem, Pyetr, Fyedor — this is what the instruction prescribes, although it differs from common usage (Artyom)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "classes": {
+    "V": "аеёиоуыэюя"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "zh",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "shch", "ъ": "'", "ы": "y", "ь": "'", "э": "e", "ю": "yu",
+    "я": "ya", "ье": "ye", "ъе": "ye", "ьё": "yo", "ъё": "yo", "ьи": "yi"
+  },
+  "rules": [
+    {"from": "е", "to": "ye", "after": "{V}", "note": "Е → YE after vowels (after Ъ/Ь: see map ье/ъе)"},
+    {"from": "ё", "to": "ye", "after": "бвгдзйклмнпрстфхц", "note": "Ё → YE after consonants except Ж Ч Ш Щ"},
+    {"from": "ё", "to": "e", "after": "жчшщ", "note": "Ё → E after Ж Ч Ш Щ; YO elsewhere (word-initial, after vowels, Ъ, Ь)"}
+  ],
+  "samples": [
+    ["Юлия Щеглова", "Yuliya Shcheglova"],
+    ["Гайа Васильева", "Gaya Vasilyeva"],
+    ["Андрей Видный", "Andrey Vidnyy"],
+    ["Артём Краевой", "Artyem Krayevoy"],
+    ["Мадыр Чёткий", "Madyr Chetkiy"],
+    ["Оксана Клеёнкина", "Oksana Kleyonkina"],
+    ["Игорь Ильин", "Igor' Ilyin"],
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Yuliya, syesh' eshche etikh myagkikh frantsuzskikh bulok iz Yoshkar-Oly, da vypey altayskogo chayu"],
+    ["Ёлкин Пётр", "Yolkin Pyetr"],
+    ["Соловьёва-Ерофеева", "Solovyova-Erofeyeva"],
+    ["ДОСТОЕВСКИЙ ФЁДОР", "DOSTOYEVSKIY FYEDOR"],
+    ["Подъёмов Жуков", "Podyomov Zhukov"]
+  ]
+}

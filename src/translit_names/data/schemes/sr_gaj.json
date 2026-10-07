@@ -1,0 +1,48 @@
+{
+  "id": "sr_gaj",
+  "title": "Serbian / Montenegrin — Cyrillic to Gaj's Latin alphabet",
+  "language": "sr",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "current",
+  "ascii": false,
+  "reversible": true,
+  "authority": "Serbian standard orthography: Vuk Karadžić's Cyrillic and Gaj's Latin alphabets in one-to-one correspondence; Montenegrin Ś/Ź (С\u0301/З\u0301) by ministerial decision of 9 July 2009",
+  "description": "The official Serbian (and Montenegrin) Latin script, letter for letter: Ђ→Đ, Ж→Ž, Љ→Lj, Њ→Nj, Ћ→Ć, Ч→Č, Џ→Dž, Ш→Š. Serbian passports and ID cards print names this way in the visual zone, with diacritics (Đ, not Dj).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet",
+    "https://en.wikipedia.org/wiki/Montenegrin_alphabet",
+    "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+    "https://www.danas.rs/drustvo/komplikovano-slovo-dj-u-pasosu/",
+    "https://www.novosti.rs/vesti/naslovna/aktuelno.69.html:241172-Dj-za-nove-nevolje"
+  ],
+  "notes": [
+    "Lj, Nj and Dž are single letters written with two Latin characters; the engine restores case (Љиља → Ljilja, ЉИЉА → LJILJA). Output uses separate letters, not the digraph code points U+01C4–U+01CC.",
+    "Montenegrin С\u0301 and З\u0301 have no precomposed code points: they are С/З followed by U+0301 COMBINING ACUTE ACCENT, matched as two-character sequences (→ Ś/Ź). Their use is optional in Montenegrin.",
+    "A stray combining acute (stress mark) elsewhere is kept unchanged; ѐ/ѝ (accent-marked е/и) become è/ì.",
+    "Reverse direction is not fully deterministic: dž, lj, nj can also be d+ž, l+j, n+j across a morpheme boundary (nadživjeti).",
+    "In 2009 the Ministry of Interior stated that Đ is written as Đ, not Dj, in passports (Danas, 29 May 2009); old SFRY/FRY passports used DJ."
+  ],
+  "alphabet": "абвгдђежзијклљмнњопрстћуфхцчџшс\u0301з\u0301",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ђ": "đ", "е": "e", "ж": "ž", "з": "z",
+    "и": "i", "ј": "j", "к": "k", "л": "l", "љ": "lj", "м": "m", "н": "n", "њ": "nj", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "ћ": "ć", "у": "u", "ф": "f", "х": "h", "ц": "c",
+    "ч": "č", "џ": "dž", "ш": "š", "с\u0301": "ś", "з\u0301": "ź", "ѐ": "è", "ѝ": "ì",
+    "\u0301": "\u0301"
+  },
+  "samples": [
+    ["Новак Ђоковић", "Novak Đoković"],
+    ["Ђорђе Ђорђевић", "Đorđe Đorđević"],
+    ["Љиљана Њежић", "Ljiljana Nježić"],
+    ["Џевад Џаџић", "Dževad Džadžić"],
+    ["Ћирило Чолић", "Ćirilo Čolić"],
+    ["Шћепан Жугић", "Šćepan Žugić"],
+    ["Гордана Цветковић", "Gordana Cvetković"],
+    ["Јелена-Ана Хаџић", "Jelena-Ana Hadžić"],
+    ["ЉИЉАНА", "LJILJANA"],
+    ["ЂОКОВИЋ Новак", "ĐOKOVIĆ Novak"],
+    ["с\u0301екира", "śekira"],
+    ["З\u0301еница", "Źenica"]
+  ]
+}

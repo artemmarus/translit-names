@@ -1,0 +1,37 @@
+{
+  "id": "ba_icao",
+  "extends": "ru_icao",
+  "title": "Bashkir — Russian passport (ICAO/MVD) with Bashkir letters",
+  "language": "ba",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "authority": "MVD Russia Order No. 996 (2019) / ICAO Doc 9303 for the Russian letters; Bashkir letters by fallback",
+  "description": "Russian international-passport transliteration (ICAO Doc 9303 / MVD) extended to the Bashkir letters: Ә→A, Ө→O, Ү→U, Ғ→G, Ҡ→K, Ҙ→Z, Ҫ→S, Ң→N, Һ→H (Рәдий Хәбиров → Radii Khabirov).",
+  "sources": [
+    "https://www.consultant.ru/document/cons_doc_LAW_346719/413ce7cde653ee8a7c578654112520bdd971d99d/",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://assets.publishing.service.gov.uk/media/5d6f825aed915d08f9a72a4d/TABLE_OF_CORRESPONDENCES__FOR_BASHKIR.pdf"
+  ],
+  "notes": [
+    "Holders are Russian citizens: their passports carry Russian-form Cyrillic names romanized with the MVD/ICAO table (ru_icao), which has no entries for the national letters. The extra mappings here are fallbacks for input in native spelling; the real passport form depends on how the name was Russified.",
+    "Russian-form equivalents behind the fallbacks: Ғ→Г, Ҡ→К, Ҙ→З, Ҫ→С, Ә→А/Я/Э, Ө→О/У, Ү→У/Ю, Һ→Х. Native spellings can differ in vowels too (Мостай → Мустай, Салауат → Салават), which no letter table can recover.",
+    "Ғ→G is the one Turkic letter ICAO §6.B lists. ICAO Doc 9303 §6.B prints Һ as C, apparently an error; Һ→H is used, as in every national and PCGN table."
+  ],
+  "alphabet": "абвгғдҙеёжзийкҡлмнңоөпрсҫтуүфхһцчшщъыьэәюя",
+  "map": {
+    "ғ": "g", "ҙ": "z", "ҡ": "k", "ң": "n", "ҫ": "s", "ә": "a", "ө": "o", "ү": "u", "һ": "h"
+  },
+  "samples": [
+    ["Рәдий Хәбиров", "Radii Khabirov"],
+    ["Зәки Вәлиди", "Zaki Validi"],
+    ["Мәжит Ғафури", "Mazhit Gafuri"],
+    ["Рами Ғарипов", "Rami Garipov"],
+    ["Ҙәйнәб Биишева", "Zainab Biisheva"],
+    ["Салауат Юлаев", "Salauat Iulaev"],
+    ["Мостай Кәрим", "Mostai Karim"],
+    ["Ҡаһым", "Kahym"],
+    ["Ҫаҡмар", "Sakmar"],
+    ["ХӘБИРОВ РӘДИЙ", "KHABIROV RADII"]
+  ]
+}

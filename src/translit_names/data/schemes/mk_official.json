@@ -1,0 +1,48 @@
+{
+  "id": "mk_official",
+  "title": "Macedonian — official 2008 system (passports, ID cards, driving licences; = ICAO Doc 9303)",
+  "language": "mk",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "current",
+  "year": 2008,
+  "ascii": true,
+  "reversible": false,
+  "authority": "Government of North Macedonia, system for official documents adopted in 2008, based on ICAO Doc 9303 Part 3 §6.B Macedonian exceptions",
+  "description": "Diacritic-free digraph system printed in North Macedonian passports, ID cards and driving licences since 2008: Ѓ→Gj, Ж→Zh, Ѕ→Dz, Ј→J, Љ→Lj, Њ→Nj, Ќ→Kj, Х→H, Ц→C, Ч→Ch, Џ→Dj, Ш→Sh. The upper-case output is also the MRZ string.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Romanization_of_Macedonian",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://en.wikipedia.org/wiki/George_(given_name)"
+  ],
+  "notes": [
+    "The legal instrument (number and date of the 2008 decision) was not verified in a North Macedonian primary source; the table is attested by Wikipedia and agrees with the ICAO §6.B Macedonian exceptions.",
+    "ICAO §6.B prints the Macedonian GJ exception under U+0492 (Ғ) instead of U+0403 (Ѓ) and omits Ѓ; this scheme uses Ѓ→GJ as intended.",
+    "Collision: DJ here means Џ, whereas in Serbian/Croatian English convention dj means Ђ/Đ; DZ here means Ѕ, whereas in Serbian ICAO output it means Џ. Cross-language reverse mapping must be language-tagged.",
+    "Not reversible: zh/sh/ch/dz/gj/kj also arise from з+х, с+х, ц+х, д+з, г+ј, к+ј.",
+    "Older or alternative spellings to accept when matching: Ѓ as G, Đ, Dj; Ќ as K, Ć, Ch; Џ as Dž, Dzh; Ж as Ž, J; Ц as Ts.",
+    "The modifier apostrophe ʼ (U+02BC, e.g. ʼРжаново) becomes an ASCII apostrophe; ICAO omits it in the MRZ. Accented ѐ/ѝ → e/i; combining stress marks are deleted by aliases."
+  ],
+  "alphabet": "абвгдѓежзѕијклљмнњопрстќуфхцчџш",
+  "aliases": {
+    "\u0301": "", "\u0300": ""
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ѓ": "gj", "е": "e", "ж": "zh", "з": "z",
+    "ѕ": "dz", "и": "i", "ј": "j", "к": "k", "л": "l", "љ": "lj", "м": "m", "н": "n", "њ": "nj",
+    "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "ќ": "kj", "у": "u", "ф": "f", "х": "h",
+    "ц": "c", "ч": "ch", "џ": "dj", "ш": "sh", "ѐ": "e", "ѝ": "i", "ʼ": "'", "’": "'"
+  },
+  "samples": [
+    ["Ѓорѓи Петров", "Gjorgji Petrov"],
+    ["Кочо Рацин", "Kocho Racin"],
+    ["Блаже Конески", "Blazhe Koneski"],
+    ["Ќирил Џеладиновски", "Kjiril Djeladinovski"],
+    ["Ѕвездана Љубеновска", "Dzvezdana Ljubenovska"],
+    ["Њагул Шопова", "Njagul Shopova"],
+    ["Ана-Марија Хаџи-Ристова", "Ana-Marija Hadji-Ristova"],
+    ["Скопје", "Skopje"],
+    ["Гевгелија", "Gevgelija"],
+    ["ЃОРЃИЕВСКИ НИКОЛА", "GJORGJIEVSKI NIKOLA"]
+  ]
+}

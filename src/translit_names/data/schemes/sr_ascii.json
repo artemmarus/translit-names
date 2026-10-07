@@ -1,0 +1,44 @@
+{
+  "id": "sr_ascii",
+  "title": "Serbian — practical English/ASCII (Đoković → Djokovic)",
+  "language": "sr",
+  "script": "Cyrl",
+  "kind": "practical",
+  "status": "informal",
+  "ascii": true,
+  "reversible": false,
+  "authority": "English-language press and informal 'ošišana latinica' convention (no official status)",
+  "description": "Gaj's Latin with diacritics removed and Đ written dj, as in English-language media and everyday ASCII writing: Ђ→Dj, Ћ/Ч→C, Џ→Dz, Ш→S, Ж→Z, Љ→Lj, Њ→Nj (Ђоковић → Djokovic).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet",
+    "https://en.wikipedia.org/wiki/Montenegrin_alphabet",
+    "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+    "https://en.wikipedia.org/wiki/D_with_stroke"
+  ],
+  "notes": [
+    "dj for Ђ/Đ is the English and press convention ('Novak Djokovic'); ICAO MRZ practice uses D instead (see sr_icao). Both should be generated for matching.",
+    "Ambiguities: dj also renders Д+Ј (одјек → odjek), c renders Ц, Ћ and Ч, s renders С and Ш, z renders З and Ж, dz renders Џ and Д+З. The output cannot be converted back to Cyrillic without a dictionary.",
+    "Other anglicised spellings occur (ch/sh/zh for Ч/Ш/Ж, tj or ch for Ћ, dzh or j for Џ), e.g. in diaspora names; they are not produced here.",
+    "Montenegrin С\u0301/З\u0301 → s/z; combining stress marks are dropped."
+  ],
+  "alphabet": "абвгдђежзијклљмнњопрстћуфхцчџшс\u0301з\u0301",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ђ": "dj", "е": "e", "ж": "z", "з": "z",
+    "и": "i", "ј": "j", "к": "k", "л": "l", "љ": "lj", "м": "m", "н": "n", "њ": "nj", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "ћ": "c", "у": "u", "ф": "f", "х": "h", "ц": "c",
+    "ч": "c", "џ": "dz", "ш": "s", "с\u0301": "s", "з\u0301": "z", "ѐ": "e", "ѝ": "i", "\u0301": "",
+    "\u0300": ""
+  },
+  "samples": [
+    ["Новак Ђоковић", "Novak Djokovic"],
+    ["Ђорђе Ђорђевић", "Djordje Djordjevic"],
+    ["Љубомир Његош", "Ljubomir Njegos"],
+    ["Џевад Џаџић", "Dzevad Dzadzic"],
+    ["Ћирило Чолић", "Cirilo Colic"],
+    ["Шћепан Жугић", "Scepan Zugic"],
+    ["Јелена-Ана Хаџић", "Jelena-Ana Hadzic"],
+    ["ЂОКОВИЋ НОВАК", "DJOKOVIC NOVAK"],
+    ["ЉИЉАНА", "LJILJANA"],
+    ["С\u0301ековић", "Sekovic"]
+  ]
+}

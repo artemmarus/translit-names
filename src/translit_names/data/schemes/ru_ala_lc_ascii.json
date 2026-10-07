@@ -1,0 +1,38 @@
+{
+  "id": "ru_ala_lc_ascii",
+  "title": "Russian — ALA-LC without diacritics (ASCII)",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "library",
+  "status": "current",
+  "year": 2012,
+  "ascii": true,
+  "authority": "Library of Congress / American Library Association (2012 table, diacritics omitted)",
+  "description": "ALA-LC romanization with diacritics and ligature ties removed (Ë→E, Ĭ→I, Ė→E, t͡s→ts, i͡u→iu, i͡a→ia), the usual form in bibliographies and ASCII-only systems; Ъ→\" and Ь→'.",
+  "sources": [
+    "https://www.loc.gov/catdir/cpso/romanization/russian.pdf",
+    "https://iuliia.ru/ala-lc/",
+    "https://github.com/nalgeon/iuliia/blob/master/ala_lc_alt.json"
+  ],
+  "notes": [
+    "Not a separate official table: it is ALA-LC with the diacritics and ties dropped, as commonly practised (iuliia 'ala_lc_alt'). Some users also drop the \" and ' signs."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "zh",
+    "з": "z", "и": "i", "й": "i", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "shch", "ъ": "\"", "ы": "y", "ь": "'", "э": "e", "ю": "iu",
+    "я": "ia", "і": "i", "ѣ": "ie", "ѳ": "f", "ѵ": "y"
+  },
+  "samples": [
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Iuliia, s\"esh' eshche etikh miagkikh frantsuzskikh bulok iz Ioshkar-Oly, da vypei altaiskogo chaiu"],
+    ["Наталья Ильина", "Natal'ia Il'ina"],
+    ["Подъячев", "Pod\"iachev"],
+    ["Хрущёв", "Khrushchev"],
+    ["Эльвира Юдина", "El'vira Iudina"],
+    ["Петров-Водкин", "Petrov-Vodkin"],
+    ["ЩЕРБАКОВ ЮРИЙ", "SHCHERBAKOV IURII"],
+    ["Жуков", "Zhukov"]
+  ]
+}

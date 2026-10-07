@@ -1,0 +1,40 @@
+{
+  "id": "ru_icao",
+  "title": "Russian — ICAO Doc 9303 (Russian international passports since 2013)",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "current",
+  "year": 2013,
+  "ascii": true,
+  "authority": "ICAO Doc 9303 Part 3 §6.B; FMS Order No. 320 (2012); MVD Russia Order No. 186 of 31.03.2021, para 139",
+  "description": "Letter-by-letter substitution without context rules, as printed in Russian international (zagran) passports, driving licences and other MRZ documents since 2013. Ё→E, Й→I, Ъ→IE, Ь omitted, Ц→TS, Ю→IU, Я→IA.",
+  "sources": [
+    "https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf",
+    "https://www.consultant.ru/document/cons_doc_LAW_384459/d3c3b53854fd15c08984f777d0101cede5c99ca8/",
+    "https://github.com/nalgeon/iuliia/blob/master/icao_doc_9303.json"
+  ],
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "zh", "з": "z",
+    "и": "i", "й": "i", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o", "п": "p", "р": "r",
+    "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts", "ч": "ch", "ш": "sh",
+    "щ": "shch", "ъ": "ie", "ы": "y", "ь": "", "э": "e", "ю": "iu", "я": "ia"
+  },
+  "samples": [
+    ["Андрей Видный", "Andrei Vidnyi"],
+    ["Артём Краевой", "Artem Kraevoi"],
+    ["Мадыр Чёткий", "Madyr Chetkii"],
+    ["Игорь Ильин", "Igor Ilin"],
+    ["Ян Разъездной", "Ian Razieezdnoi"],
+    ["Юлия Щеглова", "Iuliia Shcheglova"],
+    ["ЩЕРБАКОВ Юрий", "SHCHERBAKOV Iurii"],
+    ["Анна-Мария Ёлкина", "Anna-Mariia Elkina"],
+    ["Ксения Хрущёва", "Kseniia Khrushcheva"],
+    ["Оксана Клеёнкина", "Oksana Kleenkina"],
+    ["Гайа Васильева", "Gaia Vasileva"],
+    ["Подъячев", "Podieiachev"],
+    ["Петров-Водкин", "Petrov-Vodkin"],
+    ["ДМИТРИЙ ЖУКОВ", "DMITRII ZHUKOV"],
+    ["Эльвира Цветкова", "Elvira Tsvetkova"]
+  ]
+}

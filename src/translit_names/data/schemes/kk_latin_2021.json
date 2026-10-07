@@ -1,0 +1,47 @@
+{
+  "id": "kk_latin_2021",
+  "title": "Kazakh — Latin alphabet (April 2021 version)",
+  "language": "kk",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "draft",
+  "year": 2021,
+  "authority": "Decree No. 569 (26 Oct 2017) as amended by Decree No. 637 (19 Feb 2018); alphabet revision presented Jan 2021, Ŋ→Ñ on 22 Apr 2021",
+  "description": "Kazakh Cyrillic to the 2021 Latin alphabet (31 letters): Ә→ä, Ғ→ğ, И and Й→i (capital İ), І→ı (capital I), Ң→ñ, Ө→ö, Қ→q, Ұ→ū, Ү→ü, Ш→ş, Ж→j, Х and Һ→h, Ы→y; Russian-only letters Ё Ю Я Ц Ч Щ → io iu ia ts tş ştş, Ъ and Ь dropped.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kazakh_alphabets",
+    "https://astanatimes.com/2021/02/kazakhstan-presents-new-latin-alphabet-plans-gradual-transition-through-2031/",
+    "https://adilet.zan.kz/rus/docs/U1700000569",
+    "https://thediplomat.com/2024/09/the-latinization-of-kazakhstan-language-modernization-and-geopolitics/"
+  ],
+  "notes": [
+    "Status draft: the 2021 alphabet is the official target ('used from 2023'), but the transition deadline is 2031 and Kazakh remains effectively Cyrillic in 2026; no confirmation was found that identity documents use it.",
+    "The handling of Ё, Ц, Ч, Щ, Ю, Я (io, ts, tş, ştş, iu, ia) is taken from Wikipedia's comparison table; the research notes flag it as uncertain.",
+    "Superseded versions: 2017 apostrophe alphabet (Decree 569: a', g', n' …) and 2018 acute alphabet (Decree 637: Á, Ǵ, Ń, Ó, Ú, Ý for У, I ı for И/Й).",
+    "Casing workaround: Python upper-cases i to I, but here capital i must be İ while I is the capital of ı (І). И/Й are emitted as a placeholder (U+0269/U+0196) that post rules turn into i/İ (Ислам → İslam, Ілияс-type І → I)."
+  ],
+  "alphabet": "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя",
+  "map": {
+    "а": "a", "ә": "ä", "б": "b", "в": "v", "г": "g", "ғ": "ğ", "д": "d", "е": "e", "ё": "ɩo",
+    "ж": "j", "з": "z", "и": "ɩ", "й": "ɩ", "к": "k", "қ": "q", "л": "l", "м": "m", "н": "n",
+    "ң": "ñ", "о": "o", "ө": "ö", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ұ": "ū",
+    "ү": "ü", "ф": "f", "х": "h", "һ": "h", "ц": "ts", "ч": "tş", "ш": "ş", "щ": "ştş", "ъ": "",
+    "ы": "y", "і": "ı", "ь": "", "э": "e", "ю": "ɩu", "я": "ɩa"
+  },
+  "post": [
+    {"pattern": "ɩ", "replace": "i"},
+    {"pattern": "Ɩ", "replace": "İ"}
+  ],
+  "samples": [
+    ["Нұрсұлтан Әбішұлы Назарбаев", "Nūrsūltan Äbışūly Nazarbaev"],
+    ["Қасым-Жомарт Тоқаев", "Qasym-Jomart Toqaev"],
+    ["Шоқан Уәлиханов", "Şoqan Uälihanov"],
+    ["Абай Құнанбайұлы", "Abai Qūnanbaiūly"],
+    ["Әлихан Смайылов", "Älihan Smaiylov"],
+    ["Иманғали Тасмағамбетов", "İmanğali Tasmağambetov"],
+    ["Юсупов", "İusupov"],
+    ["Қазақстан", "Qazaqstan"],
+    ["ТОҚАЕВ ҚАСЫМ-ЖОМАРТ", "TOQAEV QASYM-JOMART"],
+    ["ИМАНҒАЛИ", "İMANĞALİ"]
+  ]
+}

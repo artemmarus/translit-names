@@ -1,0 +1,42 @@
+{
+  "id": "tg_passport",
+  "extends": "ru_icao",
+  "title": "Tajik — passport-style ASCII (English-style)",
+  "language": "tg",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "year": null,
+  "ascii": true,
+  "authority": "No published table; modelled on official English spellings and observed passport names",
+  "description": "Tajik Cyrillic names in English/passport ASCII: Ғ→GH, Ӣ→I, Қ→Q, Ӯ→U, Ҳ→H, Ҷ→J, Х→KH, Ж→ZH, Й→Y, Ё/Ю/Я→YO/YU/YA, Ъ dropped, Е→E (Эмомалӣ Раҳмон → Emomali Rahmon, Сироҷиддин Муҳриддин → Sirojiddin Muhriddin).",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/634e72918fa8f534627a6e60/ROMANIZATION_OF_TAJIK-2022.pdf",
+    "https://www.themoscowtimes.com/2016/04/29/russian-surnames-officially-banned-in-tajikistan-a52732",
+    "https://www.rferl.org/a/tajikistan-baby-names-approved-list/33784703.html",
+    "https://www.academia.edu/41662082/From_Rahmonov_to_Rahmon_Naming_Laws_and_the_Right_to_Privacy_in_Tajikistan",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf"
+  ],
+  "notes": [
+    "No primary source on Tajik passport transliteration was found; status informal. The letter choices follow the research notes' English-style profile and official English names (Emomali Rahmon, Sirojiddin Muhriddin).",
+    "Older passports and Russian-form documents follow the Russian ICAO table via Russian spellings: Ҷ→DZH (Джамшед → Dzhamshed), Ҳ→KH (Fatkhullo, Manuchekhr), Қ→K, Ӣ→I/II, О→A in Russified stems (Рахмонов). Generate these as variants, plus Ғ→G, Ӯ→O/OO, Ӣ→EE/IY.",
+    "Surname law of 2016 bans -ov/-ev/-ovich/-ovna for new registrations (-zoda, -zod, -ī, -yon, -far, -pur instead); expect Rahmonov ↔ Rahmon ↔ Rahmonzoda.",
+    "Pre-1998 letters ц, щ, ь, ы fall back to the Russian ICAO values."
+  ],
+  "alphabet": "абвгғдеёжзиӣйкқлмнопрстуӯфхҳчҷшъэюя",
+  "map": {
+    "ё": "yo", "й": "y", "ъ": "", "ю": "yu", "я": "ya", "ғ": "gh", "ӣ": "i", "қ": "q", "ӯ": "u",
+    "ҳ": "h", "ҷ": "j"
+  },
+  "samples": [
+    ["Эмомалӣ Раҳмон", "Emomali Rahmon"],
+    ["Рустами Эмомалӣ", "Rustami Emomali"],
+    ["Сироҷиддин Муҳриддин", "Sirojiddin Muhriddin"],
+    ["Эҳсон Панҷшанбе", "Ehson Panjshanbe"],
+    ["Зоир Ҷӯрабоев", "Zoir Juraboev"],
+    ["Расул Боқиев", "Rasul Boqiev"],
+    ["Бобоҷон Ғафуров", "Bobojon Ghafurov"],
+    ["Ёдгор Ҳайдаров", "Yodgor Haydarov"],
+    ["РАҲМОН ЭМОМАЛӢ", "RAHMON EMOMALI"]
+  ]
+}

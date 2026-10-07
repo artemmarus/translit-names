@@ -1,0 +1,517 @@
+{
+  "id": "ur_practical",
+  "title": "Urdu — practical English romanization (Pakistani style)",
+  "language": "ur",
+  "script": "Arab",
+  "kind": "practical",
+  "status": "informal",
+  "ascii": true,
+  "authority": "Pakistani CNIC/passport and press practice (Hunterian/BGN-PCGN without diacritics); Ministry of Religious Affairs notification (1979) on the spelling Muhammad; not a formal standard",
+  "description": "Plain-ASCII spellings as written on Pakistani documents: Muhammad, Hussain, Rehman, Majeed, Mehmood, Syed (lexicon); ee/oo for medial ī/ū, e/o for majhūl vowels, ai/au, w for و, ق = q, final silent h = a (Fatima, Ayesha), Arabic article as a separate capitalised word (Zia Ur Rehman, Chiragh Ud Din), Abdul + name, -ullah joined (Amanullah). Known names come from the lexicon (latin['ur']).",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pakistani_name",
+    "https://gsp.gov.pk/wp-content/uploads/2025/05/DD-G.pdf", "https://jang.com.pk/news/490894",
+    "https://assets.publishing.service.gov.uk/media/5ab4e64d40f0b67d64e21540/ROMANIZATION_OF_URDU.pdf",
+    "https://en.wikipedia.org/wiki/Romanization_of_Urdu"
+  ],
+  "notes": [
+    "Lexicon spellings win; the rules only handle vocalised input and names the lexicon does not know.",
+    "a before h/ḥ closing a syllable is written e (Rehman, Mehmood, Shehzad, Zehra), except at the start of a word (Ahmad) — the usual Pakistani spelling, attested in official candidate lists (Ur Rehman).",
+    "ī and ū are ee/oo inside a word (Majeed, Adeel, Maqbool) and i/u at the end (Ali, Abu); 'Din' keeps i in Ud Din (as on CNIC records).",
+    "s between short vowels is doubled (Hussain, Hassan), except after a word-initial vowel (Asad).",
+    "Consonantal و is written w (Waqas, Rizwan); the v spelling (Javed, Pervez) is lexical."
+  ],
+  "alphabet": "ءآأؤئابپتٹثجچحخدڈذرڑزژسشصضطظعغفقکگلمنںوہھیےۃ",
+  "hook": "arabic",
+  "options": {
+    "practical": ["ur"]
+  },
+  "geminate": "\u0651",
+  "titlecase": true,
+  "lowercase_words": ["e", "ye"],
+  "fallback": "ascii",
+  "aliases": {"ي": "ی", "ى": "ی", "ك": "ک", "ۀ": "ۂ", "ە": "ہ"},
+  "classes": {
+    "C": "ءؤئبتثجحخدذرزسشصضطظعغفقكلمنهپچژگکڤڢڧڨڭڥۋڴٹڈڑںھہټډړږښځڅڼګ", "V": "\u064e\u064f\u0650",
+    "M": "\u064b\u064c\u064d\u064e\u064f\u0650\u0651\u0652\u0670\u0655\u0659\u0654\u0653",
+    "L": "\u064e\u064f\u0650اى"
+  },
+  "map": {
+    "ب": "b", "پ": "p", "ت": "t", "ٹ": "t", "ث": "s", "ج": "j", "چ": "ch", "ح": "h", "خ": "kh", "د": "d",
+    "ڈ": "d", "ذ": "z", "ر": "r", "ڑ": "r", "ز": "z", "ژ": "zh", "س": "s", "ش": "sh", "ص": "s", "ض": "z",
+    "ط": "t", "ظ": "z", "ع": "", "غ": "gh", "ف": "f", "ق": "q", "ک": "k", "گ": "g", "ل": "l", "م": "m",
+    "ن": "n", "ں": "n", "و": "w", "ہ": "h", "ه": "h", "ھ": "h", "ی": "y", "ء": "", "أ": "", "إ": "",
+    "ؤ": "", "ئ": "", "آ": "a", "ا": "a", "ٱ": "", "ة": "a", "\u064e": "a", "\u064f": "u", "\u0650": "i",
+    "\u0652": "", "\u064b": "", "\u064c": "", "\u064d": "", "\u0670": "a", "ـ": "", "\u0654": "",
+    "\u0655": "", "\u0653": "", "\u0659": "a", "\u200c": "", "\u064eا": "a", "\u064e\u0670": "a",
+    "\u064fو\u0651": "uww", "\u064eو\u0651": "aww", "\u064eو\u0652": "au", "\u064eة": "a", "ع\u0651": "",
+    "\u0650ی\u0651": "iyy", "\u064eی\u0651": "ayy", "\u064eی\u0652": "ai", "ی\u0670": "a",
+    "\u064eی\u0670": "a", "ۀ": "a-e", "\u064eۀ": "a-e", "\u0650ۀ": "a-e", "ه\u0654": "a-e",
+    "\u064eه\u0654": "a-e", "\u0650ه\u0654": "a-e", "ۂ": "a-e", "\u064eۂ": "a-e", "\u0650ۂ": "a-e",
+    "ے": "e", "\u064eے": "ai", "ۓ": "e", "ۃ": "t", "و\u0670": "ā", "\u064eو\u0670": "ā", "بھ": "bh",
+    "پھ": "ph", "تھ": "th", "ٹھ": "th", "جھ": "jh", "چھ": "chh", "دھ": "dh", "ڈھ": "dh", "ڑھ": "rh",
+    "کھ": "kh", "گھ": "gh"
+  },
+  "rules": [
+    {
+      "from": [
+        "إبن", "إبن\u064e", "إبن\u064f", "إبن\u0650", "إب\u0652ن", "إب\u0652ن\u064e", "إب\u0652ن\u064f",
+        "إب\u0652ن\u0650", "إ\u0650بن", "إ\u0650بن\u064e", "إ\u0650بن\u064f", "إ\u0650بن\u0650",
+        "إ\u0650ب\u0652ن", "إ\u0650ب\u0652ن\u064e", "إ\u0650ب\u0652ن\u064f", "إ\u0650ب\u0652ن\u0650", "ابن",
+        "ابن\u064e", "ابن\u064f", "ابن\u0650", "اب\u0652ن", "اب\u0652ن\u064e", "اب\u0652ن\u064f",
+        "اب\u0652ن\u0650", "ا\u0650بن", "ا\u0650بن\u064e", "ا\u0650بن\u064f", "ا\u0650بن\u0650",
+        "ا\u0650ب\u0652ن", "ا\u0650ب\u0652ن\u064e", "ا\u0650ب\u0652ن\u064f", "ا\u0650ب\u0652ن\u0650", "ٱبن",
+        "ٱبن\u064e", "ٱبن\u064f", "ٱبن\u0650", "ٱب\u0652ن", "ٱب\u0652ن\u064e", "ٱب\u0652ن\u064f",
+        "ٱب\u0652ن\u0650", "ٱ\u0650بن", "ٱ\u0650بن\u064e", "ٱ\u0650بن\u064f", "ٱ\u0650بن\u0650",
+        "ٱ\u0650ب\u0652ن", "ٱ\u0650ب\u0652ن\u064e", "ٱ\u0650ب\u0652ن\u064f", "ٱ\u0650ب\u0652ن\u0650"
+      ],
+      "to": "ibn",
+      "start": true,
+      "end": true,
+      "note": "ابن"
+    },
+    {
+      "from": [
+        "بن", "بن\u064e", "بن\u064f", "بن\u0650", "ب\u0650ن", "ب\u0650ن\u064e", "ب\u0650ن\u064f",
+        "ب\u0650ن\u0650", "ب\u0650ن\u0652", "ب\u0652ن", "ب\u0652ن\u064e", "ب\u0652ن\u064f", "ب\u0652ن\u0650"
+      ],
+      "to": "bin",
+      "start": true,
+      "end": true,
+      "note": "بن"
+    },
+    {"from": "عبد", "to": "abd", "start": true, "end": true, "note": "bare عبد (name element)"},
+    {
+      "from": [
+        "الله", "الل\u0651ه", "الل\u0651\u0670ه", "ٱلله", "ٱلل\u0651ه", "ٱلل\u0651\u0670ه", "اللہ",
+        "الل\u0651ہ", "الل\u0651\u0670ہ", "ٱللہ", "ٱلل\u0651ہ", "ٱلل\u0651\u0670ہ"
+      ],
+      "to": "allah",
+      "start": true,
+      "end": true,
+      "note": "Allāh"
+    },
+    {
+      "from": ["الله", "الل\u0651ه", "الل\u0651\u0670ه", "اللہ", "الل\u0651ہ", "الل\u0651\u0670ہ"],
+      "to": "allah",
+      "end": true,
+      "note": "-allāh written solid at the end of a compound (نصرالله)"
+    },
+    {
+      "from": ["عبدالله", "عبداللہ"],
+      "to": "abdullah",
+      "start": true,
+      "end": true,
+      "note": "solid عبدالله"
+    },
+    {
+      "from": ["الت\u0651", "ال\u0652ت\u0651", "ال\u0652ت"],
+      "to": "ut\u2010t",
+      "start": true
+    },
+    {"from": "الت", "to": "ut\u2010t", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلت\u0651", "ٱل\u0652ت\u0651", "ٱل\u0652ت"],
+      "to": "ut\u2010t",
+      "start": true
+    },
+    {"from": "ٱلت", "to": "ut\u2010t", "start": true, "before": "{M}"},
+    {
+      "from": ["الث\u0651", "ال\u0652ث\u0651", "ال\u0652ث"],
+      "to": "us\u2010s",
+      "start": true
+    },
+    {"from": "الث", "to": "us\u2010s", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلث\u0651", "ٱل\u0652ث\u0651", "ٱل\u0652ث"],
+      "to": "us\u2010s",
+      "start": true
+    },
+    {"from": "ٱلث", "to": "us\u2010s", "start": true, "before": "{M}"},
+    {
+      "from": ["الد\u0651", "ال\u0652د\u0651", "ال\u0652د"],
+      "to": "ud\u2010d",
+      "start": true
+    },
+    {"from": "الد", "to": "ud\u2010d", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلد\u0651", "ٱل\u0652د\u0651", "ٱل\u0652د"],
+      "to": "ud\u2010d",
+      "start": true
+    },
+    {"from": "ٱلد", "to": "ud\u2010d", "start": true, "before": "{M}"},
+    {
+      "from": ["الذ\u0651", "ال\u0652ذ\u0651", "ال\u0652ذ"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "الذ", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلذ\u0651", "ٱل\u0652ذ\u0651", "ٱل\u0652ذ"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "ٱلذ", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["الر\u0651", "ال\u0652ر\u0651", "ال\u0652ر"],
+      "to": "ur\u2010r",
+      "start": true
+    },
+    {"from": "الر", "to": "ur\u2010r", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلر\u0651", "ٱل\u0652ر\u0651", "ٱل\u0652ر"],
+      "to": "ur\u2010r",
+      "start": true
+    },
+    {"from": "ٱلر", "to": "ur\u2010r", "start": true, "before": "{M}"},
+    {
+      "from": ["الز\u0651", "ال\u0652ز\u0651", "ال\u0652ز"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "الز", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلز\u0651", "ٱل\u0652ز\u0651", "ٱل\u0652ز"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "ٱلز", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["الس\u0651", "ال\u0652س\u0651", "ال\u0652س"],
+      "to": "us\u2010s",
+      "start": true
+    },
+    {"from": "الس", "to": "us\u2010s", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلس\u0651", "ٱل\u0652س\u0651", "ٱل\u0652س"],
+      "to": "us\u2010s",
+      "start": true
+    },
+    {"from": "ٱلس", "to": "us\u2010s", "start": true, "before": "{M}"},
+    {
+      "from": ["الش\u0651", "ال\u0652ش\u0651", "ال\u0652ش"],
+      "to": "ush\u2010sh",
+      "start": true
+    },
+    {"from": "الش", "to": "ush\u2010sh", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلش\u0651", "ٱل\u0652ش\u0651", "ٱل\u0652ش"],
+      "to": "ush\u2010sh",
+      "start": true
+    },
+    {"from": "ٱلش", "to": "ush\u2010sh", "start": true, "before": "{M}"},
+    {
+      "from": ["الص\u0651", "ال\u0652ص\u0651", "ال\u0652ص"],
+      "to": "us\u2010s",
+      "start": true
+    },
+    {"from": "الص", "to": "us\u2010s", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلص\u0651", "ٱل\u0652ص\u0651", "ٱل\u0652ص"],
+      "to": "us\u2010s",
+      "start": true
+    },
+    {"from": "ٱلص", "to": "us\u2010s", "start": true, "before": "{M}"},
+    {
+      "from": ["الض\u0651", "ال\u0652ض\u0651", "ال\u0652ض"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "الض", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلض\u0651", "ٱل\u0652ض\u0651", "ٱل\u0652ض"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "ٱلض", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["الط\u0651", "ال\u0652ط\u0651", "ال\u0652ط"],
+      "to": "ut\u2010t",
+      "start": true
+    },
+    {"from": "الط", "to": "ut\u2010t", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلط\u0651", "ٱل\u0652ط\u0651", "ٱل\u0652ط"],
+      "to": "ut\u2010t",
+      "start": true
+    },
+    {"from": "ٱلط", "to": "ut\u2010t", "start": true, "before": "{M}"},
+    {
+      "from": ["الظ\u0651", "ال\u0652ظ\u0651", "ال\u0652ظ"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "الظ", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلظ\u0651", "ٱل\u0652ظ\u0651", "ٱل\u0652ظ"],
+      "to": "uz\u2010z",
+      "start": true
+    },
+    {"from": "ٱلظ", "to": "uz\u2010z", "start": true, "before": "{M}"},
+    {
+      "from": ["الل\u0651", "ال\u0652ل\u0651", "ال\u0652ل"],
+      "to": "ul\u2010l",
+      "start": true
+    },
+    {"from": "الل", "to": "ul\u2010l", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلل\u0651", "ٱل\u0652ل\u0651", "ٱل\u0652ل"],
+      "to": "ul\u2010l",
+      "start": true
+    },
+    {"from": "ٱلل", "to": "ul\u2010l", "start": true, "before": "{M}"},
+    {
+      "from": ["الن\u0651", "ال\u0652ن\u0651", "ال\u0652ن"],
+      "to": "un\u2010n",
+      "start": true
+    },
+    {"from": "الن", "to": "un\u2010n", "start": true, "before": "{M}"},
+    {
+      "from": ["ٱلن\u0651", "ٱل\u0652ن\u0651", "ٱل\u0652ن"],
+      "to": "un\u2010n",
+      "start": true
+    },
+    {"from": "ٱلن", "to": "un\u2010n", "start": true, "before": "{M}"},
+    {
+      "from": ["ال\u0652", "ٱل\u0652"],
+      "to": "ul\u2010",
+      "start": true
+    },
+    {
+      "from": ["الب", "ٱلب"],
+      "to": "ul\u2010b",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الج", "ٱلج"],
+      "to": "ul\u2010j",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الح", "ٱلح"],
+      "to": "ul\u2010h",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الخ", "ٱلخ"],
+      "to": "ul\u2010kh",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الع", "ٱلع"],
+      "to": "ul\u2010",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الغ", "ٱلغ"],
+      "to": "ul\u2010gh",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الف", "ٱلف"],
+      "to": "ul\u2010f",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الق", "ٱلق"],
+      "to": "ul\u2010q",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الک", "ٱلک"],
+      "to": "ul\u2010k",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الم", "ٱلم"],
+      "to": "ul\u2010m",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["اله", "ٱله"],
+      "to": "ul\u2010h",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الو", "ٱلو"],
+      "to": "ul\u2010w",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الی", "ٱلی"],
+      "to": "ul\u2010y",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الپ", "ٱلپ"],
+      "to": "ul\u2010p",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الچ", "ٱلچ"],
+      "to": "ul\u2010ch",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الژ", "ٱلژ"],
+      "to": "ul\u2010zh",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الگ", "ٱلگ"],
+      "to": "ul\u2010g",
+      "start": true,
+      "before": "{M}"
+    },
+    {
+      "from": ["الأ", "الإ", "الا", "ٱلا"],
+      "to": "ul\u2010",
+      "start": true,
+      "before": "{M}"
+    },
+    {"from": "الآ", "to": "ul\u2010a", "start": true},
+    {
+      "from": ["ا", "أ", "إ", "ٱ"],
+      "to": "",
+      "start": true,
+      "before": "{M}",
+      "note": "seat of the initial vowel"
+    },
+    {
+      "from": ["ا", "أ"],
+      "to": "a",
+      "start": true,
+      "note": "unvocalised: assume a"
+    },
+    {
+      "from": ["إ", "ٱ"],
+      "to": "i",
+      "start": true
+    },
+    {"from": "آ", "to": "a", "start": true},
+    {"from": "ء", "to": "", "start": true},
+    {
+      "from": "ع",
+      "to": "a",
+      "start": true,
+      "not_before": "{M}اوىيیېے",
+      "note": "unvocalised initial ʿayn: assume a"
+    },
+    {"from": "یو", "to": "yoo", "start": true, "not_before": "{M}", "note": "Yūsuf"},
+    {
+      "from": ["\u064e", "\u064f"],
+      "to": "",
+      "end": true,
+      "note": "case endings are not romanized"
+    },
+    {"from": "\u0650ی\u0651", "to": "i", "not_before": "{V}", "note": "final -iyy"},
+    {"from": "\u0650ی", "to": "i", "end": true},
+    {"from": "\u0650ی", "to": "ee", "not_before": "{L}", "note": "kasra + yā' = ī"},
+    {"from": "\u064eی", "to": "a", "end": true, "note": "final ـ\u064eی"},
+    {"from": "\u064eی", "to": "ai", "not_before": "{M}اى", "note": "diphthong"},
+    {"from": "\u064fو", "to": "u", "end": true},
+    {"from": "\u064fو", "to": "oo", "not_before": "{L}", "note": "ḍamma + wāw = ū"},
+    {"from": "\u064eو", "to": "au", "not_before": "{M}اى", "note": "diphthong"},
+    {"from": "ی", "to": "i", "after": "{C}\u0651", "end": true},
+    {"from": "ی", "to": "e", "after": "{C}\u0651", "not_before": "{M}اى"},
+    {"from": "و", "to": "o", "after": "{C}\u0651", "end": true},
+    {"from": "و", "to": "o", "after": "{C}\u0651", "not_before": "{M}اى"},
+    {
+      "from": ["\u064eح\u0652", "\u064eہ\u0652", "\u064eه\u0652"],
+      "to": "eh",
+      "not_after": "اآأإٱع",
+      "note": "Rehman, Mehmood, Shehzad"
+    },
+    {
+      "from": "\u064eع",
+      "to": "aa",
+      "before": "\u0652ءؤئبتثجحخدذرزسشصضطظعغفقكلمنهپچژگکڤڢڧڨڭڥۋڴٹڈڑںھہټډړږښځڅڼګ",
+      "note": "Saad"
+    },
+    {"from": "\u064eة", "to": "at", "before": "{V}"},
+    {"from": "ة", "to": "t", "before": "{V}"},
+    {"from": "ة", "to": "t", "after": "ا"},
+    {"from": "ہ", "to": "a", "end": true, "after": "{C}\u0651", "note": "final silent h after a consonant"},
+    {"from": "یہ", "to": "iya", "end": true, "after": "{C}", "note": "adjectival -iyeh"},
+    {"from": "یہ", "to": "ya", "end": true, "after": "ا"},
+    {"from": "وہ", "to": "wa", "end": true, "after": "ا"},
+    {"from": "\u064eہ", "to": "a", "end": true},
+    {"from": "ه", "to": "a", "end": true, "after": "{C}\u0651", "note": "final silent h after a consonant"},
+    {"from": "یه", "to": "iya", "end": true, "after": "{C}", "note": "adjectival -iyeh"},
+    {"from": "یه", "to": "ya", "end": true, "after": "ا"},
+    {"from": "وه", "to": "wa", "end": true, "after": "ا"},
+    {"from": "\u064eه", "to": "a", "end": true},
+    {"from": "\u0650", "to": "-e", "end": true, "after": "{C}", "note": "ezafe"},
+    {"from": "ی\u0650", "to": "-ye", "end": true, "after": "او", "note": "ezafe after a vowel"},
+    {"from": "\u0650ی\u0650", "to": "ee-ye", "end": true, "note": "ezafe after ī"},
+    {
+      "from": ["ھہ", "ھه"],
+      "to": "h",
+      "end": true
+    },
+    {"from": "ا\u064eس", "to": "as", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "ا\u064fس", "to": "us", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "ا\u0650س", "to": "is", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "أ\u064eس", "to": "as", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "أ\u064fس", "to": "us", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "أ\u0650س", "to": "is", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "إ\u064eس", "to": "as", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "إ\u064fس", "to": "us", "start": true, "note": "no ss after an initial vowel"},
+    {"from": "إ\u0650س", "to": "is", "start": true, "note": "no ss after an initial vowel"},
+    {
+      "from": ["س", "ص", "ث"],
+      "to": "ss",
+      "after": "\u064e\u064f\u0650",
+      "before": "\u064e\u064f\u0650",
+      "note": "s between short vowels is written ss (Hussain)"
+    }
+  ],
+  "post": [
+    {"pattern": "(?<=\\S) ul\u2010la?h\\b", "replace": "ullah"},
+    {"pattern": "(?<=\\S) allah\\b", "replace": "ullah"},
+    {"pattern": "(?<=[^\\W\\d_])allah\\b", "replace": "ullah"},
+    {"pattern": "(?<!\\S)ul\u2010la?h\\b", "replace": "allah"},
+    {"pattern": "\\babd u[^\\s\u2010]*\u2010", "replace": "abdul "},
+    {"pattern": "\\bud\u2010deen\\b", "replace": "ud din"},
+    {"pattern": "^u([^\\s\u2010]*)\u2010", "replace": "a\\1-"},
+    {"pattern": "\u2010", "replace": " "}
+  ],
+  "samples": [
+    ["مُحَمَّد", "Muhammad"],
+    ["حُسَیْن", "Hussain"],
+    ["تَنْزِیل الرَّحْمٰن", "Tanzeel Ur Rehman"],
+    ["مَقْبُول الرَّحْمٰن", "Maqbool Ur Rehman"],
+    ["چِرَاغ الدِّین", "Chiragh Ud Din"],
+    ["اَمَان اللّٰه", "Amanullah"],
+    ["عَبْد الرَّحْمٰن", "Abdul Rehman"],
+    ["مَجِید", "Majeed"],
+    ["عَدِیل", "Adeel"],
+    ["مَحْمُود", "Mehmood"],
+    ["شَہْزَاد", "Shehzad"],
+    ["فَاطِمَہ", "Fatima"],
+    ["عَائِشَہ", "Aisha"],
+    ["اَحْمَد", "Ahmad"],
+    ["سَعِید", "Saeed"],
+    ["عَلی", "Ali"],
+    ["بھُٹّو", "Bhutto"],
+    ["لَڑْکے", "Larke"],
+    ["ڈَار", "Dar"],
+    ["رَحْمَت‌اللّٰه", "Rehmatullah"]
+  ]
+}

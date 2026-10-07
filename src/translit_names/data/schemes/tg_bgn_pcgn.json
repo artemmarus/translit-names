@@ -1,0 +1,60 @@
+{
+  "id": "tg_bgn_pcgn",
+  "title": "Tajik — BGN/PCGN 1994",
+  "language": "tg",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 1994,
+  "authority": "BGN/PCGN 1994 Agreement (table checked Sept 2022)",
+  "description": "BGN/PCGN romanization of Tajik Cyrillic: Ғ→gh, Ӣ→í, Қ→q, Ӯ→ŭ, Ҳ→h, Ҷ→j, Х→kh, Ж→zh, Э→ė, Ъ→’; obsolete pre-1998 letters ц, щ, ь, ы → s/ts, sh, (none), i.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/634e72918fa8f534627a6e60/ROMANIZATION_OF_TAJIK-2022.pdf",
+    "https://en.wikipedia.org/wiki/Tajik_alphabets"
+  ],
+  "notes": [
+    "Obsolete letters abolished in 1998: ц → ts between vowels, s elsewhere; щ → sh; ь not romanized; ы → i.",
+    "Optional PCGN refinement not applied: гҳ, зҳ, кҳ, сҳ may be written g·h, z·h, k·h, s·h.",
+    "Е is always e (Душанбе → Dushanbe)."
+  ],
+  "alphabet": "абвгғдеёжзиӣйкқлмнопрстуӯфхҳчҷшъэюя",
+  "classes": {
+    "V": "аеёиӣоуӯэюяы"
+  },
+  "rules": [
+    {"from": "ц", "to": "ts", "after": "{V}", "before": "{V}"}
+  ],
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "ғ": "gh", "д": "d", "е": "e", "ё": "yo", "ж": "zh",
+    "з": "z", "и": "i", "ӣ": "í", "й": "y", "к": "k", "қ": "q", "л": "l", "м": "m", "н": "n",
+    "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ӯ": "ŭ", "ф": "f", "х": "kh",
+    "ҳ": "h", "ч": "ch", "ҷ": "j", "ш": "sh", "ъ": "’", "э": "ė", "ю": "yu", "я": "ya", "ц": "s",
+    "щ": "sh", "ь": "", "ы": "i"
+  },
+  "samples": [
+    ["Омударё", "Omudaryo"],
+    ["Бохтар", "Bokhtar"],
+    ["Ворух", "Vorukh"],
+    ["Суғд", "Sughd"],
+    ["Душанбе", "Dushanbe"],
+    ["Сирдарё", "Sirdaryo"],
+    ["Хуҷанд", "Khujand"],
+    ["Қарокӯл", "Qarokŭl"],
+    ["Фарғона", "Farghona"],
+    ["Хоруғ", "Khorugh"],
+    ["Кӯҳҳои Помир", "Kŭhhoi Pomir"],
+    ["Сомончӣ", "Somonchí"],
+    ["Ҷумҳурии Тоҷикистон", "Jumhurii Tojikiston"],
+    ["Сомонӣ", "Somoní"],
+    ["Шайдон", "Shaydon"],
+    ["Панҷ", "Panj"],
+    ["Роштқалъа", "Roshtqal’a"],
+    ["Кӯлоб", "Kŭlob"],
+    ["Энгелс", "Ėngels"],
+    ["Қайроққум", "Qayroqqum"],
+    ["Юқори", "Yuqori"],
+    ["Янгиобод", "Yangiobod"],
+    ["Эмомалӣ Раҳмон", "Ėmomalí Rahmon"],
+    ["РАҲМОН ЭМОМАЛӢ", "RAHMON ĖMOMALÍ"]
+  ]
+}

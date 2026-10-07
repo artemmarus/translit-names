@@ -1,0 +1,62 @@
+{
+  "id": "uz_latin",
+  "title": "Uzbek — official Latin alphabet (1995)",
+  "language": "uz",
+  "script": "Cyrl",
+  "kind": "official",
+  "status": "current",
+  "year": 1995,
+  "reversible": false,
+  "authority": "Law of 2 Sept 1993 as amended 6 May 1995; Orthographic Rules, Cabinet of Ministers Resolution No. 339 of 24 Aug 1995",
+  "description": "Uzbek Cyrillic converted to the official Uzbek Latin alphabet: Ў→oʻ, Ғ→gʻ (U+02BB), Қ→q, Ҳ→h, Х→x, Ж→j, Ъ→tutuq ʼ (U+02BC), Ь omitted, Е→ye initially and after vowels, Ц→ts after vowels and s elsewhere.",
+  "sources": [
+    "https://lex.uz/docs/-1625271",
+    "https://en.wikipedia.org/wiki/Uzbek_alphabet",
+    "https://assets.publishing.service.gov.uk/media/636cda6dd3bf7f16466f478f/TABLE_OF_CORRESPONDENCES_FOR_UZBEK_2022_final.pdf",
+    "https://www.gazeta.uz/en/2026/09/10/uzb-alphabet/",
+    "https://timesca.com/uzbekistan-latin-alphabet-changes-senate/",
+    "https://kun.uz/en/news/2026/07/07/parliaments-lower-house-passes-bill-to-revise-uzbek-alphabet-848eb2"
+  ],
+  "notes": [
+    "2026 reform: a law replacing Oʻ→Ö, Gʻ→Ğ, Sh→Ş, Ch→Ç (28 letters + apostrophe) passed the Legislative Chamber (July 2026) and the Senate (10 Sept 2026); presidential signature was unconfirmed as of 7 Oct 2026. Documents in the current alphabet stay valid; schools switch from 2027, textbooks by 2031. This scheme keeps the 1995 alphabet.",
+    "Code points: oʻ and gʻ use U+02BB, the tutuq uses U+02BC, as prescribed; much real-world text (including government sites) uses U+2018, U+2019 or U+0027 instead.",
+    "ICAO Doc 9303 §6.B maps U+040E Ў to U (the Belarusian letter). In Uzbek the same code point is oʻ, so Ўринов → Oʻrinov here, not Urinov.",
+    "Context rules from the orthography as summarised by Wikipedia: Е→ye word-initially and after a vowel (and after ъ/ь); Ц→ts after a vowel, otherwise s; Ь omitted but ьи/ьо → yi/yo; no tutuq after oʻ (мўъжиза → moʻjiza); s+h is split with a tutuq (Исҳоқ → Isʼhoq). The rules were not checked word by word against the lex.uz text.",
+    "Щ and Ы are not Uzbek letters; Russian names containing them are rendered shch and i (Быков → Bikov) as in Uzbek usage.",
+    "BGN/PCGN 2000 (uz_bgn_pcgn) differs only in details: Ц always ts, Ь→’, apostrophes U+2018/U+2019."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшъьэюяўқғҳ",
+  "classes": {
+    "V": "аеёиоуэюяў"
+  },
+  "rules": [
+    {"from": "сҳ", "to": "sʼh", "note": "tutuq separates s+h from the digraph sh (Исҳоқ → Isʼhoq)"},
+    {"from": "е", "to": "ye", "after": "^{V}ъь"},
+    {"from": "ц", "to": "ts", "after": "{V}"},
+    {"from": "ъ", "to": "", "after": "ў", "note": "no tutuq after oʻ: мўъжиза → moʻjiza"},
+    {"from": "ь", "to": "y", "before": "ио", "note": "ьи, ьо → yi, yo"}
+  ],
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "j", "з": "z",
+    "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o", "п": "p", "р": "r",
+    "с": "s", "т": "t", "у": "u", "ф": "f", "х": "x", "ц": "s", "ч": "ch", "ш": "sh", "ъ": "ʼ",
+    "ь": "", "э": "e", "ю": "yu", "я": "ya", "ў": "oʻ", "қ": "q", "ғ": "gʻ", "ҳ": "h", "щ": "shch",
+    "ы": "i"
+  },
+  "samples": [
+    ["Шавкат Миромонович Мирзиёев", "Shavkat Miromonovich Mirziyoyev"],
+    ["Ислом Каримов", "Islom Karimov"],
+    ["Абдулла Орипов", "Abdulla Oripov"],
+    ["Ўткир Ҳошимов", "Oʻtkir Hoshimov"],
+    ["Ғафур Ғулом", "Gʻafur Gʻulom"],
+    ["Шоҳжаҳон Қодиров Олимжон ўғли", "Shohjahon Qodirov Olimjon oʻgʻli"],
+    ["Хўжаев", "Xoʻjayev"],
+    ["Маъруф", "Maʼruf"],
+    ["Исҳоқ", "Isʼhoq"],
+    ["Мўъжиза", "Moʻjiza"],
+    ["Етимоғ", "Yetimogʻ"],
+    ["Ўринов", "Oʻrinov"],
+    ["МИРЗИЁЕВ ШАВКАТ", "MIRZIYOYEV SHAVKAT"],
+    ["ЎКТАМ", "OʻKTAM"]
+  ]
+}

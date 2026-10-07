@@ -1,0 +1,38 @@
+{
+  "id": "ru_scientific",
+  "title": "Russian — scholarly (scientific) transliteration",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "scholarly",
+  "status": "current",
+  "reversible": true,
+  "authority": "Scholarly convention (Slavic linguistics); no single issuing body",
+  "description": "International scholarly system used in Slavic linguistics, based on Czech/Croatian orthography: Ж→Ž, Х→X, Ц→C, Ч→Č, Ш→Š, Щ→ŠČ, Й→J, Ю→JU, Я→JA, Э→È, Ъ→ʺ, Ь→ʹ.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Scientific_transliteration_of_Cyrillic",
+    "https://iuliia.ru/scientific/",
+    "https://github.com/nalgeon/iuliia/blob/master/scientific.json",
+    "https://en.wikipedia.org/wiki/Romanization_of_Russian"
+  ],
+  "notes": [
+    "Х is x in modern usage (older works: ch); Э is è (some authors ė). Pre-1918: Ѣ→ě, І→i, Ѳ→f, Ѵ→i.",
+    "iuliia's JSON outputs Cyrillic ё for Ё (data bug); this scheme uses Latin ë (U+00EB)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "ë", "ж": "ž",
+    "з": "z", "и": "i", "й": "j", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "x", "ц": "c",
+    "ч": "č", "ш": "š", "щ": "šč", "ъ": "ʺ", "ы": "y", "ь": "ʹ", "э": "è", "ю": "ju",
+    "я": "ja", "і": "i", "ѣ": "ě", "ѳ": "f", "ѵ": "i"
+  },
+  "samples": [
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Julija, sʺešʹ eščë ètix mjagkix francuzskix bulok iz Joškar-Oly, da vypej altajskogo čaju"],
+    ["Хрущёв", "Xruščëv"],
+    ["Достоевский", "Dostoevskij"],
+    ["Пётр Ильич Чайковский", "Pëtr Ilʹič Čajkovskij"],
+    ["Наталья Подъячева", "Natalʹja Podʺjačeva"],
+    ["Петров-Водкин", "Petrov-Vodkin"],
+    ["ЖУКОВ ЮРИЙ", "ŽUKOV JURIJ"]
+  ]
+}

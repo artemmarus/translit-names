@@ -1,0 +1,50 @@
+{
+  "id": "sh_latn_ascii",
+  "title": "Serbo-Croatian Latin (Croatian, Bosnian, Serbian, Montenegrin) — practical English/ASCII",
+  "language": "sh",
+  "script": "Latn",
+  "kind": "practical",
+  "status": "informal",
+  "ascii": true,
+  "reversible": false,
+  "authority": "English-language press and informal 'ošišana latinica' convention (no official status)",
+  "description": "Folds Gaj's Latin to ASCII the way English-language media do: č/ć→c, š→s, ž→z, dž→dz, đ→dj (Đoković → Djokovic); lj/nj stay. Accepts the Unicode digraph letters ǅ/ǈ/ǋ and Montenegrin ś/ź.",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet",
+    "https://en.wikipedia.org/wiki/D_with_stroke",
+    "https://en.wikipedia.org/wiki/Montenegrin_alphabet",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf"
+  ],
+  "notes": [
+    "đ→dj is the English/press convention; ICAO MRZs use D (Montenegro's 2008 MRZ rule: Đ→D). Use latin_icao for MRZ-style folding (ĐOKOVIĆ → DOKOVIC).",
+    "Digraph code points: ǆ/ǉ/ǌ map directly; the title-case forms ǅ/ǈ/ǋ are expanded by aliases to Dž/Lj/Nj (their upper-case forms Ǆ/Ǉ/Ǌ to DŽ/LJ/NJ) so that case is restored correctly.",
+    "Capital Ð (U+00D0, Icelandic eth) is aliased to Đ: the two capitals look identical and Ð is often typed for Đ in Croatian and Serbian text. Lower-case ð is left to the ICAO fallback (→ d), so Guðrún → Gudrun.",
+    "Slovene uses the same letters without ć/đ; Bosnian and Croatian use the same inventory as Serbian Latin.",
+    "Other non-ASCII letters (foreign names) are folded with the ICAO §6.A table (fallback 'ascii')."
+  ],
+  "alphabet": "abcčćdđefghijklmnoprsštuvzžǆǉǌśź",
+  "aliases": {
+    "ǅ": "Dž", "ǈ": "Lj", "ǋ": "Nj", "Ð": "Đ"
+  },
+  "fallback": "ascii",
+  "map": {
+    "a": "a", "b": "b", "c": "c", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "q", "r": "r",
+    "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "x", "y": "y", "z": "z", "č": "c",
+    "ć": "c", "đ": "dj", "š": "s", "ž": "z", "ǆ": "dz", "ǉ": "lj", "ǌ": "nj", "ś": "s", "ź": "z"
+  },
+  "samples": [
+    ["Novak Đoković", "Novak Djokovic"],
+    ["Đorđe Đorđević", "Djordje Djordjevic"],
+    ["ĐOKOVIĆ Novak", "DJOKOVIC Novak"],
+    ["Edin Džeko", "Edin Dzeko"],
+    ["Luka Modrić", "Luka Modric"],
+    ["Ivana Šćepanović-Žugić", "Ivana Scepanovic-Zugic"],
+    ["Ljubica Njegoš", "Ljubica Njegos"],
+    ["ǅevad ǈubić", "Dzevad Ljubic"],
+    ["ǇUBICA ǊEGOŠ", "LJUBICA NJEGOS"],
+    ["France Prešeren", "France Preseren"],
+    ["Śenica", "Senica"],
+    ["ÐURÐEVIĆ", "DJURDJEVIC"]
+  ]
+}

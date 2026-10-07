@@ -1,0 +1,42 @@
+{
+  "id": "tt_icao",
+  "extends": "ru_icao",
+  "title": "Tatar — Russian passport (ICAO/MVD) with Tatar letters",
+  "language": "tt",
+  "script": "Cyrl",
+  "kind": "passport",
+  "status": "informal",
+  "authority": "MVD Russia Order No. 996 (2019) / ICAO Doc 9303 for the Russian letters; Tatar letters by fallback",
+  "description": "Russian international-passport transliteration (ICAO Doc 9303 / MVD) extended to the Tatar letters: Ә→A, Ө→O, Ү→U, Җ→ZH, Ң→N, Һ→H. Arabic-loan spellings гый/кый give GI/KI and the hardening ъ after г/к is dropped, matching Russian forms (Гыйльмиев → Gilmiev as Гильмиев).",
+  "sources": [
+    "https://www.consultant.ru/document/cons_doc_LAW_346719/413ce7cde653ee8a7c578654112520bdd971d99d/",
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://assets.publishing.service.gov.uk/media/5d6f828ce5274a097c07b95c/TABLE_OF_CORRESPONDENCES_FOR_TATAR.pdf",
+    "https://en.wikipedia.org/wiki/Tatar_alphabets"
+  ],
+  "notes": [
+    "Holders are Russian citizens: their passports carry Russian-form Cyrillic names romanized with the MVD/ICAO table (ru_icao), which has no entries for the national letters. The extra mappings here are fallbacks for input in native spelling; the real passport form depends on how the name was Russified.",
+    "Russian-form equivalents behind the fallbacks: Ә→А/Я/Э (Сәлимә → Салима), Ө→О/Ё, Ү→У/Ю, Җ→Дж/Ж, Ң→Н/НГ, Һ→Х/Г. Generate DZH for Җ and KH for Һ as variants (Җәлил → Джалиль → DZHALIL; Һади → Хади → KHADI).",
+    "ICAO Doc 9303 §6.B prints Һ as C, apparently an error; Һ→H is used, as in every national and PCGN table.",
+    "Tatar Latin (Zamanälif) is the official romanization in Tatarstan since 2012 but Cyrillic is the only official script; see tt_bgn_pcgn for the PCGN romanization."
+  ],
+  "alphabet": "аәбвгдеёжҗзийклмнңоөпрстуүфхһцчшщъыьэюя",
+  "rules": [
+    {"from": "ый", "to": "i", "after": "гк", "note": "Arabic loans: Гыйльми → Гильми"},
+    {"from": "ъ", "to": "", "after": "гк", "note": "back-vowel marker after г/к (Мәгъсүм → Магсум)"}
+  ],
+  "map": {
+    "ә": "a", "ө": "o", "ү": "u", "җ": "zh", "ң": "n", "һ": "h"
+  },
+  "samples": [
+    ["Минтимер Шәймиев", "Mintimer Shaimiev"],
+    ["Салих Сәйдәшев", "Salikh Saidashev"],
+    ["Габдулла Тукай", "Gabdulla Tukai"],
+    ["Гыйльмиев", "Gilmiev"],
+    ["Сәлимә", "Salima"],
+    ["Муса Җәлил", "Musa Zhalil"],
+    ["Рөстәм Миңнеханов", "Rostam Minnekhanov"],
+    ["Һади Такташ", "Hadi Taktash"],
+    ["ШӘЙМИЕВ МИНТИМЕР", "SHAIMIEV MINTIMER"]
+  ]
+}

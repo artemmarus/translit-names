@@ -1,0 +1,52 @@
+{
+  "id": "ba_bgn_pcgn",
+  "title": "Bashkir — BGN/PCGN 2007",
+  "language": "ba",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 2007,
+  "authority": "BGN/PCGN 2007 Agreement (table checked Aug 2019)",
+  "description": "BGN/PCGN romanization of Bashkir Cyrillic: Ә→ə, Ғ→ğ, Ҙ→ź, Ҡ→q, Ң→ñ, Ҫ→ś, Һ→h, Х→x, Ж→j, Ч→ç, Ш→ş, Ё→ë, Ы→i; В→w and Е→ye word-initially and before a vowel; У/Ү→w after vowels; Ъ and Ь not romanized.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/5d6f825aed915d08f9a72a4d/TABLE_OF_CORRESPONDENCES__FOR_BASHKIR.pdf"
+  ],
+  "notes": [
+    "Notes 1 and 2 are applied literally: В→w and Е→ye word-initially and before a vowel. 'Before a vowel' for Е may be a slip for 'after a vowel' (cf. other PCGN tables); Биишева therefore gives Biişewa, not Biişyeva.",
+    "Note 3 (У/Ү→w between or after vowels) is applied after any vowel. Note 4 ('w is used after e, u, ö and ə') is not attached to any table row in the PDF and is not applied.",
+    "Bashkir И has no İ in the PCGN inventory, so capital И is plain I."
+  ],
+  "alphabet": "абвгғдҙеёжзийкҡлмнңоөпрсҫтуүфхһцчшщъыьэәюя",
+  "classes": {
+    "V": "аәеёиоөуүыэюя"
+  },
+  "rules": [
+    {"from": "в", "to": "w", "start": true, "note": "note 1"},
+    {"from": "в", "to": "w", "before": "{V}", "note": "note 1"},
+    {"from": "е", "to": "ye", "start": true, "note": "note 2"},
+    {"from": "е", "to": "ye", "before": "{V}", "note": "note 2"},
+    {"from": "у", "to": "w", "after": "{V}", "note": "note 3"},
+    {"from": "ү", "to": "w", "after": "{V}", "note": "note 3"}
+  ],
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "ғ": "ğ", "д": "d", "ҙ": "ź", "е": "e", "ё": "ë",
+    "ж": "j", "з": "z", "и": "i", "й": "y", "к": "k", "ҡ": "q", "л": "l", "м": "m", "н": "n",
+    "ң": "ñ", "о": "o", "ө": "ö", "п": "p", "р": "r", "с": "s", "ҫ": "ś", "т": "t", "у": "u",
+    "ү": "ü", "ф": "f", "х": "x", "һ": "h", "ц": "ts", "ч": "ç", "ш": "ş", "щ": "şç", "ъ": "",
+    "ы": "i", "ь": "", "э": "e", "ә": "ə", "ю": "yu", "я": "ya"
+  },
+  "samples": [
+    ["Рәдий Хәбиров", "Rədiy Xəbirov"],
+    ["Зәки Вәлиди", "Zəki Wəlidi"],
+    ["Мәжит Ғафури", "Məjit Ğafuri"],
+    ["Рами Ғарипов", "Rami Ğaripov"],
+    ["Салауат Юлаев", "Salawat Yulaev"],
+    ["Мостай Кәрим", "Mostay Kərim"],
+    ["Ҙәйнәб Биишева", "Źəynəb Biişewa"],
+    ["Башҡортостан", "Başqortostan"],
+    ["Ағиҙел", "Ağiźel"],
+    ["Ҫаҡмар", "Śaqmar"],
+    ["Өфө", "Öfö"],
+    ["ХӘБИРОВ РӘДИЙ", "XƏBIROV RƏDIY"]
+  ]
+}

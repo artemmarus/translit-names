@@ -1,0 +1,46 @@
+{
+  "id": "tr_ascii",
+  "title": "Turkish — ICAO Doc 9303 ASCII (passport MRZ)",
+  "language": "tr",
+  "script": "Latn",
+  "kind": "passport",
+  "status": "current",
+  "ascii": true,
+  "authority": "ICAO Doc 9303 Part 3 (8th ed., 2021), §6.A transliteration of multinational Latin characters",
+  "description": "Turkish Latin names reduced to the ICAO MRZ alphabet: Ç→C, Ğ→G, I/ı and İ/i→I, Ö→O, Ş→S, Ü→U, circumflexed â î û→a i u. This is how Turkish names appear in the machine-readable zone and in most ASCII-only systems.",
+  "sources": [
+    "https://www.icao.int/sites/default/files/publications/DocSeries/9303_p3_cons_en.pdf",
+    "https://en.wikipedia.org/wiki/Turkish_alphabet",
+    "https://en.wikipedia.org/wiki/Dotted_and_dotless_I_in_computing",
+    "https://yandex.com.tr/yacevap/c/seyahat/q/pasaportta-turkce-karakter-kullanilir-mi-3034095488",
+    "https://kimlikokuyucu.com/s.-sorulan-sorular.html"
+  ],
+  "notes": [
+    "ICAO §6.A also permits Ö→OE and Ü→UE (or UXX); the single-letter forms are used here, consistent with weak secondary sources on Turkish passports. German-issued documents for Turkish-origin holders may show GOEKHAN, SUEKRUE.",
+    "No Turkish government text (Nüfus ve Vatandaşlık İşleri) stating the MRZ mapping was found; evidence for O/U rather than OE/UE is secondary.",
+    "Casing: the engine lower-cases İ to i (Python gives i + U+0307) and I to i; both fold to I, so the dotted/dotless distinction does not matter for ASCII output. A stray combining dot above (U+0307) is dropped.",
+    "English-phonetic renderings (Ç→CH, Ş→SH, C→J, Ğ dropped: Doğan → Doan) are not passport forms and are not produced here.",
+    "Letters q, w, x are not native Turkish letters but are passed through for foreign names."
+  ],
+  "alphabet": "abcçdefgğhıijklmnoöprsştuüvyzâîû",
+  "fallback": "ascii",
+  "map": {
+    "a": "a", "b": "b", "c": "c", "d": "d", "e": "e", "f": "f", "g": "g", "h": "h", "i": "i",
+    "j": "j", "k": "k", "l": "l", "m": "m", "n": "n", "o": "o", "p": "p", "q": "q", "r": "r",
+    "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "x", "y": "y", "z": "z", "ç": "c",
+    "ğ": "g", "ı": "i", "ö": "o", "ş": "s", "ü": "u", "â": "a", "î": "i", "û": "u", "\u0307": ""
+  },
+  "samples": [
+    ["Recep Tayyip Erdoğan", "Recep Tayyip Erdogan"],
+    ["Şükrü Çağlar", "Sukru Caglar"],
+    ["İsmail Işık", "Ismail Isik"],
+    ["Kemal Kılıçdaroğlu", "Kemal Kilicdaroglu"],
+    ["Mustafa Kemal Atatürk", "Mustafa Kemal Ataturk"],
+    ["Ömer Çelik", "Omer Celik"],
+    ["Melih Gökçek", "Melih Gokcek"],
+    ["Nâzım Hikmet", "Nazim Hikmet"],
+    ["ŞÜKRÜ ÇAĞLAR", "SUKRU CAGLAR"],
+    ["İSMAİL IŞIK", "ISMAIL ISIK"],
+    ["ERDOĞAN Recep Tayyip", "ERDOGAN Recep Tayyip"]
+  ]
+}

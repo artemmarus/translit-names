@@ -1,0 +1,38 @@
+{
+  "id": "ru_telegram",
+  "title": "Russian — international telegrams (iuliia 'telegram')",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "practical",
+  "status": "informal",
+  "year": 2001,
+  "ascii": true,
+  "authority": "Instruction on international telegrams (per iuliia.ru/telegram)",
+  "description": "Simplified scheme of the instruction for international telegrams, used for very compact Latin output: Ж→J, Й→I, Х→H, Ц→C, Щ→SC, Ю→IU, Я→IA, Ъ and Ь omitted; no context rules.",
+  "sources": [
+    "https://iuliia.ru/telegram/",
+    "http://region.cnt.ru/documents/Instrukcia%20mezhdunarodnye%20telegrammy.pdf",
+    "https://github.com/nalgeon/iuliia/blob/master/telegram.json"
+  ],
+  "notes": [
+    "Table as published by iuliia; the instruction itself is a telecom document, not a name-romanization standard."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "e", "ж": "j",
+    "з": "z", "и": "i", "й": "i", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "h", "ц": "c",
+    "ч": "ch", "ш": "sh", "щ": "sc", "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "iu",
+    "я": "ia"
+  },
+  "samples": [
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Iuliia, sesh esce etih miagkih francuzskih bulok iz Ioshkar-Oly, da vypei altaiskogo chaiu"],
+    ["Хрущёв", "Hruscev"],
+    ["Щербаков", "Scerbakov"],
+    ["Надежда Жукова", "Nadejda Jukova"],
+    ["Ельцин", "Elcin"],
+    ["Михаил Подъячев", "Mihail Podiachev"],
+    ["Петров-Водкин", "Petrov-Vodkin"],
+    ["ЮЛИЯ ЩЕГЛОВА", "IULIIA SCEGLOVA"]
+  ]
+}

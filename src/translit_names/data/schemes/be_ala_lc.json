@@ -1,0 +1,60 @@
+{
+  "id": "be_ala_lc",
+  "title": "Belarusian — ALA-LC (Library of Congress)",
+  "language": "be",
+  "script": "Cyrl",
+  "kind": "library",
+  "status": "current",
+  "year": 2013,
+  "authority": "Library of Congress / American Library Association, Belarusian romanization table (2013 version)",
+  "description": "Library of Congress romanization of Belarusian used in library catalogues: Г→H, Ё→I͡O, Ж→Z͡H, Й→Ĭ, Ў→Ŭ, Х→KH, Ц→TS, Э→Ė, Ю→I͡U, Я→I͡A, Ь→ʹ; apostrophe not romanized.",
+  "sources": [
+    "https://www.loc.gov/catdir/cpso/romanization/belarusian.pdf",
+    "https://en.wikipedia.org/wiki/Romanization_of_Belarusian",
+    "https://github.com/interscript/maps/blob/main/maps/alalc-bel-Cyrl-Latn-1997.isc"
+  ],
+  "notes": [
+    "Ligature tie = U+0361; both tied letters are capitalized for a capital Cyrillic letter (I͡Akuba), as in LC catalogue practice (post rules).",
+    "The apostrophe is not romanized (сям’я → si͡ami͡a). Ц is ts without a tie in the Belarusian table (Note 3/4 of the table warn about кг/х and шч/щ instead).",
+    "Historical letters of the table are included: Ґ→g, И→ī, Щ→shch, Ъ→ʺ, Ѣ→ě."
+  ],
+  "alphabet": "абвгдеёжзійклмнопрстуўфхцчшыьэюя",
+  "classes": {
+    "L": "абвгдеёжзійклмнопрстуўфхцчшыьэюяґищъѣ"
+  },
+  "aliases": {
+    "’": "'", "ʼ": "'", "‘": "'", "`": "'", "´": "'"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "h", "д": "d", "е": "e", "ё": "i͡o", "ж": "z͡h",
+    "з": "z", "і": "i", "й": "ĭ", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ў": "ŭ", "ф": "f", "х": "kh",
+    "ц": "ts", "ч": "ch", "ш": "sh", "ы": "y", "ь": "ʹ", "э": "ė", "ю": "i͡u", "я": "i͡a",
+    "ґ": "g", "и": "ī", "щ": "shch", "ъ": "ʺ", "ѣ": "ě"
+  },
+  "rules": [
+    {"from": "'", "to": "", "after": "{L}", "before": "{L}", "note": "apostrophe between letters"}
+  ],
+  "post": [
+    {"pattern": "I͡o", "replace": "I͡O"},
+    {"pattern": "Z͡h", "replace": "Z͡H"},
+    {"pattern": "I͡u", "replace": "I͡U"},
+    {"pattern": "I͡a", "replace": "I͡A"}
+  ],
+  "samples": [
+    ["Беларусь", "Belarusʹ"],
+    ["Магілёў", "Mahili͡oŭ"],
+    ["Лукашэнка", "Lukashėnka"],
+    ["сям’я", "si͡ami͡a"],
+    ["Маскоўская", "Maskoŭskai͡a"],
+    ["Парк Чалюскінцаў", "Park Chali͡uskintsaŭ"],
+    ["Плошча Якуба Коласа", "Ploshcha I͡Akuba Kolasa"],
+    ["Інстытут Культуры", "Instytut Kulʹtury"],
+    ["Жодзішкі", "Z͡Hodzishki"],
+    ["Ганна-Марыя", "Hanna-Maryi͡a"],
+    ["ЯЎГЕН ЁРШ", "I͡AŬHEN I͡ORSH"],
+    ["Віктар Фёдаравіч Хмель", "Viktar Fi͡odaravich Khmelʹ"],
+    ["Мікалай", "Mikalaĭ"],
+    ["Юрый Ёрш", "I͡Uryĭ I͡Orsh"]
+  ]
+}

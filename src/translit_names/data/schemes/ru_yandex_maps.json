@@ -1,0 +1,50 @@
+{
+  "id": "ru_yandex_maps",
+  "title": "Russian — Yandex.Maps",
+  "language": "ru",
+  "script": "Cyrl",
+  "kind": "practical",
+  "status": "informal",
+  "year": 2015,
+  "ascii": true,
+  "authority": "Yandex (Narodnaya Karta rules for transliteration of Russian names)",
+  "description": "Practical scheme of the Yandex.Maps editing rules for Russian names: Е→YE word-initially and after vowels and Ь, ЪЕ→YE, Ё→YO, Щ→SCH, ending -ЫЙ→-IY, Ь→Y before И, otherwise Ъ and Ь omitted.",
+  "sources": [
+    "https://yandex.ru/support/nmaps/app_transliteration.html",
+    "https://iuliia.ru/yandex-maps/",
+    "https://github.com/nalgeon/iuliia/blob/master/yandex_maps.json"
+  ],
+  "notes": [
+    "Follows the current Yandex rules page: Е → YE after all vowels and after Ь, and Ь → Y before И. iuliia's JSON (2015 snapshot) has YE only after А И О У Э Ю Я and no Ь rules (Vasileva, Ilinskaya)."
+  ],
+  "alphabet": "абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+  "classes": {
+    "V": "аеёиоуыэюя"
+  },
+  "map": {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "е": "e", "ё": "yo", "ж": "zh",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n", "о": "o",
+    "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f", "х": "kh", "ц": "ts",
+    "ч": "ch", "ш": "sh", "щ": "sch", "ъ": "", "ы": "y", "ь": "", "э": "e", "ю": "yu",
+    "я": "ya"
+  },
+  "rules": [
+    {"from": "ый", "to": "iy", "end": true, "note": "ending -ый → -iy (like -ий)"},
+    {"from": "е", "to": "ye", "after": "^{V}ъь", "note": "word start, after vowels and Ь; ЪЕ → YE"},
+    {"from": "ь", "to": "y", "before": "и", "note": "Ь omitted except y before И"}
+  ],
+  "samples": [
+    ["Юлия, съешь ещё этих мягких французских булок из Йошкар-Олы, да выпей алтайского чаю", "Yuliya, syesh yeschyo etikh myagkikh frantsuzskikh bulok iz Yoshkar-Oly, da vypey altayskogo chayu"],
+    ["Россия, город Йошкар-Ола, улица Яна Крастыня", "Rossiya, gorod Yoshkar-Ola, ulitsa Yana Krastynya"],
+    ["Санкт-Петербург, Подъездной пер", "Sankt-Peterburg, Podyezdnoy per"],
+    ["Москва, ул Подъёмная", "Moskva, ul Podyomnaya"],
+    ["Щегловитовка", "Scheglovitovka"],
+    ["Новый Уренгой", "Noviy Urengoy"],
+    ["Елабуга", "Yelabuga"],
+    ["Бабаево", "Babayevo"],
+    ["Белово", "Belovo"],
+    ["Наталья Ильинская", "Natalya Ilyinskaya"],
+    ["Васильева Ерофеева", "Vasilyeva Yerofeyeva"],
+    ["ВАСИЛИЙ ЖУКОВ", "VASILIY ZHUKOV"]
+  ]
+}

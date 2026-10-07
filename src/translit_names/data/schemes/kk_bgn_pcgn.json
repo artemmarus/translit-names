@@ -1,0 +1,56 @@
+{
+  "id": "kk_bgn_pcgn",
+  "title": "Kazakh — BGN/PCGN 1979",
+  "language": "kk",
+  "script": "Cyrl",
+  "kind": "geographic",
+  "status": "current",
+  "year": 1979,
+  "authority": "BGN/PCGN 1979 system (table checked Feb 2022)",
+  "description": "BGN/PCGN romanization of Kazakh Cyrillic for geographic names: Ә→ä, Ғ→gh, Ж→zh, И→ī, Қ→q, Ң→ng, Ө→ö, У→ū, Ұ→u, Ү→ü, Х→kh, Һ→h, І→i, Э→ė, Ъ→”, Ь→’.",
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/621caa32e90e0710b73fd4ff/ROMANIZATION_KAZAKH_Feb_22_19_.pdf",
+    "https://en.wikipedia.org/wiki/Kazakh_alphabets"
+  ],
+  "notes": [
+    "Optional PCGN refinements not applied: гһ, зһ, кһ, нг, сһ, цһ may be written g·h, z·h, k·h, n·g, s·h, ts·h to keep them apart from the digraphs; ы may be written i\u0335 (U+0069 U+0335).",
+    "Е is always e (Ембі → Embi); there is no ye rule in this table.",
+    "Not a personal-name standard: Kazakh passports use ASCII forms (see kk_passport)."
+  ],
+  "alphabet": "аәбвгғдеёжзийкқлмнңоөпрстуұүфхһцчшщъыіьэюя",
+  "map": {
+    "а": "a", "ә": "ä", "б": "b", "в": "v", "г": "g", "ғ": "gh", "д": "d", "е": "e", "ё": "yo",
+    "ж": "zh", "з": "z", "и": "ī", "й": "y", "к": "k", "қ": "q", "л": "l", "м": "m", "н": "n",
+    "ң": "ng", "о": "o", "ө": "ö", "п": "p", "р": "r", "с": "s", "т": "t", "у": "ū", "ұ": "u",
+    "ү": "ü", "ф": "f", "х": "kh", "һ": "h", "ц": "ts", "ч": "ch", "ш": "sh", "щ": "shch", "ъ": "”",
+    "ы": "y", "і": "i", "ь": "’", "э": "ė", "ю": "yu", "я": "ya"
+  },
+  "samples": [
+    ["Павлодар", "Pavlodar"],
+    ["Сәтбаев", "Sätbaev"],
+    ["Лисаковск", "Līsakovsk"],
+    ["Аягөз", "Ayagöz"],
+    ["Жезқазған", "Zhezqazghan"],
+    ["Ембі", "Embi"],
+    ["Фёдоров", "Fyodorov"],
+    ["Риддер", "Rīdder"],
+    ["Алтай", "Altay"],
+    ["Қызылорда", "Qyzylorda"],
+    ["Байқоңыр", "Bayqongyr"],
+    ["Өскемен", "Öskemen"],
+    ["Нұр-Сұлтан", "Nur-Sultan"],
+    ["Түркістан", "Türkistan"],
+    ["Шу", "Shū"],
+    ["Үшарал", "Üsharal"],
+    ["Шахан", "Shakhan"],
+    ["Клинцы", "Klīntsy"],
+    ["Мичурино", "Mīchūrīno"],
+    ["Көкшетау", "Kökshetaū"],
+    ["Алматы", "Almaty"],
+    ["Эрзерум", "Ėrzerūm"],
+    ["Юсупов", "Yusūpov"],
+    ["Нұрсұлтан Әбішұлы Назарбаев", "Nursultan Äbishuly Nazarbaev"],
+    ["Қасым-Жомарт Тоқаев", "Qasym-Zhomart Toqaev"],
+    ["ТОҚАЕВ ҚАСЫМ-ЖОМАРТ", "TOQAEV QASYM-ZHOMART"]
+  ]
+}
