@@ -32,13 +32,15 @@ mrzName("Щербаков", "Юрий");                   // "SHCHERBAKOV<<IURI
 npm install translit-names
 ```
 
-Until the package is published on npm you can install it from GitHub:
+Until the package is published on npm, build it from the repository and install the tarball into your project:
 
 ```bash
-npm install "github:artemmarus/translit-names#main" --install-strategy=nested
+git clone https://github.com/artemmarus/translit-names.git
+cd translit-names/js
+npm install && npm run build && npm pack          # → translit-names-0.1.0.tgz
+cd /path/to/your-project
+npm install /path/to/translit-names/js/translit-names-0.1.0.tgz
 ```
-
-or build it locally (`cd js && npm install && npm run build`) and use `npm install ./path/to/translit-names/js`.
 
 Works in Node.js ≥ 18 and all modern browsers (ES2020, Unicode property escapes, regex look-behind). Ships ESM and CommonJS builds with type declarations.
 
