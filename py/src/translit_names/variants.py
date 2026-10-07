@@ -20,9 +20,9 @@ from __future__ import annotations
 import json
 import re
 from dataclasses import dataclass
-from importlib import resources
 from typing import Dict, List, Optional, Sequence, Set, Tuple
 
+from ._data import data_path
 from ._engine import Scheme
 from ._fold import fold
 from ._registry import list_schemes
@@ -75,7 +75,7 @@ _rules_cache: Optional[Dict[str, List[Tuple[re.Pattern[str], Tuple[str, ...], fl
 def _rules() -> Dict[str, List[Tuple[re.Pattern[str], Tuple[str, ...], float]]]:
     global _rules_cache
     if _rules_cache is None:
-        path = resources.files("translit_names") / "data" / "variant_rules.json"
+        path = data_path() / "variant_rules.json"
         data = json.loads(path.read_text(encoding="utf-8"))
         _rules_cache = {
             fam: [(re.compile(r["pattern"], re.IGNORECASE), tuple(r["alts"]), float(r["weight"])) for r in rules]

@@ -46,7 +46,7 @@ translit-names = "translit_names.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/artemmarus/translit-names"
-Documentation = "https://github.com/artemmarus/translit-names#readme"
+Documentation = "https://github.com/artemmarus/translit-names/tree/main/py#readme"
 Issues = "https://github.com/artemmarus/translit-names/issues"
 Changelog = "https://github.com/artemmarus/translit-names/blob/main/CHANGELOG.md"
 
@@ -56,21 +56,18 @@ path = "src/translit_names/__init__.py"
 [tool.hatch.build.targets.wheel]
 packages = ["src/translit_names"]
 
+[tool.hatch.build.targets.wheel.hooks.custom]
+path = "hatch_build.py"
+
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "docs", "scripts", "README.md", "README.ru.md", "CHANGELOG.md", "LICENSE"]
+include = ["src", "tests", "README.md", "LICENSE", "hatch_build.py"]
+
+[tool.hatch.build.targets.sdist.hooks.custom]
+path = "hatch_build.py"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
-
-[tool.ruff]
-line-length = 120
-target-version = "py39"
-src = ["src", "tests"]
-
-[tool.ruff.lint]
-select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF"]
-ignore = ["RUF001", "RUF002", "RUF003", "E501", "UP006", "UP007", "UP035", "UP045", "SIM108"]
 
 [tool.mypy]
 python_version = "3.9"

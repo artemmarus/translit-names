@@ -1,7 +1,8 @@
 # Data format
 
-All linguistic knowledge in `translit-names` lives in JSON files under
-`src/translit_names/data/`. Code never hard-codes a transliteration table.
+All linguistic knowledge in `translit-names` lives in JSON files under the
+repository's top-level `data/` directory, shared by the Python (`py/`) and
+TypeScript (`js/`) packages. Code never hard-codes a transliteration table.
 
 ```
 data/

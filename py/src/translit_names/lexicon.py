@@ -13,9 +13,9 @@ import json
 import threading
 import unicodedata
 from dataclasses import dataclass, field
-from importlib import resources
 from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
 
+from ._data import data_path
 from .normalize import arabic_key, latin_key
 
 __all__ = ["Lexicon", "NameEntry", "get_lexicon"]
@@ -267,7 +267,7 @@ def get_lexicon() -> Lexicon:
         with _lock:
             if _lexicon is None:
                 entries: List[NameEntry] = []
-                folder = resources.files("translit_names") / "data" / "names"
+                folder = data_path() / "names"
                 for path in sorted(folder.iterdir(), key=lambda p: p.name):
                     if not path.name.endswith(".json"):
                         continue

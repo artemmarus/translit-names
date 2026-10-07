@@ -4,11 +4,12 @@ from __future__ import annotations
 
 import json
 import re
-from importlib import resources
 
 import pytest
 
-NAMES_DIR = resources.files("translit_names") / "data" / "names"
+from translit_names._data import data_path
+
+NAMES_DIR = data_path() / "names"
 FILES = sorted(p.name for p in NAMES_DIR.iterdir() if p.name.endswith(".json"))
 
 KINDS = {"given", "family", "element", "compound"}

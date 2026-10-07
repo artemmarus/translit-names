@@ -4,9 +4,9 @@ from __future__ import annotations
 
 import json
 import threading
-from importlib import resources
 from typing import Any, Dict, List, Mapping, Optional, Tuple
 
+from ._data import data_path
 from ._engine import Scheme, SchemeError, WordHook
 
 __all__ = ["default_scheme_id", "get_scheme", "list_schemes", "scheme_specs"]
@@ -18,7 +18,7 @@ _defaults: Optional[Dict[str, str]] = None
 
 
 def _data_dir() -> Any:
-    return resources.files("translit_names") / "data"
+    return data_path()
 
 
 def _hooks() -> Mapping[str, WordHook]:

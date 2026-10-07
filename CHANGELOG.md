@@ -8,6 +8,12 @@ All notable changes to this project are documented here. The format follows
 
 First public release.
 
+### Repository layout
+- `data/` — shared JSON data (schemes, name lexicon, rules), the single
+  source of truth; `py/` — Python package; `js/` — TypeScript package;
+  `scripts/` — shared tools. The Python build bundles `data/` into the wheel
+  and sdist (`py/hatch_build.py`).
+
 ### TypeScript / JavaScript
 - `js/`: TypeScript port with the same API (camelCase), built from the same
   JSON data; ESM + CommonJS + type declarations, zero dependencies,

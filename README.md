@@ -2,12 +2,13 @@
 
 [![CI](https://github.com/artemmarus/translit-names/actions/workflows/ci.yml/badge.svg)](https://github.com/artemmarus/translit-names/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%20%E2%80%93%203.14-blue)
+![TypeScript](https://img.shields.io/badge/typescript-node%2018%2B%20%7C%20browsers-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 **Transliteration, spelling variants and cross-script matching of personal names from Slavic and Muslim-majority countries.** Available for **Python** and **TypeScript/JavaScript** — same data, identical results.
 
-[Русская версия →](README.ru.md) · [TypeScript package →](js/README.md)
+**[Python package →](py/README.md)** · **[TypeScript package →](js/README.md)** · [Schemes](docs/SCHEMES.md) · [Data format](docs/data-format.md) · [Research](docs/research/README.md)
 
 One name has many legitimate Latin spellings. **Юрий** is `Iurii` in a Russian passport issued today, was `Yuriy` in one issued in 2005, is `Yuri` in the press, `Yury` on Wikipedia, `Jurij` in German records and `Iouri` in French ones. **محمد** is `Muhammad`, `Mohammed`, `Mohamed`, `Mohammad`, `Mehmet` or `Magomed` depending on the country. `translit-names` knows the official standards behind these spellings and the practice around them:
 
@@ -42,15 +43,23 @@ One name has many legitimate Latin spellings. **Юрий** is `Iurii` in a Russi
 - **Clean-up**: Unicode normalisation, mixed Latin/Cyrillic look-alikes (`Иванoв` with a Latin *o*), apostrophe variants, Arabic/Persian letter forms, tatweel, presentation forms.
 - **Zero dependencies**, pure Python 3.9+, fully typed (`py.typed`, mypy strict), command-line tool included.
 
-## Installation
+## Quick start
 
-**Python** (3.9+):
+**Python** (3.9+) — full documentation in [py/README.md](py/README.md):
 
 ```bash
-pip install git+https://github.com/artemmarus/translit-names.git
+pip install "git+https://github.com/artemmarus/translit-names.git#subdirectory=py"
 ```
 
-**TypeScript / JavaScript** (Node.js 18+, browsers) — see [js/README.md](js/README.md):
+```python
+from translit_names import transliterate, variants, similarity, mrz_name
+
+transliterate("Щербаков Юрий")               # 'Shcherbakov Iurii'
+variants("محمد", limit=4)                     # ['Muhammad', 'Mohammed', 'Mohamed', 'Mohammad']
+similarity("Мухаммед Али", "Mohammed Ali")    # 0.985
+```
+
+**TypeScript / JavaScript** (Node.js 18+, browsers) — full documentation in [js/README.md](js/README.md):
 
 ```ts
 import { transliterate, variants, similarity, mrzName } from "translit-names";
@@ -60,107 +69,33 @@ variants("محمد", { limit: 4 });               // ["Muhammad", "Mohammed", "M
 similarity("Мухаммед Али", "Mohammed Ali");   // 0.985
 ```
 
-The TypeScript package is a port of the Python one built from the same JSON data; CI checks that both give identical results on ~11,700 reference cases (`scripts/gen_parity_fixtures.py` → `js/test/parity.test.ts`).
-
-## Usage
-
-### Transliterate
-
-```python
-from translit_names import transliterate, list_schemes
-
-transliterate("Щербаков Юрий")                    # 'Shcherbakov Iurii'   (language detected: ru)
-transliterate("Щербаков Юрий", "ru_mvd_310")      # 'Shcherbakov Yuriy'   (passports 1997–2010)
-transliterate("Ксения", "ru_mvd_310_fr")          # 'Xeniia'              (Soviet French-style)
-transliterate("Олександр Згурський")              # 'Oleksandr Zghurskyi' (Ukrainian, KMU 2010)
-transliterate("Нұрсұлтан Назарбаев")              # 'Nursultan Nazarbayev'
-transliterate("محمد بن سلمان")                     # 'Muhammad bin Salman'
-transliterate("عبد الرحمن", "ar_ala_lc")           # 'ʻAbd al-Raḥmān'
-transliterate("حسین")                             # 'Hossein'             (Persian)
-transliterate("Христо Стоичков", language="bg")  # 'Hristo Stoichkov'
-
-[s.id for s in list_schemes("uk")]
-# ['uk_ala_lc', 'uk_iso_9', 'uk_kmu_2010', 'uk_national_1996', 'uk_passport_2007', 'uk_scientific']
-```
-
-Without a scheme, the language is detected from the letters and its default scheme is used: the current passport system for Cyrillic languages, practical English for Arabic-script names. Names that contain no language-specific letter (Олександр is valid Russian spelling too) are best transliterated with an explicit `language=`. All schemes are listed in [docs/SCHEMES.md](docs/SCHEMES.md).
-
-### Spelling variants
-
-```python
-from translit_names import variants, variants_detailed
-
-variants("Юрий", limit=6)      # ['Iurii', 'Yuri', 'Yury', 'Yuriy', 'Iury', 'Iuri']
-variants("Хусейн", limit=6)    # ['Khusein', 'Hussein', 'Gusein', 'Husein', 'Khuseyn', 'Khusain']
-variants("Евгений Щербаков")   # 'Evgenii Shcherbakov', 'Yevgeny Shcherbakov', 'Evgeny Shcherbakov' …
-
-for v in variants_detailed("محمد", limit=3):
-    print(v.score, v.text, v.sources)
-```
-
-Variants come from every applicable scheme (weighted: current passport > practical > superseded passport > geographic > library), from the lexicon and from rewrite rules for systematic alternations. Pass `include_short=True` for diminutives (Sasha), `ascii_only=False` to keep diacritics (Hüseyin).
-
-### Matching names
-
-```python
-from translit_names import similarity, compare, is_match, name_key
-
-similarity("Щербаков Юрий", "Yuri Scherbakov")   # 0.977
-similarity("Hasan", "Husayn")                    # 0.6  — two different names
-is_match("Магомед", "Mehmet")                    # True — the same name (Muhammad)
-
-r = compare("Ivanov Ivan Ivanovich", "IVAN IVANOV")
-r.score            # 0.96 — the missing patronymic costs a little
-r.pairs            # (PartMatch('Ivan', 'IVAN', 1.0, 'exact'), PartMatch('Ivanov', 'IVANOV', 1.0, 'exact'))
-r.unmatched_left   # ('Ivanovich',)
-
-name_key("Мухаммед Али") == name_key("Mohammed Ali")   # True — use as a blocking key
-```
-
-Each matched pair carries a reason: `exact`, `same-name` (lexicon), `skeleton`, `skeleton-coarse`, `fuzzy`, `initial`, `diminutive` (Саша ~ Александр, 0.86), `equivalent` (Michael ~ Михаил, 0.80 — a translation, not a transliteration) or `different-names` (both known, but different: capped at 0.6). The default threshold of `is_match` is 0.88.
-
-### Passport MRZ
-
-```python
-from translit_names import mrz_name, mrz_text, parse_mrz_name
-
-mrz_name("Щербаков", "Юрий")                 # 'SHCHERBAKOV<<IURII<<<<<<<<<<<<<<<<<<<<<'
-mrz_name("al-Basri", "Huda Muhammad Jawad")  # 'AL<BASRI<<HUDA<MUHAMMAD<JAWAD<<<<<<<<<<'
-mrz_name("Əliyev", "İlham")                  # 'ALIYEV<<ILHAM<<<<<<<<<<<<<<<<<<<<<<<<<<'
-mrz_name("…", "…", length=30, strategy="initials")   # TD1 ID card, shorten given names to initials
-mrz_text("D'Artagnan")                       # 'DARTAGNAN'
-parse_mrz_name("AL<BASRI<<HUDA<MUHAMMAD")    # ('AL BASRI', 'HUDA MUHAMMAD')
-```
-
-### Language detection and clean-up
-
-```python
-from translit_names import detect_language, normalize, fix_mixed_script
-
-detect_language("Олександр Їжакевич")   # Detection(language='uk', script='Cyrl', confidence=…)
-detect_language("محمود احمدی‌نژاد").language   # 'fa'
-fix_mixed_script("Иванoв")               # 'Иванов'  (the 'o' was Latin)
-normalize("Ёлкин")                 # 'Ёлкин'
-```
-
-### Command line
+**Command line** (installed with the Python package):
 
 ```bash
-translit-names "Щербаков Юрий"                     # Shcherbakov Iurii
-translit-names translit --all "Юрий"               # every Russian scheme side by side
-translit-names variants --scores "Хусейн"
-translit-names match "Мухаммед Али" "Mohammed Ali" # exit code 0 if they match
-translit-names mrz Щербаков Юрий
-translit-names detect "Нұрсұлтан"
-translit-names schemes -l kk
-cat names.txt | translit-names -s uk_kmu_2010      # one name per line
+translit-names "Щербаков Юрий"                       # Shcherbakov Iurii
+translit-names translit --all "Юрий"                 # every Russian scheme side by side
+translit-names match "Мухаммед Али" "Mohammed Ali"   # exit code 0 if they match
 ```
+
+## Repository layout
+
+```
+data/       shared JSON data — the single source of truth for both packages
+  schemes/    85 transliteration schemes (one file per standard)
+  names/      name lexicon (Slavic, Arabic, Persian, Turkic)
+py/         Python package  (pyproject.toml, src/translit_names, tests)
+js/         TypeScript package  (package.json, src, test)
+scripts/    shared tools: parity fixtures, benchmark, docs generator
+docs/       data format, list of schemes, research report
+```
+
+The TypeScript package is a port of the Python one built from the same `data/`. CI checks that both give **identical results** on ~11,700 reference cases (`scripts/gen_parity_fixtures.py` → `js/test/parity.test.ts`).
 
 ## How it works
 
-1. **Schemes are data.** Every standard is a JSON file in [`src/translit_names/data/schemes/`](src/translit_names/data/schemes) — a letter map plus context rules (word start/end, previous/next letter, letter classes), as defined in [docs/data-format.md](docs/data-format.md). The engine does longest-match substitution and restores capitalisation from the source (`Щ` → `Shch`, `ЩЕРБАКОВ` → `SHCHERBAKOV`). Every `sample` in a scheme file is a test.
+1. **Schemes are data.** Every standard is a JSON file in [`data/schemes/`](data/schemes) — a letter map plus context rules (word start/end, previous/next letter, letter classes), as defined in [docs/data-format.md](docs/data-format.md). The engine does longest-match substitution and restores capitalisation from the source (`Щ` → `Shch`, `ЩЕРБАКОВ` → `SHCHERBAKOV`). Every `sample` in a scheme file is a test.
 2. **Arabic script is vocalised first**: vowel marks in the input are respected; known names are replaced by their vowelled form (or, for practical schemes, by their conventional spelling); unknown names are vocalised by template; the rest is romanised letter by letter.
-3. **Variants** combine all schemes of the language, the lexicon and rewrite rules ([`variant_rules.json`](src/translit_names/data/variant_rules.json)) with plausibility scores.
+3. **Variants** combine all schemes of the language, the lexicon and rewrite rules ([`data/variant_rules.json`](data/variant_rules.json)) with plausibility scores.
 4. **Matching** converts both names to Latin, splits them into parts and aligns the parts in the best order; parts are compared by lexicon cluster, then skeleton keys, then Jaro–Winkler.
 
 ### Benchmark
@@ -173,7 +108,7 @@ cat names.txt | translit-names -s uk_kmu_2010      # one name per line
 | Same-name recall, native script vs Latin, without lexicon | 0.93 |
 | False-positive rate on random different names | 0.000 |
 | Conventional Russian spellings proposed by `variants()` without lexicon (top 30) | 0.78 |
-| Speed (pure Python) | ~5,000 comparisons/s |
+| Speed (pure Python) | ~9,000 comparisons/s |
 
 With the lexicon enabled (the default), all spellings of known names match.
 

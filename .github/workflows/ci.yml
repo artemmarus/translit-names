@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  test:
+  python:
     name: Python ${{ matrix.python-version }} / ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
@@ -32,9 +32,9 @@ jobs:
       - name: Install
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -e . pytest
+          python -m pip install -e ./py pytest
       - name: Test
-        run: python -m pytest --doctest-modules src tests
+        run: python -m pytest --doctest-modules py/src py/tests
 
   lint:
     runs-on: ubuntu-latest
@@ -44,15 +44,17 @@ jobs:
         with:
           python-version: "3.13"
       - name: Install
-        run: python -m pip install ruff mypy -e .
+        run: python -m pip install ruff mypy -e ./py
       - name: Ruff
         run: |
-          ruff check src tests scripts
-          ruff format --check src tests scripts
+          ruff check py/src py/tests scripts
+          ruff format --check py/src py/tests scripts
       - name: Mypy
+        working-directory: py
         run: mypy
 
-  build:
+  python-build:
+    name: Python package build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -62,18 +64,24 @@ jobs:
       - name: Build sdist and wheel
         run: |
           python -m pip install build twine
-          python -m build
-          python -m twine check --strict dist/*
+          python -m build py
+          python -m twine check --strict py/dist/*
+      - name: The sdist alone builds a complete wheel
+        run: |
+          mkdir /tmp/sdist && tar -xzf py/dist/*.tar.gz -C /tmp/sdist
+          python -m build --wheel /tmp/sdist/translit_names-* --outdir /tmp/sdist-wheel
+          python -m zipfile -l /tmp/sdist-wheel/*.whl | grep -q "translit_names/data/schemes/ru_icao.json"
       - name: Smoke-test the wheel
         run: |
           python -m venv /tmp/wheel-env
-          /tmp/wheel-env/bin/pip install dist/*.whl
+          /tmp/wheel-env/bin/pip install py/dist/*.whl
+          cd /tmp
           /tmp/wheel-env/bin/translit-names "Щербаков Юрий"
-          /tmp/wheel-env/bin/python -c "import translit_names as t; assert len(t.list_schemes()) > 50"
+          /tmp/wheel-env/bin/python -c "import translit_names as t; assert len(t.list_schemes()) > 80 and len(t.get_lexicon()) > 1000"
       - uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist/
+          name: python-dist
+          path: py/dist/
 
   js:
     name: TypeScript / Node ${{ matrix.node }}
@@ -94,7 +102,7 @@ jobs:
           cache-dependency-path: js/package-lock.json
       - name: Parity fixtures are up to date with the Python implementation
         run: |
-          python -m pip install -e .
+          python -m pip install -e ./py
           python scripts/gen_parity_fixtures.py
           git diff --exit-code js/test/fixtures/parity.json
       - name: Install

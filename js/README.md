@@ -129,7 +129,7 @@ parseMrzName("AL<BASRI<<HUDA<MUHAMMAD");      // ["AL BASRI", "HUDA MUHAMMAD"]
 
 ## How results are kept identical to Python
 
-The data lives once, in [`src/translit_names/data/`](https://github.com/artemmarus/translit-names/tree/main/src/translit_names/data), and is bundled into this package at build time. `scripts/gen_parity_fixtures.py` records the Python outputs for every scheme sample and alphabet, 460 names, 800+ name comparisons, variants, MRZ fields and lexicon lookups; `test/parity.test.ts` requires exactly the same results here. Python-specific regular-expression semantics (Unicode `\w`/`\b`, `\1` replacements) and rounding (`round()` ties to even) are reproduced.
+The data lives once, in [`data/`](https://github.com/artemmarus/translit-names/tree/main/data), and is bundled into this package at build time. `scripts/gen_parity_fixtures.py` records the Python outputs for every scheme sample and alphabet, 460 names, 800+ name comparisons, variants, MRZ fields and lexicon lookups; `test/parity.test.ts` requires exactly the same results here. Python-specific regular-expression semantics (Unicode `\w`/`\b`, `\1` replacements) and rounding (`round()` ties to even) are reproduced.
 
 ## License
 
